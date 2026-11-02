@@ -1,0 +1,32 @@
+name: Futbol diario
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python tests/test_engine.py
+      - run: python daily.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - name: Guardar el registro de papel
+        run: |
+          git config user.name "futbol-engine"
+          git config user.email "actions@users.noreply.github.com"
+          git add paper_picks.csv
+          git diff --cached --quiet || git commit -m "Actualiza picks de papel"
+          git push
