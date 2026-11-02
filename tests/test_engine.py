@@ -9,6 +9,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import numpy as np
 
 import daily
+import export
 from fx import data, model, value
 
 
@@ -59,6 +60,12 @@ def test_gate_blocks_without_edge():
     assert not daily.validated({"test": {"n": 100, "clv": 0.03, "ci95": [.01, .1]}})
     assert daily.validated({"test": {"n": 600, "clv": 0.01, "ci95": [.01, .1]}})
     assert "Sólo papel" in daily.message([], [], False)
+
+
+def test_kickoff_utc():
+    assert export.kickoff_utc(dt.date(2026, 7, 1), "20:00") == "2026-07-01T19:00:00Z"
+    assert export.kickoff_utc(dt.date(2026, 11, 2), "20:00") == "2026-11-02T20:00:00Z"
+    assert export.kickoff_utc(dt.date(2026, 11, 2), "") is None
 
 
 def test_grade():

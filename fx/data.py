@@ -5,6 +5,8 @@ import csv
 import datetime as dt
 import io
 import os
+import shutil
+import subprocess
 import time
 
 import requests
@@ -58,7 +60,7 @@ def parse(text: str, league: str | None = None, played: bool = True) -> list[dic
             if played and not has_score:
                 continue
             out.append({
-                "league": league or r.get("Div"), "date": d, "home": r["HomeTeam"].strip(), "away": r["AwayTeam"].strip(),
+                "league": league or r.get("Div"), "date": d, "time": (r.get("Time") or "").strip(), "home": r["HomeTeam"].strip(), "away": r["AwayTeam"].strip(),
                 "hg": int(float(hg)) if has_score else None, "ag": int(float(ag)) if has_score else None,
                 "hst": _shots(r, "HST"), "ast": _shots(r, "AST"),
                 "open_1x2": _triple(r, ("PSH", "PSD", "PSA")), "close_1x2": _triple(r, ("PSCH", "PSCD", "PSCA")),
@@ -73,7 +75,14 @@ def parse(text: str, league: str | None = None, played: bool = True) -> list[dic
 
 
 def _get(url: str, session=None) -> str:
-    r = (session or requests).get(url, timeout=60, headers={"User-Agent": "futbol-engine"})
+    try:
+        r = (session or requests).get(url, timeout=60, headers={"User-Agent": "futbol-engine"})
+    except requests.exceptions.SSLError:
+        if not shutil.which("curl.exe"):
+            raise
+        # Certificados viejos de Python: curl.exe valida con el almacén de Windows, sin desactivar la verificación.
+        p = subprocess.run(["curl.exe", "-sSfL", url], capture_output=True, check=True, timeout=120)
+        return p.stdout.decode("utf-8-sig", errors="replace")
     r.raise_for_status()
     return r.content.decode("utf-8-sig", errors="replace")
 

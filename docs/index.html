@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Futbol Engine</title>
+<meta name="theme-color" content="#0d1512">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+:root{--bg:#0d1512;--card:#16211c;--line:#27362f;--text:#eef5f1;--muted:#93a69c;--green:#3ddc84;--yellow:#f2c94c;--red:#ff6b6b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:560px;margin:auto;padding:max(20px,env(safe-area-inset-top)) 16px 40px}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:18px}
+h1{font-size:24px;margin:0;letter-spacing:-.02em}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:26px 0 10px}
+small,.muted{color:var(--muted);font-size:13px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:12px}
+.card h3{margin:0 0 10px;font-size:16px}
+.leg,.bet{padding:10px 0;border-top:1px solid var(--line)}
+.leg:first-of-type{border-top:0}
+.row{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.pick{font-weight:650}
+.pct{font-variant-numeric:tabular-nums;font-weight:700;white-space:nowrap}
+.meter{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-top:7px}
+.meter i{display:block;height:100%;border-radius:3px}
+.stats{display:flex;gap:24px;margin-top:12px;padding-top:12px;border-top:1px solid var(--line)}
+.stats b{display:block;font-size:22px;font-variant-numeric:tabular-nums}
+label{display:block;margin-top:14px;font-size:14px;color:var(--muted)}
+input{width:100%;margin-top:6px;padding:12px;font-size:16px;color:var(--text);background:var(--bg);border:1px solid var(--line);border-radius:10px}
+input:focus{outline:2px solid var(--green);outline-offset:1px}
+.verdict{margin-top:8px;font-size:14px;font-weight:600;min-height:20px}
+.good{color:var(--green)}.bad{color:var(--red)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{color:var(--muted);font-weight:500;text-align:right;padding:0 0 8px 8px}
+td{padding:9px 0 9px 8px;border-top:1px solid var(--line);text-align:right;font-variant-numeric:tabular-nums}
+th:first-child,td:first-child{text-align:left;padding-left:0}
+.neg{color:var(--red)}
+.note{border-color:var(--yellow)}
+button{font:inherit;font-weight:600;color:var(--bg);background:var(--green);border:0;border-radius:10px;padding:10px 16px;margin-top:10px;cursor:pointer}
+</style>
+</head>
+<body>
+<main>
+  <header><h1>Futbol Engine</h1><small id="updated"></small></header>
+  <div id="app"><p class="muted">Cargando selecciones...</p></div>
+</main>
+<script>
+const app = document.getElementById("app");
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const pct = p => (p * 100).toFixed(1) + "%";
+const color = p => p >= .8 ? "var(--green)" : p >= .6 ? "var(--yellow)" : "var(--red)";
+const meter = p => `<div class="meter"><i style="width:${p * 100}%;background:${color(p)}"></i></div>`;
+
+function when(x) {
+  if (!x.kickoff) return x.date;
+  return new Date(x.kickoff).toLocaleString("es", {weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit"});
+}
+function open(list, now) {
+  // Sin hora conocida, sólo se conserva hasta el final de su día.
+  return list.filter(x => (x.kickoff ? new Date(x.kickoff) : new Date(x.date + "T23:59:59")) > now);
+}
+function parlayCard(title, legs, id) {
+  if (legs.length === 0) return `<div class="card"><h3>${title}</h3><p class="muted">No quedan suficientes partidos por empezar.</p></div>`;
+  const p = legs.reduce((a, x) => a * x.p, 1), min = 1 / p;
+  return `<div class="card"><h3>${title}</h3>
+    ${legs.map(x => `<div class="leg"><div class="row"><span class="pick">${esc(x.pick)}</span><span class="pct">${pct(x.p)}</span></div>
+      <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(when(x))}</small></div>`).join("")}
+    <div class="stats"><div><small>Probabilidad</small><b>${pct(p)}</b></div><div><small>Momio mínimo</small><b>${min.toFixed(2)}</b></div></div>
+    <label for="${id}">¿Cuánto paga tu casa? (momio decimal)</label>
+    <input id="${id}" inputmode="decimal" placeholder="Ej. ${(min + .1).toFixed(2)}" data-min="${min}">
+    <div class="verdict" id="${id}-v" aria-live="polite"></div></div>`;
+}
+function render(d) {
+  const now = new Date(), top = open(d.top, now), mid = open(d.mid, now);
+  document.getElementById("updated").textContent = "Actualizado " + new Date(d.generated_at).toLocaleString("es", {day: "numeric", month: "short", hour: "2-digit", minute: "2-digit"});
+  const legsTop = top.length >= d.legs ? top.slice(0, d.legs) : [], legsMid = mid.length >= d.legs ? mid.slice(0, d.legs) : [];
+  app.innerHTML = `
+    <h2>Parlays</h2>
+    ${parlayCard("Más probable", legsTop, "p1")}
+    ${parlayCard("Intermedio", legsMid, "p2")}
+    <h2>Apuestas más probables</h2>
+    <div class="card">${top.length ? top.slice(0, 10).map((x, i) => `<div class="${i ? "bet" : ""}">
+      <div class="row"><span class="pick">${esc(x.pick)}</span><span class="pct">${pct(x.p)}</span></div>
+      <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(x.league)}<br>${esc(when(x))} · mínimo ${(1 / x.p).toFixed(2)}</small>${meter(x.p)}</div>`).join("") : '<p class="muted">No quedan partidos por empezar. Aparecerán cuando la fuente publique la siguiente jornada.</p>'}</div>
+    <h2>Cómo le fue en 2023-2025</h2>
+    <div class="card note"><table><thead><tr><th>Tipo</th><th>Cantidad</th><th>Acierto</th><th>ROI</th></tr></thead><tbody>
+      ${d.history.map(h => `<tr><td>${esc(h.name)}</td><td>${h.count}</td><td>${h.hit.toFixed(1)}%</td><td class="neg">${h.roi > 0 ? "+" : ""}${h.roi.toFixed(1)}%</td></tr>`).join("")}
+    </tbody></table>
+    <p class="muted">Mucho acierto no significa ganancia: todas estas estrategias perdieron dinero. Se midió sólo con 1X2 y más/menos de 2.5. Apuesta sólo lo que puedas perder. No es asesoría financiera.</p></div>`;
+  app.querySelectorAll("input").forEach(el => el.addEventListener("input", () => {
+    const v = parseFloat(el.value.replace(",", ".")), out = document.getElementById(el.id + "-v"), min = parseFloat(el.dataset.min);
+    if (!(v > 1)) { out.textContent = ""; return; }
+    out.className = "verdict " + (v >= min ? "good" : "bad");
+    out.textContent = v >= min ? "Paga el mínimo o más. Eso no garantiza ganancia." : "Paga menos que el mínimo: no la metas.";
+  }));
+}
+async function load() {
+  try {
+    const r = await fetch("data.json", {cache: "no-cache"});
+    if (!r.ok) throw new Error(r.status);
+    render(await r.json());
+  } catch (e) {
+    app.innerHTML = '<div class="card"><p>No se pudieron cargar las selecciones. Revisa tu conexión.</p><button id="retry">Reintentar</button></div>';
+    document.getElementById("retry").onclick = load;
+  }
+}
+load();
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+</script>
+</body>
+</html>

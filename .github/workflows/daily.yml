@@ -2,6 +2,7 @@ name: Futbol diario
 
 on:
   schedule:
+    - cron: "0 7 * * *"
     - cron: "0 12 * * *"
   workflow_dispatch:
 
@@ -23,10 +24,11 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      - name: Guardar el registro de papel
+      - run: python export.py
+      - name: Guardar el registro de papel y los datos de la app
         run: |
           git config user.name "futbol-engine"
           git config user.email "actions@users.noreply.github.com"
-          git add paper_picks.csv
-          git diff --cached --quiet || git commit -m "Actualiza picks de papel"
+          git add paper_picks.csv docs/data.json
+          git diff --cached --quiet || git commit -m "Actualiza picks de papel y datos de la app"
           git push
