@@ -105,7 +105,7 @@ function recordSection(d) {
     <p class="muted">✓ se cumplió · ✗ no se cumplió · · pendiente. El número de la derecha es el marcador final o, si no se ha jugado, la probabilidad.</p></div>
     ${Object.entries(days).map(([k, es]) => `<details class="card day"${k === rec[0].made ? " open" : ""}><summary>${esc(day(k))}
       <small>${es.filter(e => e.status === "ganado").length}/${es.filter(e => e.status === "ganado" || e.status === "perdido").length}</small></summary>
-      ${es.filter(e => e.type !== "single").map(entry).join("")}${es.filter(e => e.type === "single").map(entry).join("")}</details>`).join("")}`;
+      ${es.filter(e => e.type !== "single").map(entry).join("")}${es.filter(e => e.type === "single").sort((a, b) => b.legs[0].p - a.legs[0].p).map(entry).join("")}</details>`).join("")}`;
 }
 function render(d) {
   const now = new Date(), top = open(d.top, now), mid = open(d.mid, now);
