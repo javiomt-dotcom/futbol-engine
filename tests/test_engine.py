@@ -83,6 +83,11 @@ def test_record():
     assert [e["status"] for e in record] == ["ganado", "ganado", "perdido", "perdido", "perdido"]
     assert record[0]["legs"][0]["score"] == "2-0"
     assert export.summary(record)["futbol"]["singles"] == {"ganado": 2, "perdido": 1, "pendiente": 0}
+    nfl_row = dict(rows[1], sport="nfl", home="X", away="Y", p=.95)
+    mixed = export.combined({"futbol": {"top": rows, "mid": []}, "nfl": {"top": [nfl_row], "mid": []}})
+    assert mixed["top"][0]["sport"] == "nfl" and len(mixed["top"]) == 5
+    assert export.remember(record, mixed["top"], [], now, export.ALL, singles=False) == 1     # sólo el parlay mezclado
+    assert export.summary(record)["todas"]["parlays"]["pendiente"] == 1 and export.summary(record)["futbol"]["parlays"]["pendiente"] == 0
 
 
 def test_other_sports():

@@ -1,7 +1,474 @@
 {
- "generated_at": "2026-11-04T23:47:06Z",
+ "generated_at": "2026-11-04T23:54:37Z",
  "legs": 3,
  "sports": {
+  "todas": {
+   "name": "Recomendaciones",
+   "matches": 20,
+   "top": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-04",
+     "kickoff": "2026-11-04T19:45:00Z",
+     "league": "Championship",
+     "home": "Cardiff",
+     "away": "West Ham",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.9003
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_ARI_SEA",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T21:25:00Z",
+     "league": "NFL",
+     "home": "Seattle",
+     "away": "Arizona",
+     "pick": "Gana Seattle",
+     "key": "ml:H",
+     "p": 0.8116
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-04",
+     "kickoff": "2026-11-04T19:45:00Z",
+     "league": "League One",
+     "home": "Oxford Utd",
+     "away": "Reading",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.7891
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-04",
+     "kickoff": "2026-11-04T19:45:00Z",
+     "league": "Championship",
+     "home": "Wrexham",
+     "away": "Middlesbrough",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.7872
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_LV_SF",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T21:05:00Z",
+     "league": "NFL",
+     "home": "San Francisco",
+     "away": "Las Vegas",
+     "pick": "Gana San Francisco",
+     "key": "ml:H",
+     "p": 0.753
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-04",
+     "kickoff": "2026-11-04T19:30:00Z",
+     "league": "Bélgica",
+     "home": "Kortrijk",
+     "away": "KV Mechelen",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.7473
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_NYJ_KC",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "league": "NFL",
+     "home": "Kansas City",
+     "away": "NY Jets",
+     "pick": "Gana Kansas City",
+     "key": "ml:H",
+     "p": 0.737
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-04",
+     "kickoff": "2026-11-04T20:00:00Z",
+     "league": "Championship",
+     "home": "Bristol City",
+     "away": "Wolves",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.7265
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_JAX_BAL",
+     "date": "2026-11-05",
+     "kickoff": "2026-11-06T01:15:00Z",
+     "league": "NFL",
+     "home": "Baltimore",
+     "away": "Jacksonville",
+     "pick": "Gana Jacksonville",
+     "key": "ml:A",
+     "p": 0.7258
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_DET_MIA",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "league": "NFL",
+     "home": "Miami",
+     "away": "Detroit",
+     "pick": "Gana Detroit",
+     "key": "ml:A",
+     "p": 0.7052
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_LA_WAS",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "league": "NFL",
+     "home": "Washington",
+     "away": "LA Rams",
+     "pick": "Gana LA Rams",
+     "key": "ml:A",
+     "p": 0.6808
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_DAL_IND",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "league": "NFL",
+     "home": "Indianapolis",
+     "away": "Dallas",
+     "pick": "Más de 51.5 puntos",
+     "key": "ou:o:51.5",
+     "p": 0.6759
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_GB_NE",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T21:25:00Z",
+     "league": "NFL",
+     "home": "New England",
+     "away": "Green Bay",
+     "pick": "Menos de 45.5 puntos",
+     "key": "ou:u:45.5",
+     "p": 0.6477
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_HOU_LAC",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T21:05:00Z",
+     "league": "NFL",
+     "home": "LA Chargers",
+     "away": "Houston",
+     "pick": "Gana Houston",
+     "key": "ml:A",
+     "p": 0.639
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_DEN_CAR",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "league": "NFL",
+     "home": "Carolina",
+     "away": "Denver",
+     "pick": "Gana Denver",
+     "key": "ml:A",
+     "p": 0.6303
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_CIN_ATL",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T14:30:00Z",
+     "league": "NFL",
+     "home": "Atlanta",
+     "away": "Cincinnati",
+     "pick": "Gana Cincinnati",
+     "key": "ml:A",
+     "p": 0.629
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_TB_CHI",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-09T01:20:00Z",
+     "league": "NFL",
+     "home": "Chicago",
+     "away": "Tampa Bay",
+     "pick": "Gana Chicago",
+     "key": "ml:H",
+     "p": 0.6114
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_NYG_PHI",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "league": "NFL",
+     "home": "Filadelfia",
+     "away": "NY Giants",
+     "pick": "Filadelfia +3.5",
+     "key": "sp:H:3.5",
+     "p": 0.6065
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_BUF_MIN",
+     "date": "2026-11-09",
+     "kickoff": "2026-11-10T01:15:00Z",
+     "league": "NFL",
+     "home": "Minnesota",
+     "away": "Buffalo",
+     "pick": "Minnesota +3.5",
+     "key": "sp:H:3.5",
+     "p": 0.567
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_CLE_NO",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "league": "NFL",
+     "home": "New Orleans",
+     "away": "Cleveland",
+     "pick": "Gana New Orleans",
+     "key": "ml:H",
+     "p": 0.5507
+    }
+   ],
+   "mid": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-04",
+     "kickoff": "2026-11-04T19:30:00Z",
+     "league": "Bélgica",
+     "home": "Kortrijk",
+     "away": "KV Mechelen",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.7473
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-04",
+     "kickoff": "2026-11-04T19:45:00Z",
+     "league": "Championship",
+     "home": "Cardiff",
+     "away": "West Ham",
+     "pick": "Más de 2.5 goles",
+     "key": "o2.5",
+     "p": 0.7415
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-04",
+     "kickoff": "2026-11-04T19:45:00Z",
+     "league": "League One",
+     "home": "Oxford Utd",
+     "away": "Reading",
+     "pick": "No hay empate",
+     "key": "12",
+     "p": 0.7373
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_NYJ_KC",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "league": "NFL",
+     "home": "Kansas City",
+     "away": "NY Jets",
+     "pick": "Gana Kansas City",
+     "key": "ml:H",
+     "p": 0.737
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_ARI_SEA",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T21:25:00Z",
+     "league": "NFL",
+     "home": "Seattle",
+     "away": "Arizona",
+     "pick": "Más de 39.5 puntos",
+     "key": "ou:o:39.5",
+     "p": 0.7317
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-04",
+     "kickoff": "2026-11-04T20:00:00Z",
+     "league": "Championship",
+     "home": "Bristol City",
+     "away": "Wolves",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.7265
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_JAX_BAL",
+     "date": "2026-11-05",
+     "kickoff": "2026-11-06T01:15:00Z",
+     "league": "NFL",
+     "home": "Baltimore",
+     "away": "Jacksonville",
+     "pick": "Gana Jacksonville",
+     "key": "ml:A",
+     "p": 0.7258
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-04",
+     "kickoff": "2026-11-04T19:45:00Z",
+     "league": "Championship",
+     "home": "Wrexham",
+     "away": "Middlesbrough",
+     "pick": "Middlesbrough o empate",
+     "key": "X2",
+     "p": 0.7213
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_DET_MIA",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "league": "NFL",
+     "home": "Miami",
+     "away": "Detroit",
+     "pick": "Gana Detroit",
+     "key": "ml:A",
+     "p": 0.7052
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_LA_WAS",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "league": "NFL",
+     "home": "Washington",
+     "away": "LA Rams",
+     "pick": "Gana LA Rams",
+     "key": "ml:A",
+     "p": 0.6808
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_DAL_IND",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "league": "NFL",
+     "home": "Indianapolis",
+     "away": "Dallas",
+     "pick": "Más de 51.5 puntos",
+     "key": "ou:o:51.5",
+     "p": 0.6759
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_GB_NE",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T21:25:00Z",
+     "league": "NFL",
+     "home": "New England",
+     "away": "Green Bay",
+     "pick": "Menos de 45.5 puntos",
+     "key": "ou:u:45.5",
+     "p": 0.6477
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_HOU_LAC",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T21:05:00Z",
+     "league": "NFL",
+     "home": "LA Chargers",
+     "away": "Houston",
+     "pick": "Gana Houston",
+     "key": "ml:A",
+     "p": 0.639
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_DEN_CAR",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "league": "NFL",
+     "home": "Carolina",
+     "away": "Denver",
+     "pick": "Gana Denver",
+     "key": "ml:A",
+     "p": 0.6303
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_CIN_ATL",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T14:30:00Z",
+     "league": "NFL",
+     "home": "Atlanta",
+     "away": "Cincinnati",
+     "pick": "Gana Cincinnati",
+     "key": "ml:A",
+     "p": 0.629
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_TB_CHI",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-09T01:20:00Z",
+     "league": "NFL",
+     "home": "Chicago",
+     "away": "Tampa Bay",
+     "pick": "Gana Chicago",
+     "key": "ml:H",
+     "p": 0.6114
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_NYG_PHI",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "league": "NFL",
+     "home": "Filadelfia",
+     "away": "NY Giants",
+     "pick": "Filadelfia +3.5",
+     "key": "sp:H:3.5",
+     "p": 0.6065
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_BUF_MIN",
+     "date": "2026-11-09",
+     "kickoff": "2026-11-10T01:15:00Z",
+     "league": "NFL",
+     "home": "Minnesota",
+     "away": "Buffalo",
+     "pick": "Minnesota +3.5",
+     "key": "sp:H:3.5",
+     "p": 0.567
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_CLE_NO",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T18:00:00Z",
+     "league": "NFL",
+     "home": "New Orleans",
+     "away": "Cleveland",
+     "pick": "Gana New Orleans",
+     "key": "ml:H",
+     "p": 0.5507
+    }
+   ],
+   "status": null
+  },
   "futbol": {
    "name": "Fútbol",
    "matches": 5,
@@ -1273,6 +1740,18 @@
   }
  ],
  "record_summary": {
+  "todas": {
+   "singles": {
+    "ganado": 12,
+    "perdido": 3,
+    "pendiente": 10
+   },
+   "parlays": {
+    "ganado": 4,
+    "perdido": 0,
+    "pendiente": 2
+   }
+  },
   "futbol": {
    "singles": {
     "ganado": 12,

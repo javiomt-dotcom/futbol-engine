@@ -76,7 +76,7 @@ function open(list, now) {
   return list.filter(x => (x.kickoff ? new Date(x.kickoff) : new Date(x.date + "T23:59:59")) > now);
 }
 function parlayCard(title, legs, id) {
-  if (legs.length === 0) return `<div class="card"><h3>${title}</h3><p class="muted">No quedan suficientes partidos por empezar.</p></div>`;
+  if (legs.length === 0) return `<div class="card"><h3>${title}</h3><p class="muted">Todavía no hay suficientes partidos por empezar para armarlo.</p></div>`;
   const p = legs.reduce((a, x) => a * x.p, 1), min = 1 / p;
   return `<div class="card"><h3>${title}</h3>
     ${legs.map(x => `<div class="leg"><div class="row"><span class="pick">${esc(x.pick)}</span><span class="pct">${pct(x.p)}</span></div>
@@ -92,12 +92,20 @@ function tally(t) {
   const n = t.ganado + t.perdido;
   return `<b>${t.ganado}/${n}</b><small>${n ? Math.round(100 * t.ganado / n) + "% se cumplió" : "aún sin calificar"}${t.pendiente ? " · " + t.pendiente + " pendientes" : ""}</small>`;
 }
-const ORDER = ["futbol", "champions", "nfl", "mlb"];
-let data = null, sport = "futbol";
+const ORDER = ["todas", "futbol", "champions", "nfl", "mlb"];
+let data = null, sport = "todas";
+// Cuándo publica cada fuente los próximos partidos. La app se actualiza a las 07:00, 12:00 y 18:00 UTC.
+const WHEN = {
+  todas: "Aparecen en cuanto alguno de los deportes tenga partidos por jugar en los próximos días.",
+  futbol: "La fuente publica los partidos de fin de semana entre el jueves y el viernes, y los de entre semana uno o dos días antes. Aparecen en la primera actualización después de eso (la app se actualiza 3 veces al día).",
+  champions: "Aparecen la semana de cada jornada, hasta 7 días antes del partido.",
+  nfl: "La semana siguiente se publica con sus líneas el lunes o martes. Aparecen en la primera actualización después de eso.",
+  mlb: "Aparecen desde el día en que vuelve la temporada.",
+};
 try { sport = localStorage.getItem("sport") || sport; } catch (e) {}
 const sportOf = x => x.sport || "futbol";
 function recordSection(d) {
-  const rec = (d.record || []).filter(e => sportOf(e) === sport).reverse(), sum = (d.record_summary || {})[sport];
+  const rec = (d.record || []).filter(e => sport === "todas" || sportOf(e) === sport).reverse(), sum = (d.record_summary || {})[sport];
   if (!rec.length || !sum) return `<h2>Lo que te recomendé</h2><div class="card"><p class="muted">Aquí aparecerá cada recomendación con su resultado.</p></div>`;
   const days = {};
   rec.forEach(e => (days[e.made] = days[e.made] || []).push(e));
@@ -128,10 +136,9 @@ function render() {
   const d = data, now = new Date(), s = d.sports[sport] || {top: [], mid: []}, top = open(s.top, now), mid = open(s.mid, now);
   document.getElementById("updated").textContent = "Actualizado " + new Date(d.generated_at).toLocaleString("es", {day: "numeric", month: "short", hour: "2-digit", minute: "2-digit"});
   const legsTop = top.length >= d.legs ? top.slice(0, d.legs) : [], legsMid = mid.length >= d.legs ? mid.slice(0, d.legs) : [];
-  const empty = s.status ? esc(s.status) : "No quedan partidos por empezar en los próximos días. Aparecerán cuando se publique la siguiente jornada.";
+  const empty = `${s.status ? esc(s.status) : "Todavía no hay recomendaciones: no quedan partidos por empezar."}<br><br><b>¿Cuándo aparecen?</b> ${esc(WHEN[sport] || "")}`;
   app.innerHTML = `
     <nav class="tabs" role="tablist">${ORDER.filter(k => d.sports[k]).map(k => `<button role="tab" data-sport="${k}" aria-selected="${k === sport}">${esc(d.sports[k].name)}</button>`).join("")}</nav>
-    ${s.status ? `<div class="card note"><p>${esc(s.status)}</p></div>` : ""}
     <h2>Parlays</h2>
     ${parlayCard("Más probable", legsTop, "p1")}
     ${parlayCard("Intermedio", legsMid, "p2")}
@@ -158,7 +165,7 @@ async function load() {
     const r = await fetch("data.json", {cache: "no-cache"});
     if (!r.ok) throw new Error(r.status);
     data = await r.json();
-    if (!data.sports[sport]) sport = "futbol";
+    if (!data.sports[sport]) sport = data.sports.todas ? "todas" : "futbol";
     render();
   } catch (e) {
     app.innerHTML = '<div class="card"><p>No se pudieron cargar las selecciones. Revisa tu conexión.</p><button id="retry">Reintentar</button></div>';

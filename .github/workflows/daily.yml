@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "0 7 * * *"
     - cron: "0 12 * * *"
+    - cron: "0 18 * * *"     # football-data suele publicar los partidos del fin de semana el jueves o viernes
   workflow_dispatch:
 
 permissions:

@@ -16,6 +16,8 @@ RECORD = os.path.join(ROOT, "record.json")
 SHOWN = 10          # apuestas individuales que muestra la app
 RECORD_DAYS = 60    # días de recomendaciones que se mandan a la app; el resumen cuenta todas
 SPORTS = {"futbol": "Fútbol", "champions": "Champions", "nfl": "NFL", "mlb": "MLB"}
+ALL = "todas"       # pestaña que junta las selecciones de todos los deportes
+NAMES = {ALL: "Recomendaciones", **SPORTS}
 
 
 def _last_sunday(year: int, month: int) -> dt.date:
@@ -49,18 +51,18 @@ def is_open(r: dict, now: dt.datetime) -> bool:
     return dt.date.fromisoformat(r["date"]) >= now.date()
 
 
-def remember(record: list[dict], top: list[dict], mid: list[dict], now: dt.datetime, sport: str = "futbol") -> int:
+def remember(record: list[dict], top: list[dict], mid: list[dict], now: dt.datetime, sport: str = "futbol", singles: bool = True) -> int:
     """Guarda lo que la app está mostrando de un deporte: las 10 individuales y los dos parlays. Cada partido entra una sola vez como individual."""
     made, added = now.date().isoformat(), 0
     match = lambda x: (x["date"], x["home"], x["away"])
-    singles = {match(e["legs"][0]) for e in record if e["type"] == "single"}
+    seen = {match(e["legs"][0]) for e in record if e["type"] == "single"}
     combos = {tuple(sorted(match(x) + (x["key"],) for x in e["legs"])) for e in record if e["type"] != "single"}
     leg = lambda x: {**x, "status": "pendiente", "score": None}
     top, mid = [x for x in top if is_open(x, now)], [x for x in mid if is_open(x, now)]
-    for x in top[:SHOWN]:
-        if match(x) not in singles:
+    for x in top[:SHOWN] if singles else []:
+        if match(x) not in seen:
             record.append({"sport": sport, "type": "single", "made": made, "legs": [leg(x)], "status": "pendiente"})
-            singles.add(match(x))
+            seen.add(match(x))
             added += 1
     for kind, xs in (("parlay_top", top), ("parlay_mid", mid)):
         legs = xs[:parlays.LEGS]
@@ -117,14 +119,20 @@ def grade(record: list[dict], played: list[dict], today: dt.date, results: dict 
 
 
 def summary(record: list[dict]) -> dict:
-    """Por deporte: individuales y parlays ganados, perdidos y pendientes."""
+    """Por deporte: individuales y parlays ganados, perdidos y pendientes. «todas» suma todo."""
     out = {}
-    for sport in SPORTS:
+    for sport in (ALL, *SPORTS):
         out[sport] = {}
         for name, kinds in (("singles", ("single",)), ("parlays", ("parlay_top", "parlay_mid"))):
-            st = [e["status"] for e in record if e["type"] in kinds and e.get("sport", "futbol") == sport]
+            st = [e["status"] for e in record if e["type"] in kinds and sport in (ALL, e.get("sport", "futbol"))]
             out[sport][name] = {k: st.count(k) for k in ("ganado", "perdido", "pendiente")}
     return out
+
+
+def combined(sports: dict) -> dict:
+    """Todas las selecciones de todos los deportes, de la más a la menos probable."""
+    merge = lambda k: sorted((x for s in sports.values() for x in s.get(k, [])), key=lambda x: -x["p"])
+    return {"matches": sum(s.get("matches", 0) for s in sports.values()), "top": merge("top"), "mid": merge("mid")}
 
 
 def history() -> dict:
@@ -152,8 +160,8 @@ def history() -> dict:
 def payload(sports: dict, now: dt.datetime, record: list[dict] = ()) -> dict:
     since = (now.date() - dt.timedelta(days=RECORD_DAYS)).isoformat()
     return {"generated_at": now.isoformat().replace("+00:00", "Z"), "legs": parlays.LEGS,
-            "sports": {k: {"name": SPORTS[k], "matches": v.get("matches", 0), "top": v.get("top", []), "mid": v.get("mid", []),
-                           "status": v.get("status")} for k, v in sports.items()},
+            "sports": {k: {"name": NAMES[k], "matches": v.get("matches", 0), "top": v.get("top", []), "mid": v.get("mid", []),
+                           "status": v.get("status")} for k, v in {ALL: combined(sports), **sports}.items()},
             "record": [e for e in record if e["made"] >= since], "record_summary": summary(record), "history": history()}
 
 
@@ -191,7 +199,10 @@ def main():
         played += sports[key].get("played", [])
         results[key] = sports[key].get("results", {})
     graded = grade(record, played, now.date(), results)
-    added = sum(remember(record, s.get("top", []), s.get("mid", []), now, key) for key, s in sports.items() if not s.get("stale"))
+    fresh = {k: s for k, s in sports.items() if not s.get("stale")}
+    added = sum(remember(record, s.get("top", []), s.get("mid", []), now, key) for key, s in fresh.items())
+    mixed = combined(fresh)                          # los parlays mezclados; sus individuales ya se guardaron por deporte
+    added += remember(record, mixed["top"], mixed["mid"], now, ALL, singles=False)
     with open(RECORD, "w", encoding="utf-8") as f:
         json.dump(record, f, ensure_ascii=False, indent=1)
     out = payload(sports, now, record)
