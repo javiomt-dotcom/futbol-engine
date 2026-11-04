@@ -1,0 +1,35 @@
+{
+ "elegido": {
+  "half_life": 730,
+  "prior": 2.0
+ },
+ "prueba": {
+  "partidos": 493,
+  "logloss_modelo": 0.9153,
+  "logloss_uniforme": 1.0986,
+  "Más probable": {
+   "individuales": {
+    "n": 493,
+    "p_media": 0.8335,
+    "acierto": 0.8316
+   },
+   "parlays de 3 por semana": {
+    "n": 39,
+    "p_media": 0.7444,
+    "acierto": 0.7692
+   }
+  },
+  "Intermedio 55-75%": {
+   "individuales": {
+    "n": 479,
+    "p_media": 0.6945,
+    "acierto": 0.714
+   },
+   "parlays de 3 por semana": {
+    "n": 39,
+    "p_media": 0.3931,
+    "acierto": 0.4103
+   }
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "elegido": {
+  "half_life": 240,
+  "ridge": 30.0,
+  "dispersion": 3.72
+ },
+ "prueba": {
+  "partidos": 9905,
+  "logloss_modelo": 0.68,
+  "logloss_moneda": 0.6931,
+  "Más probable": {
+   "individuales": {
+    "n": 9905,
+    "p_media": 0.7026,
+    "acierto": 0.7004
+   },
+   "parlays de 3 por día": {
+    "n": 743,
+    "p_media": 0.4275,
+    "acierto": 0.3984
+   }
+  },
+  "Intermedio 55-75%": {
+   "individuales": {
+    "n": 9905,
+    "p_media": 0.687,
+    "acierto": 0.6867
+   },
+   "parlays de 3 por día": {
+    "n": 743,
+    "p_media": 0.3807,
+    "acierto": 0.3553
+   }
+  }
+ }
+}

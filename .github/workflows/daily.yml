@@ -29,6 +29,6 @@ jobs:
         run: |
           git config user.name "futbol-engine"
           git config user.email "actions@users.noreply.github.com"
-          git add paper_picks.csv record.json docs/data.json
+          git add paper_picks.csv record.json euro_history.json docs/data.json
           git diff --cached --quiet || git commit -m "Actualiza picks de papel y datos de la app"
           git push

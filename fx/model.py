@@ -62,7 +62,8 @@ def _shot_adjusted(ms, x, y, shot_weight):
     return ax, ay
 
 
-def fit(matches: list[dict], asof, iters: int = 40, shot_weight: float = 0.0) -> Model:
+def fit(matches: list[dict], asof, iters: int = 40, shot_weight: float = 0.0,
+        half_life: float = HALF_LIFE_DAYS, prior: float = PRIOR_MATCHES) -> Model:
     """Ajusta sólo con partidos anteriores a `asof`. Es la única entrada de datos, para que no haya fuga."""
     ms = [x for x in matches if x["date"] < asof and (asof - x["date"]).days <= 365 * 3]
     if len(ms) < 100:
@@ -73,7 +74,7 @@ def fit(matches: list[dict], asof, iters: int = 40, shot_weight: float = 0.0) ->
     A = np.array([ix[x["away"]] for x in ms])
     x = np.array([v["hg"] for v in ms], float)
     y = np.array([v["ag"] for v in ms], float)
-    w = 0.5 ** (np.array([(asof - v["date"]).days for v in ms], float) / HALF_LIFE_DAYS)
+    w = 0.5 ** (np.array([(asof - v["date"]).days for v in ms], float) / half_life)
 
     n = len(teams)
     att, dfn = np.ones(n), np.ones(n)
@@ -82,9 +83,9 @@ def fit(matches: list[dict], asof, iters: int = 40, shot_weight: float = 0.0) ->
     gamma = 1.3
     for _ in range(iters):
         ea = np.bincount(H, w * base * gamma * dfn[A], n) + np.bincount(A, w * base * dfn[H], n)
-        att = (np.bincount(H, w * ax, n) + np.bincount(A, w * ay, n) + PRIOR_MATCHES) / (ea + PRIOR_MATCHES)
+        att = (np.bincount(H, w * ax, n) + np.bincount(A, w * ay, n) + prior) / (ea + prior)
         ed = np.bincount(A, w * base * gamma * att[H], n) + np.bincount(H, w * base * att[A], n)
-        dfn = (np.bincount(A, w * ax, n) + np.bincount(H, w * ay, n) + PRIOR_MATCHES) / (ed + PRIOR_MATCHES)
+        dfn = (np.bincount(A, w * ax, n) + np.bincount(H, w * ay, n) + prior) / (ed + prior)
         gamma = float((w * ax).sum() / (w * base * att[H] * dfn[A]).sum())
 
     l, m = base * gamma * att[H] * dfn[A], base * att[A] * dfn[H]

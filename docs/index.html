@@ -48,6 +48,10 @@ details.day[open]{padding-bottom:8px}
 .sub{margin:6px 0 0 18px}
 .sub .row{font-size:14px}
 .sub small{display:block;margin-bottom:6px}
+.tabs{display:flex;gap:6px;overflow-x:auto;margin:0 -16px 6px;padding:0 16px 4px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs button{margin:0;flex:0 0 auto;background:var(--card);color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:8px 16px}
+.tabs button[aria-selected="true"]{background:var(--green);color:var(--bg);border-color:var(--green)}
 button{font:inherit;font-weight:600;color:var(--bg);background:var(--green);border:0;border-radius:10px;padding:10px 16px;margin-top:10px;cursor:pointer}
 </style>
 </head>
@@ -82,15 +86,19 @@ function parlayCard(title, legs, id) {
     <input id="${id}" inputmode="decimal" placeholder="Ej. ${(min + .1).toFixed(2)}" data-min="${min}">
     <div class="verdict" id="${id}-v" aria-live="polite"></div></div>`;
 }
-const MARK = {ganado: ["✓", "good", "Se cumplió"], perdido: ["✗", "bad", "No se cumplió"], pendiente: ["·", "muted", "Pendiente"], "sin resultado": ["–", "muted", "Sin resultado"]};
+const MARK = {ganado: ["✓", "good", "Se cumplió"], perdido: ["✗", "bad", "No se cumplió"], pendiente: ["·", "muted", "Pendiente"], "sin resultado": ["–", "muted", "Sin resultado"], anulado: ["↺", "muted", "Se devolvió"]};
 const mark = s => `<span class="${MARK[s][1]}" title="${MARK[s][2]}">${MARK[s][0]}</span>`;
 function tally(t) {
   const n = t.ganado + t.perdido;
   return `<b>${t.ganado}/${n}</b><small>${n ? Math.round(100 * t.ganado / n) + "% se cumplió" : "aún sin calificar"}${t.pendiente ? " · " + t.pendiente + " pendientes" : ""}</small>`;
 }
+const ORDER = ["futbol", "champions", "nfl", "mlb"];
+let data = null, sport = "futbol";
+try { sport = localStorage.getItem("sport") || sport; } catch (e) {}
+const sportOf = x => x.sport || "futbol";
 function recordSection(d) {
-  const rec = (d.record || []).slice().reverse(), sum = d.record_summary;
-  if (!rec.length) return `<h2>Lo que te recomendé</h2><div class="card"><p class="muted">Aquí aparecerá cada recomendación con su resultado.</p></div>`;
+  const rec = (d.record || []).filter(e => sportOf(e) === sport).reverse(), sum = (d.record_summary || {})[sport];
+  if (!rec.length || !sum) return `<h2>Lo que te recomendé</h2><div class="card"><p class="muted">Aquí aparecerá cada recomendación con su resultado.</p></div>`;
   const days = {};
   rec.forEach(e => (days[e.made] = days[e.made] || []).push(e));
   const day = s => { const t = new Date(s + "T12:00:00").toLocaleDateString("es", {weekday: "long", day: "numeric", month: "long"}); return t[0].toUpperCase() + t.slice(1); };
@@ -102,29 +110,42 @@ function recordSection(d) {
        <div class="sub">${e.legs.map(legLine).join("")}</div></div>`;
   return `<h2>Lo que te recomendé</h2>
     <div class="card"><div class="stats first"><div><small>Individuales</small>${tally(sum.singles)}</div><div><small>Parlays</small>${tally(sum.parlays)}</div></div>
-    <p class="muted">✓ se cumplió · ✗ no se cumplió · · pendiente. El número de la derecha es el marcador final o, si no se ha jugado, la probabilidad.</p></div>
+    <p class="muted">✓ se cumplió · ✗ no se cumplió · ↺ se devolvió (empate con la línea) · · pendiente. El número de la derecha es el marcador final o, si no se ha jugado, la probabilidad.</p></div>
     ${Object.entries(days).map(([k, es]) => `<details class="card day"${k === rec[0].made ? " open" : ""}><summary>${esc(day(k))}
       <small>${es.filter(e => e.status === "ganado").length}/${es.filter(e => e.status === "ganado" || e.status === "perdido").length}</small></summary>
       ${es.filter(e => e.type !== "single").map(entry).join("")}${es.filter(e => e.type === "single").sort((a, b) => b.legs[0].p - a.legs[0].p).map(entry).join("")}</details>`).join("")}`;
 }
-function render(d) {
-  const now = new Date(), top = open(d.top, now), mid = open(d.mid, now);
+function historySection(h) {
+  if (!h) return "";
+  const money = h.rows.some(r => r.roi !== null);
+  return `<h2>Cómo le fue en ${esc(h.period)}</h2>
+    <div class="card note"><table><thead><tr><th>Tipo</th><th>Cantidad</th><th>Acierto</th>${money ? "<th>ROI</th>" : ""}</tr></thead><tbody>
+      ${h.rows.map(r => `<tr><td>${esc(r.name)}</td><td>${r.count}</td><td>${r.hit.toFixed(1)}%</td>${money ? `<td class="${r.roi < 0 ? "neg" : "good"}">${r.roi > 0 ? "+" : ""}${r.roi.toFixed(1)}%</td>` : ""}</tr>`).join("")}
+    </tbody></table>
+    <p class="muted">Mucho acierto no significa ganancia: los momios de lo más probable pagan poco. ${esc(h.note)} Apuesta sólo lo que puedas perder. No es asesoría financiera.</p></div>`;
+}
+function render() {
+  const d = data, now = new Date(), s = d.sports[sport] || {top: [], mid: []}, top = open(s.top, now), mid = open(s.mid, now);
   document.getElementById("updated").textContent = "Actualizado " + new Date(d.generated_at).toLocaleString("es", {day: "numeric", month: "short", hour: "2-digit", minute: "2-digit"});
   const legsTop = top.length >= d.legs ? top.slice(0, d.legs) : [], legsMid = mid.length >= d.legs ? mid.slice(0, d.legs) : [];
+  const empty = s.status ? esc(s.status) : "No quedan partidos por empezar en los próximos días. Aparecerán cuando se publique la siguiente jornada.";
   app.innerHTML = `
+    <nav class="tabs" role="tablist">${ORDER.filter(k => d.sports[k]).map(k => `<button role="tab" data-sport="${k}" aria-selected="${k === sport}">${esc(d.sports[k].name)}</button>`).join("")}</nav>
+    ${s.status ? `<div class="card note"><p>${esc(s.status)}</p></div>` : ""}
     <h2>Parlays</h2>
     ${parlayCard("Más probable", legsTop, "p1")}
     ${parlayCard("Intermedio", legsMid, "p2")}
     <h2>Apuestas más probables</h2>
     <div class="card">${top.length ? top.slice(0, 10).map((x, i) => `<div class="${i ? "bet" : ""}">
       <div class="row"><span class="pick">${esc(x.pick)}</span><span class="pct">${pct(x.p)}</span></div>
-      <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(x.league)}<br>${esc(when(x))} · mínimo ${(1 / x.p).toFixed(2)}</small>${meter(x.p)}</div>`).join("") : '<p class="muted">No quedan partidos por empezar. Aparecerán cuando la fuente publique la siguiente jornada.</p>'}</div>
+      <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(x.league)}<br>${esc(when(x))} · mínimo ${(1 / x.p).toFixed(2)}</small>${meter(x.p)}</div>`).join("") : `<p class="muted">${empty}</p>`}</div>
     ${recordSection(d)}
-    <h2>Cómo le fue en 2023-2025</h2>
-    <div class="card note"><table><thead><tr><th>Tipo</th><th>Cantidad</th><th>Acierto</th><th>ROI</th></tr></thead><tbody>
-      ${d.history.map(h => `<tr><td>${esc(h.name)}</td><td>${h.count}</td><td>${h.hit.toFixed(1)}%</td><td class="neg">${h.roi > 0 ? "+" : ""}${h.roi.toFixed(1)}%</td></tr>`).join("")}
-    </tbody></table>
-    <p class="muted">Mucho acierto no significa ganancia: todas estas estrategias perdieron dinero. Se midió sólo con 1X2 y más/menos de 2.5. Apuesta sólo lo que puedas perder. No es asesoría financiera.</p></div>`;
+    ${historySection((d.history || {})[sport])}`;
+  app.querySelectorAll(".tabs button").forEach(b => b.onclick = () => {
+    sport = b.dataset.sport;
+    try { localStorage.setItem("sport", sport); } catch (e) {}
+    render();
+  });
   app.querySelectorAll("input").forEach(el => el.addEventListener("input", () => {
     const v = parseFloat(el.value.replace(",", ".")), out = document.getElementById(el.id + "-v"), min = parseFloat(el.dataset.min);
     if (!(v > 1)) { out.textContent = ""; return; }
@@ -136,7 +157,9 @@ async function load() {
   try {
     const r = await fetch("data.json", {cache: "no-cache"});
     if (!r.ok) throw new Error(r.status);
-    render(await r.json());
+    data = await r.json();
+    if (!data.sports[sport]) sport = "futbol";
+    render();
   } catch (e) {
     app.innerHTML = '<div class="card"><p>No se pudieron cargar las selecciones. Revisa tu conexión.</p><button id="retry">Reintentar</button></div>';
     document.getElementById("retry").onclick = load;

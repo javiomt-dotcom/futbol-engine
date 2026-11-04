@@ -11,7 +11,7 @@ import numpy as np
 import daily
 import export
 import parlays
-from fx import data, model, value
+from fx import data, mlb, model, nfl, value
 
 
 def synthetic(n=900, seed=1):
@@ -82,7 +82,25 @@ def test_record():
     assert export.grade(record, played, now.date()) == 9
     assert [e["status"] for e in record] == ["ganado", "ganado", "perdido", "perdido", "perdido"]
     assert record[0]["legs"][0]["score"] == "2-0"
-    assert export.summary(record)["singles"] == {"ganado": 2, "perdido": 1, "pendiente": 0}
+    assert export.summary(record)["futbol"]["singles"] == {"ganado": 2, "perdido": 1, "pendiente": 0}
+
+
+def test_other_sports():
+    assert nfl.hit("ml:H", 24, 20) and nfl.hit("ml:A", 20, 20) is None
+    assert nfl.hit("sp:H:-3", 24, 21) is None and nfl.hit("sp:A:3.5", 24, 21) and not nfl.hit("sp:H:-3.5", 24, 21)
+    assert nfl.hit("ou:o:44.5", 24, 21) and nfl.hit("ou:u:45", 24, 21) is None
+    assert nfl.kickoff_utc(dt.date(2026, 11, 8), "13:00") == "2026-11-08T18:00:00Z"
+    assert nfl.kickoff_utc(dt.date(2026, 10, 25), "13:00") == "2026-10-25T17:00:00Z"
+    gs = [{"date": dt.date(2025, 9, 1) + dt.timedelta(days=i), "home": h, "away": a, "neutral": False, "hs": hs, "as": as_}
+          for i, (h, a, hs, as_) in enumerate([("A", "B", 30, 10), ("B", "C", 20, 17), ("C", "A", 7, 28)] * 20)]
+    r = nfl.fit(gs, dt.date(2025, 12, 1))
+    assert r.expected("A", "C")[0] > r.expected("C", "A")[0]
+    ps = mlb.probs(r, "A", "C")
+    assert ps["home"] > .5 and abs(ps["home_rl"] + ps["away_rl"] - 1) < 1e-9 and ps["home_plus"] > ps["home"] > ps["home_rl"]
+    rec = [{"sport": "nfl", "type": "single", "made": "2026-11-04", "status": "pendiente",
+            "legs": [{"sport": "nfl", "id": "g1", "date": "2026-11-05", "home": "A", "away": "B", "key": "sp:H:-3", "p": .6, "status": "pendiente", "score": None}]}]
+    assert export.grade(rec, [], dt.date(2026, 11, 6), {"nfl": {"g1": (24, 21)}}) == 1
+    assert rec[0]["status"] == "anulado" and rec[0]["legs"][0]["score"] == "24-21"
 
 
 def test_grade():
