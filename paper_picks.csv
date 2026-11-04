@@ -1,4 +1,4 @@
 date,league,home,away,market,pick,odds,p,ev,stake,status,pnl
-2026-11-02,E0,Newcastle,Everton,ou,Menos de 2.5,2.12,0.4897,0.0382,0.0085,pendiente,
-2026-11-02,I1,Atalanta,Parma,ou,Menos de 2.5,2.23,0.574,0.2801,0.01,pendiente,
-2026-11-02,SP1,La Coruna,Osasuna,ou,Más de 2.5,2.19,0.4956,0.0854,0.01,pendiente,
+2026-11-02,E0,Newcastle,Everton,ou,Menos de 2.5,2.12,0.4897,0.0382,0.0085,ganado,1.120
+2026-11-02,I1,Atalanta,Parma,ou,Menos de 2.5,2.23,0.574,0.2801,0.01,perdido,-1.000
+2026-11-02,SP1,La Coruna,Osasuna,ou,Más de 2.5,2.19,0.4956,0.0854,0.01,ganado,1.190

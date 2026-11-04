@@ -12,11 +12,11 @@
     "pick": "Benfica o empate",
     "p": 0.8783,
     "key": "1X",
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-0"
    }
   ],
-  "status": "pendiente"
+  "status": "ganado"
  },
  {
   "type": "single",
@@ -31,11 +31,11 @@
     "pick": "Mallorca o empate",
     "p": 0.8337,
     "key": "1X",
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-1"
    }
   ],
-  "status": "pendiente"
+  "status": "ganado"
  },
  {
   "type": "single",
@@ -50,11 +50,11 @@
     "pick": "Más de 1.5 goles",
     "p": 0.8268,
     "key": "o1.5",
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-1"
    }
   ],
-  "status": "pendiente"
+  "status": "ganado"
  },
  {
   "type": "single",
@@ -69,11 +69,11 @@
     "pick": "Reims o empate",
     "p": 0.8262,
     "key": "1X",
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-0"
    }
   ],
-  "status": "pendiente"
+  "status": "ganado"
  },
  {
   "type": "single",
@@ -88,11 +88,11 @@
     "pick": "Más de 1.5 goles",
     "p": 0.8061,
     "key": "o1.5",
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-4"
    }
   ],
-  "status": "pendiente"
+  "status": "ganado"
  },
  {
   "type": "single",
@@ -107,11 +107,11 @@
     "pick": "Atalanta o empate",
     "p": 0.7997,
     "key": "1X",
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "0-3"
    }
   ],
-  "status": "pendiente"
+  "status": "perdido"
  },
  {
   "type": "single",
@@ -126,11 +126,11 @@
     "pick": "Atromitos o empate",
     "p": 0.7952,
     "key": "1X",
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "3-0"
    }
   ],
-  "status": "pendiente"
+  "status": "ganado"
  },
  {
   "type": "single",
@@ -145,11 +145,11 @@
     "pick": "Más de 1.5 goles",
     "p": 0.7848,
     "key": "o1.5",
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "0-1"
    }
   ],
-  "status": "pendiente"
+  "status": "perdido"
  },
  {
   "type": "single",
@@ -164,11 +164,11 @@
     "pick": "Valladolid o empate",
     "p": 0.7615,
     "key": "1X",
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "4-3"
    }
   ],
-  "status": "pendiente"
+  "status": "ganado"
  },
  {
   "type": "single",
@@ -183,11 +183,11 @@
     "pick": "Oviedo o empate",
     "p": 0.7572,
     "key": "1X",
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "2-3"
    }
   ],
-  "status": "pendiente"
+  "status": "perdido"
  },
  {
   "type": "parlay_top",
@@ -202,8 +202,8 @@
     "pick": "Benfica o empate",
     "p": 0.8783,
     "key": "1X",
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-0"
    },
    {
     "date": "2026-11-02",
@@ -214,8 +214,8 @@
     "pick": "Mallorca o empate",
     "p": 0.8337,
     "key": "1X",
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-1"
    },
    {
     "date": "2026-11-02",
@@ -226,11 +226,11 @@
     "pick": "Más de 1.5 goles",
     "p": 0.8268,
     "key": "o1.5",
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-1"
    }
   ],
-  "status": "pendiente"
+  "status": "ganado"
  },
  {
   "type": "parlay_mid",
@@ -245,8 +245,8 @@
     "pick": "No hay empate",
     "p": 0.746,
     "key": "12",
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-1"
    },
    {
     "date": "2026-11-02",
@@ -257,8 +257,8 @@
     "pick": "Más de 1.5 goles",
     "p": 0.7447,
     "key": "o1.5",
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-3"
    },
    {
     "date": "2026-11-02",
@@ -269,6 +269,187 @@
     "pick": "No hay empate",
     "p": 0.7345,
     "key": "12",
+    "status": "ganado",
+    "score": "2-1"
+   }
+  ],
+  "status": "ganado"
+ },
+ {
+  "type": "single",
+  "made": "2026-11-04",
+  "legs": [
+   {
+    "date": "2026-11-04",
+    "kickoff": "2026-11-04T19:45:00Z",
+    "league": "Championship",
+    "home": "Cardiff",
+    "away": "West Ham",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8974,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "single",
+  "made": "2026-11-04",
+  "legs": [
+   {
+    "date": "2026-11-04",
+    "kickoff": "2026-11-04T19:45:00Z",
+    "league": "League One",
+    "home": "Oxford Utd",
+    "away": "Reading",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7878,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "single",
+  "made": "2026-11-04",
+  "legs": [
+   {
+    "date": "2026-11-04",
+    "kickoff": "2026-11-04T19:45:00Z",
+    "league": "Championship",
+    "home": "Wrexham",
+    "away": "Middlesbrough",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7861,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "single",
+  "made": "2026-11-04",
+  "legs": [
+   {
+    "date": "2026-11-04",
+    "kickoff": "2026-11-04T19:30:00Z",
+    "league": "Bélgica",
+    "home": "Kortrijk",
+    "away": "KV Mechelen",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7473,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "single",
+  "made": "2026-11-04",
+  "legs": [
+   {
+    "date": "2026-11-04",
+    "kickoff": "2026-11-04T20:00:00Z",
+    "league": "Championship",
+    "home": "Bristol City",
+    "away": "Wolves",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7247,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "parlay_top",
+  "made": "2026-11-04",
+  "legs": [
+   {
+    "date": "2026-11-04",
+    "kickoff": "2026-11-04T19:45:00Z",
+    "league": "Championship",
+    "home": "Cardiff",
+    "away": "West Ham",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8974,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "date": "2026-11-04",
+    "kickoff": "2026-11-04T19:45:00Z",
+    "league": "League One",
+    "home": "Oxford Utd",
+    "away": "Reading",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7878,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "date": "2026-11-04",
+    "kickoff": "2026-11-04T19:45:00Z",
+    "league": "Championship",
+    "home": "Wrexham",
+    "away": "Middlesbrough",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7861,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "parlay_mid",
+  "made": "2026-11-04",
+  "legs": [
+   {
+    "date": "2026-11-04",
+    "kickoff": "2026-11-04T19:30:00Z",
+    "league": "Bélgica",
+    "home": "Kortrijk",
+    "away": "KV Mechelen",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7473,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "date": "2026-11-04",
+    "kickoff": "2026-11-04T19:45:00Z",
+    "league": "League One",
+    "home": "Oxford Utd",
+    "away": "Reading",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7396,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "date": "2026-11-04",
+    "kickoff": "2026-11-04T19:45:00Z",
+    "league": "Championship",
+    "home": "Cardiff",
+    "away": "West Ham",
+    "pick": "Más de 2.5 goles",
+    "key": "o2.5",
+    "p": 0.7358,
     "status": "pendiente",
     "score": null
    }
