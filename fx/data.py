@@ -78,10 +78,13 @@ def _get(url: str, session=None) -> str:
     try:
         r = (session or requests).get(url, timeout=60, headers={"User-Agent": "futbol-engine"})
     except requests.exceptions.SSLError:
-        if not shutil.which("curl.exe"):
+        # Certificados viejos de Python: el curl.exe de Windows valida con el almacén del sistema, sin desactivar la verificación.
+        # Se pide el de System32 porque Anaconda trae otro curl.exe con los mismos certificados viejos.
+        curl = os.path.join(os.environ.get("SystemRoot", r"C:\Windows"), "System32", "curl.exe")
+        curl = curl if os.path.exists(curl) else shutil.which("curl.exe")
+        if not curl:
             raise
-        # Certificados viejos de Python: curl.exe valida con el almacén de Windows, sin desactivar la verificación.
-        p = subprocess.run(["curl.exe", "-sSfL", url], capture_output=True, check=True, timeout=120)
+        p = subprocess.run([curl, "-sSfL", url], capture_output=True, check=True, timeout=120)
         return p.stdout.decode("utf-8-sig", errors="replace")
     r.raise_for_status()
     return r.content.decode("utf-8-sig", errors="replace")

@@ -1,0 +1,278 @@
+[
+ {
+  "type": "single",
+  "made": "2026-11-02",
+  "legs": [
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T20:15:00Z",
+    "league": "Portugal",
+    "home": "Benfica",
+    "away": "Alverca",
+    "pick": "Benfica o empate",
+    "p": 0.8783,
+    "key": "1X",
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "single",
+  "made": "2026-11-02",
+  "legs": [
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T20:00:00Z",
+    "league": "LaLiga 2",
+    "home": "Mallorca",
+    "away": "Cadiz",
+    "pick": "Mallorca o empate",
+    "p": 0.8337,
+    "key": "1X",
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "single",
+  "made": "2026-11-02",
+  "legs": [
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T17:30:00Z",
+    "league": "Grecia",
+    "home": "Kalamata",
+    "away": "Iraklis",
+    "pick": "Más de 1.5 goles",
+    "p": 0.8268,
+    "key": "o1.5",
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "single",
+  "made": "2026-11-02",
+  "legs": [
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T19:45:00Z",
+    "league": "Ligue 2",
+    "home": "Reims",
+    "away": "Sochaux",
+    "pick": "Reims o empate",
+    "p": 0.8262,
+    "key": "1X",
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "single",
+  "made": "2026-11-02",
+  "legs": [
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T17:30:00Z",
+    "league": "Serie A",
+    "home": "Sassuolo",
+    "away": "Fiorentina",
+    "pick": "Más de 1.5 goles",
+    "p": 0.8061,
+    "key": "o1.5",
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "single",
+  "made": "2026-11-02",
+  "legs": [
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T19:45:00Z",
+    "league": "Serie A",
+    "home": "Atalanta",
+    "away": "Parma",
+    "pick": "Atalanta o empate",
+    "p": 0.7997,
+    "key": "1X",
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "single",
+  "made": "2026-11-02",
+  "legs": [
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T16:00:00Z",
+    "league": "Grecia",
+    "home": "Atromitos",
+    "away": "Volos NFC",
+    "pick": "Atromitos o empate",
+    "p": 0.7952,
+    "key": "1X",
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "single",
+  "made": "2026-11-02",
+  "legs": [
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T20:00:00Z",
+    "league": "Premier League",
+    "home": "Newcastle",
+    "away": "Everton",
+    "pick": "Más de 1.5 goles",
+    "p": 0.7848,
+    "key": "o1.5",
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "single",
+  "made": "2026-11-02",
+  "legs": [
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T17:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Valladolid",
+    "away": "Leganes",
+    "pick": "Valladolid o empate",
+    "p": 0.7615,
+    "key": "1X",
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "single",
+  "made": "2026-11-02",
+  "legs": [
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T15:15:00Z",
+    "league": "LaLiga 2",
+    "home": "Oviedo",
+    "away": "Las Palmas",
+    "pick": "Oviedo o empate",
+    "p": 0.7572,
+    "key": "1X",
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "parlay_top",
+  "made": "2026-11-02",
+  "legs": [
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T20:15:00Z",
+    "league": "Portugal",
+    "home": "Benfica",
+    "away": "Alverca",
+    "pick": "Benfica o empate",
+    "p": 0.8783,
+    "key": "1X",
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T20:00:00Z",
+    "league": "LaLiga 2",
+    "home": "Mallorca",
+    "away": "Cadiz",
+    "pick": "Mallorca o empate",
+    "p": 0.8337,
+    "key": "1X",
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T17:30:00Z",
+    "league": "Grecia",
+    "home": "Kalamata",
+    "away": "Iraklis",
+    "pick": "Más de 1.5 goles",
+    "p": 0.8268,
+    "key": "o1.5",
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "type": "parlay_mid",
+  "made": "2026-11-02",
+  "legs": [
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T20:00:00Z",
+    "league": "LaLiga",
+    "home": "La Coruna",
+    "away": "Osasuna",
+    "pick": "No hay empate",
+    "p": 0.746,
+    "key": "12",
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T15:15:00Z",
+    "league": "LaLiga 2",
+    "home": "Oviedo",
+    "away": "Las Palmas",
+    "pick": "Más de 1.5 goles",
+    "p": 0.7447,
+    "key": "o1.5",
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "date": "2026-11-02",
+    "kickoff": "2026-11-02T20:00:00Z",
+    "league": "LaLiga 2",
+    "home": "Mallorca",
+    "away": "Cadiz",
+    "pick": "No hay empate",
+    "p": 0.7345,
+    "key": "12",
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ }
+]

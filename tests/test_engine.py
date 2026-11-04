@@ -10,6 +10,7 @@ import numpy as np
 
 import daily
 import export
+import parlays
 from fx import data, model, value
 
 
@@ -66,6 +67,22 @@ def test_kickoff_utc():
     assert export.kickoff_utc(dt.date(2026, 7, 1), "20:00") == "2026-07-01T19:00:00Z"
     assert export.kickoff_utc(dt.date(2026, 11, 2), "20:00") == "2026-11-02T20:00:00Z"
     assert export.kickoff_utc(dt.date(2026, 11, 2), "") is None
+
+
+def test_record():
+    assert parlays.hit("1X", 1, 1) and not parlays.hit("o2.5", 2, 0) and parlays.hit("btts", 1, 3)
+    now = dt.datetime(2026, 11, 2, 12, tzinfo=dt.timezone.utc)
+    rows = [{"date": "2026-11-02", "kickoff": f"2026-11-02T{h:02d}:00:00Z", "league": "L", "home": f"H{h}", "away": f"A{h}",
+             "pick": "Más de 1.5 goles", "key": "o1.5", "p": .8} for h in (10, 15, 16, 17)]
+    mid = [dict(r, key="u2.5", pick="Menos de 2.5 goles") for r in rows]
+    record = []
+    assert export.remember(record, rows, mid, now) == 5           # 3 individuales abiertas y 2 parlays; la de las 10:00 ya empezó
+    assert export.remember(record, rows, mid, now) == 0           # no se repite
+    played = [{"date": dt.date(2026, 11, 2), "home": f"H{h}", "away": f"A{h}", "hg": g, "ag": 0} for h, g in ((15, 2), (16, 3), (17, 1))]
+    assert export.grade(record, played, now.date()) == 9
+    assert [e["status"] for e in record] == ["ganado", "ganado", "perdido", "perdido", "perdido"]
+    assert record[0]["legs"][0]["score"] == "2-0"
+    assert export.summary(record)["singles"] == {"ganado": 2, "perdido": 1, "pendiente": 0}
 
 
 def test_grade():

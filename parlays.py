@@ -28,12 +28,22 @@ def legs_of(mdl, home: str, away: str) -> list[dict]:
     h, d, a = float(np.tril(p, -1).sum()), float(np.trace(p)), float(np.triu(p, 1).sum())
     total = {k: sum(p[i, j] for i in range(p.shape[0]) for j in range(p.shape[1]) if i + j > k) for k in (1, 2)}
     btts = float(p[1:, 1:].sum())
-    return [{"pick": n, "p": float(v)} for n, v in (
-        (f"Gana {home}", h), ("Empate", d), (f"Gana {away}", a),
-        (f"{home} o empate", h + d), (f"{away} o empate", a + d), ("No hay empate", h + a),
-        ("Más de 1.5 goles", total[1]), ("Menos de 1.5 goles", 1 - total[1]),
-        ("Más de 2.5 goles", total[2]), ("Menos de 2.5 goles", 1 - total[2]),
-        ("Ambos anotan", btts), ("No anotan ambos", 1 - btts))]
+    prob = {"1": h, "X": d, "2": a, "1X": h + d, "X2": a + d, "12": h + a, "o1.5": total[1], "u1.5": 1 - total[1],
+            "o2.5": total[2], "u2.5": 1 - total[2], "btts": btts, "nobtts": 1 - btts}
+    return [{"pick": pick_name(k, home, away), "key": k, "p": float(v)} for k, v in prob.items()]
+
+
+def pick_name(key: str, home: str, away: str) -> str:
+    return {"1": f"Gana {home}", "X": "Empate", "2": f"Gana {away}", "1X": f"{home} o empate", "X2": f"{away} o empate",
+            "12": "No hay empate", "o1.5": "Más de 1.5 goles", "u1.5": "Menos de 1.5 goles", "o2.5": "Más de 2.5 goles",
+            "u2.5": "Menos de 2.5 goles", "btts": "Ambos anotan", "nobtts": "No anotan ambos"}[key]
+
+
+def hit(key: str, hg: int, ag: int) -> bool:
+    """Si la selección se cumplió con ese marcador."""
+    return {"1": hg > ag, "X": hg == ag, "2": hg < ag, "1X": hg >= ag, "X2": hg <= ag, "12": hg != ag,
+            "o1.5": hg + ag > 1, "u1.5": hg + ag <= 1, "o2.5": hg + ag > 2, "u2.5": hg + ag <= 2,
+            "btts": hg > 0 and ag > 0, "nobtts": hg == 0 or ag == 0}[key]
 
 
 def best_per_match(fixtures: list[dict], fitted: dict, min_p: float = 0.0, max_p: float = 1.0) -> list[dict]:
@@ -64,15 +74,16 @@ def show_parlay(title: str, legs: list[dict]):
 def selections(session=None) -> dict:
     now = dt.date.today()
     year = season_of(now)
-    fitted = {}
+    fitted, played = {}, []
     for lg in ALL:
         rows = []
         for y in range(year - HIST_YEARS, year + 1):
             rows += data.season(lg, y, refresh=y == year, session=session)
         fitted[lg] = model.fit(rows, now, shot_weight=SHOT_WEIGHT)
+        played += [m for m in rows if season_of(m["date"]) == year]
     upcoming = [f for f in data.parse(data._get(f"{data.BASE}/fixtures.csv", session), played=False)
                 if now <= f["date"] <= now + dt.timedelta(days=DAYS)]
-    return {"start": now, "end": now + dt.timedelta(days=DAYS), "matches": len(upcoming),
+    return {"start": now, "end": now + dt.timedelta(days=DAYS), "matches": len(upcoming), "played": played,
             "top": best_per_match(upcoming, fitted), "mid": best_per_match(upcoming, fitted, 0.55, 0.75)}
 
 

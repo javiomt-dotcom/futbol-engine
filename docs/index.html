@@ -39,6 +39,15 @@ td{padding:9px 0 9px 8px;border-top:1px solid var(--line);text-align:right;font-
 th:first-child,td:first-child{text-align:left;padding-left:0}
 .neg{color:var(--red)}
 .note{border-color:var(--yellow)}
+.stats b small{display:block;font-size:12px;font-weight:400}
+.stats.first{margin-top:0;padding-top:0;border-top:0}
+details.day{padding:0 16px}
+details.day summary{cursor:pointer;padding:14px 0;font-weight:650;display:flex;justify-content:space-between;align-items:baseline;list-style:none}
+details.day summary::-webkit-details-marker{display:none}
+details.day[open]{padding-bottom:8px}
+.sub{margin:6px 0 0 18px}
+.sub .row{font-size:14px}
+.sub small{display:block;margin-bottom:6px}
 button{font:inherit;font-weight:600;color:var(--bg);background:var(--green);border:0;border-radius:10px;padding:10px 16px;margin-top:10px;cursor:pointer}
 </style>
 </head>
@@ -73,6 +82,31 @@ function parlayCard(title, legs, id) {
     <input id="${id}" inputmode="decimal" placeholder="Ej. ${(min + .1).toFixed(2)}" data-min="${min}">
     <div class="verdict" id="${id}-v" aria-live="polite"></div></div>`;
 }
+const MARK = {ganado: ["✓", "good", "Se cumplió"], perdido: ["✗", "bad", "No se cumplió"], pendiente: ["·", "muted", "Pendiente"], "sin resultado": ["–", "muted", "Sin resultado"]};
+const mark = s => `<span class="${MARK[s][1]}" title="${MARK[s][2]}">${MARK[s][0]}</span>`;
+function tally(t) {
+  const n = t.ganado + t.perdido;
+  return `<b>${t.ganado}/${n}</b><small>${n ? Math.round(100 * t.ganado / n) + "% se cumplió" : "aún sin calificar"}${t.pendiente ? " · " + t.pendiente + " pendientes" : ""}</small>`;
+}
+function recordSection(d) {
+  const rec = (d.record || []).slice().reverse(), sum = d.record_summary;
+  if (!rec.length) return `<h2>Lo que te recomendé</h2><div class="card"><p class="muted">Aquí aparecerá cada recomendación con su resultado.</p></div>`;
+  const days = {};
+  rec.forEach(e => (days[e.made] = days[e.made] || []).push(e));
+  const day = s => { const t = new Date(s + "T12:00:00").toLocaleDateString("es", {weekday: "long", day: "numeric", month: "long"}); return t[0].toUpperCase() + t.slice(1); };
+  const legLine = x => `<div class="row"><span>${mark(x.status)} ${esc(x.pick)}</span><span class="pct">${x.score ? esc(x.score) : pct(x.p)}</span></div>
+    <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(x.league)}</small>`;
+  const entry = e => e.type === "single"
+    ? `<div class="bet">${legLine(e.legs[0])}</div>`
+    : `<div class="bet"><div class="row"><span class="pick">${mark(e.status)} Parlay ${e.type === "parlay_top" ? "más probable" : "intermedio"}</span><span class="pct">${pct(e.legs.reduce((a, x) => a * x.p, 1))}</span></div>
+       <div class="sub">${e.legs.map(legLine).join("")}</div></div>`;
+  return `<h2>Lo que te recomendé</h2>
+    <div class="card"><div class="stats first"><div><small>Individuales</small>${tally(sum.singles)}</div><div><small>Parlays</small>${tally(sum.parlays)}</div></div>
+    <p class="muted">✓ se cumplió · ✗ no se cumplió · · pendiente. El número de la derecha es el marcador final o, si no se ha jugado, la probabilidad.</p></div>
+    ${Object.entries(days).map(([k, es]) => `<details class="card day"${k === rec[0].made ? " open" : ""}><summary>${esc(day(k))}
+      <small>${es.filter(e => e.status === "ganado").length}/${es.filter(e => e.status === "ganado" || e.status === "perdido").length}</small></summary>
+      ${es.filter(e => e.type !== "single").map(entry).join("")}${es.filter(e => e.type === "single").map(entry).join("")}</details>`).join("")}`;
+}
 function render(d) {
   const now = new Date(), top = open(d.top, now), mid = open(d.mid, now);
   document.getElementById("updated").textContent = "Actualizado " + new Date(d.generated_at).toLocaleString("es", {day: "numeric", month: "short", hour: "2-digit", minute: "2-digit"});
@@ -85,6 +119,7 @@ function render(d) {
     <div class="card">${top.length ? top.slice(0, 10).map((x, i) => `<div class="${i ? "bet" : ""}">
       <div class="row"><span class="pick">${esc(x.pick)}</span><span class="pct">${pct(x.p)}</span></div>
       <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(x.league)}<br>${esc(when(x))} · mínimo ${(1 / x.p).toFixed(2)}</small>${meter(x.p)}</div>`).join("") : '<p class="muted">No quedan partidos por empezar. Aparecerán cuando la fuente publique la siguiente jornada.</p>'}</div>
+    ${recordSection(d)}
     <h2>Cómo le fue en 2023-2025</h2>
     <div class="card note"><table><thead><tr><th>Tipo</th><th>Cantidad</th><th>Acierto</th><th>ROI</th></tr></thead><tbody>
       ${d.history.map(h => `<tr><td>${esc(h.name)}</td><td>${h.count}</td><td>${h.hit.toFixed(1)}%</td><td class="neg">${h.roi > 0 ? "+" : ""}${h.roi.toFixed(1)}%</td></tr>`).join("")}
