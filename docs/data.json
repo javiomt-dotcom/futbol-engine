@@ -1,22 +1,11 @@
 {
- "generated_at": "2026-11-05T01:28:03Z",
+ "generated_at": "2026-11-05T01:32:58Z",
  "legs": 3,
  "sports": {
   "todas": {
    "name": "Recomendaciones",
-   "matches": 21,
+   "matches": 16,
    "top": [
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:45:00Z",
-     "league": "Championship",
-     "home": "Cardiff",
-     "away": "West Ham",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.9003
-    },
     {
      "sport": "nfl",
      "id": "2026_09_ARI_SEA",
@@ -29,28 +18,6 @@
      "key": "ml:H",
      "p": 0.8115,
      "odds": 1.22
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:45:00Z",
-     "league": "League One",
-     "home": "Oxford Utd",
-     "away": "Reading",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7891
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:45:00Z",
-     "league": "Championship",
-     "home": "Wrexham",
-     "away": "Middlesbrough",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7872
     },
     {
      "sport": "nfl",
@@ -66,17 +33,6 @@
      "odds": 1.187
     },
     {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:30:00Z",
-     "league": "Bélgica",
-     "home": "Kortrijk",
-     "away": "KV Mechelen",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7473
-    },
-    {
      "sport": "nfl",
      "id": "2026_09_NYJ_KC",
      "date": "2026-11-08",
@@ -88,17 +44,6 @@
      "key": "ml:H",
      "p": 0.7368,
      "odds": 1.167
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T20:00:00Z",
-     "league": "Championship",
-     "home": "Bristol City",
-     "away": "Wolves",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7265
     },
     {
      "sport": "nfl",
@@ -272,39 +217,6 @@
    ],
    "mid": [
     {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:30:00Z",
-     "league": "Bélgica",
-     "home": "Kortrijk",
-     "away": "KV Mechelen",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7473
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:45:00Z",
-     "league": "Championship",
-     "home": "Cardiff",
-     "away": "West Ham",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.7415
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:45:00Z",
-     "league": "League One",
-     "home": "Oxford Utd",
-     "away": "Reading",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7373
-    },
-    {
      "sport": "nfl",
      "id": "2026_09_NYJ_KC",
      "date": "2026-11-08",
@@ -331,17 +243,6 @@
      "odds": 1.893
     },
     {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T20:00:00Z",
-     "league": "Championship",
-     "home": "Bristol City",
-     "away": "Wolves",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7265
-    },
-    {
      "sport": "nfl",
      "id": "2026_09_JAX_BAL",
      "date": "2026-11-05",
@@ -353,17 +254,6 @@
      "key": "ml:A",
      "p": 0.7262,
      "odds": 1.192
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:45:00Z",
-     "league": "Championship",
-     "home": "Wrexham",
-     "away": "Middlesbrough",
-     "pick": "Middlesbrough o empate",
-     "key": "X2",
-     "p": 0.7213
     },
     {
      "sport": "nfl",
@@ -526,121 +416,9 @@
   },
   "futbol": {
    "name": "Fútbol",
-   "matches": 5,
-   "top": [
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:45:00Z",
-     "league": "Championship",
-     "home": "Cardiff",
-     "away": "West Ham",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.9003
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:45:00Z",
-     "league": "League One",
-     "home": "Oxford Utd",
-     "away": "Reading",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7891
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:45:00Z",
-     "league": "Championship",
-     "home": "Wrexham",
-     "away": "Middlesbrough",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7872
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:30:00Z",
-     "league": "Bélgica",
-     "home": "Kortrijk",
-     "away": "KV Mechelen",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7473
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T20:00:00Z",
-     "league": "Championship",
-     "home": "Bristol City",
-     "away": "Wolves",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7265
-    }
-   ],
-   "mid": [
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:30:00Z",
-     "league": "Bélgica",
-     "home": "Kortrijk",
-     "away": "KV Mechelen",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7473
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:45:00Z",
-     "league": "Championship",
-     "home": "Cardiff",
-     "away": "West Ham",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.7415
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:45:00Z",
-     "league": "League One",
-     "home": "Oxford Utd",
-     "away": "Reading",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7373
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T20:00:00Z",
-     "league": "Championship",
-     "home": "Bristol City",
-     "away": "Wolves",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7265
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-04",
-     "kickoff": "2026-11-04T19:45:00Z",
-     "league": "Championship",
-     "home": "Wrexham",
-     "away": "Middlesbrough",
-     "pick": "Middlesbrough o empate",
-     "key": "X2",
-     "p": 0.7213
-    }
-   ],
+   "matches": 0,
+   "top": [],
+   "mid": [],
    "status": null
   },
   "champions": {
@@ -1085,13 +863,14 @@
      "p": 0.8783,
      "key": "1X",
      "status": "ganado",
-     "score": "1-0"
+     "score": "1-0",
+     "odds": 1.0
     }
    ],
    "status": "ganado",
-   "odds": null,
-   "value": null,
-   "pnl": null
+   "odds": 1.0,
+   "value": false,
+   "pnl": 0.0
   },
   {
    "type": "single",
@@ -1107,13 +886,14 @@
      "p": 0.8337,
      "key": "1X",
      "status": "ganado",
-     "score": "2-1"
+     "score": "2-1",
+     "odds": 1.07
     }
    ],
    "status": "ganado",
-   "odds": null,
-   "value": null,
-   "pnl": null
+   "odds": 1.07,
+   "value": false,
+   "pnl": 0.07
   },
   {
    "type": "single",
@@ -1129,7 +909,8 @@
      "p": 0.8268,
      "key": "o1.5",
      "status": "ganado",
-     "score": "1-1"
+     "score": "1-1",
+     "odds": null
     }
    ],
    "status": "ganado",
@@ -1151,13 +932,14 @@
      "p": 0.8262,
      "key": "1X",
      "status": "ganado",
-     "score": "2-0"
+     "score": "2-0",
+     "odds": 1.158
     }
    ],
    "status": "ganado",
-   "odds": null,
-   "value": null,
-   "pnl": null
+   "odds": 1.158,
+   "value": false,
+   "pnl": 0.158
   },
   {
    "type": "single",
@@ -1173,7 +955,8 @@
      "p": 0.8061,
      "key": "o1.5",
      "status": "ganado",
-     "score": "2-4"
+     "score": "2-4",
+     "odds": null
     }
    ],
    "status": "ganado",
@@ -1195,13 +978,14 @@
      "p": 0.7997,
      "key": "1X",
      "status": "perdido",
-     "score": "0-3"
+     "score": "0-3",
+     "odds": 1.112
     }
    ],
    "status": "perdido",
-   "odds": null,
-   "value": null,
-   "pnl": null
+   "odds": 1.112,
+   "value": false,
+   "pnl": -1.0
   },
   {
    "type": "single",
@@ -1217,13 +1001,14 @@
      "p": 0.7952,
      "key": "1X",
      "status": "ganado",
-     "score": "3-0"
+     "score": "3-0",
+     "odds": 1.191
     }
    ],
    "status": "ganado",
-   "odds": null,
-   "value": null,
-   "pnl": null
+   "odds": 1.191,
+   "value": false,
+   "pnl": 0.191
   },
   {
    "type": "single",
@@ -1239,7 +1024,8 @@
      "p": 0.7848,
      "key": "o1.5",
      "status": "perdido",
-     "score": "0-1"
+     "score": "0-1",
+     "odds": null
     }
    ],
    "status": "perdido",
@@ -1261,13 +1047,14 @@
      "p": 0.7615,
      "key": "1X",
      "status": "ganado",
-     "score": "4-3"
+     "score": "4-3",
+     "odds": 1.174
     }
    ],
    "status": "ganado",
-   "odds": null,
-   "value": null,
-   "pnl": null
+   "odds": 1.174,
+   "value": false,
+   "pnl": 0.174
   },
   {
    "type": "single",
@@ -1283,13 +1070,14 @@
      "p": 0.7572,
      "key": "1X",
      "status": "perdido",
-     "score": "2-3"
+     "score": "2-3",
+     "odds": 1.157
     }
    ],
    "status": "perdido",
-   "odds": null,
-   "value": null,
-   "pnl": null
+   "odds": 1.157,
+   "value": false,
+   "pnl": -1.0
   },
   {
    "type": "parlay_top",
@@ -1305,7 +1093,8 @@
      "p": 0.8783,
      "key": "1X",
      "status": "ganado",
-     "score": "1-0"
+     "score": "1-0",
+     "odds": 1.0
     },
     {
      "date": "2026-11-02",
@@ -1317,7 +1106,8 @@
      "p": 0.8337,
      "key": "1X",
      "status": "ganado",
-     "score": "2-1"
+     "score": "2-1",
+     "odds": 1.07
     },
     {
      "date": "2026-11-02",
@@ -1329,7 +1119,8 @@
      "p": 0.8268,
      "key": "o1.5",
      "status": "ganado",
-     "score": "1-1"
+     "score": "1-1",
+     "odds": null
     }
    ],
    "status": "ganado",
@@ -1351,7 +1142,8 @@
      "p": 0.746,
      "key": "12",
      "status": "ganado",
-     "score": "2-1"
+     "score": "2-1",
+     "odds": 1.313
     },
     {
      "date": "2026-11-02",
@@ -1363,7 +1155,8 @@
      "p": 0.7447,
      "key": "o1.5",
      "status": "ganado",
-     "score": "2-3"
+     "score": "2-3",
+     "odds": null
     },
     {
      "date": "2026-11-02",
@@ -1375,7 +1168,8 @@
      "p": 0.7345,
      "key": "12",
      "status": "ganado",
-     "score": "2-1"
+     "score": "2-1",
+     "odds": 1.181
     }
    ],
    "status": "ganado",
@@ -1397,7 +1191,8 @@
      "key": "o1.5",
      "p": 0.8974,
      "status": "ganado",
-     "score": "3-3"
+     "score": "3-3",
+     "odds": null
     }
    ],
    "status": "ganado",
@@ -1419,7 +1214,8 @@
      "key": "o1.5",
      "p": 0.7878,
      "status": "ganado",
-     "score": "2-0"
+     "score": "2-0",
+     "odds": null
     }
    ],
    "status": "ganado",
@@ -1441,7 +1237,8 @@
      "key": "o1.5",
      "p": 0.7861,
      "status": "ganado",
-     "score": "2-0"
+     "score": "2-0",
+     "odds": null
     }
    ],
    "status": "ganado",
@@ -1463,7 +1260,8 @@
      "key": "o1.5",
      "p": 0.7473,
      "status": "ganado",
-     "score": "1-3"
+     "score": "1-3",
+     "odds": null
     }
    ],
    "status": "ganado",
@@ -1485,13 +1283,14 @@
      "key": "12",
      "p": 0.7247,
      "status": "ganado",
-     "score": "1-2"
+     "score": "1-2",
+     "odds": 1.281
     }
    ],
    "status": "ganado",
-   "odds": null,
-   "value": null,
-   "pnl": null
+   "odds": 1.281,
+   "value": false,
+   "pnl": 0.281
   },
   {
    "type": "parlay_top",
@@ -1507,7 +1306,8 @@
      "key": "o1.5",
      "p": 0.8974,
      "status": "ganado",
-     "score": "3-3"
+     "score": "3-3",
+     "odds": null
     },
     {
      "date": "2026-11-04",
@@ -1519,7 +1319,8 @@
      "key": "o1.5",
      "p": 0.7878,
      "status": "ganado",
-     "score": "2-0"
+     "score": "2-0",
+     "odds": null
     },
     {
      "date": "2026-11-04",
@@ -1531,7 +1332,8 @@
      "key": "o1.5",
      "p": 0.7861,
      "status": "ganado",
-     "score": "2-0"
+     "score": "2-0",
+     "odds": null
     }
    ],
    "status": "ganado",
@@ -1553,7 +1355,8 @@
      "key": "o1.5",
      "p": 0.7473,
      "status": "ganado",
-     "score": "1-3"
+     "score": "1-3",
+     "odds": null
     },
     {
      "date": "2026-11-04",
@@ -1565,7 +1368,8 @@
      "key": "12",
      "p": 0.7396,
      "status": "ganado",
-     "score": "2-0"
+     "score": "2-0",
+     "odds": 1.259
     },
     {
      "date": "2026-11-04",
@@ -1577,7 +1381,8 @@
      "key": "o2.5",
      "p": 0.7358,
      "status": "ganado",
-     "score": "3-3"
+     "score": "3-3",
+     "odds": 1.38
     }
    ],
    "status": "ganado",
@@ -1964,8 +1769,8 @@
     "ganado": 12,
     "perdido": 3,
     "pendiente": 10,
-    "bets": 0,
-    "profit": 0,
+    "bets": 8,
+    "profit": -1.13,
     "value_bets": 0,
     "value_profit": 0
    },
@@ -1984,8 +1789,8 @@
     "ganado": 12,
     "perdido": 3,
     "pendiente": 0,
-    "bets": 0,
-    "profit": 0,
+    "bets": 8,
+    "profit": -1.13,
     "value_bets": 0,
     "value_profit": 0
    },
