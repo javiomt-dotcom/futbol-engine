@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T01:32:58Z",
+ "generated_at": "2026-11-05T08:10:23Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -121,7 +121,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.639,
-     "odds": 1.459
+     "odds": 1.444
     },
     {
      "sport": "nfl",
@@ -318,7 +318,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.639,
-     "odds": 1.459
+     "odds": 1.444
     },
     {
      "sport": "nfl",
@@ -547,7 +547,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.639,
-     "odds": 1.459
+     "odds": 1.444
     },
     {
      "sport": "nfl",
@@ -744,7 +744,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.639,
-     "odds": 1.459
+     "odds": 1.444
     },
     {
      "sport": "nfl",
