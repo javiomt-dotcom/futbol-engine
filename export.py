@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import math
 import os
 import sys
 
@@ -41,7 +42,7 @@ def kickoff_utc(date: dt.date, time: str) -> str | None:
 def row(x: dict) -> dict:
     return {"sport": "futbol", "date": x["date"].isoformat(), "kickoff": kickoff_utc(x["date"], x.get("time", "")),
             "league": LEAGUE_NAMES.get(x["league"], x["league"]), "home": x["home"], "away": x["away"],
-            "pick": x["pick"], "key": x["key"], "p": round(x["p"], 4)}
+            "pick": x["pick"], "key": x["key"], "p": round(x["p"], 4), "odds": x.get("odds")}
 
 
 def is_open(r: dict, now: dt.datetime) -> bool:
@@ -81,7 +82,7 @@ def _settle(x: dict, h: int, a: int):
     return parlays.hit(x["key"], h, a)
 
 
-def grade(record: list[dict], played: list[dict], today: dt.date, results: dict | None = None) -> int:
+def grade(record: list[dict], played: list[dict], today: dt.date, results: dict | None = None, prices: dict | None = None) -> int:
     """Califica con el marcador real. Fútbol de liga: un partido movido se busca hasta 7 días después.
     Otros deportes: por id del partido; None en `results` significa que no se puede calificar (alargue).
     A los 14 días sin marcador queda sin resultado."""
@@ -91,8 +92,6 @@ def grade(record: list[dict], played: list[dict], today: dt.date, results: dict 
     done = 0
     for e in record:
         for x in e["legs"]:
-            if x["status"] != "pendiente":
-                continue
             day = dt.date.fromisoformat(x["date"])
             sport = x.get("sport", "futbol")
             score = None
@@ -101,7 +100,13 @@ def grade(record: list[dict], played: list[dict], today: dt.date, results: dict 
                 if ms:
                     m = min(ms, key=lambda m: m["date"])
                     score = (m["hg"], m["ag"])
-            elif x.get("id") in results.get(sport, {}):
+                    if x.get("odds") is None:            # recomendaciones viejas: el promedio del mercado que trae el resultado
+                        x["odds"] = parlays.market_odds(m, x["key"])
+            elif x.get("odds") is None:
+                x["odds"] = ((prices or {}).get(sport, {}).get(x.get("id")) or {}).get(x["key"])
+            if x["status"] != "pendiente":
+                continue
+            if sport != "futbol" and x.get("id") in results.get(sport, {}):
                 score = results[sport][x["id"]]
                 if score is None:
                     x["status"] = "sin resultado"
@@ -115,7 +120,26 @@ def grade(record: list[dict], played: list[dict], today: dt.date, results: dict 
         st = [x["status"] for x in e["legs"]]
         e["status"] = ("perdido" if "perdido" in st else "pendiente" if "pendiente" in st else "sin resultado" if "sin resultado" in st
                        else "ganado" if "ganado" in st else "anulado")
+        price(e)
     return done
+
+
+def price(e: dict):
+    """Momio combinado, si pagaba el mínimo (momio ≥ 1/probabilidad) y ganancia por unidad apostada.
+    Sin momio de la casa en alguna selección no se puede saber cuánto se ganó."""
+    odds = [x.get("odds") for x in e["legs"]]
+    if any(o is None for o in odds):
+        e["odds"] = e["value"] = e["pnl"] = None
+        return
+    p = math.prod(x["p"] for x in e["legs"])
+    e["odds"] = round(math.prod(odds), 3)
+    e["value"] = e["odds"] >= 1 / p
+    if e["status"] == "perdido":
+        e["pnl"] = -1.0
+    elif e["status"] in ("ganado", "anulado"):
+        e["pnl"] = round(math.prod(x["odds"] for x in e["legs"] if x["status"] == "ganado") - 1, 3)
+    else:
+        e["pnl"] = None
 
 
 def summary(record: list[dict]) -> dict:
@@ -124,8 +148,13 @@ def summary(record: list[dict]) -> dict:
     for sport in (ALL, *SPORTS):
         out[sport] = {}
         for name, kinds in (("singles", ("single",)), ("parlays", ("parlay_top", "parlay_mid"))):
-            st = [e["status"] for e in record if e["type"] in kinds and sport in (ALL, e.get("sport", "futbol"))]
-            out[sport][name] = {k: st.count(k) for k in ("ganado", "perdido", "pendiente")}
+            es = [e for e in record if e["type"] in kinds and sport in (ALL, e.get("sport", "futbol"))]
+            st = [e["status"] for e in es]
+            money = [e for e in es if e.get("pnl") is not None]
+            value = [e for e in money if e.get("value")]
+            out[sport][name] = {**{k: st.count(k) for k in ("ganado", "perdido", "pendiente")},
+                                "bets": len(money), "profit": round(sum(e["pnl"] for e in money), 2),
+                                "value_bets": len(value), "value_profit": round(sum(e["pnl"] for e in value), 2)}
     return out
 
 
@@ -186,7 +215,7 @@ def main():
         before = prev.get("sports") or {"futbol": {k: prev.get(k) for k in ("matches", "top", "mid")}}    # formato anterior: sólo fútbol
     except (OSError, ValueError):
         before = {}
-    sports, played, results = {}, [], {}
+    sports, played, results, prices = {}, [], {}, {}
     for key, fn in (("futbol", futbol), ("champions", champions.selections), ("nfl", nfl.selections), ("mlb", mlb.selections)):
         try:
             sports[key] = fn(now.date())
@@ -198,7 +227,8 @@ def main():
             sports[key]["stale"] = True
         played += sports[key].get("played", [])
         results[key] = sports[key].get("results", {})
-    graded = grade(record, played, now.date(), results)
+        prices[key] = sports[key].get("prices", {})
+    graded = grade(record, played, now.date(), results, prices)
     fresh = {k: s for k, s in sports.items() if not s.get("stale")}
     added = sum(remember(record, s.get("top", []), s.get("mid", []), now, key) for key, s in fresh.items())
     mixed = combined(fresh)                          # los parlays mezclados; sus individuales ya se guardaron por deporte

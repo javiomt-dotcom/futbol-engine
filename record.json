@@ -16,7 +16,10 @@
     "score": "1-0"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "single",
@@ -35,7 +38,10 @@
     "score": "2-1"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "single",
@@ -54,7 +60,10 @@
     "score": "1-1"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "single",
@@ -73,7 +82,10 @@
     "score": "2-0"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "single",
@@ -92,7 +104,10 @@
     "score": "2-4"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "single",
@@ -111,7 +126,10 @@
     "score": "0-3"
    }
   ],
-  "status": "perdido"
+  "status": "perdido",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "single",
@@ -130,7 +148,10 @@
     "score": "3-0"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "single",
@@ -149,7 +170,10 @@
     "score": "0-1"
    }
   ],
-  "status": "perdido"
+  "status": "perdido",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "single",
@@ -168,7 +192,10 @@
     "score": "4-3"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "single",
@@ -187,7 +214,10 @@
     "score": "2-3"
    }
   ],
-  "status": "perdido"
+  "status": "perdido",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "parlay_top",
@@ -230,7 +260,10 @@
     "score": "1-1"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "parlay_mid",
@@ -273,7 +306,10 @@
     "score": "2-1"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "single",
@@ -292,7 +328,10 @@
     "score": "3-3"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "single",
@@ -311,7 +350,10 @@
     "score": "2-0"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "single",
@@ -330,7 +372,10 @@
     "score": "2-0"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "single",
@@ -349,7 +394,10 @@
     "score": "1-3"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "single",
@@ -368,7 +416,10 @@
     "score": "1-2"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "parlay_top",
@@ -411,7 +462,10 @@
     "score": "2-0"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "type": "parlay_mid",
@@ -454,7 +508,10 @@
     "score": "3-3"
    }
   ],
-  "status": "ganado"
+  "status": "ganado",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -473,10 +530,14 @@
     "key": "ml:H",
     "p": 0.8116,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.22
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.22,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -495,10 +556,14 @@
     "key": "ml:H",
     "p": 0.753,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.187
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.187,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -517,10 +582,14 @@
     "key": "ml:H",
     "p": 0.737,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.167
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.167,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -539,10 +608,14 @@
     "key": "ml:A",
     "p": 0.7258,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.192
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.192,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -561,10 +634,14 @@
     "key": "ml:A",
     "p": 0.7052,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.282
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.282,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -583,10 +660,14 @@
     "key": "ml:A",
     "p": 0.6808,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.444
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.444,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -605,10 +686,14 @@
     "key": "ou:o:51.5",
     "p": 0.6759,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.909
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.909,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -627,10 +712,14 @@
     "key": "ou:u:45.5",
     "p": 0.6477,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.952
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.952,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -649,10 +738,14 @@
     "key": "ml:A",
     "p": 0.639,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.459
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.459,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -671,10 +764,14 @@
     "key": "ml:A",
     "p": 0.6303,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.645
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.645,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -693,7 +790,8 @@
     "key": "ml:H",
     "p": 0.8116,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.22
    },
    {
     "sport": "nfl",
@@ -707,7 +805,8 @@
     "key": "ml:H",
     "p": 0.753,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.187
    },
    {
     "sport": "nfl",
@@ -721,10 +820,14 @@
     "key": "ml:H",
     "p": 0.737,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.167
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.69,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -743,7 +846,8 @@
     "key": "ml:H",
     "p": 0.737,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.167
    },
    {
     "sport": "nfl",
@@ -757,7 +861,8 @@
     "key": "ou:o:39.5",
     "p": 0.7317,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.893
    },
    {
     "sport": "nfl",
@@ -771,9 +876,13 @@
     "key": "ml:A",
     "p": 0.7258,
     "status": "pendiente",
-    "score": null
+    "score": null,
+    "odds": 1.192
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 2.633,
+  "value": true,
+  "pnl": null
  }
 ]

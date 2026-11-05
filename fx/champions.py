@@ -64,7 +64,7 @@ def update(today: dt.date, session=None) -> dict:
         for e in evs:
             if e["hg"] is not None and e["id"] not in known and day <= closed:
                 h["matches"].append({k: (v.isoformat() if isinstance(v, (dt.date, dt.datetime)) else v)
-                                     for k, v in e.items() if k != "kickoff"})
+                                     for k, v in e.items() if k not in ("kickoff", "odds")})
                 known.add(e["id"])
             elif day > closed:
                 live.append(e)
@@ -97,7 +97,7 @@ def selections(today: dt.date, session=None) -> dict:
             ok = [x for x in ls if lo <= x["p"] <= hi]
             if ok:
                 x = max(ok, key=lambda x: x["p"])
-                best[name].append({**base, "pick": x["pick"], "key": x["key"], "p": round(x["p"], 4)})
+                best[name].append({**base, "pick": x["pick"], "key": x["key"], "p": round(x["p"], 4), "odds": parlays.book_odds(e["odds"], x["key"])})
     results = {e["id"]: (e["hg"], e["ag"]) for e in hist if e["league"] == CL}
     results.update({e["id"]: None for e in u["live"] if e["extra_time"]})
     out = {"matches": len(upcoming), "top": sorted(best["top"], key=lambda x: -x["p"]),

@@ -54,10 +54,16 @@ def events(raw: dict, league: str) -> list[dict]:
             when = dt.datetime.fromisoformat(ev["date"].replace("Z", "+00:00"))
         except (KeyError, IndexError, ValueError):
             continue
+        odds = {}
+        for o in comp.get("odds") or []:                 # 1X2 decimal de la casa que publique ESPN (hoy Bet365)
+            for k, field in (("1", "homeTeamOdds"), ("X", "drawOdds"), ("2", "awayTeamOdds")):
+                v = (o.get(field) or {}).get("value") if isinstance(o, dict) and isinstance(o.get(field) or {}, dict) else None
+                if isinstance(v, (int, float)) and v > 1 and k not in odds:
+                    odds[k] = round(float(v), 3)
         done = status.get("completed") and status.get("name") in ("STATUS_FINAL", "STATUS_FULL_TIME")
         extra = status.get("completed") and not done
         out.append({"id": ev["id"], "league": league, "kickoff": when, "date": when.date(),
                     "home": side["home"]["team"]["displayName"], "away": side["away"]["team"]["displayName"],
                     "hg": int(side["home"]["score"]) if done else None, "ag": int(side["away"]["score"]) if done else None,
-                    "extra_time": bool(extra), "neutral": bool(comp.get("neutralSite"))})
+                    "extra_time": bool(extra), "neutral": bool(comp.get("neutralSite")), "odds": odds})
     return out

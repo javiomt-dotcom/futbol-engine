@@ -82,7 +82,8 @@ def test_record():
     assert export.grade(record, played, now.date()) == 9
     assert [e["status"] for e in record] == ["ganado", "ganado", "perdido", "perdido", "perdido"]
     assert record[0]["legs"][0]["score"] == "2-0"
-    assert export.summary(record)["futbol"]["singles"] == {"ganado": 2, "perdido": 1, "pendiente": 0}
+    singles = export.summary(record)["futbol"]["singles"]
+    assert (singles["ganado"], singles["perdido"], singles["pendiente"], singles["bets"]) == (2, 1, 0, 0)    # sin momios no hay ganancia
     nfl_row = dict(rows[1], sport="nfl", home="X", away="Y", p=.95)
     mixed = export.combined({"futbol": {"top": rows, "mid": []}, "nfl": {"top": [nfl_row], "mid": []}})
     assert mixed["top"][0]["sport"] == "nfl" and len(mixed["top"]) == 5
@@ -105,7 +106,32 @@ def test_other_sports():
     rec = [{"sport": "nfl", "type": "single", "made": "2026-11-04", "status": "pendiente",
             "legs": [{"sport": "nfl", "id": "g1", "date": "2026-11-05", "home": "A", "away": "B", "key": "sp:H:-3", "p": .6, "status": "pendiente", "score": None}]}]
     assert export.grade(rec, [], dt.date(2026, 11, 6), {"nfl": {"g1": (24, 21)}}) == 1
-    assert rec[0]["status"] == "anulado" and rec[0]["legs"][0]["score"] == "24-21"
+    assert rec[0]["status"] == "anulado" and rec[0]["legs"][0]["score"] == "24-21" and rec[0]["pnl"] is None
+
+
+def test_profit():
+    leg = lambda s, o, p=.8: {"status": s, "odds": o, "p": p}
+    e = {"type": "single", "status": "ganado", "legs": [leg("ganado", 1.5)]}
+    export.price(e)
+    assert e["pnl"] == .5 and e["value"] is True                     # paga 1.5 y el mínimo era 1.25
+    e = {"type": "parlay_top", "status": "ganado", "legs": [leg("ganado", 1.2, .9), leg("anulado", 1.9, .9), leg("ganado", 1.1, .9)]}
+    export.price(e)
+    assert e["pnl"] == round(1.2 * 1.1 - 1, 3) and e["value"] is True and e["odds"] == round(1.2 * 1.9 * 1.1, 3)
+    e = {"type": "single", "status": "perdido", "legs": [leg("perdido", 1.1, .95)]}
+    export.price(e)
+    assert e["pnl"] == -1.0 and e["value"] is True
+    e = {"type": "single", "status": "ganado", "legs": [leg("ganado", None)]}
+    export.price(e)
+    assert e["pnl"] is None
+    s = export.summary([{"sport": "nfl", "type": "single", "status": "ganado", "pnl": .5, "value": True},
+                        {"sport": "nfl", "type": "single", "status": "perdido", "pnl": -1.0, "value": False}])
+    assert s["nfl"]["singles"]["bets"] == 2 and s["nfl"]["singles"]["profit"] == -.5 and s["todas"]["singles"]["value_profit"] == .5
+    assert parlays.market_odds({"avg_1x2": [2.1, 3.3, 3.6], "avg_ou": None}, "X") == 3.3 and parlays.market_odds({"avg_ou": None}, "o2.5") is None
+    rec = [{"type": "single", "made": "2026-11-02", "status": "ganado",
+            "legs": [{"date": "2026-11-02", "home": "A", "away": "B", "key": "1X", "p": .8, "status": "ganado", "score": "1-0"}]}]
+    export.grade(rec, [{"date": dt.date(2026, 11, 2), "home": "A", "away": "B", "hg": 1, "ag": 0, "avg_1x2": [1.5, 4.0, 6.0]}], dt.date(2026, 11, 3))
+    assert rec[0]["legs"][0]["odds"] == round(1 / (1 / 1.5 + 1 / 4), 3) and rec[0]["pnl"] == round(rec[0]["odds"] - 1, 3)    # momio recuperado
+    assert parlays.book_odds({"1": 2.0, "X": 4.0, "2": 4.0}, "1X") == round(1 / (1 / 2 + 1 / 4), 3) and parlays.book_odds({"1": 2.0}, "o1.5") is None
 
 
 def test_grade():

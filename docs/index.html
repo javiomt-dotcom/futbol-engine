@@ -78,10 +78,13 @@ function open(list, now) {
 function parlayCard(title, legs, id) {
   if (legs.length === 0) return `<div class="card"><h3>${title}</h3><p class="muted">Todavía no hay suficientes partidos por empezar para armarlo.</p></div>`;
   const p = legs.reduce((a, x) => a * x.p, 1), min = 1 / p;
+  const book = legs.every(x => x.odds) ? legs.reduce((a, x) => a * x.odds, 1) : null;
   return `<div class="card"><h3>${title}</h3>
     ${legs.map(x => `<div class="leg"><div class="row"><span class="pick">${esc(x.pick)}</span><span class="pct">${pct(x.p)}</span></div>
-      <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(when(x))}</small></div>`).join("")}
-    <div class="stats"><div><small>Probabilidad</small><b>${pct(p)}</b></div><div><small>Momio mínimo</small><b>${min.toFixed(2)}</b></div></div>
+      <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(when(x))}<br>${pay(x)}</small></div>`).join("")}
+    <div class="stats"><div><small>Probabilidad</small><b>${pct(p)}</b></div><div><small>Momio mínimo</small><b>${min.toFixed(2)}</b></div>
+      ${book ? `<div><small>Paga la casa</small><b class="${book >= min ? "good" : "bad"}">${book.toFixed(2)}</b></div>` : ""}</div>
+    ${book ? `<p class="verdict ${book >= min ? "good" : "bad"}">${book >= min ? "La casa paga el mínimo o más. Eso no garantiza ganancia." : "La casa paga menos que el mínimo: a la larga se pierde dinero."}</p>` : ""}
     <label for="${id}">¿Cuánto paga tu casa? (momio decimal)</label>
     <input id="${id}" inputmode="decimal" placeholder="Ej. ${(min + .1).toFixed(2)}" data-min="${min}">
     <div class="verdict" id="${id}-v" aria-live="polite"></div></div>`;
@@ -91,6 +94,21 @@ const mark = s => `<span class="${MARK[s][1]}" title="${MARK[s][2]}">${MARK[s][0
 function tally(t) {
   const n = t.ganado + t.perdido;
   return `<b>${t.ganado}/${n}</b><small>${n ? Math.round(100 * t.ganado / n) + "% se cumplió" : "aún sin calificar"}${t.pendiente ? " · " + t.pendiente + " pendientes" : ""}</small>`;
+}
+const APPROX = ["1X", "X2", "12"];   // doble oportunidad: momio aproximado a partir del 1X2
+const units = u => `${u > 0 ? "+" : u < 0 ? "−" : ""}${Math.abs(u).toFixed(2)} u`;
+function pay(x) {
+  const min = 1 / x.p;
+  if (!x.odds) return `mínimo ${min.toFixed(2)} · sin momio de la casa`;
+  return `<span class="${x.odds >= min ? "good" : "bad"}">paga ${APPROX.includes(x.key) ? "≈" : ""}${x.odds.toFixed(2)}</span> · mínimo ${min.toFixed(2)}`;
+}
+function money(t) {
+  if (!t || !t.bets) return `<b>—</b><small>aún no hay apuestas con momio calificadas</small>`;
+  return `<b class="${t.profit >= 0 ? "good" : "bad"}">${units(t.profit)}</b><small>en ${t.bets} con momio · ROI ${t.profit >= 0 ? "+" : ""}${(100 * t.profit / t.bets).toFixed(1)}%</small>`;
+}
+function valueMoney(t) {
+  if (!t || !t.value_bets) return "ninguna calificada todavía";
+  return `<span class="${t.value_profit >= 0 ? "good" : "bad"}">${units(t.value_profit)}</span> en ${t.value_bets}`;
 }
 const ORDER = ["todas", "futbol", "champions", "nfl", "mlb"];
 let data = null, sport = "todas";
@@ -111,13 +129,18 @@ function recordSection(d) {
   rec.forEach(e => (days[e.made] = days[e.made] || []).push(e));
   const day = s => { const t = new Date(s + "T12:00:00").toLocaleDateString("es", {weekday: "long", day: "numeric", month: "long"}); return t[0].toUpperCase() + t.slice(1); };
   const legLine = x => `<div class="row"><span>${mark(x.status)} ${esc(x.pick)}</span><span class="pct">${x.score ? esc(x.score) : pct(x.p)}</span></div>
-    <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(x.league)}</small>`;
+    <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(x.league)}${x.odds ? ` · pagaba ${x.odds.toFixed(2)}` : ""}</small>`;
+  const result = e => e.pnl === null || e.pnl === undefined ? "" : `<small class="${e.pnl >= 0 ? "good" : "bad"}">${units(e.pnl)}${e.value ? "" : " · pagaba menos que el mínimo"}</small>`;
   const entry = e => e.type === "single"
-    ? `<div class="bet">${legLine(e.legs[0])}</div>`
-    : `<div class="bet"><div class="row"><span class="pick">${mark(e.status)} Parlay ${e.type === "parlay_top" ? "más probable" : "intermedio"}</span><span class="pct">${pct(e.legs.reduce((a, x) => a * x.p, 1))}</span></div>
-       <div class="sub">${e.legs.map(legLine).join("")}</div></div>`;
+    ? `<div class="bet">${legLine(e.legs[0])}${result(e)}</div>`
+    : `<div class="bet"><div class="row"><span class="pick">${mark(e.status)} Parlay ${e.type === "parlay_top" ? "más probable" : "intermedio"}${sportOf(e) === "todas" ? " (mezclado)" : ""}</span><span class="pct">${pct(e.legs.reduce((a, x) => a * x.p, 1))}</span></div>
+       ${result(e)}<div class="sub">${e.legs.map(legLine).join("")}</div></div>`;
   return `<h2>Lo que te recomendé</h2>
     <div class="card"><div class="stats first"><div><small>Individuales</small>${tally(sum.singles)}</div><div><small>Parlays</small>${tally(sum.parlays)}</div></div>
+    <div class="stats"><div><small>Ganancia individuales</small>${money(sum.singles)}</div><div><small>Ganancia parlays</small>${money(sum.parlays)}</div></div>
+    <p class="muted">Si apostabas 1 unidad (u) a cada una con el momio de la casa. Ejemplo: con $100 por apuesta, +2.50 u son +$250.
+      Sólo las que pagaban el mínimo: individuales ${valueMoney(sum.singles)}; parlays ${valueMoney(sum.parlays)}.
+      En fútbol el momio es el promedio del mercado; el de doble oportunidad (≈) se calcula del 1X2, y más de 1.5 o ambos anotan no tienen momio gratis, así que no cuentan aquí.</p>
     <p class="muted">✓ se cumplió · ✗ no se cumplió · ↺ se devolvió (empate con la línea) · · pendiente. El número de la derecha es el marcador final o, si no se ha jugado, la probabilidad.</p></div>
     ${Object.entries(days).map(([k, es]) => `<details class="card day"${k === rec[0].made ? " open" : ""}><summary>${esc(day(k))}
       <small>${es.filter(e => e.status === "ganado").length}/${es.filter(e => e.status === "ganado" || e.status === "perdido").length}</small></summary>
@@ -145,7 +168,7 @@ function render() {
     <h2>Apuestas más probables</h2>
     <div class="card">${top.length ? top.slice(0, 10).map((x, i) => `<div class="${i ? "bet" : ""}">
       <div class="row"><span class="pick">${esc(x.pick)}</span><span class="pct">${pct(x.p)}</span></div>
-      <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(x.league)}<br>${esc(when(x))} · mínimo ${(1 / x.p).toFixed(2)}</small>${meter(x.p)}</div>`).join("") : `<p class="muted">${empty}</p>`}</div>
+      <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(x.league)}<br>${esc(when(x))} · ${pay(x)}</small>${meter(x.p)}</div>`).join("") : `<p class="muted">${empty}</p>`}</div>
     ${recordSection(d)}
     ${historySection((d.history || {})[sport])}`;
   app.querySelectorAll(".tabs button").forEach(b => b.onclick = () => {

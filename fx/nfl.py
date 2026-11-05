@@ -158,10 +158,13 @@ def selections(today: dt.date, session=None) -> dict:
             ok = [x for x in ls if lo <= x["p"] <= hi]
             if ok:
                 x = max(ok, key=lambda x: x["p"])
-                best[name].append({**base, "pick": x["pick"], "key": x["key"], "p": round(x["p"], 4)})
-    results = {g["id"]: (g["hs"], g["as"]) for g in gs if g["hs"] is not None and g["season"] >= today.year - 1}
+                best[name].append({**base, "pick": x["pick"], "key": x["key"], "p": round(x["p"], 4),
+                                   "odds": round(x["odds"], 3) if x["odds"] else None})
+    recent = [g for g in gs if g["season"] >= today.year - 1]
+    results = {g["id"]: (g["hs"], g["as"]) for g in recent if g["hs"] is not None}
+    prices = {g["id"]: {x["key"]: round(x["odds"], 3) for x in legs(r, g) if x["odds"]} for g in recent}
     return {"matches": len(upcoming), "top": sorted(best["top"], key=lambda x: -x["p"]),
-            "mid": sorted(best["mid"], key=lambda x: -x["p"]), "results": results}
+            "mid": sorted(best["mid"], key=lambda x: -x["p"]), "results": results, "prices": prices}
 
 
 def hit(key: str, hs: int, as_: int):

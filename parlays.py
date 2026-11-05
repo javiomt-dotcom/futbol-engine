@@ -39,6 +39,25 @@ def pick_name(key: str, home: str, away: str) -> str:
             "u2.5": "Menos de 2.5 goles", "btts": "Ambos anotan", "nobtts": "No anotan ambos"}[key]
 
 
+APPROX = ("1X", "X2", "12")      # doble oportunidad: se calcula del 1X2, ninguna fuente gratis la publica
+
+
+def book_odds(book: dict, key: str) -> float | None:
+    """Momio de la casa para una selección. La doble oportunidad se aproxima juntando las dos opciones del 1X2
+    (conserva el margen de la casa). Más/menos de 1.5 y ambos anotan no tienen fuente."""
+    if key in book:
+        return round(book[key], 3)
+    if key in APPROX and all(k in book for k in key):
+        return round(1 / sum(1 / book[k] for k in key), 3)
+    return None
+
+
+def market_odds(m: dict, key: str) -> float | None:
+    """Momio promedio del mercado de football-data, que trae 1X2 y más/menos de 2.5."""
+    book = dict(zip(("1", "X", "2"), m.get("avg_1x2") or ())) | dict(zip(("o2.5", "u2.5"), m.get("avg_ou") or ()))
+    return book_odds(book, key)
+
+
 def hit(key: str, hg: int, ag: int) -> bool:
     """Si la selección se cumplió con ese marcador."""
     return {"1": hg > ag, "X": hg == ag, "2": hg < ag, "1X": hg >= ag, "X2": hg <= ag, "12": hg != ag,
@@ -55,7 +74,8 @@ def best_per_match(fixtures: list[dict], fitted: dict, min_p: float = 0.0, max_p
             continue
         ok = [x for x in legs_of(mdl, f["home"], f["away"]) if min_p <= x["p"] <= max_p]
         if ok:
-            out.append({**max(ok, key=lambda x: x["p"]), "league": f["league"], "date": f["date"], "time": f.get("time", ""),
+            best = max(ok, key=lambda x: x["p"])
+            out.append({**best, "odds": market_odds(f, best["key"]), "league": f["league"], "date": f["date"], "time": f.get("time", ""),
                         "home": f["home"], "away": f["away"]})
     return sorted(out, key=lambda x: -x["p"])
 
