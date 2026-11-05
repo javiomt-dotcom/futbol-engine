@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T08:10:23Z",
+ "generated_at": "2026-11-05T12:53:02Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -56,7 +56,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7262,
-     "odds": 1.192
+     "odds": 1.174
     },
     {
      "sport": "nfl",
@@ -121,7 +121,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.639,
-     "odds": 1.444
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -147,7 +147,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6287,
-     "odds": 1.645
+     "odds": 1.602
     },
     {
      "sport": "nfl",
@@ -253,7 +253,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7262,
-     "odds": 1.192
+     "odds": 1.174
     },
     {
      "sport": "nfl",
@@ -318,7 +318,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.639,
-     "odds": 1.444
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -344,7 +344,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6287,
-     "odds": 1.645
+     "odds": 1.602
     },
     {
      "sport": "nfl",
@@ -482,7 +482,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7262,
-     "odds": 1.192
+     "odds": 1.174
     },
     {
      "sport": "nfl",
@@ -547,7 +547,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.639,
-     "odds": 1.444
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -573,7 +573,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6287,
-     "odds": 1.645
+     "odds": 1.602
     },
     {
      "sport": "nfl",
@@ -679,7 +679,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7262,
-     "odds": 1.192
+     "odds": 1.174
     },
     {
      "sport": "nfl",
@@ -744,7 +744,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.639,
-     "odds": 1.444
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -770,7 +770,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6287,
-     "odds": 1.645
+     "odds": 1.602
     },
     {
      "sport": "nfl",
