@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T12:53:02Z",
+ "generated_at": "2026-11-05T18:42:35Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -30,7 +30,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:H",
      "p": 0.7531,
-     "odds": 1.187
+     "odds": 1.192
     },
     {
      "sport": "nfl",
@@ -43,7 +43,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7368,
-     "odds": 1.167
+     "odds": 1.174
     },
     {
      "sport": "nfl",
@@ -56,7 +56,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7262,
-     "odds": 1.174
+     "odds": 1.2
     },
     {
      "sport": "nfl",
@@ -108,7 +108,7 @@
      "pick": "Menos de 45.5 puntos",
      "key": "ou:u:45.5",
      "p": 0.6472,
-     "odds": 1.952
+     "odds": 1.893
     },
     {
      "sport": "nfl",
@@ -147,7 +147,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6287,
-     "odds": 1.602
+     "odds": 1.588
     },
     {
      "sport": "nfl",
@@ -160,7 +160,7 @@
      "pick": "Gana Chicago",
      "key": "ml:H",
      "p": 0.6115,
-     "odds": 1.328
+     "odds": 1.336
     },
     {
      "sport": "nfl",
@@ -199,7 +199,7 @@
      "pick": "Minnesota +3.5",
      "key": "sp:H:3.5",
      "p": 0.5668,
-     "odds": 1.847
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -227,7 +227,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7368,
-     "odds": 1.167
+     "odds": 1.174
     },
     {
      "sport": "nfl",
@@ -253,7 +253,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7262,
-     "odds": 1.174
+     "odds": 1.2
     },
     {
      "sport": "nfl",
@@ -305,7 +305,7 @@
      "pick": "Menos de 45.5 puntos",
      "key": "ou:u:45.5",
      "p": 0.6472,
-     "odds": 1.952
+     "odds": 1.893
     },
     {
      "sport": "nfl",
@@ -344,7 +344,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6287,
-     "odds": 1.602
+     "odds": 1.588
     },
     {
      "sport": "nfl",
@@ -357,7 +357,7 @@
      "pick": "Gana Chicago",
      "key": "ml:H",
      "p": 0.6115,
-     "odds": 1.328
+     "odds": 1.336
     },
     {
      "sport": "nfl",
@@ -396,7 +396,7 @@
      "pick": "Minnesota +3.5",
      "key": "sp:H:3.5",
      "p": 0.5668,
-     "odds": 1.847
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -456,7 +456,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:H",
      "p": 0.7531,
-     "odds": 1.187
+     "odds": 1.192
     },
     {
      "sport": "nfl",
@@ -469,7 +469,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7368,
-     "odds": 1.167
+     "odds": 1.174
     },
     {
      "sport": "nfl",
@@ -482,7 +482,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7262,
-     "odds": 1.174
+     "odds": 1.2
     },
     {
      "sport": "nfl",
@@ -534,7 +534,7 @@
      "pick": "Menos de 45.5 puntos",
      "key": "ou:u:45.5",
      "p": 0.6472,
-     "odds": 1.952
+     "odds": 1.893
     },
     {
      "sport": "nfl",
@@ -573,7 +573,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6287,
-     "odds": 1.602
+     "odds": 1.588
     },
     {
      "sport": "nfl",
@@ -586,7 +586,7 @@
      "pick": "Gana Chicago",
      "key": "ml:H",
      "p": 0.6115,
-     "odds": 1.328
+     "odds": 1.336
     },
     {
      "sport": "nfl",
@@ -625,7 +625,7 @@
      "pick": "Minnesota +3.5",
      "key": "sp:H:3.5",
      "p": 0.5668,
-     "odds": 1.847
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -653,7 +653,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7368,
-     "odds": 1.167
+     "odds": 1.174
     },
     {
      "sport": "nfl",
@@ -679,7 +679,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7262,
-     "odds": 1.174
+     "odds": 1.2
     },
     {
      "sport": "nfl",
@@ -731,7 +731,7 @@
      "pick": "Menos de 45.5 puntos",
      "key": "ou:u:45.5",
      "p": 0.6472,
-     "odds": 1.952
+     "odds": 1.893
     },
     {
      "sport": "nfl",
@@ -770,7 +770,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6287,
-     "odds": 1.602
+     "odds": 1.588
     },
     {
      "sport": "nfl",
@@ -783,7 +783,7 @@
      "pick": "Gana Chicago",
      "key": "ml:H",
      "p": 0.6115,
-     "odds": 1.328
+     "odds": 1.336
     },
     {
      "sport": "nfl",
@@ -822,7 +822,7 @@
      "pick": "Minnesota +3.5",
      "key": "sp:H:3.5",
      "p": 0.5668,
-     "odds": 1.847
+     "odds": 1.87
     },
     {
      "sport": "nfl",
