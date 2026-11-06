@@ -1110,5 +1110,325 @@
   "odds": 4.477,
   "value": true,
   "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-06",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T15:45:00Z",
+    "league": "Eredivisie",
+    "home": "Cambuur",
+    "away": "PSV Eindhoven",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9289,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-06",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-07",
+    "kickoff": "2026-11-07T20:05:00Z",
+    "league": "Ligue 1",
+    "home": "Paris SG",
+    "away": "Troyes",
+    "pick": "Paris SG o empate",
+    "key": "1X",
+    "p": 0.9209,
+    "odds": 0.987,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-06",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-07",
+    "kickoff": "2026-11-07T14:30:00Z",
+    "league": "Bundesliga",
+    "home": "Mainz",
+    "away": "Bayern Munich",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9169,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-06",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T16:00:00Z",
+    "league": "Escocia",
+    "home": "Celtic",
+    "away": "Kilmarnock",
+    "pick": "Celtic o empate",
+    "key": "1X",
+    "p": 0.9129,
+    "odds": 1.0,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-06",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T15:00:00Z",
+    "league": "Grecia",
+    "home": "AEK",
+    "away": "Levadeiakos",
+    "pick": "AEK o empate",
+    "key": "1X",
+    "p": 0.9041,
+    "odds": 0.983,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-06",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-07",
+    "kickoff": "2026-11-07T20:30:00Z",
+    "league": "Portugal",
+    "home": "Sp Lisbon",
+    "away": "Moreirense",
+    "pick": "Sp Lisbon o empate",
+    "key": "1X",
+    "p": 0.896,
+    "odds": 1.0,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-06",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-07",
+    "kickoff": "2026-11-07T14:30:00Z",
+    "league": "Bundesliga",
+    "home": "RB Leipzig",
+    "away": "Augsburg",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8953,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-06",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T13:00:00Z",
+    "league": "Turquía",
+    "home": "Corum",
+    "away": "Fenerbahce",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8891,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-06",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-07",
+    "kickoff": "2026-11-07T17:30:00Z",
+    "league": "Bundesliga",
+    "home": "Stuttgart",
+    "away": "Werder Bremen",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8867,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-06",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-07",
+    "kickoff": "2026-11-07T19:30:00Z",
+    "league": "Bundesliga 2",
+    "home": "Hertha",
+    "away": "Wolfsburg",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8791,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_top",
+  "made": "2026-11-06",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T15:45:00Z",
+    "league": "Eredivisie",
+    "home": "Cambuur",
+    "away": "PSV Eindhoven",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9289,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-07",
+    "kickoff": "2026-11-07T20:05:00Z",
+    "league": "Ligue 1",
+    "home": "Paris SG",
+    "away": "Troyes",
+    "pick": "Paris SG o empate",
+    "key": "1X",
+    "p": 0.9209,
+    "odds": 0.987,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-07",
+    "kickoff": "2026-11-07T14:30:00Z",
+    "league": "Bundesliga",
+    "home": "Mainz",
+    "away": "Bayern Munich",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9169,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_mid",
+  "made": "2026-11-06",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-07",
+    "kickoff": "2026-11-07T16:00:00Z",
+    "league": "Turquía",
+    "home": "Goztep",
+    "away": "Buyuksehyr",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.75,
+    "odds": 1.239,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-06",
+    "kickoff": "2026-11-06T19:00:00Z",
+    "league": "Ligue 2",
+    "home": "Montpellier",
+    "away": "Metz",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7499,
+    "odds": 1.242,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-07",
+    "kickoff": "2026-11-07T19:00:00Z",
+    "league": "Ligue 2",
+    "home": "Pau FC",
+    "away": "Nantes",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7497,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
  }
 ]
