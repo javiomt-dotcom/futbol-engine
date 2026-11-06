@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T12:49:37Z",
+ "generated_at": "2026-11-06T18:42:06Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -950,7 +950,7 @@
      "pick": "Gana Seattle",
      "key": "ml:H",
      "p": 0.7995,
-     "odds": 1.22
+     "odds": 1.213
     },
     {
      "sport": "futbol",
@@ -1840,7 +1840,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7053,
-     "odds": 1.174
+     "odds": 1.182
     },
     {
      "sport": "nfl",
@@ -1854,7 +1854,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7003,
-     "odds": 1.444
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -3222,7 +3222,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7053,
-     "odds": 1.174
+     "odds": 1.182
     },
     {
      "sport": "futbol",
@@ -3308,7 +3308,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7003,
-     "odds": 1.444
+     "odds": 1.459
     },
     {
      "sport": "futbol",
@@ -3914,7 +3914,7 @@
      "pick": "Seattle -8.5",
      "key": "sp:H:-8.5",
      "p": 0.5813,
-     "odds": 1.926
+     "odds": 1.909
     },
     {
      "sport": "futbol",
@@ -7719,7 +7719,7 @@
      "pick": "Gana Seattle",
      "key": "ml:H",
      "p": 0.7995,
-     "odds": 1.22
+     "odds": 1.213
     },
     {
      "sport": "nfl",
@@ -7733,7 +7733,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7053,
-     "odds": 1.174
+     "odds": 1.182
     },
     {
      "sport": "nfl",
@@ -7747,7 +7747,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7003,
-     "odds": 1.444
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -7903,7 +7903,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7053,
-     "odds": 1.174
+     "odds": 1.182
     },
     {
      "sport": "nfl",
@@ -7917,7 +7917,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7003,
-     "odds": 1.444
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -8043,7 +8043,7 @@
      "pick": "Seattle -8.5",
      "key": "sp:H:-8.5",
      "p": 0.5813,
-     "odds": 1.926
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -9217,7 +9217,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -9239,7 +9242,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 0.987,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -9261,7 +9267,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -9283,7 +9292,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.0,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -9305,7 +9317,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 0.983,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -9327,7 +9342,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.0,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -9349,7 +9367,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -9371,7 +9392,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -9393,7 +9417,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -9415,7 +9442,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -9465,7 +9495,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -9515,7 +9548,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   }
  ],
  "record_summary": {
