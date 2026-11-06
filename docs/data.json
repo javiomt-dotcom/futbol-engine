@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T04:01:39Z",
+ "generated_at": "2026-11-06T08:05:25Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -17,7 +17,7 @@
      "note": "QB: Brock Purdy vs Kirk Cousins",
      "pick": "Gana San Francisco",
      "key": "ml:H",
-     "p": 0.8878,
+     "p": 0.8848,
      "odds": 1.206
     },
     {
@@ -31,7 +31,7 @@
      "note": "QB: Tyler Shough vs Shedeur Sanders",
      "pick": "Gana New Orleans",
      "key": "ml:H",
-     "p": 0.8541,
+     "p": 0.8525,
      "odds": 1.617
     },
     {
@@ -45,7 +45,7 @@
      "note": "QB: Justin Herbert vs C.J. Stroud",
      "pick": "Gana Houston",
      "key": "ml:A",
-     "p": 0.8447,
+     "p": 0.8453,
      "odds": 1.42
     },
     {
@@ -59,7 +59,7 @@
      "note": "QB: Joe Milton III vs J.J. McCarthy",
      "pick": "Gana NY Giants",
      "key": "ml:A",
-     "p": 0.8086,
+     "p": 0.8099,
      "odds": 1.617
     },
     {
@@ -73,7 +73,7 @@
      "note": "QB: Drew Lock vs Gardner Minshew",
      "pick": "Gana Seattle",
      "key": "ml:H",
-     "p": 0.7989,
+     "p": 0.7995,
      "odds": 1.22
     },
     {
@@ -87,7 +87,7 @@
      "note": "QB: Patrick Mahomes vs Geno Smith",
      "pick": "Gana Kansas City",
      "key": "ml:H",
-     "p": 0.7064,
+     "p": 0.7053,
      "odds": 1.174
     },
     {
@@ -101,7 +101,7 @@
      "note": "QB: Jayden Daniels vs Matthew Stafford",
      "pick": "Gana LA Rams",
      "key": "ml:A",
-     "p": 0.6983,
+     "p": 0.7003,
      "odds": 1.444
     },
     {
@@ -115,7 +115,7 @@
      "note": "QB: Daniel Jones vs Dak Prescott",
      "pick": "Más de 51.5 puntos",
      "key": "ou:o:51.5",
-     "p": 0.693,
+     "p": 0.6927,
      "odds": 1.909
     },
     {
@@ -129,7 +129,7 @@
      "note": "QB: J.J. McCarthy vs Jayden Daniels",
      "pick": "Más de 44.5 puntos",
      "key": "ou:o:44.5",
-     "p": 0.6515,
+     "p": 0.6527,
      "odds": 1.909
     },
     {
@@ -143,7 +143,7 @@
      "note": "QB: Malik Willis vs Jared Goff",
      "pick": "Gana Detroit",
      "key": "ml:A",
-     "p": 0.651,
+     "p": 0.6515,
      "odds": 1.294
     },
     {
@@ -155,10 +155,10 @@
      "home": "New England",
      "away": "Green Bay",
      "note": "QB: Drake Maye vs Jordan Love",
-     "pick": "Green Bay +3",
-     "key": "sp:A:3",
-     "p": 0.6069,
-     "odds": 1.926
+     "pick": "Menos de 44.5 puntos",
+     "key": "ou:u:44.5",
+     "p": 0.605,
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -171,7 +171,7 @@
      "note": "QB: Michael Penix Jr. vs Joe Burrow",
      "pick": "Gana Cincinnati",
      "key": "ml:A",
-     "p": 0.6031,
+     "p": 0.6044,
      "odds": 1.588
     },
     {
@@ -185,7 +185,7 @@
      "note": "QB: Caleb Williams vs Baker Mayfield",
      "pick": "Tampa Bay +6",
      "key": "sp:A:6",
-     "p": 0.5976,
+     "p": 0.5993,
      "odds": 1.926
     },
     {
@@ -199,7 +199,7 @@
      "note": "QB: Bryce Young vs Bo Nix",
      "pick": "Más de 44.5 puntos",
      "key": "ou:o:44.5",
-     "p": 0.562,
+     "p": 0.5625,
      "odds": 1.98
     },
     {
@@ -213,8 +213,8 @@
      "note": "QB: Kyler Murray vs Josh Allen",
      "pick": "Minnesota +3",
      "key": "sp:H:3",
-     "p": 0.557,
-     "odds": 1.926
+     "p": 0.5563,
+     "odds": 1.98
     }
    ],
    "mid": [
@@ -229,7 +229,7 @@
      "note": "QB: Joe Milton III vs J.J. McCarthy",
      "pick": "NY Giants -3.5",
      "key": "sp:A:-3.5",
-     "p": 0.7295,
+     "p": 0.7311,
      "odds": 1.98
     },
     {
@@ -243,7 +243,7 @@
      "note": "QB: Justin Herbert vs C.J. Stroud",
      "pick": "Houston -6",
      "key": "sp:A:-6",
-     "p": 0.7142,
+     "p": 0.7151,
      "odds": 1.926
     },
     {
@@ -257,7 +257,7 @@
      "note": "QB: Patrick Mahomes vs Geno Smith",
      "pick": "Gana Kansas City",
      "key": "ml:H",
-     "p": 0.7064,
+     "p": 0.7053,
      "odds": 1.174
     },
     {
@@ -271,7 +271,7 @@
      "note": "QB: Jayden Daniels vs Matthew Stafford",
      "pick": "Gana LA Rams",
      "key": "ml:A",
-     "p": 0.6983,
+     "p": 0.7003,
      "odds": 1.444
     },
     {
@@ -285,7 +285,7 @@
      "note": "QB: Daniel Jones vs Dak Prescott",
      "pick": "Más de 51.5 puntos",
      "key": "ou:o:51.5",
-     "p": 0.693,
+     "p": 0.6927,
      "odds": 1.909
     },
     {
@@ -299,7 +299,7 @@
      "note": "QB: Brock Purdy vs Kirk Cousins",
      "pick": "San Francisco -10",
      "key": "sp:H:-10",
-     "p": 0.6801,
+     "p": 0.6746,
      "odds": 1.926
     },
     {
@@ -313,7 +313,7 @@
      "note": "QB: J.J. McCarthy vs Jayden Daniels",
      "pick": "Más de 44.5 puntos",
      "key": "ou:o:44.5",
-     "p": 0.6515,
+     "p": 0.6527,
      "odds": 1.909
     },
     {
@@ -327,7 +327,7 @@
      "note": "QB: Malik Willis vs Jared Goff",
      "pick": "Gana Detroit",
      "key": "ml:A",
-     "p": 0.651,
+     "p": 0.6515,
      "odds": 1.294
     },
     {
@@ -339,10 +339,10 @@
      "home": "New England",
      "away": "Green Bay",
      "note": "QB: Drake Maye vs Jordan Love",
-     "pick": "Green Bay +3",
-     "key": "sp:A:3",
-     "p": 0.6069,
-     "odds": 1.926
+     "pick": "Menos de 44.5 puntos",
+     "key": "ou:u:44.5",
+     "p": 0.605,
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -355,7 +355,7 @@
      "note": "QB: Michael Penix Jr. vs Joe Burrow",
      "pick": "Gana Cincinnati",
      "key": "ml:A",
-     "p": 0.6031,
+     "p": 0.6044,
      "odds": 1.588
     },
     {
@@ -369,7 +369,7 @@
      "note": "QB: Caleb Williams vs Baker Mayfield",
      "pick": "Tampa Bay +6",
      "key": "sp:A:6",
-     "p": 0.5976,
+     "p": 0.5993,
      "odds": 1.926
     },
     {
@@ -383,7 +383,7 @@
      "note": "QB: Tyler Shough vs Shedeur Sanders",
      "pick": "Menos de 42.5 puntos",
      "key": "ou:u:42.5",
-     "p": 0.5883,
+     "p": 0.5904,
      "odds": 1.909
     },
     {
@@ -397,7 +397,7 @@
      "note": "QB: Drew Lock vs Gardner Minshew",
      "pick": "Seattle -8.5",
      "key": "sp:H:-8.5",
-     "p": 0.5804,
+     "p": 0.5813,
      "odds": 1.926
     },
     {
@@ -411,7 +411,7 @@
      "note": "QB: Bryce Young vs Bo Nix",
      "pick": "Más de 44.5 puntos",
      "key": "ou:o:44.5",
-     "p": 0.562,
+     "p": 0.5625,
      "odds": 1.98
     },
     {
@@ -425,8 +425,8 @@
      "note": "QB: Kyler Murray vs Josh Allen",
      "pick": "Minnesota +3",
      "key": "sp:H:3",
-     "p": 0.557,
-     "odds": 1.926
+     "p": 0.5563,
+     "odds": 1.98
     }
    ],
    "status": null
@@ -460,7 +460,7 @@
      "note": "QB: Brock Purdy vs Kirk Cousins",
      "pick": "Gana San Francisco",
      "key": "ml:H",
-     "p": 0.8878,
+     "p": 0.8848,
      "odds": 1.206
     },
     {
@@ -474,7 +474,7 @@
      "note": "QB: Tyler Shough vs Shedeur Sanders",
      "pick": "Gana New Orleans",
      "key": "ml:H",
-     "p": 0.8541,
+     "p": 0.8525,
      "odds": 1.617
     },
     {
@@ -488,7 +488,7 @@
      "note": "QB: Justin Herbert vs C.J. Stroud",
      "pick": "Gana Houston",
      "key": "ml:A",
-     "p": 0.8447,
+     "p": 0.8453,
      "odds": 1.42
     },
     {
@@ -502,7 +502,7 @@
      "note": "QB: Joe Milton III vs J.J. McCarthy",
      "pick": "Gana NY Giants",
      "key": "ml:A",
-     "p": 0.8086,
+     "p": 0.8099,
      "odds": 1.617
     },
     {
@@ -516,7 +516,7 @@
      "note": "QB: Drew Lock vs Gardner Minshew",
      "pick": "Gana Seattle",
      "key": "ml:H",
-     "p": 0.7989,
+     "p": 0.7995,
      "odds": 1.22
     },
     {
@@ -530,7 +530,7 @@
      "note": "QB: Patrick Mahomes vs Geno Smith",
      "pick": "Gana Kansas City",
      "key": "ml:H",
-     "p": 0.7064,
+     "p": 0.7053,
      "odds": 1.174
     },
     {
@@ -544,7 +544,7 @@
      "note": "QB: Jayden Daniels vs Matthew Stafford",
      "pick": "Gana LA Rams",
      "key": "ml:A",
-     "p": 0.6983,
+     "p": 0.7003,
      "odds": 1.444
     },
     {
@@ -558,7 +558,7 @@
      "note": "QB: Daniel Jones vs Dak Prescott",
      "pick": "Más de 51.5 puntos",
      "key": "ou:o:51.5",
-     "p": 0.693,
+     "p": 0.6927,
      "odds": 1.909
     },
     {
@@ -572,7 +572,7 @@
      "note": "QB: J.J. McCarthy vs Jayden Daniels",
      "pick": "Más de 44.5 puntos",
      "key": "ou:o:44.5",
-     "p": 0.6515,
+     "p": 0.6527,
      "odds": 1.909
     },
     {
@@ -586,7 +586,7 @@
      "note": "QB: Malik Willis vs Jared Goff",
      "pick": "Gana Detroit",
      "key": "ml:A",
-     "p": 0.651,
+     "p": 0.6515,
      "odds": 1.294
     },
     {
@@ -598,10 +598,10 @@
      "home": "New England",
      "away": "Green Bay",
      "note": "QB: Drake Maye vs Jordan Love",
-     "pick": "Green Bay +3",
-     "key": "sp:A:3",
-     "p": 0.6069,
-     "odds": 1.926
+     "pick": "Menos de 44.5 puntos",
+     "key": "ou:u:44.5",
+     "p": 0.605,
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -614,7 +614,7 @@
      "note": "QB: Michael Penix Jr. vs Joe Burrow",
      "pick": "Gana Cincinnati",
      "key": "ml:A",
-     "p": 0.6031,
+     "p": 0.6044,
      "odds": 1.588
     },
     {
@@ -628,7 +628,7 @@
      "note": "QB: Caleb Williams vs Baker Mayfield",
      "pick": "Tampa Bay +6",
      "key": "sp:A:6",
-     "p": 0.5976,
+     "p": 0.5993,
      "odds": 1.926
     },
     {
@@ -642,7 +642,7 @@
      "note": "QB: Bryce Young vs Bo Nix",
      "pick": "Más de 44.5 puntos",
      "key": "ou:o:44.5",
-     "p": 0.562,
+     "p": 0.5625,
      "odds": 1.98
     },
     {
@@ -656,8 +656,8 @@
      "note": "QB: Kyler Murray vs Josh Allen",
      "pick": "Minnesota +3",
      "key": "sp:H:3",
-     "p": 0.557,
-     "odds": 1.926
+     "p": 0.5563,
+     "odds": 1.98
     }
    ],
    "mid": [
@@ -672,7 +672,7 @@
      "note": "QB: Joe Milton III vs J.J. McCarthy",
      "pick": "NY Giants -3.5",
      "key": "sp:A:-3.5",
-     "p": 0.7295,
+     "p": 0.7311,
      "odds": 1.98
     },
     {
@@ -686,7 +686,7 @@
      "note": "QB: Justin Herbert vs C.J. Stroud",
      "pick": "Houston -6",
      "key": "sp:A:-6",
-     "p": 0.7142,
+     "p": 0.7151,
      "odds": 1.926
     },
     {
@@ -700,7 +700,7 @@
      "note": "QB: Patrick Mahomes vs Geno Smith",
      "pick": "Gana Kansas City",
      "key": "ml:H",
-     "p": 0.7064,
+     "p": 0.7053,
      "odds": 1.174
     },
     {
@@ -714,7 +714,7 @@
      "note": "QB: Jayden Daniels vs Matthew Stafford",
      "pick": "Gana LA Rams",
      "key": "ml:A",
-     "p": 0.6983,
+     "p": 0.7003,
      "odds": 1.444
     },
     {
@@ -728,7 +728,7 @@
      "note": "QB: Daniel Jones vs Dak Prescott",
      "pick": "Más de 51.5 puntos",
      "key": "ou:o:51.5",
-     "p": 0.693,
+     "p": 0.6927,
      "odds": 1.909
     },
     {
@@ -742,7 +742,7 @@
      "note": "QB: Brock Purdy vs Kirk Cousins",
      "pick": "San Francisco -10",
      "key": "sp:H:-10",
-     "p": 0.6801,
+     "p": 0.6746,
      "odds": 1.926
     },
     {
@@ -756,7 +756,7 @@
      "note": "QB: J.J. McCarthy vs Jayden Daniels",
      "pick": "Más de 44.5 puntos",
      "key": "ou:o:44.5",
-     "p": 0.6515,
+     "p": 0.6527,
      "odds": 1.909
     },
     {
@@ -770,7 +770,7 @@
      "note": "QB: Malik Willis vs Jared Goff",
      "pick": "Gana Detroit",
      "key": "ml:A",
-     "p": 0.651,
+     "p": 0.6515,
      "odds": 1.294
     },
     {
@@ -782,10 +782,10 @@
      "home": "New England",
      "away": "Green Bay",
      "note": "QB: Drake Maye vs Jordan Love",
-     "pick": "Green Bay +3",
-     "key": "sp:A:3",
-     "p": 0.6069,
-     "odds": 1.926
+     "pick": "Menos de 44.5 puntos",
+     "key": "ou:u:44.5",
+     "p": 0.605,
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -798,7 +798,7 @@
      "note": "QB: Michael Penix Jr. vs Joe Burrow",
      "pick": "Gana Cincinnati",
      "key": "ml:A",
-     "p": 0.6031,
+     "p": 0.6044,
      "odds": 1.588
     },
     {
@@ -812,7 +812,7 @@
      "note": "QB: Caleb Williams vs Baker Mayfield",
      "pick": "Tampa Bay +6",
      "key": "sp:A:6",
-     "p": 0.5976,
+     "p": 0.5993,
      "odds": 1.926
     },
     {
@@ -826,7 +826,7 @@
      "note": "QB: Tyler Shough vs Shedeur Sanders",
      "pick": "Menos de 42.5 puntos",
      "key": "ou:u:42.5",
-     "p": 0.5883,
+     "p": 0.5904,
      "odds": 1.909
     },
     {
@@ -840,7 +840,7 @@
      "note": "QB: Drew Lock vs Gardner Minshew",
      "pick": "Seattle -8.5",
      "key": "sp:H:-8.5",
-     "p": 0.5804,
+     "p": 0.5813,
      "odds": 1.926
     },
     {
@@ -854,7 +854,7 @@
      "note": "QB: Bryce Young vs Bo Nix",
      "pick": "Más de 44.5 puntos",
      "key": "ou:o:44.5",
-     "p": 0.562,
+     "p": 0.5625,
      "odds": 1.98
     },
     {
@@ -868,8 +868,8 @@
      "note": "QB: Kyler Murray vs Josh Allen",
      "pick": "Minnesota +3",
      "key": "sp:H:3",
-     "p": 0.557,
-     "odds": 1.926
+     "p": 0.5563,
+     "odds": 1.98
     }
    ],
    "status": null
@@ -1518,15 +1518,15 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7258,
-     "status": "pendiente",
-     "score": null,
+     "status": "ganado",
+     "score": "10-33",
      "odds": 1.192
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.192,
    "value": false,
-   "pnl": null
+   "pnl": 0.192
   },
   {
    "sport": "nfl",
@@ -1786,8 +1786,8 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7258,
-     "status": "pendiente",
-     "score": null,
+     "status": "ganado",
+     "score": "10-33",
      "odds": 1.192
     }
    ],
@@ -1818,7 +1818,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.617,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -1842,7 +1845,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.617,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -1866,7 +1872,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.909,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -1922,7 +1931,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 2.769,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -1978,17 +1990,20 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 4.477,
+   "value": true,
+   "pnl": null
   }
  ],
  "record_summary": {
   "todas": {
    "singles": {
-    "ganado": 12,
+    "ganado": 13,
     "perdido": 3,
-    "pendiente": 13,
-    "bets": 8,
-    "profit": -1.13,
+    "pendiente": 12,
+    "bets": 9,
+    "profit": -0.93,
     "value_bets": 0,
     "value_profit": 0
    },
@@ -2044,11 +2059,11 @@
   },
   "nfl": {
    "singles": {
-    "ganado": 0,
+    "ganado": 1,
     "perdido": 0,
-    "pendiente": 13,
-    "bets": 0,
-    "profit": 0,
+    "pendiente": 12,
+    "bets": 1,
+    "profit": 0.19,
     "value_bets": 0,
     "value_profit": 0
    },
