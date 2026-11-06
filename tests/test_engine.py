@@ -101,12 +101,30 @@ def test_other_sports():
           for i, (h, a, hs, as_) in enumerate([("A", "B", 30, 10), ("B", "C", 20, 17), ("C", "A", 7, 28)] * 20)]
     r = nfl.fit(gs, dt.date(2025, 12, 1))
     assert r.expected("A", "C")[0] > r.expected("C", "A")[0]
-    ps = mlb.probs(r, "A", "C")
+    ps = mlb.probs(r, {"home": "A", "away": "C"})
     assert ps["home"] > .5 and abs(ps["home_rl"] + ps["away_rl"] - 1) < 1e-9 and ps["home_plus"] > ps["home"] > ps["home_rl"]
     rec = [{"sport": "nfl", "type": "single", "made": "2026-11-04", "status": "pendiente",
             "legs": [{"sport": "nfl", "id": "g1", "date": "2026-11-05", "home": "A", "away": "B", "key": "sp:H:-3", "p": .6, "status": "pendiente", "score": None}]}]
     assert export.grade(rec, [], dt.date(2026, 11, 6), {"nfl": {"g1": (24, 21)}}) == 1
     assert rec[0]["status"] == "anulado" and rec[0]["legs"][0]["score"] == "24-21" and rec[0]["pnl"] is None
+
+
+def test_key_players():
+    # A anota 30 con su titular y 14 con el suplente; el modelo debe notar la diferencia antes del partido.
+    rnd = random.Random(4)
+    gs = []
+    for i in range(120):
+        qb = "star" if i % 4 else "backup"
+        h, a = ("A", rnd.choice("BCD")) if i % 2 else (rnd.choice("BCD"), "A")
+        pts_a = 30 if qb == "star" else 14
+        hs, as_ = (pts_a, 20) if h == "A" else (20, pts_a)
+        gs.append({"date": dt.date(2025, 1, 1) + dt.timedelta(days=3 * i), "home": h, "away": a, "neutral": False, "hs": hs, "as": as_,
+                   "h_players": [(qb if h == "A" else f"q{h}", 1)], "a_players": [(qb if a == "A" else f"q{a}", 1)]})
+    r = nfl.fit(gs, dt.date(2026, 1, 1), ridge_player=1.0)
+    g = {"home": "A", "away": "B", "neutral": False, "a_players": [("qB", 1)]}
+    star, backup = r.expected_game({**g, "h_players": [("star", 1)]})[0], r.expected_game({**g, "h_players": [("backup", 1)]})[0]
+    assert star - backup > 8
+    assert abs(nfl.fit(gs, dt.date(2026, 1, 1), ridge_player=None).expected_game({**g, "h_players": [("backup", 1)]})[0] - star) < 6
 
 
 def test_profit():

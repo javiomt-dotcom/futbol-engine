@@ -81,7 +81,7 @@ function parlayCard(title, legs, id) {
   const book = legs.every(x => x.odds) ? legs.reduce((a, x) => a * x.odds, 1) : null;
   return `<div class="card"><h3>${title}</h3>
     ${legs.map(x => `<div class="leg"><div class="row"><span class="pick">${esc(x.pick)}</span><span class="pct">${pct(x.p)}</span></div>
-      <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(when(x))}<br>${pay(x)}</small></div>`).join("")}
+      <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(when(x))}${x.note ? `<br>${esc(x.note)}` : ""}<br>${pay(x)}</small></div>`).join("")}
     <div class="stats"><div><small>Probabilidad</small><b>${pct(p)}</b></div><div><small>Momio mínimo</small><b>${min.toFixed(2)}</b></div>
       ${book ? `<div><small>Paga la casa</small><b class="${book >= min ? "good" : "bad"}">${book.toFixed(2)}</b></div>` : ""}</div>
     ${book ? `<p class="verdict ${book >= min ? "good" : "bad"}">${book >= min ? "La casa paga el mínimo o más. Eso no garantiza ganancia." : "La casa paga menos que el mínimo: a la larga se pierde dinero."}</p>` : ""}
@@ -168,7 +168,7 @@ function render() {
     <h2>Apuestas más probables</h2>
     <div class="card">${top.length ? top.slice(0, 10).map((x, i) => `<div class="${i ? "bet" : ""}">
       <div class="row"><span class="pick">${esc(x.pick)}</span><span class="pct">${pct(x.p)}</span></div>
-      <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(x.league)}<br>${esc(when(x))} · ${pay(x)}</small>${meter(x.p)}</div>`).join("") : `<p class="muted">${empty}</p>`}</div>
+      <small>${esc(x.home)} vs ${esc(x.away)} · ${esc(x.league)}${x.note ? `<br>${esc(x.note)}` : ""}<br>${esc(when(x))} · ${pay(x)}</small>${meter(x.p)}</div>`).join("") : `<p class="muted">${empty}</p>`}</div>
     ${recordSection(d)}
     ${historySection((d.history || {})[sport])}`;
   app.querySelectorAll(".tabs button").forEach(b => b.onclick = () => {

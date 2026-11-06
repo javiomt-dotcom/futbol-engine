@@ -15,10 +15,10 @@ import numpy as np
 from fx import mlb, nfl
 
 DEV, TEST = range(2016, 2022), range(2022, 2026)
-GRID = [(hl, rd) for hl in (60, 120, 240) for rd in (10.0, 30.0, 100.0)]
+GRID = [(240, 30.0, rp) for rp in (None, 10.0, 30.0, 100.0)]    # rp=None: sin pitcher abridor
 
 
-def predictions(gs, seasons, hl, rd):
+def predictions(gs, seasons, hl, rd, rp=None):
     played = [g for g in gs if g["hs"] is not None]
     weeks = {}
     for g in played:
@@ -26,9 +26,9 @@ def predictions(gs, seasons, hl, rd):
             weeks.setdefault(g["date"] - dt.timedelta(days=g["date"].weekday()), []).append(g)
     out = []
     for monday in sorted(weeks):
-        r = mlb.fit(played, monday, half_life=hl, ridge=rd)
+        r = mlb.fit(played, monday, half_life=hl, ridge=rd, ridge_player=rp)
         for g in weeks[monday]:
-            h, a = r.expected(g["home"], g["away"])
+            h, a = r.expected_game(g)
             out.append({**g, "eh": h, "ea": a})
     return out
 
@@ -43,9 +43,7 @@ def dispersion(ps) -> float:
 def logloss(ps, k) -> float:
     ll = []
     for p in ps:
-        r = nfl.Ratings(0, 0, {}, {})
-        r.expected = lambda *_a, p=p: (p["eh"], p["ea"])
-        q = min(max(mlb.probs(r, p["home"], p["away"], k)["home"], 1e-6), 1 - 1e-6)
+        q = min(max(mlb.probs(nfl.Expected(p["eh"], p["ea"]), p, k)["home"], 1e-6), 1 - 1e-6)
         ll.append(-math.log(q if p["hs"] > p["as"] else 1 - q))
     return float(np.mean(ll))
 
@@ -53,9 +51,7 @@ def logloss(ps, k) -> float:
 def strategy(ps, k, lo, hi):
     picks, days = [], {}
     for p in ps:
-        r = nfl.Ratings(0, 0, {}, {})
-        r.expected = lambda *_a, p=p: (p["eh"], p["ea"])
-        ok = [x for x in mlb.legs(r, p, k) if lo <= x["p"] <= hi]
+        ok = [x for x in mlb.legs(nfl.Expected(p["eh"], p["ea"]), p, k) if lo <= x["p"] <= hi]
         if ok:
             x = max(ok, key=lambda x: x["p"])
             won = nfl.hit(x["key"], p["hs"], p["as"])
@@ -71,16 +67,16 @@ def main():
     for y in range(DEV.start - mlb.YEARS, TEST.stop):
         gs += mlb.season(y)
     best = None
-    for hl, rd in GRID:
-        ps = predictions(gs, DEV, hl, rd)
+    for hl, rd, rp in GRID:
+        ps = predictions(gs, DEV, hl, rd, rp)
         k = dispersion(ps)
         ll = logloss(ps, k)
-        print(f"desarrollo vida media {hl} ridge {rd}: log-loss {ll:.4f} (k {k:.1f})", flush=True)
+        print(f"desarrollo vida media {hl} ridge {rd} abridores {rp}: log-loss {ll:.4f} (k {k:.1f})", flush=True)
         if best is None or ll < best[0]:
-            best = (ll, hl, rd, k)
-    _, hl, rd, k = best
-    test = predictions(gs, TEST, hl, rd)
-    report = {"elegido": {"half_life": hl, "ridge": rd, "dispersion": round(k, 2)},
+            best = (ll, hl, rd, rp, k)
+    _, hl, rd, rp, k = best
+    test = predictions(gs, TEST, hl, rd, rp)
+    report = {"elegido": {"half_life": hl, "ridge": rd, "ridge_sp": rp, "dispersion": round(k, 2)},
               "prueba": {"partidos": len(test), "logloss_modelo": round(logloss(test, k), 4), "logloss_moneda": round(math.log(2), 4),
                          "Más probable": strategy(test, k, 0, 1), "Intermedio 55-75%": strategy(test, k, 0.55, 0.75)}}
     with open("backtest_mlb.json", "w", encoding="utf-8") as f:

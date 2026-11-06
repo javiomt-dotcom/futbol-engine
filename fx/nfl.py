@@ -1,6 +1,8 @@
-"""NFL: calendario, marcadores y líneas de nflverse; ratings de ataque y defensa con decaimiento temporal.
+"""NFL: calendario, marcadores, líneas y quarterbacks titulares de nflverse; ratings con decaimiento temporal.
 
-Cada marcador se modela como media + localía + ataque propio - defensa rival (mínimos cuadrados ponderados con ridge).
+Cada marcador = media + localía + ataque propio - defensa rival + efecto del quarterback titular
++ diferencia de días de descanso + estadio techado (ver fx/ratings.py). nflverse publica el quarterback
+previsto de la semana que viene, así que una lesión del titular ya se refleja antes del partido.
 El margen y el total se tratan como normales alrededor de lo esperado; su desviación sale del desarrollo.
 """
 from __future__ import annotations
@@ -13,16 +15,17 @@ import os
 
 import numpy as np
 
-from fx import data
+from fx import data, ratings
 
-URL = "https://github.com/nflverse/nfldata/raw/master/data/games.csv"
+URL ="https://github.com/nflverse/nfldata/raw/master/data/games.csv"
 PATH = os.path.join(data.CACHE, "nfl_games.csv")
 RENAMED = {"OAK": "LV", "SD": "LAC", "STL": "LA"}
 HALF_LIFE = 150      # días; elegidos por backtest_nfl.py con 2012-2021
 YEARS = 3
 RIDGE = 2.0
-SD_MARGIN = 13.42
-SD_TOTAL = 13.88
+RIDGE_QB = 16.0      # encoge el efecto de cada quarterback; elegido en backtest_nfl.py
+SD_MARGIN = 13.39
+SD_TOTAL = 13.84
 DAYS = 7
 NAMES = {"ARI": "Arizona", "ATL": "Atlanta", "BAL": "Baltimore", "BUF": "Buffalo", "CAR": "Carolina", "CHI": "Chicago",
          "CIN": "Cincinnati", "CLE": "Cleveland", "DAL": "Dallas", "DEN": "Denver", "DET": "Detroit", "GB": "Green Bay",
@@ -61,7 +64,16 @@ def parse(text: str) -> list[dict]:
                     "spread": _f(r.get("spread_line")), "total": _f(r.get("total_line")),
                     "ml_h": american(_f(r.get("home_moneyline"))), "ml_a": american(_f(r.get("away_moneyline"))),
                     "sp_h": american(_f(r.get("home_spread_odds"))), "sp_a": american(_f(r.get("away_spread_odds"))),
-                    "over": american(_f(r.get("over_odds"))), "under": american(_f(r.get("under_odds")))})
+                    "over": american(_f(r.get("over_odds"))), "under": american(_f(r.get("under_odds"))),
+                    "qb_h": r.get("home_qb_name") if r.get("home_qb_name") not in (None, "", "NA") else None,
+                    "qb_a": r.get("away_qb_name") if r.get("away_qb_name") not in (None, "", "NA") else None})
+        g = out[-1]
+        qb = lambda k: r.get(k) if r.get(k) not in (None, "", "NA") else None
+        rest = (_f(r.get("home_rest")) or 7) - (_f(r.get("away_rest")) or 7)
+        dome = 1.0 if r.get("roof") in ("dome", "closed") else 0.0
+        g["h_players"], g["a_players"] = [(qb("home_qb_id"), 1)], [(qb("away_qb_id"), 1)]
+        g["x_h"] = {"rest": max(-7, min(7, rest)) / 7, "dome": dome}
+        g["x_a"] = {"rest": -max(-7, min(7, rest)) / 7, "dome": dome}
     return sorted(out, key=lambda g: g["date"])
 
 
@@ -75,36 +87,19 @@ def games(refresh: bool = False, session=None) -> list[dict]:
         return parse(f.read())
 
 
-class Ratings:
-    def __init__(self, mu, hfa, off, de):
-        self.mu, self.hfa, self.off, self.de = mu, hfa, off, de
+class Expected:
+    """Marcador esperado ya calculado (lo usan los backtests para no reajustar)."""
+    def __init__(self, h: float, a: float):
+        self.h, self.a = h, a
 
-    def expected(self, home: str, away: str, neutral: bool = False) -> tuple[float, float]:
-        h = self.mu + (0 if neutral else self.hfa) + self.off.get(home, 0) - self.de.get(away, 0)
-        a = self.mu + self.off.get(away, 0) - self.de.get(home, 0)
-        return h, a
+    def expected_game(self, g: dict) -> tuple[float, float]:
+        return self.h, self.a
 
 
-def fit(played: list[dict], asof: dt.date, half_life: float = HALF_LIFE, years: int = YEARS, ridge: float = RIDGE) -> Ratings:
-    """Sólo usa partidos anteriores a `asof`."""
-    gs = [g for g in played if g["hs"] is not None and g["date"] < asof and (asof - g["date"]).days <= 365 * years]
-    teams = sorted({g["home"] for g in gs} | {g["away"] for g in gs})
-    ix = {t: i for i, t in enumerate(teams)}
-    n = len(teams)
-    rows, y, w = [], [], []
-    for g in gs:
-        wt = 0.5 ** ((asof - g["date"]).days / half_life)
-        for att, dfn, pts, home in ((g["home"], g["away"], g["hs"], True), (g["away"], g["home"], g["as"], False)):
-            r = np.zeros(2 + 2 * n)
-            r[0], r[1] = 1, 1 if home and not g["neutral"] else 0
-            r[2 + ix[att]], r[2 + n + ix[dfn]] = 1, -1
-            rows.append(r), y.append(pts), w.append(wt)
-    if not rows:
-        return Ratings(22.0, 1.5, {}, {})
-    X, y, sw = np.array(rows), np.array(y, float), np.sqrt(np.array(w))
-    reg = np.hstack([np.zeros((2 * n, 2)), np.eye(2 * n) * math.sqrt(ridge)])
-    beta = np.linalg.lstsq(np.vstack([X * sw[:, None], reg]), np.concatenate([y * sw, np.zeros(2 * n)]), rcond=None)[0]
-    return Ratings(beta[0], beta[1], {t: beta[2 + i] for t, i in ix.items()}, {t: beta[2 + n + i] for t, i in ix.items()})
+def fit(played: list[dict], asof: dt.date, half_life: float = HALF_LIFE, years: int = YEARS, ridge: float = RIDGE,
+        ridge_player: float | None = RIDGE_QB) -> ratings.Ratings:
+    """Sólo usa partidos anteriores a `asof`. Con ridge_player=None ignora quarterbacks, descanso y techo."""
+    return ratings.fit(played, asof, half_life, years, ridge, ridge_player)
 
 
 def _phi(x: float) -> float:
@@ -113,7 +108,7 @@ def _phi(x: float) -> float:
 
 def legs(r: Ratings, g: dict, sd_m: float = SD_MARGIN, sd_t: float = SD_TOTAL) -> list[dict]:
     """Probabilidad de cada selección. El spread y el total usan la línea del mercado; sin línea no se ofrecen."""
-    h, a = r.expected(g["home"], g["away"], g["neutral"])
+    h, a = r.expected_game(g)
     m, t = h - a, h + a
     home, away = NAMES.get(g["home"], g["home"]), NAMES.get(g["away"], g["away"])
     p_home = _phi(m / sd_m)
@@ -153,7 +148,8 @@ def selections(today: dt.date, session=None) -> dict:
     for g in upcoming:
         ls = legs(r, g)
         base = {"sport": "nfl", "id": g["id"], "date": g["date"].isoformat(), "kickoff": kickoff_utc(g["date"], g["time"]),
-                "league": "NFL", "home": NAMES.get(g["home"], g["home"]), "away": NAMES.get(g["away"], g["away"])}
+                "league": "NFL", "home": NAMES.get(g["home"], g["home"]), "away": NAMES.get(g["away"], g["away"]),
+                "note": f"QB: {g['qb_h'] or '?'} vs {g['qb_a'] or '?'}"}
         for name, lo, hi in (("top", 0, 1), ("mid", 0.55, 0.75)):
             ok = [x for x in ls if lo <= x["p"] <= hi]
             if ok:

@@ -16,8 +16,9 @@ Calcula probabilidades de las cinco grandes ligas europeas con un modelo Dixon-C
 ### Otros deportes (sólo probabilidad, sin buscar valor)
 
 - `fx/champions.py`: Champions League. La fuerza de cada equipo sale sólo de partidos europeos (Champions, Europa, Conference y previas) de ESPN; el historial vive en `euro_history.json`. Backtest: `backtest_champions.py`.
-- `fx/nfl.py`: NFL con calendario, marcadores y líneas de nflverse; ratings de ataque y defensa. Backtest con momios de cierre: `backtest_nfl.py`.
-- `fx/mlb.py`: MLB con la API pública de MLB; no usa al pitcher abridor. Backtest: `backtest_mlb.py`.
+- `fx/nfl.py`: NFL con calendario, marcadores, líneas y quarterbacks titulares de nflverse; ratings de ataque y defensa más quarterback, descanso y estadio techado (`fx/ratings.py`). Backtest con momios de cierre: `backtest_nfl.py`.
+- `fx/mlb.py`: MLB con la API pública de MLB, incluido el pitcher abridor. Backtest: `backtest_mlb.py`.
+- Fútbol sin alineaciones ni lesiones: no hay historial gratis para comprobar si mejoran el modelo.
 - Para Champions y MLB no hay momios históricos gratis: sus backtests miden acierto y calibración, no ganancia.
 
 ## Uso

@@ -14,10 +14,10 @@ import numpy as np
 from fx import nfl
 
 DEV, TEST = range(2012, 2022), range(2022, 2026)
-GRID = [(hl, rd) for hl in (60, 100, 150, 300) for rd in (0.5, 2.0, 8.0)]
+GRID = [(hl, 2.0, rp) for hl in (150, 300) for rp in (None, 1.0, 4.0, 16.0)]    # rp=None: sin quarterbacks, descanso ni techo
 
 
-def predictions(gs: list[dict], seasons, half_life, ridge) -> list[dict]:
+def predictions(gs: list[dict], seasons, half_life, ridge, ridge_player=None) -> list[dict]:
     played = [g for g in gs if g["hs"] is not None]
     out, weeks = [], {}
     for g in played:
@@ -25,9 +25,9 @@ def predictions(gs: list[dict], seasons, half_life, ridge) -> list[dict]:
             weeks.setdefault((g["season"], g["week"], g["type"]), []).append(g)
     for key in sorted(weeks, key=lambda k: min(g["date"] for g in weeks[k])):
         wk = weeks[key]
-        r = nfl.fit(played, min(g["date"] for g in wk), half_life=half_life, ridge=ridge)
+        r = nfl.fit(played, min(g["date"] for g in wk), half_life=half_life, ridge=ridge, ridge_player=ridge_player)
         for g in wk:
-            h, a = r.expected(g["home"], g["away"], g["neutral"])
+            h, a = r.expected_game(g)
             out.append({**g, "m": h - a, "t": h + a})
     return out
 
@@ -69,8 +69,7 @@ def strategies(ps: list[dict], sd_m: float, sd_t: float, legs_n: int = 3) -> dic
     for name, lo, hi in (("Más probable", 0.0, 1.0), ("Intermedio 55-75%", 0.55, 0.75)):
         singles, weeks = [], {}
         for g in ps:
-            r = nfl.Ratings(0, 0, {}, {})
-            r.expected = lambda *_a, g=g: ((g["m"] + g["t"]) / 2, (g["t"] - g["m"]) / 2)
+            r = nfl.Expected((g["m"] + g["t"]) / 2, (g["t"] - g["m"]) / 2)
             ok = [x for x in nfl.legs(r, g, sd_m, sd_t) if lo <= x["p"] <= hi and x["odds"]]
             if not ok:
                 continue
@@ -98,16 +97,16 @@ def strategies(ps: list[dict], sd_m: float, sd_t: float, legs_n: int = 3) -> dic
 def main():
     gs = nfl.games(refresh="--refresh" in sys.argv)
     best = None
-    for hl, rd in GRID:
-        ps = predictions(gs, DEV, hl, rd)
+    for hl, rd, rp in GRID:
+        ps = predictions(gs, DEV, hl, rd, rp)
         sd_m, sd_t = sds(ps)
         ll = logloss(ps, sd_m)
-        print(f"desarrollo vida media {hl} ridge {rd}: log-loss {ll:.4f} (sd margen {sd_m:.1f}, total {sd_t:.1f})", flush=True)
+        print(f"desarrollo vida media {hl} ridge {rd} quarterbacks {rp}: log-loss {ll:.4f} (sd margen {sd_m:.1f}, total {sd_t:.1f})", flush=True)
         if best is None or ll < best[0]:
-            best = (ll, hl, rd, sd_m, sd_t)
-    _, hl, rd, sd_m, sd_t = best
-    test = predictions(gs, TEST, hl, rd)
-    report = {"elegido": {"half_life": hl, "ridge": rd, "sd_margin": round(sd_m, 2), "sd_total": round(sd_t, 2)},
+            best = (ll, hl, rd, rp, sd_m, sd_t)
+    _, hl, rd, rp, sd_m, sd_t = best
+    test = predictions(gs, TEST, hl, rd, rp)
+    report = {"elegido": {"half_life": hl, "ridge": rd, "ridge_qb": rp, "sd_margin": round(sd_m, 2), "sd_total": round(sd_t, 2)},
               "prueba": {"partidos": len(test), "logloss_modelo": round(logloss(test, sd_m), 4), "logloss_mercado": round(market_logloss(test), 4),
                          **strategies(test, sd_m, sd_t)}}
     with open("backtest_nfl.json", "w", encoding="utf-8") as f:
