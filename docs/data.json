@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T12:37:00Z",
+ "generated_at": "2026-11-07T18:29:31Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -346,7 +346,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.8453,
-     "odds": 1.42
+     "odds": 1.408
     },
     {
      "sport": "futbol",
@@ -744,7 +744,7 @@
      "pick": "Gana NY Giants",
      "key": "ml:A",
      "p": 0.8099,
-     "odds": 1.645
+     "odds": 1.617
     },
     {
      "sport": "futbol",
@@ -1624,7 +1624,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7052,
-     "odds": 1.213
+     "odds": 1.206
     },
     {
      "sport": "nfl",
@@ -1704,7 +1704,7 @@
      "pick": "Gana Detroit",
      "key": "ml:A",
      "p": 0.6514,
-     "odds": 1.345
+     "odds": 1.328
     },
     {
      "sport": "nfl",
@@ -1746,7 +1746,7 @@
      "pick": "Tampa Bay +6",
      "key": "sp:A:6",
      "p": 0.5994,
-     "odds": 1.926
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -2826,7 +2826,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7052,
-     "odds": 1.213
+     "odds": 1.206
     },
     {
      "sport": "futbol",
@@ -3208,7 +3208,7 @@
      "pick": "Gana Detroit",
      "key": "ml:A",
      "p": 0.6514,
-     "odds": 1.345
+     "odds": 1.328
     },
     {
      "sport": "futbol",
@@ -3394,7 +3394,7 @@
      "pick": "Tampa Bay +6",
      "key": "sp:A:6",
      "p": 0.5994,
-     "odds": 1.926
+     "odds": 1.909
     },
     {
      "sport": "futbol",
@@ -6731,7 +6731,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.8453,
-     "odds": 1.42
+     "odds": 1.408
     },
     {
      "sport": "nfl",
@@ -6745,7 +6745,7 @@
      "pick": "Gana NY Giants",
      "key": "ml:A",
      "p": 0.8099,
-     "odds": 1.645
+     "odds": 1.617
     },
     {
      "sport": "nfl",
@@ -6773,7 +6773,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7052,
-     "odds": 1.213
+     "odds": 1.206
     },
     {
      "sport": "nfl",
@@ -6829,7 +6829,7 @@
      "pick": "Gana Detroit",
      "key": "ml:A",
      "p": 0.6514,
-     "odds": 1.345
+     "odds": 1.328
     },
     {
      "sport": "nfl",
@@ -6871,7 +6871,7 @@
      "pick": "Tampa Bay +6",
      "key": "sp:A:6",
      "p": 0.5994,
-     "odds": 1.926
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -6943,7 +6943,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7052,
-     "odds": 1.213
+     "odds": 1.206
     },
     {
      "sport": "nfl",
@@ -7013,7 +7013,7 @@
      "pick": "Gana Detroit",
      "key": "ml:A",
      "p": 0.6514,
-     "odds": 1.345
+     "odds": 1.328
     },
     {
      "sport": "nfl",
@@ -7055,7 +7055,7 @@
      "pick": "Tampa Bay +6",
      "key": "sp:A:6",
      "p": 0.5994,
-     "odds": 1.926
+     "odds": 1.909
     },
     {
      "sport": "nfl",
