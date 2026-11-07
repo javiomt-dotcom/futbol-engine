@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T07:47:48Z",
+ "generated_at": "2026-11-07T12:37:00Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -1624,7 +1624,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7052,
-     "odds": 1.22
+     "odds": 1.213
     },
     {
      "sport": "nfl",
@@ -1638,7 +1638,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7002,
-     "odds": 1.459
+     "odds": 1.435
     },
     {
      "sport": "nfl",
@@ -2826,7 +2826,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7052,
-     "odds": 1.22
+     "odds": 1.213
     },
     {
      "sport": "futbol",
@@ -2900,7 +2900,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7002,
-     "odds": 1.459
+     "odds": 1.435
     },
     {
      "sport": "futbol",
@@ -6773,7 +6773,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7052,
-     "odds": 1.22
+     "odds": 1.213
     },
     {
      "sport": "nfl",
@@ -6787,7 +6787,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7002,
-     "odds": 1.459
+     "odds": 1.435
     },
     {
      "sport": "nfl",
@@ -6943,7 +6943,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.7052,
-     "odds": 1.22
+     "odds": 1.213
     },
     {
      "sport": "nfl",
@@ -6957,7 +6957,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7002,
-     "odds": 1.459
+     "odds": 1.435
     },
     {
      "sport": "nfl",
@@ -8641,7 +8641,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -8697,7 +8700,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 4.394,
+   "value": true,
+   "pnl": null
   }
  ],
  "record_summary": {
