@@ -1466,5 +1466,111 @@
   "odds": null,
   "value": null,
   "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_mid",
+  "made": "2026-11-07",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-07",
+    "kickoff": "2026-11-07T16:00:00Z",
+    "league": "Turquía",
+    "home": "Goztep",
+    "away": "Buyuksehyr",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.75,
+    "odds": 1.239,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-07",
+    "kickoff": "2026-11-07T19:00:00Z",
+    "league": "Ligue 2",
+    "home": "Pau FC",
+    "away": "Nantes",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7497,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T13:30:00Z",
+    "league": "Eredivisie",
+    "home": "Twente",
+    "away": "Ajax",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7492,
+    "odds": 1.231,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-07",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_09_NYG_PHI",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T18:00:00Z",
+    "league": "NFL",
+    "home": "Filadelfia",
+    "away": "NY Giants",
+    "note": "QB: Joe Milton III vs J.J. McCarthy",
+    "pick": "NY Giants -3",
+    "key": "sp:A:-3",
+    "p": 0.7433,
+    "odds": 1.87,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_09_HOU_LAC",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T21:05:00Z",
+    "league": "NFL",
+    "home": "LA Chargers",
+    "away": "Houston",
+    "note": "QB: Justin Herbert vs C.J. Stroud",
+    "pick": "Houston -6",
+    "key": "sp:A:-6",
+    "p": 0.715,
+    "odds": 1.926,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_09_NYJ_KC",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T18:00:00Z",
+    "league": "NFL",
+    "home": "Kansas City",
+    "away": "NY Jets",
+    "note": "QB: Patrick Mahomes vs Geno Smith",
+    "pick": "Gana Kansas City",
+    "key": "ml:H",
+    "p": 0.7052,
+    "odds": 1.22,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
  }
 ]
