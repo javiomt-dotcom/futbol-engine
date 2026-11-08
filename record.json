@@ -2049,6 +2049,527 @@
     "score": null
    }
   ],
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T18:30:00Z",
+    "league": "Bundesliga",
+    "home": "Hoffenheim",
+    "away": "Schalke 04",
+    "pick": "Hoffenheim o empate",
+    "key": "1X",
+    "p": 0.84,
+    "odds": 1.163,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T20:00:00Z",
+    "league": "LaLiga",
+    "home": "Ath Madrid",
+    "away": "Barcelona",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8384,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T19:00:00Z",
+    "league": "Grecia",
+    "home": "Olympiakos",
+    "away": "PAOK",
+    "pick": "Olympiakos o empate",
+    "key": "1X",
+    "p": 0.826,
+    "odds": 1.11,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T20:30:00Z",
+    "league": "Portugal",
+    "home": "Rio Ave",
+    "away": "Sp Braga",
+    "pick": "Sp Braga o empate",
+    "key": "X2",
+    "p": 0.7895,
+    "odds": 1.109,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-09",
+    "kickoff": "2026-11-09T19:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Sabadell",
+    "away": "Sociedad B",
+    "pick": "Sabadell o empate",
+    "key": "1X",
+    "p": 0.7809,
+    "odds": 1.132,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T18:30:00Z",
+    "league": "Serie B",
+    "home": "Vicenza",
+    "away": "Cremonese",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7728,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T19:45:00Z",
+    "league": "Serie A",
+    "home": "Fiorentina",
+    "away": "Juventus",
+    "pick": "Juventus o empate",
+    "key": "X2",
+    "p": 0.7624,
+    "odds": 1.301,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_top",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T19:00:00Z",
+    "league": "Eredivisie",
+    "home": "Utrecht",
+    "away": "Nijmegen",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8594,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T20:30:00Z",
+    "league": "Portugal",
+    "home": "Estrela",
+    "away": "Benfica",
+    "pick": "Benfica o empate",
+    "key": "X2",
+    "p": 0.8581,
+    "odds": 1.027,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T19:45:00Z",
+    "league": "Ligue 1",
+    "home": "Lens",
+    "away": "Marseille",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8567,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_mid",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-09",
+    "kickoff": "2026-11-09T19:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Sabadell",
+    "away": "Sociedad B",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7352,
+    "odds": 1.234,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T19:45:00Z",
+    "league": "Serie A",
+    "home": "Fiorentina",
+    "away": "Juventus",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7343,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T18:30:00Z",
+    "league": "Serie B",
+    "home": "Vicenza",
+    "away": "Cremonese",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.721,
+    "odds": 1.286,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_HOU_CLE",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T18:00:00Z",
+    "league": "NFL",
+    "home": "Cleveland",
+    "away": "Houston",
+    "note": "QB: Deshaun Watson vs C.J. Stroud",
+    "pick": "Gana Houston",
+    "key": "ml:A",
+    "p": 0.6501,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_SF_DAL",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T21:25:00Z",
+    "league": "NFL",
+    "home": "Dallas",
+    "away": "San Francisco",
+    "note": "QB: Dak Prescott vs Brock Purdy",
+    "pick": "Gana San Francisco",
+    "key": "ml:A",
+    "p": 0.6282,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_top",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_09_LV_SF",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T21:05:00Z",
+    "league": "NFL",
+    "home": "San Francisco",
+    "away": "Las Vegas",
+    "note": "QB: Brock Purdy vs Kirk Cousins",
+    "pick": "Gana San Francisco",
+    "key": "ml:H",
+    "p": 0.8848,
+    "odds": 1.227,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_09_HOU_LAC",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T21:05:00Z",
+    "league": "NFL",
+    "home": "LA Chargers",
+    "away": "Houston",
+    "note": "QB: Justin Herbert vs C.J. Stroud",
+    "pick": "Gana Houston",
+    "key": "ml:A",
+    "p": 0.8452,
+    "odds": 1.435,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_09_ARI_SEA",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T21:25:00Z",
+    "league": "NFL",
+    "home": "Seattle",
+    "away": "Arizona",
+    "note": "QB: Drew Lock vs Gardner Minshew",
+    "pick": "Gana Seattle",
+    "key": "ml:H",
+    "p": 0.7991,
+    "odds": 1.227,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_LA_ARI",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T21:05:00Z",
+    "league": "NFL",
+    "home": "Arizona",
+    "away": "LA Rams",
+    "note": "QB: Gardner Minshew vs Matthew Stafford",
+    "pick": "Gana LA Rams",
+    "key": "ml:A",
+    "p": 0.7402,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_09_HOU_LAC",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T21:05:00Z",
+    "league": "NFL",
+    "home": "LA Chargers",
+    "away": "Houston",
+    "note": "QB: Justin Herbert vs C.J. Stroud",
+    "pick": "Houston -5.5",
+    "key": "sp:A:-5.5",
+    "p": 0.7275,
+    "odds": 1.926,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_BUF_NYJ",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T18:00:00Z",
+    "league": "NFL",
+    "home": "NY Jets",
+    "away": "Buffalo",
+    "note": "QB: Geno Smith vs Josh Allen",
+    "pick": "Gana Buffalo",
+    "key": "ml:A",
+    "p": 0.7228,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "todas",
+  "type": "parlay_top",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_09_LV_SF",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T21:05:00Z",
+    "league": "NFL",
+    "home": "San Francisco",
+    "away": "Las Vegas",
+    "note": "QB: Brock Purdy vs Kirk Cousins",
+    "pick": "Gana San Francisco",
+    "key": "ml:H",
+    "p": 0.8848,
+    "odds": 1.227,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T19:00:00Z",
+    "league": "Eredivisie",
+    "home": "Utrecht",
+    "away": "Nijmegen",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8594,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T20:30:00Z",
+    "league": "Portugal",
+    "home": "Estrela",
+    "away": "Benfica",
+    "pick": "Benfica o empate",
+    "key": "X2",
+    "p": 0.8581,
+    "odds": 1.027,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "todas",
+  "type": "parlay_mid",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_LA_ARI",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T21:05:00Z",
+    "league": "NFL",
+    "home": "Arizona",
+    "away": "LA Rams",
+    "note": "QB: Gardner Minshew vs Matthew Stafford",
+    "pick": "Gana LA Rams",
+    "key": "ml:A",
+    "p": 0.7402,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-09",
+    "kickoff": "2026-11-09T19:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Sabadell",
+    "away": "Sociedad B",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7352,
+    "odds": 1.234,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T19:45:00Z",
+    "league": "Serie A",
+    "home": "Fiorentina",
+    "away": "Juventus",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7343,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
   "status": "pendiente"
  }
 ]
