@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T07:49:22Z",
+ "generated_at": "2026-11-08T12:35:06Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -66,7 +66,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:H",
      "p": 0.8848,
-     "odds": 1.2
+     "odds": 1.213
     },
     {
      "sport": "futbol",
@@ -420,7 +420,7 @@
      "pick": "Gana NY Giants",
      "key": "ml:A",
      "p": 0.8099,
-     "odds": 1.645
+     "odds": 1.617
     },
     {
      "sport": "futbol",
@@ -506,7 +506,7 @@
      "pick": "Gana Seattle",
      "key": "ml:H",
      "p": 0.7991,
-     "odds": 1.22
+     "odds": 1.227
     },
     {
      "sport": "futbol",
@@ -950,7 +950,7 @@
      "pick": "Gana Detroit",
      "key": "ml:A",
      "p": 0.6513,
-     "odds": 1.345
+     "odds": 1.336
     },
     {
      "sport": "nfl",
@@ -982,20 +982,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_09_GB_NE",
-     "date": "2026-11-08",
-     "kickoff": "2026-11-08T21:25:00Z",
-     "league": "NFL",
-     "home": "New England",
-     "away": "Green Bay",
-     "note": "QB: Drake Maye vs Jordan Love",
-     "pick": "Green Bay +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.6192,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
      "id": "2026_10_CAR_NO",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T18:00:00Z",
@@ -1007,6 +993,20 @@
      "key": "sp:H:1.5",
      "p": 0.6147,
      "odds": 1.909
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_GB_NE",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T21:25:00Z",
+     "league": "NFL",
+     "home": "New England",
+     "away": "Green Bay",
+     "note": "QB: Drake Maye vs Jordan Love",
+     "pick": "Green Bay +3",
+     "key": "sp:A:3",
+     "p": 0.6049,
+     "odds": 1.926
     },
     {
      "sport": "nfl",
@@ -1048,7 +1048,7 @@
      "pick": "Tampa Bay +6",
      "key": "sp:A:6",
      "p": 0.5995,
-     "odds": 1.909
+     "odds": 1.926
     },
     {
      "sport": "nfl",
@@ -1226,7 +1226,7 @@
      "pick": "NY Giants -3",
      "key": "sp:A:-3",
      "p": 0.7433,
-     "odds": 1.893
+     "odds": 1.833
     },
     {
      "sport": "futbol",
@@ -1912,7 +1912,7 @@
      "pick": "Gana Detroit",
      "key": "ml:A",
      "p": 0.6513,
-     "odds": 1.345
+     "odds": 1.336
     },
     {
      "sport": "nfl",
@@ -1968,20 +1968,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_09_GB_NE",
-     "date": "2026-11-08",
-     "kickoff": "2026-11-08T21:25:00Z",
-     "league": "NFL",
-     "home": "New England",
-     "away": "Green Bay",
-     "note": "QB: Drake Maye vs Jordan Love",
-     "pick": "Green Bay +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.6192,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
      "id": "2026_10_CAR_NO",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T18:00:00Z",
@@ -2005,6 +1991,20 @@
      "key": "1",
      "p": 0.6102,
      "odds": 1.59
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_GB_NE",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T21:25:00Z",
+     "league": "NFL",
+     "home": "New England",
+     "away": "Green Bay",
+     "note": "QB: Drake Maye vs Jordan Love",
+     "pick": "Green Bay +3",
+     "key": "sp:A:3",
+     "p": 0.6049,
+     "odds": 1.926
     },
     {
      "sport": "nfl",
@@ -2046,7 +2046,7 @@
      "pick": "Tampa Bay +6",
      "key": "sp:A:6",
      "p": 0.5995,
-     "odds": 1.909
+     "odds": 1.926
     },
     {
      "sport": "futbol",
@@ -3603,7 +3603,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:H",
      "p": 0.8848,
-     "odds": 1.2
+     "odds": 1.213
     },
     {
      "sport": "nfl",
@@ -3645,7 +3645,7 @@
      "pick": "Gana NY Giants",
      "key": "ml:A",
      "p": 0.8099,
-     "odds": 1.645
+     "odds": 1.617
     },
     {
      "sport": "nfl",
@@ -3659,7 +3659,7 @@
      "pick": "Gana Seattle",
      "key": "ml:H",
      "p": 0.7991,
-     "odds": 1.22
+     "odds": 1.227
     },
     {
      "sport": "nfl",
@@ -3827,7 +3827,7 @@
      "pick": "Gana Detroit",
      "key": "ml:A",
      "p": 0.6513,
-     "odds": 1.345
+     "odds": 1.336
     },
     {
      "sport": "nfl",
@@ -3859,20 +3859,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_09_GB_NE",
-     "date": "2026-11-08",
-     "kickoff": "2026-11-08T21:25:00Z",
-     "league": "NFL",
-     "home": "New England",
-     "away": "Green Bay",
-     "note": "QB: Drake Maye vs Jordan Love",
-     "pick": "Green Bay +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.6192,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
      "id": "2026_10_CAR_NO",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T18:00:00Z",
@@ -3884,6 +3870,20 @@
      "key": "sp:H:1.5",
      "p": 0.6147,
      "odds": 1.909
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_GB_NE",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T21:25:00Z",
+     "league": "NFL",
+     "home": "New England",
+     "away": "Green Bay",
+     "note": "QB: Drake Maye vs Jordan Love",
+     "pick": "Green Bay +3",
+     "key": "sp:A:3",
+     "p": 0.6049,
+     "odds": 1.926
     },
     {
      "sport": "nfl",
@@ -3925,7 +3925,7 @@
      "pick": "Tampa Bay +6",
      "key": "sp:A:6",
      "p": 0.5995,
-     "odds": 1.909
+     "odds": 1.926
     },
     {
      "sport": "nfl",
@@ -3983,7 +3983,7 @@
      "pick": "NY Giants -3",
      "key": "sp:A:-3",
      "p": 0.7433,
-     "odds": 1.893
+     "odds": 1.833
     },
     {
      "sport": "nfl",
@@ -4165,7 +4165,7 @@
      "pick": "Gana Detroit",
      "key": "ml:A",
      "p": 0.6513,
-     "odds": 1.345
+     "odds": 1.336
     },
     {
      "sport": "nfl",
@@ -4197,20 +4197,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_09_GB_NE",
-     "date": "2026-11-08",
-     "kickoff": "2026-11-08T21:25:00Z",
-     "league": "NFL",
-     "home": "New England",
-     "away": "Green Bay",
-     "note": "QB: Drake Maye vs Jordan Love",
-     "pick": "Green Bay +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.6192,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
      "id": "2026_10_CAR_NO",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T18:00:00Z",
@@ -4222,6 +4208,20 @@
      "key": "sp:H:1.5",
      "p": 0.6147,
      "odds": 1.909
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_09_GB_NE",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T21:25:00Z",
+     "league": "NFL",
+     "home": "New England",
+     "away": "Green Bay",
+     "note": "QB: Drake Maye vs Jordan Love",
+     "pick": "Green Bay +3",
+     "key": "sp:A:3",
+     "p": 0.6049,
+     "odds": 1.926
     },
     {
      "sport": "nfl",
@@ -4263,7 +4263,7 @@
      "pick": "Tampa Bay +6",
      "key": "sp:A:6",
      "p": 0.5995,
-     "odds": 1.909
+     "odds": 1.926
     },
     {
      "sport": "nfl",
@@ -5933,7 +5933,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -5955,7 +5958,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.077,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -5977,7 +5983,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.016,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -5999,7 +6008,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -6021,7 +6033,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.027,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -6043,7 +6058,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -6093,7 +6111,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -6143,7 +6164,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -6167,7 +6191,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.909,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -6191,7 +6218,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.187,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -6215,7 +6245,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.263,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -6239,7 +6272,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.244,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -6263,7 +6299,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -6319,6 +6358,31 @@
      "score": null
     }
    ],
+   "status": "pendiente",
+   "odds": 2.974,
+   "value": true,
+   "pnl": null
+  },
+  {
+   "sport": "futbol",
+   "type": "single",
+   "made": "2026-11-08",
+   "legs": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-08",
+     "kickoff": "2026-11-08T19:45:00Z",
+     "league": "Ligue 1",
+     "home": "Lens",
+     "away": "Marseille",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.8567,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
    "status": "pendiente"
   }
  ],
@@ -6327,7 +6391,7 @@
    "singles": {
     "ganado": 13,
     "perdido": 3,
-    "pendiente": 33,
+    "pendiente": 34,
     "bets": 9,
     "profit": -0.93,
     "value_bets": 0,
@@ -6347,7 +6411,7 @@
    "singles": {
     "ganado": 12,
     "perdido": 3,
-    "pendiente": 16,
+    "pendiente": 17,
     "bets": 8,
     "profit": -1.13,
     "value_bets": 0,

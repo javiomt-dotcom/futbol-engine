@@ -1599,7 +1599,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -1621,7 +1624,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.077,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -1643,7 +1649,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.016,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -1665,7 +1674,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -1687,7 +1699,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.027,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -1709,7 +1724,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -1759,7 +1777,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -1809,7 +1830,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -1833,7 +1857,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.909,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -1857,7 +1884,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.187,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -1881,7 +1911,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.263,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -1905,7 +1938,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.244,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -1929,7 +1965,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -1981,6 +2020,31 @@
     "key": "ml:A",
     "p": 0.7228,
     "odds": 1.244,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente",
+  "odds": 2.974,
+  "value": true,
+  "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-08",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-08",
+    "kickoff": "2026-11-08T19:45:00Z",
+    "league": "Ligue 1",
+    "home": "Lens",
+    "away": "Marseille",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8567,
+    "odds": null,
     "status": "pendiente",
     "score": null
    }
