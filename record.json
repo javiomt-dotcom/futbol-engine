@@ -556,15 +556,15 @@
     "pick": "Gana Seattle",
     "key": "ml:H",
     "p": 0.8116,
-    "status": "pendiente",
-    "score": null,
+    "status": "ganado",
+    "score": "17-3",
     "odds": 1.22
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.22,
   "value": false,
-  "pnl": null
+  "pnl": 0.22
  },
  {
   "sport": "nfl",
@@ -582,15 +582,15 @@
     "pick": "Gana San Francisco",
     "key": "ml:H",
     "p": 0.753,
-    "status": "pendiente",
-    "score": null,
+    "status": "ganado",
+    "score": "38-17",
     "odds": 1.187
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.187,
   "value": false,
-  "pnl": null
+  "pnl": 0.187
  },
  {
   "sport": "nfl",
@@ -608,15 +608,15 @@
     "pick": "Gana Kansas City",
     "key": "ml:H",
     "p": 0.737,
-    "status": "pendiente",
-    "score": null,
+    "status": "ganado",
+    "score": "35-12",
     "odds": 1.167
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.167,
   "value": false,
-  "pnl": null
+  "pnl": 0.167
  },
  {
   "sport": "nfl",
@@ -660,15 +660,15 @@
     "pick": "Gana Detroit",
     "key": "ml:A",
     "p": 0.7052,
-    "status": "pendiente",
-    "score": null,
+    "status": "ganado",
+    "score": "9-19",
     "odds": 1.282
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.282,
   "value": false,
-  "pnl": null
+  "pnl": 0.282
  },
  {
   "sport": "nfl",
@@ -686,15 +686,15 @@
     "pick": "Gana LA Rams",
     "key": "ml:A",
     "p": 0.6808,
-    "status": "pendiente",
-    "score": null,
+    "status": "ganado",
+    "score": "13-20",
     "odds": 1.444
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.444,
   "value": false,
-  "pnl": null
+  "pnl": 0.444
  },
  {
   "sport": "nfl",
@@ -712,15 +712,15 @@
     "pick": "Más de 51.5 puntos",
     "key": "ou:o:51.5",
     "p": 0.6759,
-    "status": "pendiente",
-    "score": null,
+    "status": "perdido",
+    "score": "23-27",
     "odds": 1.909
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 1.909,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "nfl",
@@ -738,15 +738,15 @@
     "pick": "Menos de 45.5 puntos",
     "key": "ou:u:45.5",
     "p": 0.6477,
-    "status": "pendiente",
-    "score": null,
+    "status": "perdido",
+    "score": "27-45",
     "odds": 1.952
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 1.952,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "nfl",
@@ -764,15 +764,15 @@
     "pick": "Gana Houston",
     "key": "ml:A",
     "p": 0.639,
-    "status": "pendiente",
-    "score": null,
+    "status": "ganado",
+    "score": "22-44",
     "odds": 1.459
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.459,
   "value": false,
-  "pnl": null
+  "pnl": 0.459
  },
  {
   "sport": "nfl",
@@ -790,15 +790,15 @@
     "pick": "Gana Denver",
     "key": "ml:A",
     "p": 0.6303,
-    "status": "pendiente",
-    "score": null,
+    "status": "ganado",
+    "score": "21-26",
     "odds": 1.645
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.645,
   "value": true,
-  "pnl": null
+  "pnl": 0.645
  },
  {
   "sport": "nfl",
@@ -816,8 +816,8 @@
     "pick": "Gana Seattle",
     "key": "ml:H",
     "p": 0.8116,
-    "status": "pendiente",
-    "score": null,
+    "status": "ganado",
+    "score": "17-3",
     "odds": 1.22
    },
    {
@@ -831,8 +831,8 @@
     "pick": "Gana San Francisco",
     "key": "ml:H",
     "p": 0.753,
-    "status": "pendiente",
-    "score": null,
+    "status": "ganado",
+    "score": "38-17",
     "odds": 1.187
    },
    {
@@ -846,15 +846,15 @@
     "pick": "Gana Kansas City",
     "key": "ml:H",
     "p": 0.737,
-    "status": "pendiente",
-    "score": null,
+    "status": "ganado",
+    "score": "35-12",
     "odds": 1.167
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.69,
   "value": false,
-  "pnl": null
+  "pnl": 0.69
  },
  {
   "sport": "nfl",
@@ -872,8 +872,8 @@
     "pick": "Gana Kansas City",
     "key": "ml:H",
     "p": 0.737,
-    "status": "pendiente",
-    "score": null,
+    "status": "ganado",
+    "score": "35-12",
     "odds": 1.167
    },
    {
@@ -887,8 +887,8 @@
     "pick": "Más de 39.5 puntos",
     "key": "ou:o:39.5",
     "p": 0.7317,
-    "status": "pendiente",
-    "score": null,
+    "status": "perdido",
+    "score": "17-3",
     "odds": 1.893
    },
    {
@@ -907,10 +907,10 @@
     "odds": 1.192
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 2.633,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "nfl",
@@ -930,14 +930,14 @@
     "key": "ml:H",
     "p": 0.8541,
     "odds": 1.617,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "23-22"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.617,
   "value": true,
-  "pnl": null
+  "pnl": 0.617
  },
  {
   "sport": "nfl",
@@ -957,14 +957,14 @@
     "key": "ml:A",
     "p": 0.8086,
     "odds": 1.617,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "11-19"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.617,
   "value": true,
-  "pnl": null
+  "pnl": 0.617
  },
  {
   "sport": "nfl",
@@ -1011,8 +1011,8 @@
     "key": "ml:H",
     "p": 0.8878,
     "odds": 1.206,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "38-17"
    },
    {
     "sport": "nfl",
@@ -1027,8 +1027,8 @@
     "key": "ml:H",
     "p": 0.8541,
     "odds": 1.617,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "23-22"
    },
    {
     "sport": "nfl",
@@ -1043,14 +1043,14 @@
     "key": "ml:A",
     "p": 0.8447,
     "odds": 1.42,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "22-44"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 2.769,
   "value": true,
-  "pnl": null
+  "pnl": 1.769
  },
  {
   "sport": "nfl",
@@ -1070,8 +1070,8 @@
     "key": "sp:A:-3.5",
     "p": 0.7295,
     "odds": 1.98,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "11-19"
    },
    {
     "sport": "nfl",
@@ -1086,8 +1086,8 @@
     "key": "sp:A:-6",
     "p": 0.7142,
     "odds": 1.926,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "22-44"
    },
    {
     "sport": "nfl",
@@ -1102,14 +1102,14 @@
     "key": "ml:H",
     "p": 0.7064,
     "odds": 1.174,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "35-12"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 4.477,
   "value": true,
-  "pnl": null
+  "pnl": 3.477
  },
  {
   "sport": "futbol",
@@ -1538,8 +1538,8 @@
     "key": "sp:A:-3",
     "p": 0.7433,
     "odds": 1.87,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "11-19"
    },
    {
     "sport": "nfl",
@@ -1554,8 +1554,8 @@
     "key": "sp:A:-6",
     "p": 0.715,
     "odds": 1.926,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "22-44"
    },
    {
     "sport": "nfl",
@@ -1570,14 +1570,14 @@
     "key": "ml:H",
     "p": 0.7052,
     "odds": 1.22,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "35-12"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 4.394,
   "value": true,
-  "pnl": null
+  "pnl": 3.394
  },
  {
   "sport": "futbol",
@@ -1960,14 +1960,14 @@
     "pick": "Gana Seattle",
     "key": "ml:A",
     "p": 0.7206,
-    "odds": null,
+    "odds": 1.602,
     "status": "pendiente",
     "score": null
    }
   ],
   "status": "pendiente",
-  "odds": null,
-  "value": null,
+  "odds": 1.602,
+  "value": true,
   "pnl": null
  },
  {
@@ -1988,8 +1988,8 @@
     "key": "sp:A:-3",
     "p": 0.7433,
     "odds": 1.893,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "11-19"
    },
    {
     "sport": "nfl",
@@ -2074,7 +2074,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.163,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -2096,7 +2099,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -2118,7 +2124,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.11,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -2140,7 +2149,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.109,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -2162,7 +2174,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.132,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -2184,7 +2199,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -2206,7 +2224,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.301,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -2256,7 +2277,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -2306,7 +2330,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -2325,12 +2352,15 @@
     "pick": "Gana Houston",
     "key": "ml:A",
     "p": 0.6501,
-    "odds": null,
+    "odds": 1.521,
     "status": "pendiente",
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.521,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -2349,12 +2379,15 @@
     "pick": "Gana San Francisco",
     "key": "ml:A",
     "p": 0.6282,
-    "odds": null,
+    "odds": 1.459,
     "status": "pendiente",
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.459,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -2374,8 +2407,8 @@
     "key": "ml:H",
     "p": 0.8848,
     "odds": 1.227,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "38-17"
    },
    {
     "sport": "nfl",
@@ -2390,8 +2423,8 @@
     "key": "ml:A",
     "p": 0.8452,
     "odds": 1.435,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "22-44"
    },
    {
     "sport": "nfl",
@@ -2406,11 +2439,14 @@
     "key": "ml:H",
     "p": 0.7991,
     "odds": 1.227,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "17-3"
    }
   ],
-  "status": "pendiente"
+  "status": "ganado",
+  "odds": 2.16,
+  "value": true,
+  "pnl": 1.16
  },
  {
   "sport": "nfl",
@@ -2429,7 +2465,7 @@
     "pick": "Gana LA Rams",
     "key": "ml:A",
     "p": 0.7402,
-    "odds": null,
+    "odds": 1.323,
     "status": "pendiente",
     "score": null
    },
@@ -2446,8 +2482,8 @@
     "key": "sp:A:-5.5",
     "p": 0.7275,
     "odds": 1.926,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "22-44"
    },
    {
     "sport": "nfl",
@@ -2461,12 +2497,15 @@
     "pick": "Gana Buffalo",
     "key": "ml:A",
     "p": 0.7228,
-    "odds": null,
+    "odds": 1.213,
     "status": "pendiente",
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 3.091,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "todas",
@@ -2486,8 +2525,8 @@
     "key": "ml:H",
     "p": 0.8848,
     "odds": 1.227,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "38-17"
    },
    {
     "sport": "futbol",
@@ -2518,7 +2557,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "todas",
@@ -2537,7 +2579,7 @@
     "pick": "Gana LA Rams",
     "key": "ml:A",
     "p": 0.7402,
-    "odds": null,
+    "odds": 1.323,
     "status": "pendiente",
     "score": null
    },
@@ -2566,6 +2608,325 @@
     "key": "o1.5",
     "p": 0.7343,
     "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-09",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_LAC_BAL",
+    "date": "2026-11-16",
+    "kickoff": "2026-11-17T01:15:00Z",
+    "league": "NFL",
+    "home": "Baltimore",
+    "away": "LA Chargers",
+    "note": "QB: Tyler Huntley vs Justin Herbert",
+    "pick": "Gana Baltimore",
+    "key": "ml:H",
+    "p": 0.7268,
+    "odds": 1.488,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-09",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_MIN_GB",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T18:00:00Z",
+    "league": "NFL",
+    "home": "Green Bay",
+    "away": "Minnesota",
+    "note": "QB: Jordan Love vs Kyler Murray",
+    "pick": "Menos de 42.5 puntos",
+    "key": "ou:u:42.5",
+    "p": 0.668,
+    "odds": 1.87,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-09",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_MIA_IND",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T18:00:00Z",
+    "league": "NFL",
+    "home": "Indianapolis",
+    "away": "Miami",
+    "note": "QB: Daniel Jones vs Malik Willis",
+    "pick": "Más de 40.5 puntos",
+    "key": "ou:o:40.5",
+    "p": 0.6492,
+    "odds": 1.909,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-09",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_KC_ATL",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T18:00:00Z",
+    "league": "NFL",
+    "home": "Atlanta",
+    "away": "Kansas City",
+    "note": "QB: Michael Penix Jr. vs Patrick Mahomes",
+    "pick": "Gana Kansas City",
+    "key": "ml:A",
+    "p": 0.6368,
+    "odds": 1.556,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_top",
+  "made": "2026-11-09",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_LA_ARI",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T21:05:00Z",
+    "league": "NFL",
+    "home": "Arizona",
+    "away": "LA Rams",
+    "note": "QB: Gardner Minshew vs Matthew Stafford",
+    "pick": "Gana LA Rams",
+    "key": "ml:A",
+    "p": 0.7708,
+    "odds": 1.323,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_JAX_TEN",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T18:00:00Z",
+    "league": "NFL",
+    "home": "Tennessee",
+    "away": "Jacksonville",
+    "note": "QB: Cam Ward vs Trevor Lawrence",
+    "pick": "Gana Jacksonville",
+    "key": "ml:A",
+    "p": 0.7662,
+    "odds": 1.2,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_PIT_CIN",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-16T01:20:00Z",
+    "league": "NFL",
+    "home": "Cincinnati",
+    "away": "Pittsburgh",
+    "note": "QB: Joe Burrow vs Aaron Rodgers",
+    "pick": "Pittsburgh +3.5",
+    "key": "sp:A:3.5",
+    "p": 0.7628,
+    "odds": 1.909,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-09",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_SEA_LV",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T21:05:00Z",
+    "league": "NFL",
+    "home": "Las Vegas",
+    "away": "Seattle",
+    "note": "QB: Kirk Cousins vs Sam Darnold",
+    "pick": "Gana Seattle",
+    "key": "ml:A",
+    "p": 0.7439,
+    "odds": 1.602,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_LAC_BAL",
+    "date": "2026-11-16",
+    "kickoff": "2026-11-17T01:15:00Z",
+    "league": "NFL",
+    "home": "Baltimore",
+    "away": "LA Chargers",
+    "note": "QB: Tyler Huntley vs Justin Herbert",
+    "pick": "Gana Baltimore",
+    "key": "ml:H",
+    "p": 0.7268,
+    "odds": 1.488,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_PIT_CIN",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-16T01:20:00Z",
+    "league": "NFL",
+    "home": "Cincinnati",
+    "away": "Pittsburgh",
+    "note": "QB: Joe Burrow vs Aaron Rodgers",
+    "pick": "Gana Pittsburgh",
+    "key": "ml:A",
+    "p": 0.6751,
+    "odds": 2.5,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "todas",
+  "type": "parlay_top",
+  "made": "2026-11-09",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-09",
+    "kickoff": "2026-11-09T19:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Sabadell",
+    "away": "Sociedad B",
+    "pick": "Sabadell o empate",
+    "key": "1X",
+    "p": 0.7809,
+    "odds": 1.132,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_LA_ARI",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T21:05:00Z",
+    "league": "NFL",
+    "home": "Arizona",
+    "away": "LA Rams",
+    "note": "QB: Gardner Minshew vs Matthew Stafford",
+    "pick": "Gana LA Rams",
+    "key": "ml:A",
+    "p": 0.7708,
+    "odds": 1.323,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_JAX_TEN",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T18:00:00Z",
+    "league": "NFL",
+    "home": "Tennessee",
+    "away": "Jacksonville",
+    "note": "QB: Cam Ward vs Trevor Lawrence",
+    "pick": "Gana Jacksonville",
+    "key": "ml:A",
+    "p": 0.7662,
+    "odds": 1.2,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "todas",
+  "type": "parlay_mid",
+  "made": "2026-11-09",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_SEA_LV",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T21:05:00Z",
+    "league": "NFL",
+    "home": "Las Vegas",
+    "away": "Seattle",
+    "note": "QB: Kirk Cousins vs Sam Darnold",
+    "pick": "Gana Seattle",
+    "key": "ml:A",
+    "p": 0.7439,
+    "odds": 1.602,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-09",
+    "kickoff": "2026-11-09T19:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Sabadell",
+    "away": "Sociedad B",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7352,
+    "odds": 1.234,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_LAC_BAL",
+    "date": "2026-11-16",
+    "kickoff": "2026-11-17T01:15:00Z",
+    "league": "NFL",
+    "home": "Baltimore",
+    "away": "LA Chargers",
+    "note": "QB: Tyler Huntley vs Justin Herbert",
+    "pick": "Gana Baltimore",
+    "key": "ml:H",
+    "p": 0.7268,
+    "odds": 1.488,
     "status": "pendiente",
     "score": null
    }
