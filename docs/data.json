@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T08:13:33Z",
+ "generated_at": "2026-11-09T12:54:51Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -15,7 +15,7 @@
      "away": "Sociedad B",
      "pick": "Sabadell o empate",
      "key": "1X",
-     "p": 0.7809,
+     "p": 0.7786,
      "odds": 1.132
     },
     {
@@ -44,7 +44,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7662,
-     "odds": 1.2
+     "odds": 1.206
     },
     {
      "sport": "nfl",
@@ -100,7 +100,7 @@
      "pick": "Gana Baltimore",
      "key": "ml:H",
      "p": 0.7268,
-     "odds": 1.488
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -128,7 +128,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6563,
-     "odds": 1.521
+     "odds": 1.541
     },
     {
      "sport": "nfl",
@@ -156,7 +156,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:A",
      "p": 0.6368,
-     "odds": 1.556
+     "odds": 1.571
     },
     {
      "sport": "nfl",
@@ -253,7 +253,7 @@
      "away": "Sociedad B",
      "pick": "No hay empate",
      "key": "12",
-     "p": 0.7352,
+     "p": 0.7372,
      "odds": 1.234
     },
     {
@@ -268,7 +268,7 @@
      "pick": "Gana Baltimore",
      "key": "ml:H",
      "p": 0.7268,
-     "odds": 1.488
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -282,7 +282,7 @@
      "pick": "Gana Pittsburgh",
      "key": "ml:A",
      "p": 0.6751,
-     "odds": 2.5
+     "odds": 2.54
     },
     {
      "sport": "nfl",
@@ -310,7 +310,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6563,
-     "odds": 1.521
+     "odds": 1.541
     },
     {
      "sport": "nfl",
@@ -338,7 +338,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:A",
      "p": 0.6368,
-     "odds": 1.556
+     "odds": 1.571
     },
     {
      "sport": "nfl",
@@ -408,6 +408,20 @@
      "pick": "Más de 43.5 puntos",
      "key": "ou:o:43.5",
      "p": 0.5812,
+     "odds": 1.847
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_10_JAX_TEN",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T18:00:00Z",
+     "league": "NFL",
+     "home": "Tennessee",
+     "away": "Jacksonville",
+     "note": "QB: Cam Ward vs Trevor Lawrence",
+     "pick": "Menos de 47.5 puntos",
+     "key": "ou:u:47.5",
+     "p": 0.5771,
      "odds": 1.847
     },
     {
@@ -454,7 +468,7 @@
      "away": "Sociedad B",
      "pick": "Sabadell o empate",
      "key": "1X",
-     "p": 0.7809,
+     "p": 0.7786,
      "odds": 1.132
     }
    ],
@@ -468,7 +482,7 @@
      "away": "Sociedad B",
      "pick": "No hay empate",
      "key": "12",
-     "p": 0.7352,
+     "p": 0.7372,
      "odds": 1.234
     }
    ],
@@ -511,7 +525,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7662,
-     "odds": 1.2
+     "odds": 1.206
     },
     {
      "sport": "nfl",
@@ -567,7 +581,7 @@
      "pick": "Gana Baltimore",
      "key": "ml:H",
      "p": 0.7268,
-     "odds": 1.488
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -595,7 +609,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6563,
-     "odds": 1.521
+     "odds": 1.541
     },
     {
      "sport": "nfl",
@@ -623,7 +637,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:A",
      "p": 0.6368,
-     "odds": 1.556
+     "odds": 1.571
     },
     {
      "sport": "nfl",
@@ -723,7 +737,7 @@
      "pick": "Gana Baltimore",
      "key": "ml:H",
      "p": 0.7268,
-     "odds": 1.488
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -737,7 +751,7 @@
      "pick": "Gana Pittsburgh",
      "key": "ml:A",
      "p": 0.6751,
-     "odds": 2.5
+     "odds": 2.54
     },
     {
      "sport": "nfl",
@@ -765,7 +779,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6563,
-     "odds": 1.521
+     "odds": 1.541
     },
     {
      "sport": "nfl",
@@ -793,7 +807,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:A",
      "p": 0.6368,
-     "odds": 1.556
+     "odds": 1.571
     },
     {
      "sport": "nfl",
@@ -863,6 +877,20 @@
      "pick": "Más de 43.5 puntos",
      "key": "ou:o:43.5",
      "p": 0.5812,
+     "odds": 1.847
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_10_JAX_TEN",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T18:00:00Z",
+     "league": "NFL",
+     "home": "Tennessee",
+     "away": "Jacksonville",
+     "note": "QB: Cam Ward vs Trevor Lawrence",
+     "pick": "Menos de 47.5 puntos",
+     "key": "ou:u:47.5",
+     "p": 0.5771,
      "odds": 1.847
     },
     {
@@ -2033,11 +2061,11 @@
      "key": "o1.5",
      "p": 0.9289,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-5"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -2058,14 +2086,14 @@
      "key": "1X",
      "p": 0.9209,
      "odds": 0.987,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 0.987,
    "value": false,
-   "pnl": null
+   "pnl": -0.013
   },
   {
    "sport": "futbol",
@@ -2083,11 +2111,11 @@
      "key": "o1.5",
      "p": 0.9169,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-2"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -2108,14 +2136,14 @@
      "key": "1X",
      "p": 0.9129,
      "odds": 1.0,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.0,
    "value": false,
-   "pnl": null
+   "pnl": 0.0
   },
   {
    "sport": "futbol",
@@ -2133,14 +2161,14 @@
      "key": "1X",
      "p": 0.9041,
      "odds": 0.983,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-1"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 0.983,
    "value": false,
-   "pnl": null
+   "pnl": -0.017
   },
   {
    "sport": "futbol",
@@ -2158,14 +2186,14 @@
      "key": "1X",
      "p": 0.896,
      "odds": 1.0,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.0,
    "value": false,
-   "pnl": null
+   "pnl": 0.0
   },
   {
    "sport": "futbol",
@@ -2183,11 +2211,11 @@
      "key": "o1.5",
      "p": 0.8953,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "5-2"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -2208,11 +2236,11 @@
      "key": "o1.5",
      "p": 0.8891,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "0-5"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -2233,11 +2261,11 @@
      "key": "o1.5",
      "p": 0.8867,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "1-0"
     }
    ],
-   "status": "pendiente",
+   "status": "perdido",
    "odds": null,
    "value": null,
    "pnl": null
@@ -2258,11 +2286,11 @@
      "key": "o1.5",
      "p": 0.8791,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-1"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -2283,8 +2311,8 @@
      "key": "o1.5",
      "p": 0.9289,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-5"
     },
     {
      "sport": "futbol",
@@ -2297,8 +2325,8 @@
      "key": "1X",
      "p": 0.9209,
      "odds": 0.987,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-0"
     },
     {
      "sport": "futbol",
@@ -2311,11 +2339,11 @@
      "key": "o1.5",
      "p": 0.9169,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-2"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -2336,8 +2364,8 @@
      "key": "12",
      "p": 0.75,
      "odds": 1.239,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-2"
     },
     {
      "sport": "futbol",
@@ -2350,8 +2378,8 @@
      "key": "12",
      "p": 0.7499,
      "odds": 1.242,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-3"
     },
     {
      "sport": "futbol",
@@ -2364,11 +2392,11 @@
      "key": "o1.5",
      "p": 0.7497,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "0-2"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -2389,8 +2417,8 @@
      "key": "12",
      "p": 0.75,
      "odds": 1.239,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-2"
     },
     {
      "sport": "futbol",
@@ -2403,8 +2431,8 @@
      "key": "o1.5",
      "p": 0.7497,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "0-2"
     },
     {
      "sport": "futbol",
@@ -2417,11 +2445,11 @@
      "key": "12",
      "p": 0.7492,
      "odds": 1.231,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "2-2"
     }
    ],
-   "status": "pendiente",
+   "status": "perdido",
    "odds": null,
    "value": null,
    "pnl": null
@@ -2501,11 +2529,11 @@
      "key": "o1.5",
      "p": 0.8673,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "0-1"
     }
    ],
-   "status": "pendiente",
+   "status": "perdido",
    "odds": null,
    "value": null,
    "pnl": null
@@ -2526,14 +2554,14 @@
      "key": "1X",
      "p": 0.8663,
      "odds": 1.077,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.077,
    "value": false,
-   "pnl": null
+   "pnl": 0.077
   },
   {
    "sport": "futbol",
@@ -2551,14 +2579,14 @@
      "key": "1X",
      "p": 0.861,
      "odds": 1.016,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "3-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.016,
    "value": false,
-   "pnl": null
+   "pnl": 0.016
   },
   {
    "sport": "futbol",
@@ -2576,11 +2604,11 @@
      "key": "o1.5",
      "p": 0.8594,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-3"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -2601,14 +2629,14 @@
      "key": "X2",
      "p": 0.8581,
      "odds": 1.027,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-3"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.027,
    "value": false,
-   "pnl": null
+   "pnl": 0.027
   },
   {
    "sport": "futbol",
@@ -2626,11 +2654,11 @@
      "key": "o1.5",
      "p": 0.8578,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-2"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -2651,8 +2679,8 @@
      "key": "o1.5",
      "p": 0.9289,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-5"
     },
     {
      "sport": "futbol",
@@ -2665,8 +2693,8 @@
      "key": "1X",
      "p": 0.9128,
      "odds": 1.0,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-0"
     },
     {
      "sport": "futbol",
@@ -2679,11 +2707,11 @@
      "key": "1X",
      "p": 0.903,
      "odds": 0.983,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-1"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -2704,8 +2732,8 @@
      "key": "12",
      "p": 0.7492,
      "odds": 1.231,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "2-2"
     },
     {
      "sport": "futbol",
@@ -2718,8 +2746,8 @@
      "key": "o2.5",
      "p": 0.7488,
      "odds": 1.25,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "1-0"
     },
     {
      "sport": "futbol",
@@ -2732,11 +2760,11 @@
      "key": "o1.5",
      "p": 0.7485,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "1-0"
     }
    ],
-   "status": "pendiente",
+   "status": "perdido",
    "odds": null,
    "value": null,
    "pnl": null
@@ -2951,11 +2979,11 @@
      "key": "o1.5",
      "p": 0.8567,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-2"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -2976,14 +3004,14 @@
      "key": "1X",
      "p": 0.84,
      "odds": 1.163,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-1"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.163,
    "value": false,
-   "pnl": null
+   "pnl": 0.163
   },
   {
    "sport": "futbol",
@@ -3001,11 +3029,11 @@
      "key": "o1.5",
      "p": 0.8384,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-2"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -3026,14 +3054,14 @@
      "key": "1X",
      "p": 0.826,
      "odds": 1.11,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-1"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.11,
    "value": false,
-   "pnl": null
+   "pnl": 0.11
   },
   {
    "sport": "futbol",
@@ -3051,14 +3079,14 @@
      "key": "X2",
      "p": 0.7895,
      "odds": 1.109,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "0-1"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.109,
    "value": false,
-   "pnl": null
+   "pnl": 0.109
   },
   {
    "sport": "futbol",
@@ -3101,11 +3129,11 @@
      "key": "o1.5",
      "p": 0.7728,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-4"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -3126,14 +3154,14 @@
      "key": "X2",
      "p": 0.7624,
      "odds": 1.301,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-2"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.301,
    "value": false,
-   "pnl": null
+   "pnl": 0.301
   },
   {
    "sport": "futbol",
@@ -3151,8 +3179,8 @@
      "key": "o1.5",
      "p": 0.8594,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-3"
     },
     {
      "sport": "futbol",
@@ -3165,8 +3193,8 @@
      "key": "X2",
      "p": 0.8581,
      "odds": 1.027,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-3"
     },
     {
      "sport": "futbol",
@@ -3179,11 +3207,11 @@
      "key": "o1.5",
      "p": 0.8567,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-2"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -3218,8 +3246,8 @@
      "key": "o1.5",
      "p": 0.7343,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-2"
     },
     {
      "sport": "futbol",
@@ -3232,8 +3260,8 @@
      "key": "12",
      "p": 0.721,
      "odds": 1.286,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-4"
     }
    ],
    "status": "pendiente",
@@ -3445,8 +3473,8 @@
      "key": "o1.5",
      "p": 0.8594,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-3"
     },
     {
      "sport": "futbol",
@@ -3459,11 +3487,11 @@
      "key": "X2",
      "p": 0.8581,
      "odds": 1.027,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-3"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -3514,8 +3542,8 @@
      "key": "o1.5",
      "p": 0.7343,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-2"
     }
    ],
    "status": "pendiente",
@@ -3545,7 +3573,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.488,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -3569,7 +3600,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.87,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -3593,7 +3627,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.909,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -3617,7 +3654,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.556,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -3673,7 +3713,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 3.031,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -3729,7 +3772,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 5.959,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "todas",
@@ -3783,7 +3829,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.797,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "todas",
@@ -3837,24 +3886,27 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 2.942,
+   "value": true,
+   "pnl": null
   }
  ],
  "record_summary": {
   "todas": {
    "singles": {
-    "ganado": 22,
-    "perdido": 5,
-    "pendiente": 36,
-    "bets": 20,
-    "profit": 0.7,
+    "ganado": 43,
+    "perdido": 7,
+    "pendiente": 13,
+    "bets": 31,
+    "profit": 1.48,
     "value_bets": 5,
     "value_profit": -0.12
    },
    "parlays": {
-    "ganado": 9,
-    "perdido": 1,
-    "pendiente": 15,
+    "ganado": 14,
+    "perdido": 3,
+    "pendiente": 8,
     "bets": 6,
     "profit": 9.49,
     "value_bets": 5,
@@ -3863,18 +3915,18 @@
   },
   "futbol": {
    "singles": {
-    "ganado": 12,
-    "perdido": 3,
-    "pendiente": 24,
-    "bets": 8,
-    "profit": -1.13,
+    "ganado": 33,
+    "perdido": 5,
+    "pendiente": 1,
+    "bets": 19,
+    "profit": -0.35,
     "value_bets": 0,
     "value_profit": 0
    },
    "parlays": {
-    "ganado": 4,
-    "perdido": 0,
-    "pendiente": 7,
+    "ganado": 8,
+    "perdido": 2,
+    "pendiente": 1,
     "bets": 0,
     "profit": 0,
     "value_bets": 0,

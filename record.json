@@ -1127,11 +1127,11 @@
     "key": "o1.5",
     "p": 0.9289,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-5"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -1152,14 +1152,14 @@
     "key": "1X",
     "p": 0.9209,
     "odds": 0.987,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-0"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 0.987,
   "value": false,
-  "pnl": null
+  "pnl": -0.013
  },
  {
   "sport": "futbol",
@@ -1177,11 +1177,11 @@
     "key": "o1.5",
     "p": 0.9169,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-2"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -1202,14 +1202,14 @@
     "key": "1X",
     "p": 0.9129,
     "odds": 1.0,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-0"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.0,
   "value": false,
-  "pnl": null
+  "pnl": 0.0
  },
  {
   "sport": "futbol",
@@ -1227,14 +1227,14 @@
     "key": "1X",
     "p": 0.9041,
     "odds": 0.983,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-1"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 0.983,
   "value": false,
-  "pnl": null
+  "pnl": -0.017
  },
  {
   "sport": "futbol",
@@ -1252,14 +1252,14 @@
     "key": "1X",
     "p": 0.896,
     "odds": 1.0,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-0"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.0,
   "value": false,
-  "pnl": null
+  "pnl": 0.0
  },
  {
   "sport": "futbol",
@@ -1277,11 +1277,11 @@
     "key": "o1.5",
     "p": 0.8953,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "5-2"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -1302,11 +1302,11 @@
     "key": "o1.5",
     "p": 0.8891,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "0-5"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -1327,11 +1327,11 @@
     "key": "o1.5",
     "p": 0.8867,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "1-0"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": null,
   "value": null,
   "pnl": null
@@ -1352,11 +1352,11 @@
     "key": "o1.5",
     "p": 0.8791,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-1"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -1377,8 +1377,8 @@
     "key": "o1.5",
     "p": 0.9289,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-5"
    },
    {
     "sport": "futbol",
@@ -1391,8 +1391,8 @@
     "key": "1X",
     "p": 0.9209,
     "odds": 0.987,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-0"
    },
    {
     "sport": "futbol",
@@ -1405,11 +1405,11 @@
     "key": "o1.5",
     "p": 0.9169,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-2"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -1430,8 +1430,8 @@
     "key": "12",
     "p": 0.75,
     "odds": 1.239,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-2"
    },
    {
     "sport": "futbol",
@@ -1444,8 +1444,8 @@
     "key": "12",
     "p": 0.7499,
     "odds": 1.242,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-3"
    },
    {
     "sport": "futbol",
@@ -1458,11 +1458,11 @@
     "key": "o1.5",
     "p": 0.7497,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "0-2"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -1483,8 +1483,8 @@
     "key": "12",
     "p": 0.75,
     "odds": 1.239,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-2"
    },
    {
     "sport": "futbol",
@@ -1497,8 +1497,8 @@
     "key": "o1.5",
     "p": 0.7497,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "0-2"
    },
    {
     "sport": "futbol",
@@ -1511,11 +1511,11 @@
     "key": "12",
     "p": 0.7492,
     "odds": 1.231,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "2-2"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": null,
   "value": null,
   "pnl": null
@@ -1595,11 +1595,11 @@
     "key": "o1.5",
     "p": 0.8673,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "0-1"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": null,
   "value": null,
   "pnl": null
@@ -1620,14 +1620,14 @@
     "key": "1X",
     "p": 0.8663,
     "odds": 1.077,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-0"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.077,
   "value": false,
-  "pnl": null
+  "pnl": 0.077
  },
  {
   "sport": "futbol",
@@ -1645,14 +1645,14 @@
     "key": "1X",
     "p": 0.861,
     "odds": 1.016,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "3-0"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.016,
   "value": false,
-  "pnl": null
+  "pnl": 0.016
  },
  {
   "sport": "futbol",
@@ -1670,11 +1670,11 @@
     "key": "o1.5",
     "p": 0.8594,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-3"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -1695,14 +1695,14 @@
     "key": "X2",
     "p": 0.8581,
     "odds": 1.027,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-3"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.027,
   "value": false,
-  "pnl": null
+  "pnl": 0.027
  },
  {
   "sport": "futbol",
@@ -1720,11 +1720,11 @@
     "key": "o1.5",
     "p": 0.8578,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-2"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -1745,8 +1745,8 @@
     "key": "o1.5",
     "p": 0.9289,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-5"
    },
    {
     "sport": "futbol",
@@ -1759,8 +1759,8 @@
     "key": "1X",
     "p": 0.9128,
     "odds": 1.0,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-0"
    },
    {
     "sport": "futbol",
@@ -1773,11 +1773,11 @@
     "key": "1X",
     "p": 0.903,
     "odds": 0.983,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-1"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -1798,8 +1798,8 @@
     "key": "12",
     "p": 0.7492,
     "odds": 1.231,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "2-2"
    },
    {
     "sport": "futbol",
@@ -1812,8 +1812,8 @@
     "key": "o2.5",
     "p": 0.7488,
     "odds": 1.25,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "1-0"
    },
    {
     "sport": "futbol",
@@ -1826,11 +1826,11 @@
     "key": "o1.5",
     "p": 0.7485,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "1-0"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": null,
   "value": null,
   "pnl": null
@@ -2045,11 +2045,11 @@
     "key": "o1.5",
     "p": 0.8567,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-2"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -2070,14 +2070,14 @@
     "key": "1X",
     "p": 0.84,
     "odds": 1.163,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-1"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.163,
   "value": false,
-  "pnl": null
+  "pnl": 0.163
  },
  {
   "sport": "futbol",
@@ -2095,11 +2095,11 @@
     "key": "o1.5",
     "p": 0.8384,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-2"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -2120,14 +2120,14 @@
     "key": "1X",
     "p": 0.826,
     "odds": 1.11,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-1"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.11,
   "value": false,
-  "pnl": null
+  "pnl": 0.11
  },
  {
   "sport": "futbol",
@@ -2145,14 +2145,14 @@
     "key": "X2",
     "p": 0.7895,
     "odds": 1.109,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "0-1"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.109,
   "value": false,
-  "pnl": null
+  "pnl": 0.109
  },
  {
   "sport": "futbol",
@@ -2195,11 +2195,11 @@
     "key": "o1.5",
     "p": 0.7728,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-4"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -2220,14 +2220,14 @@
     "key": "X2",
     "p": 0.7624,
     "odds": 1.301,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-2"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.301,
   "value": false,
-  "pnl": null
+  "pnl": 0.301
  },
  {
   "sport": "futbol",
@@ -2245,8 +2245,8 @@
     "key": "o1.5",
     "p": 0.8594,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-3"
    },
    {
     "sport": "futbol",
@@ -2259,8 +2259,8 @@
     "key": "X2",
     "p": 0.8581,
     "odds": 1.027,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-3"
    },
    {
     "sport": "futbol",
@@ -2273,11 +2273,11 @@
     "key": "o1.5",
     "p": 0.8567,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-2"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -2312,8 +2312,8 @@
     "key": "o1.5",
     "p": 0.7343,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-2"
    },
    {
     "sport": "futbol",
@@ -2326,8 +2326,8 @@
     "key": "12",
     "p": 0.721,
     "odds": 1.286,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-4"
    }
   ],
   "status": "pendiente",
@@ -2539,8 +2539,8 @@
     "key": "o1.5",
     "p": 0.8594,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-3"
    },
    {
     "sport": "futbol",
@@ -2553,11 +2553,11 @@
     "key": "X2",
     "p": 0.8581,
     "odds": 1.027,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-3"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -2608,8 +2608,8 @@
     "key": "o1.5",
     "p": 0.7343,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-2"
    }
   ],
   "status": "pendiente",
@@ -2639,7 +2639,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.488,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -2663,7 +2666,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.87,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -2687,7 +2693,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.909,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -2711,7 +2720,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.556,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -2767,7 +2779,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 3.031,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -2823,7 +2838,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 5.959,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "todas",
@@ -2877,7 +2895,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.797,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "todas",
@@ -2931,6 +2952,9 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 2.942,
+  "value": true,
+  "pnl": null
  }
 ]
