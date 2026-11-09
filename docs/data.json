@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T12:54:51Z",
+ "generated_at": "2026-11-09T18:43:21Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -30,7 +30,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7708,
-     "odds": 1.323
+     "odds": 1.308
     },
     {
      "sport": "nfl",
@@ -44,7 +44,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7662,
-     "odds": 1.206
+     "odds": 1.2
     },
     {
      "sport": "nfl",
@@ -72,7 +72,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:A",
      "p": 0.7522,
-     "odds": 1.213
+     "odds": 1.22
     },
     {
      "sport": "nfl",
@@ -86,7 +86,7 @@
      "pick": "Gana Seattle",
      "key": "ml:A",
      "p": 0.7439,
-     "odds": 1.602
+     "odds": 1.556
     },
     {
      "sport": "nfl",
@@ -100,7 +100,7 @@
      "pick": "Gana Baltimore",
      "key": "ml:H",
      "p": 0.7268,
-     "odds": 1.459
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -128,7 +128,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6563,
-     "odds": 1.541
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -142,7 +142,21 @@
      "pick": "Más de 40.5 puntos",
      "key": "ou:o:40.5",
      "p": 0.6492,
-     "odds": 1.909
+     "odds": 1.926
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_10_WAS_NYG",
+     "date": "2026-11-12",
+     "kickoff": "2026-11-13T01:15:00Z",
+     "league": "NFL",
+     "home": "NY Giants",
+     "away": "Washington",
+     "note": "QB: J.J. McCarthy vs Jayden Daniels",
+     "pick": "Más de 42.5 puntos",
+     "key": "ou:o:42.5",
+     "p": 0.6436,
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -156,7 +170,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:A",
      "p": 0.6368,
-     "odds": 1.571
+     "odds": 1.556
     },
     {
      "sport": "nfl",
@@ -188,17 +202,17 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_WAS_NYG",
-     "date": "2026-11-12",
-     "kickoff": "2026-11-13T01:15:00Z",
+     "id": "2026_10_NE_DET",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T14:30:00Z",
      "league": "NFL",
-     "home": "NY Giants",
-     "away": "Washington",
-     "note": "QB: J.J. McCarthy vs Jayden Daniels",
-     "pick": "Más de 43.5 puntos",
-     "key": "ou:o:43.5",
-     "p": 0.6163,
-     "odds": 1.952
+     "home": "Detroit",
+     "away": "New England",
+     "note": "QB: Jared Goff vs Drake Maye",
+     "pick": "New England +3",
+     "key": "sp:A:3",
+     "p": 0.5893,
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -209,24 +223,10 @@
      "home": "Minnesota",
      "away": "Buffalo",
      "note": "QB: Kyler Murray vs Josh Allen",
-     "pick": "Más de 43.5 puntos",
-     "key": "ou:o:43.5",
-     "p": 0.5812,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_NE_DET",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T14:30:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "New England",
-     "note": "QB: Jared Goff vs Drake Maye",
-     "pick": "New England +2.5",
-     "key": "sp:A:2.5",
-     "p": 0.5747,
-     "odds": 1.952
+     "pick": "Minnesota +3.5",
+     "key": "sp:H:3.5",
+     "p": 0.571,
+     "odds": 1.87
     }
    ],
    "mid": [
@@ -242,7 +242,7 @@
      "pick": "Gana Seattle",
      "key": "ml:A",
      "p": 0.7439,
-     "odds": 1.602
+     "odds": 1.556
     },
     {
      "sport": "futbol",
@@ -268,7 +268,7 @@
      "pick": "Gana Baltimore",
      "key": "ml:H",
      "p": 0.7268,
-     "odds": 1.459
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -282,7 +282,7 @@
      "pick": "Gana Pittsburgh",
      "key": "ml:A",
      "p": 0.6751,
-     "odds": 2.54
+     "odds": 2.45
     },
     {
      "sport": "nfl",
@@ -310,7 +310,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6563,
-     "odds": 1.541
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -324,7 +324,21 @@
      "pick": "Más de 40.5 puntos",
      "key": "ou:o:40.5",
      "p": 0.6492,
-     "odds": 1.909
+     "odds": 1.926
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_10_WAS_NYG",
+     "date": "2026-11-12",
+     "kickoff": "2026-11-13T01:15:00Z",
+     "league": "NFL",
+     "home": "NY Giants",
+     "away": "Washington",
+     "note": "QB: J.J. McCarthy vs Jayden Daniels",
+     "pick": "Más de 42.5 puntos",
+     "key": "ou:o:42.5",
+     "p": 0.6436,
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -338,7 +352,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:A",
      "p": 0.6368,
-     "odds": 1.571
+     "odds": 1.556
     },
     {
      "sport": "nfl",
@@ -370,17 +384,31 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_WAS_NYG",
-     "date": "2026-11-12",
-     "kickoff": "2026-11-13T01:15:00Z",
+     "id": "2026_10_BUF_NYJ",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T18:00:00Z",
      "league": "NFL",
-     "home": "NY Giants",
-     "away": "Washington",
-     "note": "QB: J.J. McCarthy vs Jayden Daniels",
-     "pick": "Más de 43.5 puntos",
-     "key": "ou:o:43.5",
-     "p": 0.6163,
-     "odds": 1.952
+     "home": "NY Jets",
+     "away": "Buffalo",
+     "note": "QB: Geno Smith vs Josh Allen",
+     "pick": "Más de 50.5 puntos",
+     "key": "ou:o:50.5",
+     "p": 0.5998,
+     "odds": 1.87
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_10_NE_DET",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T14:30:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "New England",
+     "note": "QB: Jared Goff vs Drake Maye",
+     "pick": "New England +3",
+     "key": "sp:A:3",
+     "p": 0.5893,
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -405,52 +433,10 @@
      "home": "Minnesota",
      "away": "Buffalo",
      "note": "QB: Kyler Murray vs Josh Allen",
-     "pick": "Más de 43.5 puntos",
-     "key": "ou:o:43.5",
-     "p": 0.5812,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_JAX_TEN",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Tennessee",
-     "away": "Jacksonville",
-     "note": "QB: Cam Ward vs Trevor Lawrence",
-     "pick": "Menos de 47.5 puntos",
-     "key": "ou:u:47.5",
-     "p": 0.5771,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_NE_DET",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T14:30:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "New England",
-     "note": "QB: Jared Goff vs Drake Maye",
-     "pick": "New England +2.5",
-     "key": "sp:A:2.5",
-     "p": 0.5747,
-     "odds": 1.952
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_BUF_NYJ",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "NY Jets",
-     "away": "Buffalo",
-     "note": "QB: Geno Smith vs Josh Allen",
-     "pick": "Más de 51.5 puntos",
-     "key": "ou:o:51.5",
-     "p": 0.5716,
-     "odds": 1.893
+     "pick": "Minnesota +3.5",
+     "key": "sp:H:3.5",
+     "p": 0.571,
+     "odds": 1.87
     }
    ],
    "status": null
@@ -511,7 +497,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7708,
-     "odds": 1.323
+     "odds": 1.308
     },
     {
      "sport": "nfl",
@@ -525,7 +511,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7662,
-     "odds": 1.206
+     "odds": 1.2
     },
     {
      "sport": "nfl",
@@ -553,7 +539,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:A",
      "p": 0.7522,
-     "odds": 1.213
+     "odds": 1.22
     },
     {
      "sport": "nfl",
@@ -567,7 +553,7 @@
      "pick": "Gana Seattle",
      "key": "ml:A",
      "p": 0.7439,
-     "odds": 1.602
+     "odds": 1.556
     },
     {
      "sport": "nfl",
@@ -581,7 +567,7 @@
      "pick": "Gana Baltimore",
      "key": "ml:H",
      "p": 0.7268,
-     "odds": 1.459
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -609,7 +595,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6563,
-     "odds": 1.541
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -623,7 +609,21 @@
      "pick": "Más de 40.5 puntos",
      "key": "ou:o:40.5",
      "p": 0.6492,
-     "odds": 1.909
+     "odds": 1.926
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_10_WAS_NYG",
+     "date": "2026-11-12",
+     "kickoff": "2026-11-13T01:15:00Z",
+     "league": "NFL",
+     "home": "NY Giants",
+     "away": "Washington",
+     "note": "QB: J.J. McCarthy vs Jayden Daniels",
+     "pick": "Más de 42.5 puntos",
+     "key": "ou:o:42.5",
+     "p": 0.6436,
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -637,7 +637,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:A",
      "p": 0.6368,
-     "odds": 1.571
+     "odds": 1.556
     },
     {
      "sport": "nfl",
@@ -669,17 +669,17 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_WAS_NYG",
-     "date": "2026-11-12",
-     "kickoff": "2026-11-13T01:15:00Z",
+     "id": "2026_10_NE_DET",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T14:30:00Z",
      "league": "NFL",
-     "home": "NY Giants",
-     "away": "Washington",
-     "note": "QB: J.J. McCarthy vs Jayden Daniels",
-     "pick": "Más de 43.5 puntos",
-     "key": "ou:o:43.5",
-     "p": 0.6163,
-     "odds": 1.952
+     "home": "Detroit",
+     "away": "New England",
+     "note": "QB: Jared Goff vs Drake Maye",
+     "pick": "New England +3",
+     "key": "sp:A:3",
+     "p": 0.5893,
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -690,24 +690,10 @@
      "home": "Minnesota",
      "away": "Buffalo",
      "note": "QB: Kyler Murray vs Josh Allen",
-     "pick": "Más de 43.5 puntos",
-     "key": "ou:o:43.5",
-     "p": 0.5812,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_NE_DET",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T14:30:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "New England",
-     "note": "QB: Jared Goff vs Drake Maye",
-     "pick": "New England +2.5",
-     "key": "sp:A:2.5",
-     "p": 0.5747,
-     "odds": 1.952
+     "pick": "Minnesota +3.5",
+     "key": "sp:H:3.5",
+     "p": 0.571,
+     "odds": 1.87
     }
    ],
    "mid": [
@@ -723,7 +709,7 @@
      "pick": "Gana Seattle",
      "key": "ml:A",
      "p": 0.7439,
-     "odds": 1.602
+     "odds": 1.556
     },
     {
      "sport": "nfl",
@@ -737,7 +723,7 @@
      "pick": "Gana Baltimore",
      "key": "ml:H",
      "p": 0.7268,
-     "odds": 1.459
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -751,7 +737,7 @@
      "pick": "Gana Pittsburgh",
      "key": "ml:A",
      "p": 0.6751,
-     "odds": 2.54
+     "odds": 2.45
     },
     {
      "sport": "nfl",
@@ -779,7 +765,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6563,
-     "odds": 1.541
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -793,7 +779,21 @@
      "pick": "Más de 40.5 puntos",
      "key": "ou:o:40.5",
      "p": 0.6492,
-     "odds": 1.909
+     "odds": 1.926
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_10_WAS_NYG",
+     "date": "2026-11-12",
+     "kickoff": "2026-11-13T01:15:00Z",
+     "league": "NFL",
+     "home": "NY Giants",
+     "away": "Washington",
+     "note": "QB: J.J. McCarthy vs Jayden Daniels",
+     "pick": "Más de 42.5 puntos",
+     "key": "ou:o:42.5",
+     "p": 0.6436,
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -807,7 +807,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:A",
      "p": 0.6368,
-     "odds": 1.571
+     "odds": 1.556
     },
     {
      "sport": "nfl",
@@ -839,17 +839,31 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_WAS_NYG",
-     "date": "2026-11-12",
-     "kickoff": "2026-11-13T01:15:00Z",
+     "id": "2026_10_BUF_NYJ",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T18:00:00Z",
      "league": "NFL",
-     "home": "NY Giants",
-     "away": "Washington",
-     "note": "QB: J.J. McCarthy vs Jayden Daniels",
-     "pick": "Más de 43.5 puntos",
-     "key": "ou:o:43.5",
-     "p": 0.6163,
-     "odds": 1.952
+     "home": "NY Jets",
+     "away": "Buffalo",
+     "note": "QB: Geno Smith vs Josh Allen",
+     "pick": "Más de 50.5 puntos",
+     "key": "ou:o:50.5",
+     "p": 0.5998,
+     "odds": 1.87
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_10_NE_DET",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T14:30:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "New England",
+     "note": "QB: Jared Goff vs Drake Maye",
+     "pick": "New England +3",
+     "key": "sp:A:3",
+     "p": 0.5893,
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -874,52 +888,10 @@
      "home": "Minnesota",
      "away": "Buffalo",
      "note": "QB: Kyler Murray vs Josh Allen",
-     "pick": "Más de 43.5 puntos",
-     "key": "ou:o:43.5",
-     "p": 0.5812,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_JAX_TEN",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Tennessee",
-     "away": "Jacksonville",
-     "note": "QB: Cam Ward vs Trevor Lawrence",
-     "pick": "Menos de 47.5 puntos",
-     "key": "ou:u:47.5",
-     "p": 0.5771,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_NE_DET",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T14:30:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "New England",
-     "note": "QB: Jared Goff vs Drake Maye",
-     "pick": "New England +2.5",
-     "key": "sp:A:2.5",
-     "p": 0.5747,
-     "odds": 1.952
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_BUF_NYJ",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "NY Jets",
-     "away": "Buffalo",
-     "note": "QB: Geno Smith vs Josh Allen",
-     "pick": "Más de 51.5 puntos",
-     "key": "ou:o:51.5",
-     "p": 0.5716,
-     "odds": 1.893
+     "pick": "Minnesota +3.5",
+     "key": "sp:H:3.5",
+     "p": 0.571,
+     "odds": 1.87
     }
    ],
    "status": null
