@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T08:00:39Z",
+ "generated_at": "2026-11-10T12:51:11Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -18,7 +18,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:A",
      "p": 0.7785,
-     "odds": 1.187
+     "odds": 1.182
     },
     {
      "sport": "nfl",
@@ -32,7 +32,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7755,
-     "odds": 1.22
+     "odds": 1.227
     },
     {
      "sport": "nfl",
@@ -46,7 +46,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7685,
-     "odds": 1.167
+     "odds": 1.182
     },
     {
      "sport": "nfl",
@@ -92,6 +92,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_10_WAS_NYG",
+     "date": "2026-11-12",
+     "kickoff": "2026-11-13T01:15:00Z",
+     "league": "NFL",
+     "home": "NY Giants",
+     "away": "Washington",
+     "note": "QB: J.J. McCarthy vs Jayden Daniels",
+     "pick": "Más de 41.5 puntos",
+     "key": "ou:o:41.5",
+     "p": 0.6713,
+     "odds": 1.893
+    },
+    {
+     "sport": "nfl",
      "id": "2026_10_MIN_GB",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T18:00:00Z",
@@ -116,7 +130,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6626,
-     "odds": 1.435
+     "odds": 1.444
     },
     {
      "sport": "nfl",
@@ -131,20 +145,6 @@
      "key": "ou:o:40.5",
      "p": 0.6518,
      "odds": 1.926
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_WAS_NYG",
-     "date": "2026-11-12",
-     "kickoff": "2026-11-13T01:15:00Z",
-     "league": "NFL",
-     "home": "NY Giants",
-     "away": "Washington",
-     "note": "QB: J.J. McCarthy vs Jayden Daniels",
-     "pick": "Más de 42.5 puntos",
-     "key": "ou:o:42.5",
-     "p": 0.6448,
-     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -172,7 +172,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:A",
      "p": 0.6322,
-     "odds": 1.459
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -248,6 +248,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_10_WAS_NYG",
+     "date": "2026-11-12",
+     "kickoff": "2026-11-13T01:15:00Z",
+     "league": "NFL",
+     "home": "NY Giants",
+     "away": "Washington",
+     "note": "QB: J.J. McCarthy vs Jayden Daniels",
+     "pick": "Más de 41.5 puntos",
+     "key": "ou:o:41.5",
+     "p": 0.6713,
+     "odds": 1.893
+    },
+    {
+     "sport": "nfl",
      "id": "2026_10_MIN_GB",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T18:00:00Z",
@@ -272,7 +286,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6626,
-     "odds": 1.435
+     "odds": 1.444
     },
     {
      "sport": "nfl",
@@ -287,20 +301,6 @@
      "key": "ou:o:40.5",
      "p": 0.6518,
      "odds": 1.926
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_WAS_NYG",
-     "date": "2026-11-12",
-     "kickoff": "2026-11-13T01:15:00Z",
-     "league": "NFL",
-     "home": "NY Giants",
-     "away": "Washington",
-     "note": "QB: J.J. McCarthy vs Jayden Daniels",
-     "pick": "Más de 42.5 puntos",
-     "key": "ou:o:42.5",
-     "p": 0.6448,
-     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -342,7 +342,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:A",
      "p": 0.6322,
-     "odds": 1.459
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -433,7 +433,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:A",
      "p": 0.7785,
-     "odds": 1.187
+     "odds": 1.182
     },
     {
      "sport": "nfl",
@@ -447,7 +447,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7755,
-     "odds": 1.22
+     "odds": 1.227
     },
     {
      "sport": "nfl",
@@ -461,7 +461,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7685,
-     "odds": 1.167
+     "odds": 1.182
     },
     {
      "sport": "nfl",
@@ -507,6 +507,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_10_WAS_NYG",
+     "date": "2026-11-12",
+     "kickoff": "2026-11-13T01:15:00Z",
+     "league": "NFL",
+     "home": "NY Giants",
+     "away": "Washington",
+     "note": "QB: J.J. McCarthy vs Jayden Daniels",
+     "pick": "Más de 41.5 puntos",
+     "key": "ou:o:41.5",
+     "p": 0.6713,
+     "odds": 1.893
+    },
+    {
+     "sport": "nfl",
      "id": "2026_10_MIN_GB",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T18:00:00Z",
@@ -531,7 +545,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6626,
-     "odds": 1.435
+     "odds": 1.444
     },
     {
      "sport": "nfl",
@@ -546,20 +560,6 @@
      "key": "ou:o:40.5",
      "p": 0.6518,
      "odds": 1.926
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_WAS_NYG",
-     "date": "2026-11-12",
-     "kickoff": "2026-11-13T01:15:00Z",
-     "league": "NFL",
-     "home": "NY Giants",
-     "away": "Washington",
-     "note": "QB: J.J. McCarthy vs Jayden Daniels",
-     "pick": "Más de 42.5 puntos",
-     "key": "ou:o:42.5",
-     "p": 0.6448,
-     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -587,7 +587,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:A",
      "p": 0.6322,
-     "odds": 1.459
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -663,6 +663,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_10_WAS_NYG",
+     "date": "2026-11-12",
+     "kickoff": "2026-11-13T01:15:00Z",
+     "league": "NFL",
+     "home": "NY Giants",
+     "away": "Washington",
+     "note": "QB: J.J. McCarthy vs Jayden Daniels",
+     "pick": "Más de 41.5 puntos",
+     "key": "ou:o:41.5",
+     "p": 0.6713,
+     "odds": 1.893
+    },
+    {
+     "sport": "nfl",
      "id": "2026_10_MIN_GB",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T18:00:00Z",
@@ -687,7 +701,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6626,
-     "odds": 1.435
+     "odds": 1.444
     },
     {
      "sport": "nfl",
@@ -702,20 +716,6 @@
      "key": "ou:o:40.5",
      "p": 0.6518,
      "odds": 1.926
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_WAS_NYG",
-     "date": "2026-11-12",
-     "kickoff": "2026-11-13T01:15:00Z",
-     "league": "NFL",
-     "home": "NY Giants",
-     "away": "Washington",
-     "note": "QB: J.J. McCarthy vs Jayden Daniels",
-     "pick": "Más de 42.5 puntos",
-     "key": "ou:o:42.5",
-     "p": 0.6448,
-     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -757,7 +757,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:A",
      "p": 0.6322,
-     "odds": 1.459
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -2998,14 +2998,14 @@
      "key": "1X",
      "p": 0.7809,
      "odds": 1.132,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "0-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.132,
    "value": false,
-   "pnl": null
+   "pnl": 0.132
   },
   {
    "sport": "futbol",
@@ -3126,8 +3126,8 @@
      "key": "12",
      "p": 0.7352,
      "odds": 1.234,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "0-0"
     },
     {
      "sport": "futbol",
@@ -3158,7 +3158,7 @@
      "score": "1-4"
     }
    ],
-   "status": "pendiente",
+   "status": "perdido",
    "odds": null,
    "value": null,
    "pnl": null
@@ -3422,8 +3422,8 @@
      "key": "12",
      "p": 0.7352,
      "odds": 1.234,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "0-0"
     },
     {
      "sport": "futbol",
@@ -3440,7 +3440,7 @@
      "score": "2-2"
     }
    ],
-   "status": "pendiente",
+   "status": "perdido",
    "odds": null,
    "value": null,
    "pnl": null
@@ -3687,8 +3687,8 @@
      "key": "1X",
      "p": 0.7809,
      "odds": 1.132,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "0-0"
     },
     {
      "sport": "nfl",
@@ -3760,8 +3760,8 @@
      "key": "12",
      "p": 0.7352,
      "odds": 1.234,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "0-0"
     },
     {
      "sport": "nfl",
@@ -3780,10 +3780,10 @@
      "score": null
     }
    ],
-   "status": "pendiente",
+   "status": "perdido",
    "odds": 2.942,
    "value": true,
-   "pnl": null
+   "pnl": -1.0
   },
   {
    "sport": "nfl",
@@ -3839,44 +3839,47 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.69,
+   "value": false,
+   "pnl": null
   }
  ],
  "record_summary": {
   "todas": {
    "singles": {
-    "ganado": 43,
+    "ganado": 44,
     "perdido": 7,
-    "pendiente": 13,
-    "bets": 31,
-    "profit": 1.48,
+    "pendiente": 12,
+    "bets": 32,
+    "profit": 1.61,
     "value_bets": 5,
     "value_profit": -0.12
    },
    "parlays": {
     "ganado": 14,
-    "perdido": 3,
-    "pendiente": 9,
-    "bets": 6,
-    "profit": 9.49,
-    "value_bets": 5,
-    "value_profit": 8.8
+    "perdido": 6,
+    "pendiente": 6,
+    "bets": 7,
+    "profit": 8.49,
+    "value_bets": 6,
+    "value_profit": 7.8
    }
   },
   "futbol": {
    "singles": {
-    "ganado": 33,
+    "ganado": 34,
     "perdido": 5,
-    "pendiente": 1,
-    "bets": 19,
-    "profit": -0.35,
+    "pendiente": 0,
+    "bets": 20,
+    "profit": -0.22,
     "value_bets": 0,
     "value_profit": 0
    },
    "parlays": {
     "ganado": 8,
-    "perdido": 2,
-    "pendiente": 1,
+    "perdido": 3,
+    "pendiente": 0,
     "bets": 0,
     "profit": 0,
     "value_bets": 0,
