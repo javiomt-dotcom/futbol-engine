@@ -2956,5 +2956,61 @@
   "odds": 2.942,
   "value": true,
   "pnl": null
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_top",
+  "made": "2026-11-10",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_BUF_NYJ",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T18:00:00Z",
+    "league": "NFL",
+    "home": "NY Jets",
+    "away": "Buffalo",
+    "note": "QB: Geno Smith vs Josh Allen",
+    "pick": "Gana Buffalo",
+    "key": "ml:A",
+    "p": 0.7785,
+    "odds": 1.187,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_LA_ARI",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T21:05:00Z",
+    "league": "NFL",
+    "home": "Arizona",
+    "away": "LA Rams",
+    "note": "QB: Gardner Minshew vs Matthew Stafford",
+    "pick": "Gana LA Rams",
+    "key": "ml:A",
+    "p": 0.7755,
+    "odds": 1.22,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_JAX_TEN",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T18:00:00Z",
+    "league": "NFL",
+    "home": "Tennessee",
+    "away": "Jacksonville",
+    "note": "QB: Cam Ward vs Trevor Lawrence",
+    "pick": "Gana Jacksonville",
+    "key": "ml:A",
+    "p": 0.7685,
+    "odds": 1.167,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
  }
 ]
