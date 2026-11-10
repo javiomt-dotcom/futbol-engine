@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T12:51:11Z",
+ "generated_at": "2026-11-10T18:38:33Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -18,7 +18,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:A",
      "p": 0.7785,
-     "odds": 1.182
+     "odds": 1.206
     },
     {
      "sport": "nfl",
@@ -32,7 +32,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7755,
-     "odds": 1.227
+     "odds": 1.22
     },
     {
      "sport": "nfl",
@@ -46,7 +46,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7685,
-     "odds": 1.182
+     "odds": 1.167
     },
     {
      "sport": "nfl",
@@ -88,7 +88,7 @@
      "pick": "Gana Baltimore",
      "key": "ml:H",
      "p": 0.7225,
-     "odds": 1.444
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -102,21 +102,7 @@
      "pick": "Más de 41.5 puntos",
      "key": "ou:o:41.5",
      "p": 0.6713,
-     "odds": 1.893
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_MIN_GB",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Green Bay",
-     "away": "Minnesota",
-     "note": "QB: Jordan Love vs Kyler Murray",
-     "pick": "Menos de 41.5 puntos",
-     "key": "ou:u:41.5",
-     "p": 0.6649,
-     "odds": 1.909
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -144,7 +130,7 @@
      "pick": "Más de 40.5 puntos",
      "key": "ou:o:40.5",
      "p": 0.6518,
-     "odds": 1.926
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -162,6 +148,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_10_MIN_GB",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T18:00:00Z",
+     "league": "NFL",
+     "home": "Green Bay",
+     "away": "Minnesota",
+     "note": "QB: Jordan Love vs Kyler Murray",
+     "pick": "Menos de 40.5 puntos",
+     "key": "ou:u:40.5",
+     "p": 0.6382,
+     "odds": 1.909
+    },
+    {
+     "sport": "nfl",
      "id": "2026_10_SF_DAL",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T21:25:00Z",
@@ -172,7 +172,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:A",
      "p": 0.6322,
-     "odds": 1.488
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -183,9 +183,9 @@
      "home": "New Orleans",
      "away": "Carolina",
      "note": "QB: Tyler Shough vs Bryce Young",
-     "pick": "Más de 47.5 puntos",
-     "key": "ou:o:47.5",
-     "p": 0.6183,
+     "pick": "Más de 48.5 puntos",
+     "key": "ou:o:48.5",
+     "p": 0.5905,
      "odds": 1.87
     },
     {
@@ -230,7 +230,7 @@
      "pick": "Gana Baltimore",
      "key": "ml:H",
      "p": 0.7225,
-     "odds": 1.444
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -244,7 +244,7 @@
      "pick": "Gana Pittsburgh",
      "key": "ml:A",
      "p": 0.6787,
-     "odds": 2.5
+     "odds": 2.45
     },
     {
      "sport": "nfl",
@@ -258,21 +258,7 @@
      "pick": "Más de 41.5 puntos",
      "key": "ou:o:41.5",
      "p": 0.6713,
-     "odds": 1.893
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_MIN_GB",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Green Bay",
-     "away": "Minnesota",
-     "note": "QB: Jordan Love vs Kyler Murray",
-     "pick": "Menos de 41.5 puntos",
-     "key": "ou:u:41.5",
-     "p": 0.6649,
-     "odds": 1.909
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -300,7 +286,7 @@
      "pick": "Más de 40.5 puntos",
      "key": "ou:o:40.5",
      "p": 0.6518,
-     "odds": 1.926
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -332,6 +318,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_10_MIN_GB",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T18:00:00Z",
+     "league": "NFL",
+     "home": "Green Bay",
+     "away": "Minnesota",
+     "note": "QB: Jordan Love vs Kyler Murray",
+     "pick": "Menos de 40.5 puntos",
+     "key": "ou:u:40.5",
+     "p": 0.6382,
+     "odds": 1.909
+    },
+    {
+     "sport": "nfl",
      "id": "2026_10_SF_DAL",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T21:25:00Z",
@@ -342,7 +342,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:A",
      "p": 0.6322,
-     "odds": 1.488
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -353,9 +353,9 @@
      "home": "New Orleans",
      "away": "Carolina",
      "note": "QB: Tyler Shough vs Bryce Young",
-     "pick": "Más de 47.5 puntos",
-     "key": "ou:o:47.5",
-     "p": 0.6183,
+     "pick": "Más de 48.5 puntos",
+     "key": "ou:o:48.5",
+     "p": 0.5905,
      "odds": 1.87
     },
     {
@@ -384,7 +384,7 @@
      "pick": "Más de 50.5 puntos",
      "key": "ou:o:50.5",
      "p": 0.5653,
-     "odds": 1.952
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -398,7 +398,7 @@
      "pick": "Menos de 46.5 puntos",
      "key": "ou:u:46.5",
      "p": 0.5515,
-     "odds": 1.926
+     "odds": 1.909
     }
    ],
    "status": null
@@ -433,7 +433,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:A",
      "p": 0.7785,
-     "odds": 1.182
+     "odds": 1.206
     },
     {
      "sport": "nfl",
@@ -447,7 +447,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7755,
-     "odds": 1.227
+     "odds": 1.22
     },
     {
      "sport": "nfl",
@@ -461,7 +461,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7685,
-     "odds": 1.182
+     "odds": 1.167
     },
     {
      "sport": "nfl",
@@ -503,7 +503,7 @@
      "pick": "Gana Baltimore",
      "key": "ml:H",
      "p": 0.7225,
-     "odds": 1.444
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -517,21 +517,7 @@
      "pick": "Más de 41.5 puntos",
      "key": "ou:o:41.5",
      "p": 0.6713,
-     "odds": 1.893
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_MIN_GB",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Green Bay",
-     "away": "Minnesota",
-     "note": "QB: Jordan Love vs Kyler Murray",
-     "pick": "Menos de 41.5 puntos",
-     "key": "ou:u:41.5",
-     "p": 0.6649,
-     "odds": 1.909
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -559,7 +545,7 @@
      "pick": "Más de 40.5 puntos",
      "key": "ou:o:40.5",
      "p": 0.6518,
-     "odds": 1.926
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -577,6 +563,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_10_MIN_GB",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T18:00:00Z",
+     "league": "NFL",
+     "home": "Green Bay",
+     "away": "Minnesota",
+     "note": "QB: Jordan Love vs Kyler Murray",
+     "pick": "Menos de 40.5 puntos",
+     "key": "ou:u:40.5",
+     "p": 0.6382,
+     "odds": 1.909
+    },
+    {
+     "sport": "nfl",
      "id": "2026_10_SF_DAL",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T21:25:00Z",
@@ -587,7 +587,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:A",
      "p": 0.6322,
-     "odds": 1.488
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -598,9 +598,9 @@
      "home": "New Orleans",
      "away": "Carolina",
      "note": "QB: Tyler Shough vs Bryce Young",
-     "pick": "Más de 47.5 puntos",
-     "key": "ou:o:47.5",
-     "p": 0.6183,
+     "pick": "Más de 48.5 puntos",
+     "key": "ou:o:48.5",
+     "p": 0.5905,
      "odds": 1.87
     },
     {
@@ -645,7 +645,7 @@
      "pick": "Gana Baltimore",
      "key": "ml:H",
      "p": 0.7225,
-     "odds": 1.444
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -659,7 +659,7 @@
      "pick": "Gana Pittsburgh",
      "key": "ml:A",
      "p": 0.6787,
-     "odds": 2.5
+     "odds": 2.45
     },
     {
      "sport": "nfl",
@@ -673,21 +673,7 @@
      "pick": "Más de 41.5 puntos",
      "key": "ou:o:41.5",
      "p": 0.6713,
-     "odds": 1.893
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_MIN_GB",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Green Bay",
-     "away": "Minnesota",
-     "note": "QB: Jordan Love vs Kyler Murray",
-     "pick": "Menos de 41.5 puntos",
-     "key": "ou:u:41.5",
-     "p": 0.6649,
-     "odds": 1.909
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -715,7 +701,7 @@
      "pick": "Más de 40.5 puntos",
      "key": "ou:o:40.5",
      "p": 0.6518,
-     "odds": 1.926
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -747,6 +733,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_10_MIN_GB",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T18:00:00Z",
+     "league": "NFL",
+     "home": "Green Bay",
+     "away": "Minnesota",
+     "note": "QB: Jordan Love vs Kyler Murray",
+     "pick": "Menos de 40.5 puntos",
+     "key": "ou:u:40.5",
+     "p": 0.6382,
+     "odds": 1.909
+    },
+    {
+     "sport": "nfl",
      "id": "2026_10_SF_DAL",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T21:25:00Z",
@@ -757,7 +757,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:A",
      "p": 0.6322,
-     "odds": 1.488
+     "odds": 1.459
     },
     {
      "sport": "nfl",
@@ -768,9 +768,9 @@
      "home": "New Orleans",
      "away": "Carolina",
      "note": "QB: Tyler Shough vs Bryce Young",
-     "pick": "Más de 47.5 puntos",
-     "key": "ou:o:47.5",
-     "p": 0.6183,
+     "pick": "Más de 48.5 puntos",
+     "key": "ou:o:48.5",
+     "p": 0.5905,
      "odds": 1.87
     },
     {
@@ -799,7 +799,7 @@
      "pick": "Más de 50.5 puntos",
      "key": "ou:o:50.5",
      "p": 0.5653,
-     "odds": 1.952
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -813,7 +813,7 @@
      "pick": "Menos de 46.5 puntos",
      "key": "ou:u:46.5",
      "p": 0.5515,
-     "odds": 1.926
+     "odds": 1.909
     }
    ],
    "status": null
