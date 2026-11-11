@@ -3015,5 +3015,117 @@
   "odds": 1.69,
   "value": false,
   "pnl": null
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_top",
+  "made": "2026-11-11",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_SEA_LV",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T21:05:00Z",
+    "league": "NFL",
+    "home": "Las Vegas",
+    "away": "Seattle",
+    "note": "QB: Fernando Mendoza vs Sam Darnold",
+    "pick": "Gana Seattle",
+    "key": "ml:A",
+    "p": 0.8291,
+    "odds": 1.345,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_BUF_NYJ",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T18:00:00Z",
+    "league": "NFL",
+    "home": "NY Jets",
+    "away": "Buffalo",
+    "note": "QB: Geno Smith vs Josh Allen",
+    "pick": "Gana Buffalo",
+    "key": "ml:A",
+    "p": 0.7783,
+    "odds": 1.244,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_LA_ARI",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T21:05:00Z",
+    "league": "NFL",
+    "home": "Arizona",
+    "away": "LA Rams",
+    "note": "QB: Gardner Minshew vs Matthew Stafford",
+    "pick": "Gana LA Rams",
+    "key": "ml:A",
+    "p": 0.7753,
+    "odds": 1.235,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-11",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_LAC_BAL",
+    "date": "2026-11-16",
+    "kickoff": "2026-11-17T01:15:00Z",
+    "league": "NFL",
+    "home": "Baltimore",
+    "away": "LA Chargers",
+    "note": "QB: Tyler Huntley vs Justin Herbert",
+    "pick": "Gana Baltimore",
+    "key": "ml:H",
+    "p": 0.7225,
+    "odds": 1.459,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_MIA_IND",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T18:00:00Z",
+    "league": "NFL",
+    "home": "Indianapolis",
+    "away": "Miami",
+    "note": "QB: Daniel Jones vs Malik Willis",
+    "pick": "Más de 38.5 puntos",
+    "key": "ou:o:38.5",
+    "p": 0.7036,
+    "odds": 1.926,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_SEA_LV",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T21:05:00Z",
+    "league": "NFL",
+    "home": "Las Vegas",
+    "away": "Seattle",
+    "note": "QB: Fernando Mendoza vs Sam Darnold",
+    "pick": "Seattle -6.5",
+    "key": "sp:A:-6.5",
+    "p": 0.6791,
+    "odds": 1.926,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
  }
 ]
