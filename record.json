@@ -3070,7 +3070,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 2.066,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -3126,6 +3129,9 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 5.412,
+  "value": true,
+  "pnl": null
  }
 ]

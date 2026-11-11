@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T08:08:07Z",
+ "generated_at": "2026-11-11T12:52:39Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -32,7 +32,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:A",
      "p": 0.7783,
-     "odds": 1.244
+     "odds": 1.253
     },
     {
      "sport": "nfl",
@@ -258,7 +258,7 @@
      "pick": "Gana Pittsburgh",
      "key": "ml:A",
      "p": 0.6788,
-     "odds": 2.5
+     "odds": 2.45
     },
     {
      "sport": "nfl",
@@ -447,7 +447,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:A",
      "p": 0.7783,
-     "odds": 1.244
+     "odds": 1.253
     },
     {
      "sport": "nfl",
@@ -673,7 +673,7 @@
      "pick": "Gana Pittsburgh",
      "key": "ml:A",
      "p": 0.6788,
-     "odds": 2.5
+     "odds": 2.45
     },
     {
      "sport": "nfl",
@@ -3898,7 +3898,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 2.066,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -3954,7 +3957,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 5.412,
+   "value": true,
+   "pnl": null
   }
  ],
  "record_summary": {
