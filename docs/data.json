@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T12:54:16Z",
+ "generated_at": "2026-11-12T18:42:41Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -74,7 +74,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7647,
-     "odds": 1.187
+     "odds": 1.167
     },
     {
      "sport": "nfl",
@@ -144,7 +144,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6571,
-     "odds": 1.435
+     "odds": 1.444
     },
     {
      "sport": "nfl",
@@ -172,7 +172,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:A",
      "p": 0.641,
-     "odds": 1.541
+     "odds": 1.556
     },
     {
      "sport": "nfl",
@@ -200,7 +200,7 @@
      "pick": "Más de 48.5 puntos",
      "key": "ou:o:48.5",
      "p": 0.5908,
-     "odds": 1.87
+     "odds": 1.893
     },
     {
      "sport": "nfl",
@@ -328,7 +328,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6571,
-     "odds": 1.435
+     "odds": 1.444
     },
     {
      "sport": "nfl",
@@ -356,7 +356,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:A",
      "p": 0.641,
-     "odds": 1.541
+     "odds": 1.556
     },
     {
      "sport": "nfl",
@@ -384,7 +384,7 @@
      "pick": "Más de 48.5 puntos",
      "key": "ou:o:48.5",
      "p": 0.5908,
-     "odds": 1.87
+     "odds": 1.893
     },
     {
      "sport": "nfl",
@@ -503,7 +503,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7647,
-     "odds": 1.187
+     "odds": 1.167
     },
     {
      "sport": "nfl",
@@ -573,7 +573,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6571,
-     "odds": 1.435
+     "odds": 1.444
     },
     {
      "sport": "nfl",
@@ -601,7 +601,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:A",
      "p": 0.641,
-     "odds": 1.541
+     "odds": 1.556
     },
     {
      "sport": "nfl",
@@ -629,7 +629,7 @@
      "pick": "Más de 48.5 puntos",
      "key": "ou:o:48.5",
      "p": 0.5908,
-     "odds": 1.87
+     "odds": 1.893
     },
     {
      "sport": "nfl",
@@ -757,7 +757,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6571,
-     "odds": 1.435
+     "odds": 1.444
     },
     {
      "sport": "nfl",
@@ -785,7 +785,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:A",
      "p": 0.641,
-     "odds": 1.541
+     "odds": 1.556
     },
     {
      "sport": "nfl",
@@ -813,7 +813,7 @@
      "pick": "Más de 48.5 puntos",
      "key": "ou:o:48.5",
      "p": 0.5908,
-     "odds": 1.87
+     "odds": 1.893
     },
     {
      "sport": "nfl",
