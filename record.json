@@ -3133,5 +3133,85 @@
   "odds": 5.412,
   "value": true,
   "pnl": null
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-12",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_11_IND_HOU",
+    "date": "2026-11-19",
+    "kickoff": "2026-11-20T01:15:00Z",
+    "league": "NFL",
+    "home": "Houston",
+    "away": "Indianapolis",
+    "note": "QB: C.J. Stroud vs Daniel Jones",
+    "pick": "Gana Houston",
+    "key": "ml:H",
+    "p": 0.6636,
+    "odds": 1.22,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-12",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_LAC_BAL",
+    "date": "2026-11-16",
+    "kickoff": "2026-11-17T01:15:00Z",
+    "league": "NFL",
+    "home": "Baltimore",
+    "away": "LA Chargers",
+    "note": "QB: Tyler Huntley vs Justin Herbert",
+    "pick": "Gana Baltimore",
+    "key": "ml:H",
+    "p": 0.7234,
+    "odds": 1.444,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_MIA_IND",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T18:00:00Z",
+    "league": "NFL",
+    "home": "Indianapolis",
+    "away": "Miami",
+    "note": "QB: Daniel Jones vs Malik Willis",
+    "pick": "Más de 38.5 puntos",
+    "key": "ou:o:38.5",
+    "p": 0.705,
+    "odds": 1.926,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_WAS_NYG",
+    "date": "2026-11-12",
+    "kickoff": "2026-11-13T01:15:00Z",
+    "league": "NFL",
+    "home": "NY Giants",
+    "away": "Washington",
+    "note": "QB: J.J. McCarthy vs Jayden Daniels",
+    "pick": "Más de 40.5 puntos",
+    "key": "ou:o:40.5",
+    "p": 0.6977,
+    "odds": 1.847,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
  }
 ]
