@@ -984,14 +984,14 @@
     "key": "ou:o:44.5",
     "p": 0.6515,
     "odds": 1.909,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "21-24"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.909,
   "value": true,
-  "pnl": null
+  "pnl": 0.909
  },
  {
   "sport": "nfl",
@@ -3211,13 +3211,333 @@
     "key": "ou:o:40.5",
     "p": 0.6977,
     "odds": 1.847,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "21-24"
    }
   ],
   "status": "pendiente",
   "odds": 5.137,
   "value": true,
   "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-13",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T15:00:00Z",
+    "league": "National League",
+    "home": "Scunthorpe",
+    "away": "Worthing",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8747,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-13",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T15:00:00Z",
+    "league": "National League",
+    "home": "Carlisle",
+    "away": "Boston Utd",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8546,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-13",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T15:00:00Z",
+    "league": "National League",
+    "home": "Southend",
+    "away": "Aldershot",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8535,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-13",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T15:00:00Z",
+    "league": "League Two",
+    "home": "Rochdale",
+    "away": "York",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8434,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-13",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T17:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Almeria",
+    "away": "Andorra",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8354,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-13",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T15:00:00Z",
+    "league": "Escocia 2",
+    "home": "Livingston",
+    "away": "Morton",
+    "pick": "Livingston o empate",
+    "key": "1X",
+    "p": 0.8352,
+    "odds": 1.01,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-13",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T15:00:00Z",
+    "league": "National League",
+    "home": "Harrogate",
+    "away": "Altrincham",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8329,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-13",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T15:00:00Z",
+    "league": "League One",
+    "home": "Sheffield Weds",
+    "away": "Plymouth",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8293,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-13",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-16",
+    "kickoff": "2026-11-16T19:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Albacete",
+    "away": "Celta B",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8291,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-13",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T15:00:00Z",
+    "league": "National League",
+    "home": "Yeovil",
+    "away": "Boreham Wood",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8272,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_top",
+  "made": "2026-11-13",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T15:00:00Z",
+    "league": "National League",
+    "home": "Scunthorpe",
+    "away": "Worthing",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8747,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T15:00:00Z",
+    "league": "National League",
+    "home": "Carlisle",
+    "away": "Boston Utd",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8546,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T15:00:00Z",
+    "league": "National League",
+    "home": "Southend",
+    "away": "Aldershot",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8535,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_mid",
+  "made": "2026-11-13",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T13:00:00Z",
+    "league": "LaLiga 2",
+    "home": "Valladolid",
+    "away": "Castellon",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7495,
+    "odds": 1.246,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T20:00:00Z",
+    "league": "LaLiga 2",
+    "home": "Oviedo",
+    "away": "Girona",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7493,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T17:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Mallorca",
+    "away": "Cordoba",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7488,
+    "odds": 1.217,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
  }
 ]
