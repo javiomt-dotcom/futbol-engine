@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T19:13:54Z",
+ "generated_at": "2026-11-13T23:14:23Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -102,7 +102,7 @@
      "pick": "Gana Seattle",
      "key": "ml:A",
      "p": 0.8312,
-     "odds": 1.345
+     "odds": 1.328
     },
     {
      "sport": "futbol",
@@ -338,7 +338,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7655,
-     "odds": 1.154
+     "odds": 1.143
     },
     {
      "sport": "futbol",
@@ -622,7 +622,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6573,
-     "odds": 1.42
+     "odds": 1.435
     },
     {
      "sport": "nfl",
@@ -668,20 +668,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_NE_DET",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T14:30:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "New England",
-     "note": "QB: Jared Goff vs Drake Maye",
-     "pick": "New England +3",
-     "key": "sp:A:3",
-     "p": 0.5936,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
      "id": "2026_10_CAR_NO",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T18:00:00Z",
@@ -693,6 +679,20 @@
      "key": "ou:o:48.5",
      "p": 0.5905,
      "odds": 1.87
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_10_NE_DET",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T14:30:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "New England",
+     "note": "QB: Jared Goff vs Drake Maye",
+     "pick": "New England +2.5",
+     "key": "sp:A:2.5",
+     "p": 0.5791,
+     "odds": 1.98
     }
    ],
    "mid": [
@@ -1248,7 +1248,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6573,
-     "odds": 1.42
+     "odds": 1.435
     },
     {
      "sport": "nfl",
@@ -1318,20 +1318,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_NE_DET",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T14:30:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "New England",
-     "note": "QB: Jared Goff vs Drake Maye",
-     "pick": "New England +3",
-     "key": "sp:A:3",
-     "p": 0.5936,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
      "id": "2026_10_CAR_NO",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T18:00:00Z",
@@ -1355,6 +1341,20 @@
      "key": "o2.5",
      "p": 0.5816,
      "odds": 1.63
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_10_NE_DET",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T14:30:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "New England",
+     "note": "QB: Jared Goff vs Drake Maye",
+     "pick": "New England +2.5",
+     "key": "sp:A:2.5",
+     "p": 0.5791,
+     "odds": 1.98
     },
     {
      "sport": "nfl",
@@ -2389,7 +2389,7 @@
      "pick": "Gana Seattle",
      "key": "ml:A",
      "p": 0.8312,
-     "odds": 1.345
+     "odds": 1.328
     },
     {
      "sport": "nfl",
@@ -2445,7 +2445,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7655,
-     "odds": 1.154
+     "odds": 1.143
     },
     {
      "sport": "nfl",
@@ -2501,7 +2501,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6573,
-     "odds": 1.42
+     "odds": 1.435
     },
     {
      "sport": "nfl",
@@ -2547,20 +2547,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_NE_DET",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T14:30:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "New England",
-     "note": "QB: Jared Goff vs Drake Maye",
-     "pick": "New England +3",
-     "key": "sp:A:3",
-     "p": 0.5936,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
      "id": "2026_10_CAR_NO",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T18:00:00Z",
@@ -2572,6 +2558,20 @@
      "key": "ou:o:48.5",
      "p": 0.5905,
      "odds": 1.87
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_10_NE_DET",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T14:30:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "New England",
+     "note": "QB: Jared Goff vs Drake Maye",
+     "pick": "New England +2.5",
+     "key": "sp:A:2.5",
+     "p": 0.5791,
+     "odds": 1.98
     }
    ],
    "mid": [
@@ -2671,7 +2671,7 @@
      "pick": "Gana Houston",
      "key": "ml:A",
      "p": 0.6573,
-     "odds": 1.42
+     "odds": 1.435
     },
     {
      "sport": "nfl",
@@ -2717,20 +2717,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_NE_DET",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T14:30:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "New England",
-     "note": "QB: Jared Goff vs Drake Maye",
-     "pick": "New England +3",
-     "key": "sp:A:3",
-     "p": 0.5936,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
      "id": "2026_10_CAR_NO",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T18:00:00Z",
@@ -2742,6 +2728,20 @@
      "key": "ou:o:48.5",
      "p": 0.5905,
      "odds": 1.87
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_10_NE_DET",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T14:30:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "New England",
+     "note": "QB: Jared Goff vs Drake Maye",
+     "pick": "New England +2.5",
+     "key": "sp:A:2.5",
+     "p": 0.5791,
+     "odds": 1.98
     },
     {
      "sport": "nfl",
