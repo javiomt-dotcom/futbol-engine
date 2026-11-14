@@ -3575,5 +3575,55 @@
   "odds": null,
   "value": null,
   "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_mid",
+  "made": "2026-11-14",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T20:00:00Z",
+    "league": "LaLiga 2",
+    "home": "Oviedo",
+    "away": "Girona",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7493,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T17:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Mallorca",
+    "away": "Cordoba",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7488,
+    "odds": 1.217,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-14",
+    "kickoff": "2026-11-14T15:00:00Z",
+    "league": "National League",
+    "home": "Yeovil",
+    "away": "Boreham Wood",
+    "pick": "Boreham Wood o empate",
+    "key": "X2",
+    "p": 0.7482,
+    "odds": 1.149,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
  }
 ]
