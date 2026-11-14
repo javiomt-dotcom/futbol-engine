@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T13:53:36Z",
+ "generated_at": "2026-11-14T17:40:54Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -298,7 +298,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7758,
-     "odds": 1.2
+     "odds": 1.192
     },
     {
      "sport": "futbol",
@@ -324,7 +324,7 @@
      "pick": "Pittsburgh +3.5",
      "key": "sp:A:3.5",
      "p": 0.7681,
-     "odds": 1.909
+     "odds": 1.893
     },
     {
      "sport": "futbol",
@@ -570,7 +570,7 @@
      "pick": "Más de 38.5 puntos",
      "key": "ou:o:38.5",
      "p": 0.7047,
-     "odds": 1.952
+     "odds": 1.909
     },
     {
      "sport": "futbol",
@@ -638,7 +638,7 @@
      "pick": "Menos de 47.5 puntos",
      "key": "ou:u:47.5",
      "p": 0.6471,
-     "odds": 1.847
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -1022,7 +1022,7 @@
      "pick": "Más de 38.5 puntos",
      "key": "ou:o:38.5",
      "p": 0.7047,
-     "odds": 1.952
+     "odds": 1.909
     },
     {
      "sport": "futbol",
@@ -1252,7 +1252,7 @@
      "pick": "Menos de 47.5 puntos",
      "key": "ou:u:47.5",
      "p": 0.6471,
-     "odds": 1.847
+     "odds": 1.87
     },
     {
      "sport": "futbol",
@@ -1344,7 +1344,7 @@
      "pick": "Más de 50.5 puntos",
      "key": "ou:o:50.5",
      "p": 0.5649,
-     "odds": 1.847
+     "odds": 1.87
     }
    ],
    "status": null
@@ -2369,7 +2369,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7758,
-     "odds": 1.2
+     "odds": 1.192
     },
     {
      "sport": "nfl",
@@ -2383,7 +2383,7 @@
      "pick": "Pittsburgh +3.5",
      "key": "sp:A:3.5",
      "p": 0.7681,
-     "odds": 1.909
+     "odds": 1.893
     },
     {
      "sport": "nfl",
@@ -2425,7 +2425,7 @@
      "pick": "Más de 38.5 puntos",
      "key": "ou:o:38.5",
      "p": 0.7047,
-     "odds": 1.952
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -2481,7 +2481,7 @@
      "pick": "Menos de 47.5 puntos",
      "key": "ou:u:47.5",
      "p": 0.6471,
-     "odds": 1.847
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -2553,7 +2553,7 @@
      "pick": "Más de 38.5 puntos",
      "key": "ou:o:38.5",
      "p": 0.7047,
-     "odds": 1.952
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -2651,7 +2651,7 @@
      "pick": "Menos de 47.5 puntos",
      "key": "ou:u:47.5",
      "p": 0.6471,
-     "odds": 1.847
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -2707,7 +2707,7 @@
      "pick": "Más de 50.5 puntos",
      "key": "ou:o:50.5",
      "p": 0.5649,
-     "odds": 1.847
+     "odds": 1.87
     }
    ],
    "status": null
@@ -6346,6 +6346,271 @@
      "score": null
     }
    ],
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
+  },
+  {
+   "sport": "futbol",
+   "type": "single",
+   "made": "2026-11-14",
+   "legs": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T17:30:00Z",
+     "league": "LaLiga 2",
+     "home": "Eibar",
+     "away": "Cadiz",
+     "pick": "Eibar o empate",
+     "key": "1X",
+     "p": 0.8041,
+     "odds": 1.129,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "futbol",
+   "type": "single",
+   "made": "2026-11-14",
+   "legs": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T13:00:00Z",
+     "league": "LaLiga 2",
+     "home": "Tenerife",
+     "away": "Ceuta",
+     "pick": "Tenerife o empate",
+     "key": "1X",
+     "p": 0.7654,
+     "odds": 1.196,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "futbol",
+   "type": "single",
+   "made": "2026-11-14",
+   "legs": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-14",
+     "kickoff": "2026-11-14T20:00:00Z",
+     "league": "LaLiga 2",
+     "home": "Oviedo",
+     "away": "Girona",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.7493,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "futbol",
+   "type": "single",
+   "made": "2026-11-14",
+   "legs": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T15:15:00Z",
+     "league": "LaLiga 2",
+     "home": "Granada",
+     "away": "Las Palmas",
+     "pick": "No hay empate",
+     "key": "12",
+     "p": 0.7431,
+     "odds": 1.229,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "futbol",
+   "type": "single",
+   "made": "2026-11-14",
+   "legs": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T17:30:00Z",
+     "league": "LaLiga 2",
+     "home": "Eldense",
+     "away": "Sabadell",
+     "pick": "No hay empate",
+     "key": "12",
+     "p": 0.6929,
+     "odds": 1.305,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "futbol",
+   "type": "parlay_top",
+   "made": "2026-11-14",
+   "legs": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-16",
+     "kickoff": "2026-11-16T19:30:00Z",
+     "league": "LaLiga 2",
+     "home": "Albacete",
+     "away": "Celta B",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.829,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T17:30:00Z",
+     "league": "LaLiga 2",
+     "home": "Eibar",
+     "away": "Cadiz",
+     "pick": "Eibar o empate",
+     "key": "1X",
+     "p": 0.8041,
+     "odds": 1.129,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T13:00:00Z",
+     "league": "LaLiga 2",
+     "home": "Tenerife",
+     "away": "Ceuta",
+     "pick": "Tenerife o empate",
+     "key": "1X",
+     "p": 0.7654,
+     "odds": 1.196,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "futbol",
+   "type": "parlay_mid",
+   "made": "2026-11-14",
+   "legs": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-14",
+     "kickoff": "2026-11-14T20:00:00Z",
+     "league": "LaLiga 2",
+     "home": "Oviedo",
+     "away": "Girona",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.7493,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T15:15:00Z",
+     "league": "LaLiga 2",
+     "home": "Granada",
+     "away": "Las Palmas",
+     "pick": "No hay empate",
+     "key": "12",
+     "p": 0.7431,
+     "odds": 1.229,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T13:00:00Z",
+     "league": "LaLiga 2",
+     "home": "Tenerife",
+     "away": "Ceuta",
+     "pick": "No hay empate",
+     "key": "12",
+     "p": 0.7408,
+     "odds": 1.248,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "todas",
+   "type": "parlay_top",
+   "made": "2026-11-14",
+   "legs": [
+    {
+     "sport": "nfl",
+     "id": "2026_10_SEA_LV",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T21:05:00Z",
+     "league": "NFL",
+     "home": "Las Vegas",
+     "away": "Seattle",
+     "note": "QB: Fernando Mendoza vs Sam Darnold",
+     "pick": "Gana Seattle",
+     "key": "ml:A",
+     "p": 0.831,
+     "odds": 1.328,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-16",
+     "kickoff": "2026-11-16T19:30:00Z",
+     "league": "LaLiga 2",
+     "home": "Albacete",
+     "away": "Celta B",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.829,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-15",
+     "kickoff": "2026-11-15T17:30:00Z",
+     "league": "LaLiga 2",
+     "home": "Eibar",
+     "away": "Cadiz",
+     "pick": "Eibar o empate",
+     "key": "1X",
+     "p": 0.8041,
+     "odds": 1.129,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
    "status": "pendiente"
   }
  ],
@@ -6354,7 +6619,7 @@
    "singles": {
     "ganado": 45,
     "perdido": 7,
-    "pendiente": 22,
+    "pendiente": 27,
     "bets": 33,
     "profit": 2.52,
     "value_bets": 6,
@@ -6363,7 +6628,7 @@
    "parlays": {
     "ganado": 14,
     "perdido": 6,
-    "pendiente": 12,
+    "pendiente": 15,
     "bets": 7,
     "profit": 8.49,
     "value_bets": 6,
@@ -6374,7 +6639,7 @@
    "singles": {
     "ganado": 34,
     "perdido": 5,
-    "pendiente": 10,
+    "pendiente": 15,
     "bets": 20,
     "profit": -0.22,
     "value_bets": 0,
@@ -6383,7 +6648,7 @@
    "parlays": {
     "ganado": 8,
     "perdido": 3,
-    "pendiente": 3,
+    "pendiente": 5,
     "bets": 0,
     "profit": 0,
     "value_bets": 0,
