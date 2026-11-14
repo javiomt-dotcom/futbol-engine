@@ -3649,7 +3649,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.129,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -3671,7 +3674,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.196,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -3693,7 +3699,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -3715,7 +3724,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.229,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -3737,7 +3749,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.305,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -3787,7 +3802,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -3837,7 +3855,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "todas",
@@ -3885,6 +3906,167 @@
     "key": "1X",
     "p": 0.8041,
     "odds": 1.129,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_mid",
+  "made": "2026-11-14",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T15:15:00Z",
+    "league": "LaLiga 2",
+    "home": "Granada",
+    "away": "Las Palmas",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7431,
+    "odds": 1.229,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T13:00:00Z",
+    "league": "LaLiga 2",
+    "home": "Tenerife",
+    "away": "Ceuta",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7408,
+    "odds": 1.248,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T17:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Eibar",
+    "away": "Cadiz",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7047,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-14",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_10_MIA_IND",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T18:00:00Z",
+    "league": "NFL",
+    "home": "Indianapolis",
+    "away": "Miami",
+    "note": "QB: Daniel Jones vs Malik Willis",
+    "pick": "Más de 37.5 puntos",
+    "key": "ou:o:37.5",
+    "p": 0.7292,
+    "odds": 1.909,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_LAC_BAL",
+    "date": "2026-11-16",
+    "kickoff": "2026-11-17T01:15:00Z",
+    "league": "NFL",
+    "home": "Baltimore",
+    "away": "LA Chargers",
+    "note": "QB: Tyler Huntley vs Justin Herbert",
+    "pick": "Gana Baltimore",
+    "key": "ml:H",
+    "p": 0.7224,
+    "odds": 1.459,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_SEA_LV",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T21:05:00Z",
+    "league": "NFL",
+    "home": "Las Vegas",
+    "away": "Seattle",
+    "note": "QB: Fernando Mendoza vs Sam Darnold",
+    "pick": "Seattle -6.5",
+    "key": "sp:A:-6.5",
+    "p": 0.6818,
+    "odds": 1.893,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "todas",
+  "type": "parlay_mid",
+  "made": "2026-11-14",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T15:15:00Z",
+    "league": "LaLiga 2",
+    "home": "Granada",
+    "away": "Las Palmas",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7431,
+    "odds": 1.229,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T13:00:00Z",
+    "league": "LaLiga 2",
+    "home": "Tenerife",
+    "away": "Ceuta",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7408,
+    "odds": 1.248,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_10_MIA_IND",
+    "date": "2026-11-15",
+    "kickoff": "2026-11-15T18:00:00Z",
+    "league": "NFL",
+    "home": "Indianapolis",
+    "away": "Miami",
+    "note": "QB: Daniel Jones vs Malik Willis",
+    "pick": "Más de 37.5 puntos",
+    "key": "ou:o:37.5",
+    "p": 0.7292,
+    "odds": 1.909,
     "status": "pendiente",
     "score": null
    }
