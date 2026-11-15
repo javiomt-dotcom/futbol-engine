@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-15T18:30:00Z",
+ "generated_at": "2026-11-15T22:28:44Z",
  "legs": 3,
  "sports": {
   "todas": {
    "name": "Recomendaciones",
-   "matches": 29,
+   "matches": 22,
    "top": [
     {
      "sport": "nfl",
@@ -88,20 +88,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_BUF_NYJ",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "NY Jets",
-     "away": "Buffalo",
-     "note": "QB: Geno Smith vs Josh Allen",
-     "pick": "Gana Buffalo",
-     "key": "ml:A",
-     "p": 0.778,
-     "odds": 1.206
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_ARI_KC",
      "date": "2026-11-22",
      "kickoff": "2026-11-22T18:00:00Z",
@@ -126,7 +112,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7756,
-     "odds": 1.2
+     "odds": 1.182
     },
     {
      "sport": "nfl",
@@ -153,20 +139,6 @@
      "key": "1X",
      "p": 0.7654,
      "odds": 1.196
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_JAX_TEN",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Tennessee",
-     "away": "Jacksonville",
-     "note": "QB: Cam Ward vs Trevor Lawrence",
-     "pick": "Gana Jacksonville",
-     "key": "ml:A",
-     "p": 0.765,
-     "odds": 1.154
     },
     {
      "sport": "futbol",
@@ -236,20 +208,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_MIA_IND",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Indianapolis",
-     "away": "Miami",
-     "note": "QB: Daniel Jones vs Kyle McCord",
-     "pick": "Más de 37.5 puntos",
-     "key": "ou:o:37.5",
-     "p": 0.6772,
-     "odds": 1.909
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_JAX_NYG",
      "date": "2026-11-22",
      "kickoff": "2026-11-22T18:00:00Z",
@@ -278,48 +236,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_HOU_CLE",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Cleveland",
-     "away": "Houston",
-     "note": "QB: Deshaun Watson vs C.J. Stroud",
-     "pick": "Gana Houston",
-     "key": "ml:A",
-     "p": 0.6569,
-     "odds": 1.505
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_MIN_GB",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Green Bay",
-     "away": "Minnesota",
-     "note": "QB: Jordan Love vs Kirk Cousins",
-     "pick": "Menos de 42.5 puntos",
-     "key": "ou:u:42.5",
-     "p": 0.6556,
-     "odds": 1.893
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_KC_ATL",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Atlanta",
-     "away": "Kansas City",
-     "note": "QB: Michael Penix Jr. vs Patrick Mahomes",
-     "pick": "Menos de 47.5 puntos",
-     "key": "ou:u:47.5",
-     "p": 0.647,
-     "odds": 1.87
-    },
-    {
-     "sport": "nfl",
      "id": "2026_10_SF_DAL",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T21:25:00Z",
@@ -330,21 +246,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:A",
      "p": 0.6335,
-     "odds": 1.459
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_CAR_NO",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "New Orleans",
-     "away": "Carolina",
-     "note": "QB: Tyler Shough vs Bryce Young",
-     "pick": "Más de 48.5 puntos",
-     "key": "ou:o:48.5",
-     "p": 0.5903,
-     "odds": 1.847
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -550,20 +452,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_MIA_IND",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Indianapolis",
-     "away": "Miami",
-     "note": "QB: Daniel Jones vs Kyle McCord",
-     "pick": "Más de 37.5 puntos",
-     "key": "ou:o:37.5",
-     "p": 0.6772,
-     "odds": 1.909
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_JAX_NYG",
      "date": "2026-11-22",
      "kickoff": "2026-11-22T18:00:00Z",
@@ -592,48 +480,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_HOU_CLE",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Cleveland",
-     "away": "Houston",
-     "note": "QB: Deshaun Watson vs C.J. Stroud",
-     "pick": "Gana Houston",
-     "key": "ml:A",
-     "p": 0.6569,
-     "odds": 1.505
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_MIN_GB",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Green Bay",
-     "away": "Minnesota",
-     "note": "QB: Jordan Love vs Kirk Cousins",
-     "pick": "Menos de 42.5 puntos",
-     "key": "ou:u:42.5",
-     "p": 0.6556,
-     "odds": 1.893
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_KC_ATL",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Atlanta",
-     "away": "Kansas City",
-     "note": "QB: Michael Penix Jr. vs Patrick Mahomes",
-     "pick": "Menos de 47.5 puntos",
-     "key": "ou:u:47.5",
-     "p": 0.647,
-     "odds": 1.87
-    },
-    {
-     "sport": "nfl",
      "id": "2026_10_SF_DAL",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T21:25:00Z",
@@ -644,21 +490,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:A",
      "p": 0.6335,
-     "odds": 1.459
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_CAR_NO",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "New Orleans",
-     "away": "Carolina",
-     "note": "QB: Tyler Shough vs Bryce Young",
-     "pick": "Más de 48.5 puntos",
-     "key": "ou:o:48.5",
-     "p": 0.5903,
-     "odds": 1.847
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -673,20 +505,6 @@
      "key": "ml:H",
      "p": 0.5755,
      "odds": null
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_BUF_NYJ",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "NY Jets",
-     "away": "Buffalo",
-     "note": "QB: Geno Smith vs Josh Allen",
-     "pick": "Más de 50.5 puntos",
-     "key": "ou:o:50.5",
-     "p": 0.5647,
-     "odds": 1.87
     }
    ],
    "status": null
@@ -829,7 +647,7 @@
   },
   "nfl": {
    "name": "NFL",
-   "matches": 24,
+   "matches": 17,
    "top": [
     {
      "sport": "nfl",
@@ -889,20 +707,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_BUF_NYJ",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "NY Jets",
-     "away": "Buffalo",
-     "note": "QB: Geno Smith vs Josh Allen",
-     "pick": "Gana Buffalo",
-     "key": "ml:A",
-     "p": 0.778,
-     "odds": 1.206
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_ARI_KC",
      "date": "2026-11-22",
      "kickoff": "2026-11-22T18:00:00Z",
@@ -927,7 +731,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:A",
      "p": 0.7756,
-     "odds": 1.2
+     "odds": 1.182
     },
     {
      "sport": "nfl",
@@ -942,20 +746,6 @@
      "key": "sp:A:3.5",
      "p": 0.7682,
      "odds": 1.909
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_JAX_TEN",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Tennessee",
-     "away": "Jacksonville",
-     "note": "QB: Cam Ward vs Trevor Lawrence",
-     "pick": "Gana Jacksonville",
-     "key": "ml:A",
-     "p": 0.765,
-     "odds": 1.154
     },
     {
      "sport": "nfl",
@@ -1001,20 +791,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_MIA_IND",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Indianapolis",
-     "away": "Miami",
-     "note": "QB: Daniel Jones vs Kyle McCord",
-     "pick": "Más de 37.5 puntos",
-     "key": "ou:o:37.5",
-     "p": 0.6772,
-     "odds": 1.909
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_JAX_NYG",
      "date": "2026-11-22",
      "kickoff": "2026-11-22T18:00:00Z",
@@ -1043,48 +819,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_HOU_CLE",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Cleveland",
-     "away": "Houston",
-     "note": "QB: Deshaun Watson vs C.J. Stroud",
-     "pick": "Gana Houston",
-     "key": "ml:A",
-     "p": 0.6569,
-     "odds": 1.505
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_MIN_GB",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Green Bay",
-     "away": "Minnesota",
-     "note": "QB: Jordan Love vs Kirk Cousins",
-     "pick": "Menos de 42.5 puntos",
-     "key": "ou:u:42.5",
-     "p": 0.6556,
-     "odds": 1.893
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_KC_ATL",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Atlanta",
-     "away": "Kansas City",
-     "note": "QB: Michael Penix Jr. vs Patrick Mahomes",
-     "pick": "Menos de 47.5 puntos",
-     "key": "ou:u:47.5",
-     "p": 0.647,
-     "odds": 1.87
-    },
-    {
-     "sport": "nfl",
      "id": "2026_10_SF_DAL",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T21:25:00Z",
@@ -1095,21 +829,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:A",
      "p": 0.6335,
-     "odds": 1.459
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_CAR_NO",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "New Orleans",
-     "away": "Carolina",
-     "note": "QB: Tyler Shough vs Bryce Young",
-     "pick": "Más de 48.5 puntos",
-     "key": "ou:o:48.5",
-     "p": 0.5903,
-     "odds": 1.847
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -1255,20 +975,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_MIA_IND",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Indianapolis",
-     "away": "Miami",
-     "note": "QB: Daniel Jones vs Kyle McCord",
-     "pick": "Más de 37.5 puntos",
-     "key": "ou:o:37.5",
-     "p": 0.6772,
-     "odds": 1.909
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_JAX_NYG",
      "date": "2026-11-22",
      "kickoff": "2026-11-22T18:00:00Z",
@@ -1297,48 +1003,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_10_HOU_CLE",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Cleveland",
-     "away": "Houston",
-     "note": "QB: Deshaun Watson vs C.J. Stroud",
-     "pick": "Gana Houston",
-     "key": "ml:A",
-     "p": 0.6569,
-     "odds": 1.505
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_MIN_GB",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Green Bay",
-     "away": "Minnesota",
-     "note": "QB: Jordan Love vs Kirk Cousins",
-     "pick": "Menos de 42.5 puntos",
-     "key": "ou:u:42.5",
-     "p": 0.6556,
-     "odds": 1.893
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_KC_ATL",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "Atlanta",
-     "away": "Kansas City",
-     "note": "QB: Michael Penix Jr. vs Patrick Mahomes",
-     "pick": "Menos de 47.5 puntos",
-     "key": "ou:u:47.5",
-     "p": 0.647,
-     "odds": 1.87
-    },
-    {
-     "sport": "nfl",
      "id": "2026_10_SF_DAL",
      "date": "2026-11-15",
      "kickoff": "2026-11-15T21:25:00Z",
@@ -1349,21 +1013,7 @@
      "pick": "Gana San Francisco",
      "key": "ml:A",
      "p": 0.6335,
-     "odds": 1.459
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_CAR_NO",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "New Orleans",
-     "away": "Carolina",
-     "note": "QB: Tyler Shough vs Bryce Young",
-     "pick": "Más de 48.5 puntos",
-     "key": "ou:o:48.5",
-     "p": 0.5903,
-     "odds": 1.847
+     "odds": 1.488
     },
     {
      "sport": "nfl",
@@ -1378,20 +1028,6 @@
      "key": "ml:H",
      "p": 0.5755,
      "odds": null
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_10_BUF_NYJ",
-     "date": "2026-11-15",
-     "kickoff": "2026-11-15T18:00:00Z",
-     "league": "NFL",
-     "home": "NY Jets",
-     "away": "Buffalo",
-     "note": "QB: Geno Smith vs Josh Allen",
-     "pick": "Más de 50.5 puntos",
-     "key": "ou:o:50.5",
-     "p": 0.5647,
-     "odds": 1.87
     }
    ],
    "status": null
@@ -3286,14 +2922,14 @@
      "key": "ml:A",
      "p": 0.7622,
      "odds": 1.187,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "23-40"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.187,
    "value": false,
-   "pnl": null
+   "pnl": 0.187
   },
   {
    "sport": "nfl",
@@ -3340,14 +2976,14 @@
      "key": "ml:A",
      "p": 0.7228,
      "odds": 1.244,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "12-31"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.244,
    "value": false,
-   "pnl": null
+   "pnl": 0.244
   },
   {
    "sport": "nfl",
@@ -3426,8 +3062,8 @@
      "key": "ml:A",
      "p": 0.7228,
      "odds": 1.244,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "12-31"
     }
    ],
    "status": "pendiente",
@@ -3759,14 +3395,14 @@
      "key": "ml:A",
      "p": 0.6501,
      "odds": 1.521,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "27-24"
     }
    ],
-   "status": "pendiente",
+   "status": "perdido",
    "odds": 1.521,
    "value": false,
-   "pnl": null
+   "pnl": -1.0
   },
   {
    "sport": "nfl",
@@ -3904,8 +3540,8 @@
      "key": "ml:A",
      "p": 0.7228,
      "odds": 1.213,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "12-31"
     }
    ],
    "status": "pendiente",
@@ -4068,14 +3704,14 @@
      "key": "ou:u:42.5",
      "p": 0.668,
      "odds": 1.87,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "10-30"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.87,
    "value": true,
-   "pnl": null
+   "pnl": 0.87
   },
   {
    "sport": "nfl",
@@ -4095,14 +3731,14 @@
      "key": "ou:o:40.5",
      "p": 0.6492,
      "odds": 1.909,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "24-22"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.909,
    "value": true,
-   "pnl": null
+   "pnl": 0.909
   },
   {
    "sport": "nfl",
@@ -4122,14 +3758,14 @@
      "key": "ml:A",
      "p": 0.6368,
      "odds": 1.556,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "13-35"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.556,
    "value": false,
-   "pnl": null
+   "pnl": 0.556
   },
   {
    "sport": "nfl",
@@ -4165,8 +3801,8 @@
      "key": "ml:A",
      "p": 0.7662,
      "odds": 1.2,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "23-40"
     },
     {
      "sport": "nfl",
@@ -4297,8 +3933,8 @@
      "key": "ml:A",
      "p": 0.7662,
      "odds": 1.2,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "23-40"
     }
    ],
    "status": "pendiente",
@@ -4381,8 +4017,8 @@
      "key": "ml:A",
      "p": 0.7785,
      "odds": 1.187,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "12-31"
     },
     {
      "sport": "nfl",
@@ -4413,8 +4049,8 @@
      "key": "ml:A",
      "p": 0.7685,
      "odds": 1.167,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "23-40"
     }
    ],
    "status": "pendiente",
@@ -4456,8 +4092,8 @@
      "key": "ml:A",
      "p": 0.7783,
      "odds": 1.244,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "12-31"
     },
     {
      "sport": "nfl",
@@ -4515,8 +4151,8 @@
      "key": "ou:o:38.5",
      "p": 0.7036,
      "odds": 1.926,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "24-22"
     },
     {
      "sport": "nfl",
@@ -4601,8 +4237,8 @@
      "key": "ou:o:38.5",
      "p": 0.705,
      "odds": 1.926,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "24-22"
     },
     {
      "sport": "nfl",
@@ -5392,8 +5028,8 @@
      "key": "ou:o:37.5",
      "p": 0.7292,
      "odds": 1.909,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "24-22"
     },
     {
      "sport": "nfl",
@@ -5479,8 +5115,8 @@
      "key": "ou:o:37.5",
      "p": 0.7292,
      "odds": 1.909,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "24-22"
     }
    ],
    "status": "pendiente",
@@ -5806,8 +5442,8 @@
      "key": "ou:o:37.5",
      "p": 0.7292,
      "odds": 1.909,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "24-22"
     },
     {
      "sport": "nfl",
@@ -5879,8 +5515,8 @@
      "key": "ou:o:37.5",
      "p": 0.7292,
      "odds": 1.909,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "24-22"
     },
     {
      "sport": "nfl",
@@ -5926,7 +5562,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -5982,7 +5621,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "todas",
@@ -6036,24 +5678,217 @@
      "score": null
     }
    ],
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
+  },
+  {
+   "sport": "nfl",
+   "type": "single",
+   "made": "2026-11-15",
+   "legs": [
+    {
+     "sport": "nfl",
+     "id": "2026_11_JAX_NYG",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "NY Giants",
+     "away": "Jacksonville",
+     "note": "QB: J.J. McCarthy vs Trevor Lawrence",
+     "pick": "Gana Jacksonville",
+     "key": "ml:A",
+     "p": 0.6691,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "nfl",
+   "type": "parlay_top",
+   "made": "2026-11-15",
+   "legs": [
+    {
+     "sport": "nfl",
+     "id": "2026_11_LV_DEN",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T21:25:00Z",
+     "league": "NFL",
+     "home": "Denver",
+     "away": "Las Vegas",
+     "note": "QB: Bo Nix vs Fernando Mendoza",
+     "pick": "Gana Denver",
+     "key": "ml:H",
+     "p": 0.929,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_NO_CHI",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Chicago",
+     "away": "New Orleans",
+     "note": "QB: Caleb Williams vs Tyler Shough",
+     "pick": "Gana Chicago",
+     "key": "ml:H",
+     "p": 0.899,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_MIA_BUF",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Buffalo",
+     "away": "Miami",
+     "note": "QB: Josh Allen vs Malik Willis",
+     "pick": "Gana Buffalo",
+     "key": "ml:H",
+     "p": 0.8235,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "nfl",
+   "type": "parlay_mid",
+   "made": "2026-11-15",
+   "legs": [
+    {
+     "sport": "nfl",
+     "id": "2026_10_LAC_BAL",
+     "date": "2026-11-16",
+     "kickoff": "2026-11-17T01:15:00Z",
+     "league": "NFL",
+     "home": "Baltimore",
+     "away": "LA Chargers",
+     "note": "QB: Tyler Huntley vs Justin Herbert",
+     "pick": "Gana Baltimore",
+     "key": "ml:H",
+     "p": 0.7224,
+     "odds": 1.444,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_TB_DET",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "Tampa Bay",
+     "note": "QB: Jared Goff vs Baker Mayfield",
+     "pick": "Gana Tampa Bay",
+     "key": "ml:A",
+     "p": 0.7056,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_TEN_DAL",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Dallas",
+     "away": "Tennessee",
+     "note": "QB: Dak Prescott vs Cam Ward",
+     "pick": "Gana Dallas",
+     "key": "ml:H",
+     "p": 0.6833,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "todas",
+   "type": "parlay_top",
+   "made": "2026-11-15",
+   "legs": [
+    {
+     "sport": "nfl",
+     "id": "2026_11_LV_DEN",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T21:25:00Z",
+     "league": "NFL",
+     "home": "Denver",
+     "away": "Las Vegas",
+     "note": "QB: Bo Nix vs Fernando Mendoza",
+     "pick": "Gana Denver",
+     "key": "ml:H",
+     "p": 0.929,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_NO_CHI",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Chicago",
+     "away": "New Orleans",
+     "note": "QB: Caleb Williams vs Tyler Shough",
+     "pick": "Gana Chicago",
+     "key": "ml:H",
+     "p": 0.899,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-16",
+     "kickoff": "2026-11-16T19:30:00Z",
+     "league": "LaLiga 2",
+     "home": "Albacete",
+     "away": "Celta B",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.829,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
    "status": "pendiente"
   }
  ],
  "record_summary": {
   "todas": {
    "singles": {
-    "ganado": 45,
-    "perdido": 7,
-    "pendiente": 33,
-    "bets": 33,
-    "profit": 2.52,
-    "value_bets": 6,
-    "value_profit": 0.79
+    "ganado": 50,
+    "perdido": 8,
+    "pendiente": 28,
+    "bets": 39,
+    "profit": 4.28,
+    "value_bets": 8,
+    "value_profit": 2.57
    },
    "parlays": {
     "ganado": 14,
     "perdido": 6,
-    "pendiente": 25,
+    "pendiente": 28,
     "bets": 7,
     "profit": 8.49,
     "value_bets": 6,
@@ -6102,18 +5937,18 @@
   },
   "nfl": {
    "singles": {
-    "ganado": 11,
-    "perdido": 2,
-    "pendiente": 18,
-    "bets": 13,
-    "profit": 2.74,
-    "value_bets": 6,
-    "value_profit": 0.79
+    "ganado": 16,
+    "perdido": 3,
+    "pendiente": 13,
+    "bets": 19,
+    "profit": 4.5,
+    "value_bets": 8,
+    "value_profit": 2.57
    },
    "parlays": {
     "ganado": 5,
     "perdido": 1,
-    "pendiente": 12,
+    "pendiente": 14,
     "bets": 6,
     "profit": 9.49,
     "value_bets": 5,
