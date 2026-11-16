@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T16:39:40Z",
+ "generated_at": "2026-11-16T21:39:36Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -18,7 +18,7 @@
      "pick": "Gana Denver",
      "key": "ml:H",
      "p": 0.9165,
-     "odds": 1.174
+     "odds": 1.182
     },
     {
      "sport": "nfl",
@@ -32,7 +32,7 @@
      "pick": "Gana Chicago",
      "key": "ml:H",
      "p": 0.8751,
-     "odds": 1.174
+     "odds": 1.148
     },
     {
      "sport": "nfl",
@@ -46,7 +46,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.8638,
-     "odds": 1.074
+     "odds": 1.069
     },
     {
      "sport": "nfl",
@@ -60,7 +60,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.8328,
-     "odds": 1.056
+     "odds": 1.062
     },
     {
      "sport": "futbol",
@@ -83,10 +83,10 @@
      "home": "Detroit",
      "away": "Tampa Bay",
      "note": "QB: Jared Goff vs Baker Mayfield",
-     "pick": "Tampa Bay +5.5",
-     "key": "sp:A:5.5",
-     "p": 0.7547,
-     "odds": 1.926
+     "pick": "Tampa Bay +6.5",
+     "key": "sp:A:6.5",
+     "p": 0.7775,
+     "odds": 1.893
     },
     {
      "sport": "nfl",
@@ -142,7 +142,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6853,
-     "odds": 1.227
+     "odds": 1.213
     },
     {
      "sport": "nfl",
@@ -153,10 +153,10 @@
      "home": "Houston",
      "away": "Indianapolis",
      "note": "QB: C.J. Stroud vs Daniel Jones",
-     "pick": "Gana Houston",
-     "key": "ml:H",
-     "p": 0.6586,
-     "odds": 1.182
+     "pick": "Indianapolis +11.5",
+     "key": "sp:A:11.5",
+     "p": 0.6737,
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -184,7 +184,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6254,
-     "odds": 1.345
+     "odds": 1.328
     },
     {
      "sport": "nfl",
@@ -296,7 +296,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6853,
-     "odds": 1.227
+     "odds": 1.213
     },
     {
      "sport": "nfl",
@@ -307,10 +307,10 @@
      "home": "Houston",
      "away": "Indianapolis",
      "note": "QB: C.J. Stroud vs Daniel Jones",
-     "pick": "Gana Houston",
-     "key": "ml:H",
-     "p": 0.6586,
-     "odds": 1.182
+     "pick": "Indianapolis +11.5",
+     "key": "sp:A:11.5",
+     "p": 0.6737,
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -328,20 +328,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_11_NO_CHI",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:00:00Z",
-     "league": "NFL",
-     "home": "Chicago",
-     "away": "New Orleans",
-     "note": "QB: Caleb Williams vs Tyler Shough",
-     "pick": "Chicago -10.5",
-     "key": "sp:H:-10.5",
-     "p": 0.643,
-     "odds": 1.952
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_CIN_WAS",
      "date": "2026-11-23",
      "kickoff": "2026-11-24T01:15:00Z",
@@ -352,7 +338,21 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6254,
-     "odds": 1.345
+     "odds": 1.328
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_NO_CHI",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Chicago",
+     "away": "New Orleans",
+     "note": "QB: Caleb Williams vs Tyler Shough",
+     "pick": "Chicago -11.5",
+     "key": "sp:H:-11.5",
+     "p": 0.6148,
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -366,7 +366,7 @@
      "pick": "Gana Tampa Bay",
      "key": "ml:A",
      "p": 0.6097,
-     "odds": 2.9
+     "odds": 3.25
     },
     {
      "sport": "nfl",
@@ -483,7 +483,7 @@
      "pick": "Gana Denver",
      "key": "ml:H",
      "p": 0.9165,
-     "odds": 1.174
+     "odds": 1.182
     },
     {
      "sport": "nfl",
@@ -497,7 +497,7 @@
      "pick": "Gana Chicago",
      "key": "ml:H",
      "p": 0.8751,
-     "odds": 1.174
+     "odds": 1.148
     },
     {
      "sport": "nfl",
@@ -511,7 +511,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.8638,
-     "odds": 1.074
+     "odds": 1.069
     },
     {
      "sport": "nfl",
@@ -525,7 +525,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.8328,
-     "odds": 1.056
+     "odds": 1.062
     },
     {
      "sport": "nfl",
@@ -536,10 +536,10 @@
      "home": "Detroit",
      "away": "Tampa Bay",
      "note": "QB: Jared Goff vs Baker Mayfield",
-     "pick": "Tampa Bay +5.5",
-     "key": "sp:A:5.5",
-     "p": 0.7547,
-     "odds": 1.926
+     "pick": "Tampa Bay +6.5",
+     "key": "sp:A:6.5",
+     "p": 0.7775,
+     "odds": 1.893
     },
     {
      "sport": "nfl",
@@ -595,7 +595,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6853,
-     "odds": 1.227
+     "odds": 1.213
     },
     {
      "sport": "nfl",
@@ -606,10 +606,10 @@
      "home": "Houston",
      "away": "Indianapolis",
      "note": "QB: C.J. Stroud vs Daniel Jones",
-     "pick": "Gana Houston",
-     "key": "ml:H",
-     "p": 0.6586,
-     "odds": 1.182
+     "pick": "Indianapolis +11.5",
+     "key": "sp:A:11.5",
+     "p": 0.6737,
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -637,7 +637,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6254,
-     "odds": 1.345
+     "odds": 1.328
     },
     {
      "sport": "nfl",
@@ -737,7 +737,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6853,
-     "odds": 1.227
+     "odds": 1.213
     },
     {
      "sport": "nfl",
@@ -748,10 +748,10 @@
      "home": "Houston",
      "away": "Indianapolis",
      "note": "QB: C.J. Stroud vs Daniel Jones",
-     "pick": "Gana Houston",
-     "key": "ml:H",
-     "p": 0.6586,
-     "odds": 1.182
+     "pick": "Indianapolis +11.5",
+     "key": "sp:A:11.5",
+     "p": 0.6737,
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -769,20 +769,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_11_NO_CHI",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:00:00Z",
-     "league": "NFL",
-     "home": "Chicago",
-     "away": "New Orleans",
-     "note": "QB: Caleb Williams vs Tyler Shough",
-     "pick": "Chicago -10.5",
-     "key": "sp:H:-10.5",
-     "p": 0.643,
-     "odds": 1.952
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_CIN_WAS",
      "date": "2026-11-23",
      "kickoff": "2026-11-24T01:15:00Z",
@@ -793,7 +779,21 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6254,
-     "odds": 1.345
+     "odds": 1.328
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_NO_CHI",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Chicago",
+     "away": "New Orleans",
+     "note": "QB: Caleb Williams vs Tyler Shough",
+     "pick": "Chicago -11.5",
+     "key": "sp:H:-11.5",
+     "p": 0.6148,
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -807,7 +807,7 @@
      "pick": "Gana Tampa Bay",
      "key": "ml:A",
      "p": 0.6097,
-     "odds": 2.9
+     "odds": 3.25
     },
     {
      "sport": "nfl",
@@ -5743,7 +5743,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.87,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -5799,7 +5802,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 3.749,
+   "value": true,
+   "pnl": null
   }
  ],
  "record_summary": {
