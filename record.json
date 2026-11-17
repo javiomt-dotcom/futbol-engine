@@ -2635,14 +2635,14 @@
     "key": "ml:H",
     "p": 0.7268,
     "odds": 1.488,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "20-23"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 1.488,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "nfl",
@@ -2818,8 +2818,8 @@
     "key": "ml:H",
     "p": 0.7268,
     "odds": 1.488,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "20-23"
    },
    {
     "sport": "nfl",
@@ -2948,8 +2948,8 @@
     "key": "ml:H",
     "p": 0.7268,
     "odds": 1.488,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "20-23"
    }
   ],
   "status": "perdido",
@@ -3093,8 +3093,8 @@
     "key": "ml:H",
     "p": 0.7225,
     "odds": 1.459,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "20-23"
    },
    {
     "sport": "nfl",
@@ -3129,10 +3129,10 @@
     "score": "13-21"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 5.412,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "nfl",
@@ -3179,8 +3179,8 @@
     "key": "ml:H",
     "p": 0.7234,
     "odds": 1.444,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "20-23"
    },
    {
     "sport": "nfl",
@@ -3215,10 +3215,10 @@
     "score": "21-24"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 5.137,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "futbol",
@@ -4002,8 +4002,8 @@
     "key": "ml:H",
     "p": 0.7224,
     "odds": 1.459,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "20-23"
    },
    {
     "sport": "nfl",
@@ -4022,10 +4022,10 @@
     "score": "13-21"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 5.272,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "todas",
@@ -4416,8 +4416,8 @@
     "key": "ml:H",
     "p": 0.7224,
     "odds": 1.444,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "20-23"
    },
    {
     "sport": "nfl",
@@ -4436,10 +4436,10 @@
     "score": null
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 5.262,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "todas",
@@ -4489,14 +4489,14 @@
     "key": "ml:H",
     "p": 0.7224,
     "odds": 1.444,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "20-23"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 3.388,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "nfl",
@@ -4543,8 +4543,8 @@
     "key": "ml:H",
     "p": 0.7224,
     "odds": 1.444,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "20-23"
    },
    {
     "sport": "nfl",
@@ -4579,10 +4579,10 @@
     "score": "6-34"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 8.065,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "todas",
@@ -4602,8 +4602,8 @@
     "key": "ml:H",
     "p": 0.7224,
     "odds": 1.444,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "20-23"
    },
    {
     "sport": "nfl",
@@ -4636,10 +4636,10 @@
     "score": "1-0"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 4.74,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "nfl",
@@ -4745,8 +4745,8 @@
     "key": "ml:H",
     "p": 0.7224,
     "odds": 1.444,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "20-23"
    },
    {
     "sport": "nfl",
@@ -4781,10 +4781,10 @@
     "score": null
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 5.138,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "todas",
@@ -4920,14 +4920,14 @@
     "key": "ml:H",
     "p": 0.7008,
     "odds": 1.444,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "20-23"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 3.749,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "champions",
@@ -4950,7 +4950,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "champions",
@@ -4973,7 +4976,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "champions",
@@ -4996,7 +5002,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "champions",
@@ -5019,7 +5028,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "champions",
@@ -5042,7 +5054,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "champions",
@@ -5065,7 +5080,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "champions",
@@ -5088,7 +5106,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "champions",
@@ -5111,7 +5132,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "champions",
@@ -5134,7 +5158,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "champions",
@@ -5187,7 +5214,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "champions",
@@ -5240,7 +5270,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -5264,7 +5297,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.926,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -5320,7 +5356,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 4.855,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "todas",
@@ -5370,6 +5409,65 @@
     "key": "sp:H:-10",
     "p": 0.7372,
     "odds": 1.909,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-17",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_11_LV_DEN",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T21:25:00Z",
+    "league": "NFL",
+    "home": "Denver",
+    "away": "Las Vegas",
+    "note": "QB: Bo Nix vs Fernando Mendoza",
+    "pick": "Denver -10",
+    "key": "sp:H:-10",
+    "p": 0.7322,
+    "odds": 1.893,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_11_JAX_NYG",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T18:00:00Z",
+    "league": "NFL",
+    "home": "NY Giants",
+    "away": "Jacksonville",
+    "note": "QB: J.J. McCarthy vs Trevor Lawrence",
+    "pick": "Gana Jacksonville",
+    "key": "ml:A",
+    "p": 0.7059,
+    "odds": 1.377,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_11_IND_HOU",
+    "date": "2026-11-19",
+    "kickoff": "2026-11-20T01:15:00Z",
+    "league": "NFL",
+    "home": "Houston",
+    "away": "Indianapolis",
+    "note": "QB: C.J. Stroud vs Daniel Jones",
+    "pick": "Indianapolis +12.5",
+    "key": "sp:A:12.5",
+    "p": 0.6991,
+    "odds": 1.893,
     "status": "pendiente",
     "score": null
    }
