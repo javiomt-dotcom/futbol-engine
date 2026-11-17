@@ -3436,11 +3436,11 @@
     "key": "o1.5",
     "p": 0.8291,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "1-0"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": null,
   "value": null,
   "pnl": null
@@ -3770,8 +3770,8 @@
     "key": "o1.5",
     "p": 0.829,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "1-0"
    },
    {
     "sport": "futbol",
@@ -3802,7 +3802,7 @@
     "score": "2-0"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": null,
   "value": null,
   "pnl": null
@@ -3892,8 +3892,8 @@
     "key": "o1.5",
     "p": 0.829,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "1-0"
    },
    {
     "sport": "futbol",
@@ -3910,7 +3910,7 @@
     "score": "1-1"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": null,
   "value": null,
   "pnl": null
@@ -4098,8 +4098,8 @@
     "key": "o1.5",
     "p": 0.829,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "1-0"
    },
    {
     "sport": "futbol",
@@ -4130,7 +4130,7 @@
     "score": "1-0"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": null,
   "value": null,
   "pnl": null
@@ -4179,11 +4179,11 @@
     "key": "1X",
     "p": 0.6977,
     "odds": 1.132,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-0"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -4632,8 +4632,8 @@
     "key": "1X",
     "p": 0.6977,
     "odds": 1.132,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-0"
    }
   ],
   "status": "pendiente",
@@ -4834,11 +4834,11 @@
     "key": "o1.5",
     "p": 0.829,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "1-0"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": null,
   "value": null,
   "pnl": null
@@ -4928,5 +4928,452 @@
   "odds": 3.749,
   "value": true,
   "pnl": null
+ },
+ {
+  "sport": "champions",
+  "type": "single",
+  "made": "2026-11-17",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915296",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Como",
+    "away": "AEK Athens",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9687,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "single",
+  "made": "2026-11-17",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915380",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T17:45:00Z",
+    "league": "Champions League",
+    "home": "Bodo/Glimt",
+    "away": "LASK Linz",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9411,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "single",
+  "made": "2026-11-17",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915298",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Real Madrid",
+    "away": "PSV Eindhoven",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9345,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "single",
+  "made": "2026-11-17",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915379",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Manchester City",
+    "away": "Napoli",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.914,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "single",
+  "made": "2026-11-17",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915295",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Arsenal",
+    "away": "Borussia Dortmund",
+    "pick": "Arsenal o empate",
+    "key": "1X",
+    "p": 0.9069,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "single",
+  "made": "2026-11-17",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915299",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "RB Leipzig",
+    "away": "Lens",
+    "pick": "RB Leipzig o empate",
+    "key": "1X",
+    "p": 0.9029,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "single",
+  "made": "2026-11-17",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915294",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Feyenoord Rotterdam",
+    "away": "FC Porto",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8312,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "single",
+  "made": "2026-11-17",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915300",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T17:45:00Z",
+    "league": "Champions League",
+    "home": "Galatasaray",
+    "away": "Aston Villa",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8241,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "single",
+  "made": "2026-11-17",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915297",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Slovan Bratislava",
+    "away": "Real Betis",
+    "pick": "Real Betis o empate",
+    "key": "X2",
+    "p": 0.8037,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "parlay_top",
+  "made": "2026-11-17",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915296",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Como",
+    "away": "AEK Athens",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9687,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "champions",
+    "id": "401915380",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T17:45:00Z",
+    "league": "Champions League",
+    "home": "Bodo/Glimt",
+    "away": "LASK Linz",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9411,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "champions",
+    "id": "401915298",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Real Madrid",
+    "away": "PSV Eindhoven",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9345,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "parlay_mid",
+  "made": "2026-11-17",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915298",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Real Madrid",
+    "away": "PSV Eindhoven",
+    "pick": "Gana Real Madrid",
+    "key": "1",
+    "p": 0.7426,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "champions",
+    "id": "401915295",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Arsenal",
+    "away": "Borussia Dortmund",
+    "pick": "Gana Arsenal",
+    "key": "1",
+    "p": 0.7424,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "champions",
+    "id": "401915299",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "RB Leipzig",
+    "away": "Lens",
+    "pick": "Más de 2.5 goles",
+    "key": "o2.5",
+    "p": 0.6628,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-17",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_11_MIN_SF",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-23T01:20:00Z",
+    "league": "NFL",
+    "home": "San Francisco",
+    "away": "Minnesota",
+    "note": "QB: Brock Purdy vs Kirk Cousins",
+    "pick": "Minnesota +3",
+    "key": "sp:A:3",
+    "p": 0.6479,
+    "odds": 1.926,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-17",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_11_LV_DEN",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T21:25:00Z",
+    "league": "NFL",
+    "home": "Denver",
+    "away": "Las Vegas",
+    "note": "QB: Bo Nix vs Fernando Mendoza",
+    "pick": "Denver -10",
+    "key": "sp:H:-10",
+    "p": 0.7372,
+    "odds": 1.909,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_11_JAX_NYG",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T18:00:00Z",
+    "league": "NFL",
+    "home": "NY Giants",
+    "away": "Jacksonville",
+    "note": "QB: J.J. McCarthy vs Trevor Lawrence",
+    "pick": "Gana Jacksonville",
+    "key": "ml:A",
+    "p": 0.7046,
+    "odds": 1.36,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_11_PIT_PHI",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T21:25:00Z",
+    "league": "NFL",
+    "home": "Filadelfia",
+    "away": "Pittsburgh",
+    "note": "QB: Joe Milton III vs Aaron Rodgers",
+    "pick": "Filadelfia +4.5",
+    "key": "sp:H:4.5",
+    "p": 0.6911,
+    "odds": 1.87,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "todas",
+  "type": "parlay_mid",
+  "made": "2026-11-17",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915298",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Real Madrid",
+    "away": "PSV Eindhoven",
+    "pick": "Gana Real Madrid",
+    "key": "1",
+    "p": 0.7426,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "champions",
+    "id": "401915295",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Arsenal",
+    "away": "Borussia Dortmund",
+    "pick": "Gana Arsenal",
+    "key": "1",
+    "p": 0.7424,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_11_LV_DEN",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T21:25:00Z",
+    "league": "NFL",
+    "home": "Denver",
+    "away": "Las Vegas",
+    "note": "QB: Bo Nix vs Fernando Mendoza",
+    "pick": "Denver -10",
+    "key": "sp:H:-10",
+    "p": 0.7372,
+    "odds": 1.909,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
  }
 ]
