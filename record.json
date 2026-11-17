@@ -5472,6 +5472,9 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 4.934,
+  "value": true,
+  "pnl": null
  }
 ]

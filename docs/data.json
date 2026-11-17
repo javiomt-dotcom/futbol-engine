@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T16:36:44Z",
+ "generated_at": "2026-11-17T20:29:07Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -57,7 +57,7 @@
      "pick": "Gana Denver",
      "key": "ml:H",
      "p": 0.9141,
-     "odds": 1.182
+     "odds": 1.174
     },
     {
      "sport": "champions",
@@ -233,7 +233,7 @@
      "pick": "Filadelfia +4.5",
      "key": "sp:H:4.5",
      "p": 0.6873,
-     "odds": 1.87
+     "odds": 1.926
     },
     {
      "sport": "nfl",
@@ -300,10 +300,10 @@
      "home": "LA Chargers",
      "away": "NY Jets",
      "note": "QB: Justin Herbert vs Geno Smith",
-     "pick": "Más de 40.5 puntos",
-     "key": "ou:o:40.5",
-     "p": 0.568,
-     "odds": 1.847
+     "pick": "Gana LA Chargers",
+     "key": "ml:H",
+     "p": 0.554,
+     "odds": 1.556
     }
    ],
    "mid": [
@@ -387,7 +387,7 @@
      "pick": "Filadelfia +4.5",
      "key": "sp:H:4.5",
      "p": 0.6873,
-     "odds": 1.87
+     "odds": 1.926
     },
     {
      "sport": "nfl",
@@ -567,20 +567,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_11_NYJ_LAC",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T21:05:00Z",
-     "league": "NFL",
-     "home": "LA Chargers",
-     "away": "NY Jets",
-     "note": "QB: Justin Herbert vs Geno Smith",
-     "pick": "Más de 40.5 puntos",
-     "key": "ou:o:40.5",
-     "p": 0.568,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_MIA_BUF",
      "date": "2026-11-22",
      "kickoff": "2026-11-22T18:00:00Z",
@@ -592,6 +578,20 @@
      "key": "sp:A:16.5",
      "p": 0.5555,
      "odds": 1.893
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_NYJ_LAC",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T21:05:00Z",
+     "league": "NFL",
+     "home": "LA Chargers",
+     "away": "NY Jets",
+     "note": "QB: Justin Herbert vs Geno Smith",
+     "pick": "Gana LA Chargers",
+     "key": "ml:H",
+     "p": 0.554,
+     "odds": 1.556
     }
    ],
    "status": null
@@ -849,7 +849,7 @@
      "pick": "Gana Denver",
      "key": "ml:H",
      "p": 0.9141,
-     "odds": 1.182
+     "odds": 1.174
     },
     {
      "sport": "nfl",
@@ -947,7 +947,7 @@
      "pick": "Filadelfia +4.5",
      "key": "sp:H:4.5",
      "p": 0.6873,
-     "odds": 1.87
+     "odds": 1.926
     },
     {
      "sport": "nfl",
@@ -1014,10 +1014,10 @@
      "home": "LA Chargers",
      "away": "NY Jets",
      "note": "QB: Justin Herbert vs Geno Smith",
-     "pick": "Más de 40.5 puntos",
-     "key": "ou:o:40.5",
-     "p": 0.568,
-     "odds": 1.847
+     "pick": "Gana LA Chargers",
+     "key": "ml:H",
+     "p": 0.554,
+     "odds": 1.556
     }
    ],
    "mid": [
@@ -1075,7 +1075,7 @@
      "pick": "Filadelfia +4.5",
      "key": "sp:H:4.5",
      "p": 0.6873,
-     "odds": 1.87
+     "odds": 1.926
     },
     {
      "sport": "nfl",
@@ -1177,20 +1177,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_11_NYJ_LAC",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T21:05:00Z",
-     "league": "NFL",
-     "home": "LA Chargers",
-     "away": "NY Jets",
-     "note": "QB: Justin Herbert vs Geno Smith",
-     "pick": "Más de 40.5 puntos",
-     "key": "ou:o:40.5",
-     "p": 0.568,
-     "odds": 1.847
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_MIA_BUF",
      "date": "2026-11-22",
      "kickoff": "2026-11-22T18:00:00Z",
@@ -1202,6 +1188,20 @@
      "key": "sp:A:16.5",
      "p": 0.5555,
      "odds": 1.893
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_NYJ_LAC",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T21:05:00Z",
+     "league": "NFL",
+     "home": "LA Chargers",
+     "away": "NY Jets",
+     "note": "QB: Justin Herbert vs Geno Smith",
+     "pick": "Gana LA Chargers",
+     "key": "ml:H",
+     "p": 0.554,
+     "odds": 1.556
     }
    ],
    "status": null
@@ -6688,7 +6688,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 4.934,
+   "value": true,
+   "pnl": null
   }
  ],
  "record_summary": {
