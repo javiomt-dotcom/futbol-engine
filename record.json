@@ -5476,5 +5476,203 @@
   "odds": 4.934,
   "value": true,
   "pnl": null
+ },
+ {
+  "sport": "champions",
+  "type": "single",
+  "made": "2026-11-18",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915291",
+    "date": "2026-11-25",
+    "kickoff": "2026-11-25T20:00:00Z",
+    "league": "Champions League",
+    "home": "Atlético Madrid",
+    "away": "Viking FK",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9548,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "single",
+  "made": "2026-11-18",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915378",
+    "date": "2026-11-25",
+    "kickoff": "2026-11-25T17:45:00Z",
+    "league": "Champions League",
+    "home": "Sabah FK",
+    "away": "Barcelona",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9353,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "single",
+  "made": "2026-11-18",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915374",
+    "date": "2026-11-25",
+    "kickoff": "2026-11-25T20:00:00Z",
+    "league": "Champions League",
+    "home": "Paris Saint-Germain",
+    "away": "AS Roma",
+    "pick": "Paris Saint-Germain o empate",
+    "key": "1X",
+    "p": 0.9245,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "single",
+  "made": "2026-11-18",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915292",
+    "date": "2026-11-25",
+    "kickoff": "2026-11-25T20:00:00Z",
+    "league": "Champions League",
+    "home": "Club Brugge",
+    "away": "Liverpool",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8792,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "parlay_top",
+  "made": "2026-11-18",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915296",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Como",
+    "away": "AEK Athens",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9687,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "champions",
+    "id": "401915291",
+    "date": "2026-11-25",
+    "kickoff": "2026-11-25T20:00:00Z",
+    "league": "Champions League",
+    "home": "Atlético Madrid",
+    "away": "Viking FK",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9548,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "champions",
+    "id": "401915380",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T17:45:00Z",
+    "league": "Champions League",
+    "home": "Bodo/Glimt",
+    "away": "LASK Linz",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9411,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "parlay_mid",
+  "made": "2026-11-18",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915291",
+    "date": "2026-11-25",
+    "kickoff": "2026-11-25T20:00:00Z",
+    "league": "Champions League",
+    "home": "Atlético Madrid",
+    "away": "Viking FK",
+    "pick": "Ambos anotan",
+    "key": "btts",
+    "p": 0.7455,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "champions",
+    "id": "401915298",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Real Madrid",
+    "away": "PSV Eindhoven",
+    "pick": "Gana Real Madrid",
+    "key": "1",
+    "p": 0.7426,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "champions",
+    "id": "401915295",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Arsenal",
+    "away": "Borussia Dortmund",
+    "pick": "Gana Arsenal",
+    "key": "1",
+    "p": 0.7424,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
  }
 ]
