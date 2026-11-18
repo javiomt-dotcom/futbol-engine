@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T19:59:47Z",
+ "generated_at": "2026-11-18T23:53:03Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -364,7 +364,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6846,
-     "odds": 1.267
+     "odds": 1.263
     },
     {
      "sport": "nfl",
@@ -420,7 +420,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6248,
-     "odds": 1.328
+     "odds": 1.323
     },
     {
      "sport": "nfl",
@@ -584,7 +584,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6846,
-     "odds": 1.267
+     "odds": 1.263
     },
     {
      "sport": "champions",
@@ -745,7 +745,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6248,
-     "odds": 1.328
+     "odds": 1.323
     },
     {
      "sport": "champions",
@@ -1457,7 +1457,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6846,
-     "odds": 1.267
+     "odds": 1.263
     },
     {
      "sport": "nfl",
@@ -1513,7 +1513,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6248,
-     "odds": 1.328
+     "odds": 1.323
     },
     {
      "sport": "nfl",
@@ -1599,7 +1599,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6846,
-     "odds": 1.267
+     "odds": 1.263
     },
     {
      "sport": "nfl",
@@ -1669,7 +1669,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6248,
-     "odds": 1.328
+     "odds": 1.323
     },
     {
      "sport": "nfl",
