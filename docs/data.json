@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T16:05:11Z",
+ "generated_at": "2026-11-18T19:59:47Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -229,7 +229,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.832,
-     "odds": 1.069
+     "odds": 1.074
     },
     {
      "sport": "champions",
@@ -282,7 +282,7 @@
      "pick": "Tampa Bay +7",
      "key": "sp:A:7",
      "p": 0.7854,
-     "odds": 1.893
+     "odds": 1.909
     },
     {
      "sport": "champions",
@@ -364,7 +364,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6846,
-     "odds": 1.263
+     "odds": 1.267
     },
     {
      "sport": "nfl",
@@ -378,7 +378,7 @@
      "pick": "Minnesota +3",
      "key": "sp:A:3",
      "p": 0.6463,
-     "odds": 1.926
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -396,6 +396,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_11_BAL_CAR",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Carolina",
+     "away": "Baltimore",
+     "note": "QB: Bryce Young vs Tyler Huntley",
+     "pick": "Más de 43.5 puntos",
+     "key": "ou:o:43.5",
+     "p": 0.6331,
+     "odds": 1.952
+    },
+    {
+     "sport": "nfl",
      "id": "2026_11_CIN_WAS",
      "date": "2026-11-23",
      "kickoff": "2026-11-24T01:15:00Z",
@@ -406,21 +420,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6248,
-     "odds": 1.336
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_BAL_CAR",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:00:00Z",
-     "league": "NFL",
-     "home": "Carolina",
-     "away": "Baltimore",
-     "note": "QB: Bryce Young vs Tyler Huntley",
-     "pick": "Más de 44.5 puntos",
-     "key": "ou:o:44.5",
-     "p": 0.6055,
-     "odds": 1.952
+     "odds": 1.328
     },
     {
      "sport": "nfl",
@@ -434,7 +434,7 @@
      "pick": "Gana LA Chargers",
      "key": "ml:H",
      "p": 0.554,
-     "odds": 1.541
+     "odds": 1.617
     }
    ],
    "mid": [
@@ -584,7 +584,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6846,
-     "odds": 1.263
+     "odds": 1.267
     },
     {
      "sport": "champions",
@@ -690,7 +690,7 @@
      "pick": "Minnesota +3",
      "key": "sp:A:3",
      "p": 0.6463,
-     "odds": 1.926
+     "odds": 1.909
     },
     {
      "sport": "champions",
@@ -721,6 +721,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_11_BAL_CAR",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Carolina",
+     "away": "Baltimore",
+     "note": "QB: Bryce Young vs Tyler Huntley",
+     "pick": "Más de 43.5 puntos",
+     "key": "ou:o:43.5",
+     "p": 0.6331,
+     "odds": 1.952
+    },
+    {
+     "sport": "nfl",
      "id": "2026_11_CIN_WAS",
      "date": "2026-11-23",
      "kickoff": "2026-11-24T01:15:00Z",
@@ -731,7 +745,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6248,
-     "odds": 1.336
+     "odds": 1.328
     },
     {
      "sport": "champions",
@@ -772,20 +786,6 @@
      "key": "sp:H:-11.5",
      "p": 0.6095,
      "odds": 1.893
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_BAL_CAR",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:00:00Z",
-     "league": "NFL",
-     "home": "Carolina",
-     "away": "Baltimore",
-     "note": "QB: Bryce Young vs Tyler Huntley",
-     "pick": "Más de 44.5 puntos",
-     "key": "ou:o:44.5",
-     "p": 0.6055,
-     "odds": 1.952
     },
     {
      "sport": "champions",
@@ -853,7 +853,7 @@
      "pick": "Gana LA Chargers",
      "key": "ml:H",
      "p": 0.554,
-     "odds": 1.541
+     "odds": 1.617
     }
    ],
    "status": null
@@ -1387,7 +1387,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.832,
-     "odds": 1.069
+     "odds": 1.074
     },
     {
      "sport": "nfl",
@@ -1401,7 +1401,7 @@
      "pick": "Tampa Bay +7",
      "key": "sp:A:7",
      "p": 0.7854,
-     "odds": 1.893
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -1457,7 +1457,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6846,
-     "odds": 1.263
+     "odds": 1.267
     },
     {
      "sport": "nfl",
@@ -1471,7 +1471,7 @@
      "pick": "Minnesota +3",
      "key": "sp:A:3",
      "p": 0.6463,
-     "odds": 1.926
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -1489,6 +1489,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_11_BAL_CAR",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Carolina",
+     "away": "Baltimore",
+     "note": "QB: Bryce Young vs Tyler Huntley",
+     "pick": "Más de 43.5 puntos",
+     "key": "ou:o:43.5",
+     "p": 0.6331,
+     "odds": 1.952
+    },
+    {
+     "sport": "nfl",
      "id": "2026_11_CIN_WAS",
      "date": "2026-11-23",
      "kickoff": "2026-11-24T01:15:00Z",
@@ -1499,21 +1513,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6248,
-     "odds": 1.336
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_BAL_CAR",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:00:00Z",
-     "league": "NFL",
-     "home": "Carolina",
-     "away": "Baltimore",
-     "note": "QB: Bryce Young vs Tyler Huntley",
-     "pick": "Más de 44.5 puntos",
-     "key": "ou:o:44.5",
-     "p": 0.6055,
-     "odds": 1.952
+     "odds": 1.328
     },
     {
      "sport": "nfl",
@@ -1527,7 +1527,7 @@
      "pick": "Gana LA Chargers",
      "key": "ml:H",
      "p": 0.554,
-     "odds": 1.541
+     "odds": 1.617
     }
    ],
    "mid": [
@@ -1599,7 +1599,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6846,
-     "odds": 1.263
+     "odds": 1.267
     },
     {
      "sport": "nfl",
@@ -1627,7 +1627,7 @@
      "pick": "Minnesota +3",
      "key": "sp:A:3",
      "p": 0.6463,
-     "odds": 1.926
+     "odds": 1.909
     },
     {
      "sport": "nfl",
@@ -1645,6 +1645,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_11_BAL_CAR",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Carolina",
+     "away": "Baltimore",
+     "note": "QB: Bryce Young vs Tyler Huntley",
+     "pick": "Más de 43.5 puntos",
+     "key": "ou:o:43.5",
+     "p": 0.6331,
+     "odds": 1.952
+    },
+    {
+     "sport": "nfl",
      "id": "2026_11_CIN_WAS",
      "date": "2026-11-23",
      "kickoff": "2026-11-24T01:15:00Z",
@@ -1655,7 +1669,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6248,
-     "odds": 1.336
+     "odds": 1.328
     },
     {
      "sport": "nfl",
@@ -1670,20 +1684,6 @@
      "key": "sp:H:-11.5",
      "p": 0.6095,
      "odds": 1.893
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_BAL_CAR",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:00:00Z",
-     "league": "NFL",
-     "home": "Carolina",
-     "away": "Baltimore",
-     "note": "QB: Bryce Young vs Tyler Huntley",
-     "pick": "Más de 44.5 puntos",
-     "key": "ou:o:44.5",
-     "p": 0.6055,
-     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -1725,7 +1725,7 @@
      "pick": "Gana LA Chargers",
      "key": "ml:H",
      "p": 0.554,
-     "odds": 1.541
+     "odds": 1.617
     }
    ],
    "status": null
