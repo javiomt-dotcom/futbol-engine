@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T00:31:21Z",
+ "generated_at": "2026-11-18T16:05:11Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -109,7 +109,7 @@
      "pick": "Gana Denver",
      "key": "ml:H",
      "p": 0.914,
-     "odds": 1.154
+     "odds": 1.16
     },
     {
      "sport": "champions",
@@ -162,7 +162,7 @@
      "pick": "Gana Chicago",
      "key": "ml:H",
      "p": 0.8722,
-     "odds": 1.143
+     "odds": 1.16
     },
     {
      "sport": "nfl",
@@ -229,7 +229,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.832,
-     "odds": 1.074
+     "odds": 1.069
     },
     {
      "sport": "champions",
@@ -282,7 +282,7 @@
      "pick": "Tampa Bay +7",
      "key": "sp:A:7",
      "p": 0.7854,
-     "odds": 1.926
+     "odds": 1.893
     },
     {
      "sport": "champions",
@@ -392,7 +392,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6349,
-     "odds": 1.505
+     "odds": 1.541
     },
     {
      "sport": "nfl",
@@ -434,7 +434,7 @@
      "pick": "Gana LA Chargers",
      "key": "ml:H",
      "p": 0.554,
-     "odds": 1.556
+     "odds": 1.541
     }
    ],
    "mid": [
@@ -600,6 +600,20 @@
      "odds": null
     },
     {
+     "sport": "nfl",
+     "id": "2026_11_TB_DET",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "Tampa Bay",
+     "note": "QB: Jared Goff vs Baker Mayfield",
+     "pick": "Más de 43.5 puntos",
+     "key": "ou:o:43.5",
+     "p": 0.6686,
+     "odds": 1.847
+    },
+    {
      "sport": "champions",
      "id": "401915299",
      "date": "2026-11-24",
@@ -679,20 +693,6 @@
      "odds": 1.926
     },
     {
-     "sport": "nfl",
-     "id": "2026_11_TB_DET",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:00:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "Tampa Bay",
-     "note": "QB: Jared Goff vs Baker Mayfield",
-     "pick": "Más de 44.5 puntos",
-     "key": "ou:o:44.5",
-     "p": 0.642,
-     "odds": 1.98
-    },
-    {
      "sport": "champions",
      "id": "401915377",
      "date": "2026-11-25",
@@ -717,7 +717,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6349,
-     "odds": 1.505
+     "odds": 1.541
     },
     {
      "sport": "nfl",
@@ -775,20 +775,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_11_ARI_KC",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:00:00Z",
-     "league": "NFL",
-     "home": "Kansas City",
-     "away": "Arizona",
-     "note": "QB: Patrick Mahomes vs Gardner Minshew",
-     "pick": "Arizona +16.5",
-     "key": "sp:A:16.5",
-     "p": 0.6066,
-     "odds": 1.87
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_BAL_CAR",
      "date": "2026-11-22",
      "kickoff": "2026-11-22T18:00:00Z",
@@ -829,6 +815,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_11_ARI_KC",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Kansas City",
+     "away": "Arizona",
+     "note": "QB: Patrick Mahomes vs Gardner Minshew",
+     "pick": "Arizona +15.5",
+     "key": "sp:A:15.5",
+     "p": 0.5776,
+     "odds": 1.952
+    },
+    {
+     "sport": "nfl",
      "id": "2026_11_MIA_BUF",
      "date": "2026-11-22",
      "kickoff": "2026-11-22T18:00:00Z",
@@ -853,7 +853,7 @@
      "pick": "Gana LA Chargers",
      "key": "ml:H",
      "p": 0.554,
-     "odds": 1.556
+     "odds": 1.541
     }
    ],
    "status": null
@@ -1345,7 +1345,7 @@
      "pick": "Gana Denver",
      "key": "ml:H",
      "p": 0.914,
-     "odds": 1.154
+     "odds": 1.16
     },
     {
      "sport": "nfl",
@@ -1359,7 +1359,7 @@
      "pick": "Gana Chicago",
      "key": "ml:H",
      "p": 0.8722,
-     "odds": 1.143
+     "odds": 1.16
     },
     {
      "sport": "nfl",
@@ -1387,7 +1387,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.832,
-     "odds": 1.074
+     "odds": 1.069
     },
     {
      "sport": "nfl",
@@ -1401,7 +1401,7 @@
      "pick": "Tampa Bay +7",
      "key": "sp:A:7",
      "p": 0.7854,
-     "odds": 1.926
+     "odds": 1.893
     },
     {
      "sport": "nfl",
@@ -1485,7 +1485,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6349,
-     "odds": 1.505
+     "odds": 1.541
     },
     {
      "sport": "nfl",
@@ -1527,7 +1527,7 @@
      "pick": "Gana LA Chargers",
      "key": "ml:H",
      "p": 0.554,
-     "odds": 1.556
+     "odds": 1.541
     }
    ],
    "mid": [
@@ -1603,6 +1603,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_11_TB_DET",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "Tampa Bay",
+     "note": "QB: Jared Goff vs Baker Mayfield",
+     "pick": "Más de 43.5 puntos",
+     "key": "ou:o:43.5",
+     "p": 0.6686,
+     "odds": 1.847
+    },
+    {
+     "sport": "nfl",
      "id": "2026_11_MIN_SF",
      "date": "2026-11-22",
      "kickoff": "2026-11-23T01:20:00Z",
@@ -1617,20 +1631,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_11_TB_DET",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:00:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "Tampa Bay",
-     "note": "QB: Jared Goff vs Baker Mayfield",
-     "pick": "Más de 44.5 puntos",
-     "key": "ou:o:44.5",
-     "p": 0.642,
-     "odds": 1.98
-    },
-    {
-     "sport": "nfl",
      "id": "2026_12_GB_LA",
      "date": "2026-11-25",
      "kickoff": "2026-11-26T01:00:00Z",
@@ -1641,7 +1641,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6349,
-     "odds": 1.505
+     "odds": 1.541
     },
     {
      "sport": "nfl",
@@ -1673,20 +1673,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_11_ARI_KC",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:00:00Z",
-     "league": "NFL",
-     "home": "Kansas City",
-     "away": "Arizona",
-     "note": "QB: Patrick Mahomes vs Gardner Minshew",
-     "pick": "Arizona +16.5",
-     "key": "sp:A:16.5",
-     "p": 0.6066,
-     "odds": 1.87
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_BAL_CAR",
      "date": "2026-11-22",
      "kickoff": "2026-11-22T18:00:00Z",
@@ -1697,6 +1683,20 @@
      "pick": "Más de 44.5 puntos",
      "key": "ou:o:44.5",
      "p": 0.6055,
+     "odds": 1.952
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_ARI_KC",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Kansas City",
+     "away": "Arizona",
+     "note": "QB: Patrick Mahomes vs Gardner Minshew",
+     "pick": "Arizona +15.5",
+     "key": "sp:A:15.5",
+     "p": 0.5776,
      "odds": 1.952
     },
     {
@@ -1725,7 +1725,7 @@
      "pick": "Gana LA Chargers",
      "key": "ml:H",
      "p": 0.554,
-     "odds": 1.556
+     "odds": 1.541
     }
    ],
    "status": null
@@ -7238,7 +7238,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "champions",
@@ -7261,7 +7264,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "champions",
@@ -7284,7 +7290,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "champions",
@@ -7307,7 +7316,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "champions",
@@ -7360,7 +7372,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "champions",
@@ -7413,7 +7428,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   }
  ],
  "record_summary": {

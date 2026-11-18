@@ -5498,7 +5498,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "champions",
@@ -5521,7 +5524,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "champions",
@@ -5544,7 +5550,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "champions",
@@ -5567,7 +5576,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "champions",
@@ -5620,7 +5632,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "champions",
@@ -5673,6 +5688,9 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  }
 ]
