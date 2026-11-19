@@ -5692,5 +5692,85 @@
   "odds": null,
   "value": null,
   "pnl": null
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-19",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_PHI_DAL",
+    "date": "2026-11-26",
+    "kickoff": "2026-11-26T21:30:00Z",
+    "league": "NFL",
+    "home": "Dallas",
+    "away": "Filadelfia",
+    "note": "QB: ? vs ?",
+    "pick": "Filadelfia +8.5",
+    "key": "sp:A:8.5",
+    "p": 0.7244,
+    "odds": 1.909,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-19",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_11_LV_DEN",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T21:25:00Z",
+    "league": "NFL",
+    "home": "Denver",
+    "away": "Las Vegas",
+    "note": "QB: Bo Nix vs Fernando Mendoza",
+    "pick": "Denver -10",
+    "key": "sp:H:-10",
+    "p": 0.7315,
+    "odds": 1.893,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_PHI_DAL",
+    "date": "2026-11-26",
+    "kickoff": "2026-11-26T21:30:00Z",
+    "league": "NFL",
+    "home": "Dallas",
+    "away": "Filadelfia",
+    "note": "QB: ? vs ?",
+    "pick": "Filadelfia +8.5",
+    "key": "sp:A:8.5",
+    "p": 0.7244,
+    "odds": 1.909,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_11_JAX_NYG",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T18:00:00Z",
+    "league": "NFL",
+    "home": "NY Giants",
+    "away": "Jacksonville",
+    "note": "QB: J.J. McCarthy vs Trevor Lawrence",
+    "pick": "Gana Jacksonville",
+    "key": "ml:A",
+    "p": 0.7055,
+    "odds": 1.373,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
  }
 ]
