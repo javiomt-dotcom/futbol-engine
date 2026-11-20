@@ -3152,14 +3152,14 @@
     "key": "ml:H",
     "p": 0.6636,
     "odds": 1.22,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "26-3"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.22,
   "value": false,
-  "pnl": null
+  "pnl": 0.22
  },
  {
   "sport": "nfl",
@@ -5468,14 +5468,14 @@
     "key": "sp:A:12.5",
     "p": 0.6991,
     "odds": 1.893,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "26-3"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 4.934,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "champions",
@@ -5778,5 +5778,433 @@
   "odds": 4.962,
   "value": true,
   "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T11:15:00Z",
+    "league": "Eredivisie",
+    "home": "Twente",
+    "away": "Willem II",
+    "pick": "Twente o empate",
+    "key": "1X",
+    "p": 0.9533,
+    "odds": 0.981,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-20",
+    "kickoff": "2026-11-20T19:30:00Z",
+    "league": "Bundesliga",
+    "home": "Bayern Munich",
+    "away": "FC Koln",
+    "pick": "Bayern Munich o empate",
+    "key": "1X",
+    "p": 0.9451,
+    "odds": 0.986,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T17:00:00Z",
+    "league": "Grecia",
+    "home": "Olympiakos",
+    "away": "Iraklis",
+    "pick": "Olympiakos o empate",
+    "key": "1X",
+    "p": 0.9227,
+    "odds": 0.983,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T15:30:00Z",
+    "league": "Grecia",
+    "home": "Panathinaikos",
+    "away": "OFI Crete",
+    "pick": "Panathinaikos o empate",
+    "key": "1X",
+    "p": 0.9137,
+    "odds": 0.998,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T16:00:00Z",
+    "league": "Turquía",
+    "home": "Trabzonspor",
+    "away": "Eyupspor",
+    "pick": "Trabzonspor o empate",
+    "key": "1X",
+    "p": 0.9062,
+    "odds": 0.993,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T15:00:00Z",
+    "league": "Bélgica",
+    "home": "Kortrijk",
+    "away": "St. Gilloise",
+    "pick": "St. Gilloise o empate",
+    "key": "X2",
+    "p": 0.9057,
+    "odds": 1.064,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-21",
+    "kickoff": "2026-11-21T17:45:00Z",
+    "league": "Eredivisie",
+    "home": "Utrecht",
+    "away": "Cambuur",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9042,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T15:15:00Z",
+    "league": "LaLiga",
+    "home": "Santander",
+    "away": "Sociedad",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9012,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-21",
+    "kickoff": "2026-11-21T13:00:00Z",
+    "league": "Turquía",
+    "home": "Galatasaray",
+    "away": "Samsunspor",
+    "pick": "Galatasaray o empate",
+    "key": "1X",
+    "p": 0.9012,
+    "odds": 1.023,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-21",
+    "kickoff": "2026-11-21T15:30:00Z",
+    "league": "Eredivisie",
+    "home": "Nijmegen",
+    "away": "PSV Eindhoven",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_top",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T11:15:00Z",
+    "league": "Eredivisie",
+    "home": "Twente",
+    "away": "Willem II",
+    "pick": "Twente o empate",
+    "key": "1X",
+    "p": 0.9533,
+    "odds": 0.981,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-20",
+    "kickoff": "2026-11-20T19:30:00Z",
+    "league": "Bundesliga",
+    "home": "Bayern Munich",
+    "away": "FC Koln",
+    "pick": "Bayern Munich o empate",
+    "key": "1X",
+    "p": 0.9451,
+    "odds": 0.986,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T17:00:00Z",
+    "league": "Grecia",
+    "home": "Olympiakos",
+    "away": "Iraklis",
+    "pick": "Olympiakos o empate",
+    "key": "1X",
+    "p": 0.9227,
+    "odds": 0.983,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_mid",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-21",
+    "kickoff": "2026-11-21T17:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Castellon",
+    "away": "Eldense",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7498,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-20",
+    "kickoff": "2026-11-20T19:00:00Z",
+    "league": "Ligue 2",
+    "home": "Annecy",
+    "away": "Clermont",
+    "pick": "Annecy o empate",
+    "key": "1X",
+    "p": 0.7496,
+    "odds": 1.259,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-20",
+    "kickoff": "2026-11-20T19:00:00Z",
+    "league": "Ligue 2",
+    "home": "Nancy",
+    "away": "Dijon",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7485,
+    "odds": 1.224,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_PHI_DAL",
+    "date": "2026-11-26",
+    "kickoff": "2026-11-26T21:30:00Z",
+    "league": "NFL",
+    "home": "Dallas",
+    "away": "Filadelfia",
+    "note": "QB: ? vs ?",
+    "pick": "Filadelfia +8.5",
+    "key": "sp:A:8.5",
+    "p": 0.7214,
+    "odds": 1.909,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_11_LV_DEN",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T21:25:00Z",
+    "league": "NFL",
+    "home": "Denver",
+    "away": "Las Vegas",
+    "note": "QB: Bo Nix vs Fernando Mendoza",
+    "pick": "Denver -10.5",
+    "key": "sp:H:-10.5",
+    "p": 0.7184,
+    "odds": 1.952,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_11_JAX_NYG",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T18:00:00Z",
+    "league": "NFL",
+    "home": "NY Giants",
+    "away": "Jacksonville",
+    "note": "QB: J.J. McCarthy vs Trevor Lawrence",
+    "pick": "Gana Jacksonville",
+    "key": "ml:A",
+    "p": 0.7024,
+    "odds": 1.392,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "todas",
+  "type": "parlay_top",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915296",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Como",
+    "away": "AEK Athens",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9687,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "champions",
+    "id": "401915291",
+    "date": "2026-11-25",
+    "kickoff": "2026-11-25T20:00:00Z",
+    "league": "Champions League",
+    "home": "Atlético Madrid",
+    "away": "Viking FK",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9548,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T11:15:00Z",
+    "league": "Eredivisie",
+    "home": "Twente",
+    "away": "Willem II",
+    "pick": "Twente o empate",
+    "key": "1X",
+    "p": 0.9533,
+    "odds": 0.981,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
  }
 ]
