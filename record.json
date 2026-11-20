@@ -6269,7 +6269,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -6319,7 +6322,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 0.962,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -6369,7 +6375,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -6393,7 +6402,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.562,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -6445,6 +6457,65 @@
     "key": "ml:A",
     "p": 0.7024,
     "odds": 1.376,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente",
+  "odds": 4.868,
+  "value": true,
+  "pnl": null
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_11_TB_DET",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T18:00:00Z",
+    "league": "NFL",
+    "home": "Detroit",
+    "away": "Tampa Bay",
+    "note": "QB: Jared Goff vs Baker Mayfield",
+    "pick": "Tampa Bay +5.5",
+    "key": "sp:A:5.5",
+    "p": 0.7469,
+    "odds": 1.885,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_11_LV_DEN",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T21:25:00Z",
+    "league": "NFL",
+    "home": "Denver",
+    "away": "Las Vegas",
+    "note": "QB: Bo Nix vs Fernando Mendoza",
+    "pick": "Denver -10.5",
+    "key": "sp:H:-10.5",
+    "p": 0.7184,
+    "odds": 1.952,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_11_JAX_NYG",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T18:00:00Z",
+    "league": "NFL",
+    "home": "NY Giants",
+    "away": "Jacksonville",
+    "note": "QB: J.J. McCarthy vs Trevor Lawrence",
+    "pick": "Gana Jacksonville",
+    "key": "ml:A",
+    "p": 0.7024,
+    "odds": 1.382,
     "status": "pendiente",
     "score": null
    }

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T19:38:02Z",
+ "generated_at": "2026-11-20T23:40:07Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -476,7 +476,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.8665,
-     "odds": 1.061
+     "odds": 1.06
     },
     {
      "sport": "futbol",
@@ -865,7 +865,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.8316,
-     "odds": 1.057
+     "odds": 1.061
     },
     {
      "sport": "champions",
@@ -2398,7 +2398,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7024,
-     "odds": 1.376
+     "odds": 1.382
     },
     {
      "sport": "futbol",
@@ -2521,10 +2521,10 @@
      "home": "San Francisco",
      "away": "Minnesota",
      "note": "QB: Brock Purdy vs Kirk Cousins",
-     "pick": "Minnesota +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.6582,
-     "odds": 1.847
+     "pick": "Minnesota +3",
+     "key": "sp:A:3",
+     "p": 0.6444,
+     "odds": 1.99
     },
     {
      "sport": "nfl",
@@ -2580,7 +2580,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6256,
-     "odds": 1.231
+     "odds": 1.248
     },
     {
      "sport": "nfl",
@@ -2622,7 +2622,7 @@
      "pick": "Gana Denver",
      "key": "ml:A",
      "p": 0.5782,
-     "odds": 1.833
+     "odds": 1.775
     },
     {
      "sport": "nfl",
@@ -3512,20 +3512,6 @@
      "odds": 1.277
     },
     {
-     "sport": "nfl",
-     "id": "2026_11_LV_DEN",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T21:25:00Z",
-     "league": "NFL",
-     "home": "Denver",
-     "away": "Las Vegas",
-     "note": "QB: Bo Nix vs Fernando Mendoza",
-     "pick": "Denver -10",
-     "key": "sp:H:-10",
-     "p": 0.7309,
-     "odds": 1.877
-    },
-    {
      "sport": "futbol",
      "date": "2026-11-21",
      "kickoff": "2026-11-21T14:00:00Z",
@@ -3826,6 +3812,20 @@
      "odds": 1.74
     },
     {
+     "sport": "nfl",
+     "id": "2026_11_LV_DEN",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T21:25:00Z",
+     "league": "NFL",
+     "home": "Denver",
+     "away": "Las Vegas",
+     "note": "QB: Bo Nix vs Fernando Mendoza",
+     "pick": "Denver -10.5",
+     "key": "sp:H:-10.5",
+     "p": 0.7184,
+     "odds": 1.952
+    },
+    {
      "sport": "futbol",
      "date": "2026-11-21",
      "kickoff": "2026-11-21T14:00:00Z",
@@ -4078,7 +4078,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7024,
-     "odds": 1.376
+     "odds": 1.382
     },
     {
      "sport": "futbol",
@@ -4569,20 +4569,6 @@
      "odds": 1.962
     },
     {
-     "sport": "nfl",
-     "id": "2026_11_MIN_SF",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-23T01:20:00Z",
-     "league": "NFL",
-     "home": "San Francisco",
-     "away": "Minnesota",
-     "note": "QB: Brock Purdy vs Kirk Cousins",
-     "pick": "Minnesota +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.6582,
-     "odds": 1.847
-    },
-    {
      "sport": "futbol",
      "date": "2026-11-20",
      "kickoff": "2026-11-20T17:30:00Z",
@@ -4667,6 +4653,20 @@
      "key": "1X",
      "p": 0.6473,
      "odds": 1.691
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_MIN_SF",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-23T01:20:00Z",
+     "league": "NFL",
+     "home": "San Francisco",
+     "away": "Minnesota",
+     "note": "QB: Brock Purdy vs Kirk Cousins",
+     "pick": "Minnesota +3",
+     "key": "sp:A:3",
+     "p": 0.6444,
+     "odds": 1.99
     },
     {
      "sport": "futbol",
@@ -4855,7 +4855,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6256,
-     "odds": 1.231
+     "odds": 1.248
     },
     {
      "sport": "futbol",
@@ -4971,7 +4971,7 @@
      "pick": "Arizona +16.5",
      "key": "sp:A:16.5",
      "p": 0.6072,
-     "odds": 1.909
+     "odds": 1.877
     },
     {
      "sport": "futbol",
@@ -5121,7 +5121,7 @@
      "pick": "Gana Denver",
      "key": "ml:A",
      "p": 0.5782,
-     "odds": 1.833
+     "odds": 1.775
     },
     {
      "sport": "futbol",
@@ -10027,7 +10027,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.8665,
-     "odds": 1.061
+     "odds": 1.06
     },
     {
      "sport": "nfl",
@@ -10041,7 +10041,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.8316,
-     "odds": 1.057
+     "odds": 1.061
     },
     {
      "sport": "nfl",
@@ -10069,7 +10069,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7024,
-     "odds": 1.376
+     "odds": 1.382
     },
     {
      "sport": "nfl",
@@ -10108,10 +10108,10 @@
      "home": "San Francisco",
      "away": "Minnesota",
      "note": "QB: Brock Purdy vs Kirk Cousins",
-     "pick": "Minnesota +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.6582,
-     "odds": 1.847
+     "pick": "Minnesota +3",
+     "key": "sp:A:3",
+     "p": 0.6444,
+     "odds": 1.99
     },
     {
      "sport": "nfl",
@@ -10167,7 +10167,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6256,
-     "odds": 1.231
+     "odds": 1.248
     },
     {
      "sport": "nfl",
@@ -10209,7 +10209,7 @@
      "pick": "Gana Denver",
      "key": "ml:A",
      "p": 0.5782,
-     "odds": 1.833
+     "odds": 1.775
     },
     {
      "sport": "nfl",
@@ -10250,10 +10250,10 @@
      "home": "Denver",
      "away": "Las Vegas",
      "note": "QB: Bo Nix vs Fernando Mendoza",
-     "pick": "Denver -10",
-     "key": "sp:H:-10",
-     "p": 0.7309,
-     "odds": 1.877
+     "pick": "Denver -10.5",
+     "key": "sp:H:-10.5",
+     "p": 0.7184,
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -10267,7 +10267,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7024,
-     "odds": 1.376
+     "odds": 1.382
     },
     {
      "sport": "nfl",
@@ -10306,10 +10306,10 @@
      "home": "San Francisco",
      "away": "Minnesota",
      "note": "QB: Brock Purdy vs Kirk Cousins",
-     "pick": "Minnesota +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.6582,
-     "odds": 1.847
+     "pick": "Minnesota +3",
+     "key": "sp:A:3",
+     "p": 0.6444,
+     "odds": 1.99
     },
     {
      "sport": "nfl",
@@ -10365,7 +10365,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6256,
-     "odds": 1.231
+     "odds": 1.248
     },
     {
      "sport": "nfl",
@@ -10407,7 +10407,7 @@
      "pick": "Arizona +16.5",
      "key": "sp:A:16.5",
      "p": 0.6072,
-     "odds": 1.909
+     "odds": 1.877
     },
     {
      "sport": "nfl",
@@ -10435,7 +10435,7 @@
      "pick": "Gana Denver",
      "key": "ml:A",
      "p": 0.5782,
-     "odds": 1.833
+     "odds": 1.775
     },
     {
      "sport": "nfl",
@@ -16747,7 +16747,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -16797,7 +16800,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 0.962,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -16847,7 +16853,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -16871,7 +16880,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.562,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -16927,6 +16939,65 @@
      "score": null
     }
    ],
+   "status": "pendiente",
+   "odds": 4.868,
+   "value": true,
+   "pnl": null
+  },
+  {
+   "sport": "nfl",
+   "type": "parlay_mid",
+   "made": "2026-11-20",
+   "legs": [
+    {
+     "sport": "nfl",
+     "id": "2026_11_TB_DET",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "Tampa Bay",
+     "note": "QB: Jared Goff vs Baker Mayfield",
+     "pick": "Tampa Bay +5.5",
+     "key": "sp:A:5.5",
+     "p": 0.7469,
+     "odds": 1.885,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_LV_DEN",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T21:25:00Z",
+     "league": "NFL",
+     "home": "Denver",
+     "away": "Las Vegas",
+     "note": "QB: Bo Nix vs Fernando Mendoza",
+     "pick": "Denver -10.5",
+     "key": "sp:H:-10.5",
+     "p": 0.7184,
+     "odds": 1.952,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_JAX_NYG",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "NY Giants",
+     "away": "Jacksonville",
+     "note": "QB: J.J. McCarthy vs Trevor Lawrence",
+     "pick": "Gana Jacksonville",
+     "key": "ml:A",
+     "p": 0.7024,
+     "odds": 1.382,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
    "status": "pendiente"
   }
  ],
@@ -16944,7 +17015,7 @@
    "parlays": {
     "ganado": 24,
     "perdido": 24,
-    "pendiente": 16,
+    "pendiente": 17,
     "bets": 25,
     "profit": 5.04,
     "value_bets": 22,
@@ -17004,7 +17075,7 @@
    "parlays": {
     "ganado": 9,
     "perdido": 11,
-    "pendiente": 6,
+    "pendiente": 7,
     "bets": 20,
     "profit": 5.31,
     "value_bets": 18,
