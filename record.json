@@ -5799,7 +5799,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 0.981,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -5821,7 +5824,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 0.986,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -5843,7 +5849,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 0.983,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -5865,7 +5874,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 0.998,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -5887,7 +5899,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 0.993,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -5909,7 +5924,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.064,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -5931,7 +5949,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -5953,7 +5974,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -5975,7 +5999,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.023,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -5997,7 +6024,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -6047,7 +6077,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 0.951,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -6097,7 +6130,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -6153,7 +6189,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 5.187,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "todas",
@@ -6201,6 +6240,211 @@
     "key": "1X",
     "p": 0.9533,
     "odds": 0.981,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-21",
+    "kickoff": "2026-11-21T12:30:00Z",
+    "league": "Championship",
+    "home": "Norwich",
+    "away": "Cardiff",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8954,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_top",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T11:15:00Z",
+    "league": "Eredivisie",
+    "home": "Twente",
+    "away": "Willem II",
+    "pick": "Twente o empate",
+    "key": "1X",
+    "p": 0.9533,
+    "odds": 0.981,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T17:00:00Z",
+    "league": "Grecia",
+    "home": "Olympiakos",
+    "away": "Iraklis",
+    "pick": "Olympiakos o empate",
+    "key": "1X",
+    "p": 0.9227,
+    "odds": 0.983,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T15:30:00Z",
+    "league": "Grecia",
+    "home": "Panathinaikos",
+    "away": "OFI Crete",
+    "pick": "Panathinaikos o empate",
+    "key": "1X",
+    "p": 0.9137,
+    "odds": 0.998,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_mid",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-21",
+    "kickoff": "2026-11-21T17:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Castellon",
+    "away": "Eldense",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7498,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T14:00:00Z",
+    "league": "Serie A",
+    "home": "Sassuolo",
+    "away": "Genoa",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7484,
+    "odds": 1.301,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-21",
+    "kickoff": "2026-11-21T15:00:00Z",
+    "league": "League Two",
+    "home": "Accrington",
+    "away": "Salford",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7484,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_GB_LA",
+    "date": "2026-11-25",
+    "kickoff": "2026-11-26T01:00:00Z",
+    "league": "NFL",
+    "home": "LA Rams",
+    "away": "Green Bay",
+    "note": "QB: Matthew Stafford vs Jordan Love",
+    "pick": "Gana LA Rams",
+    "key": "ml:H",
+    "p": 0.6402,
+    "odds": 1.562,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-20",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_11_TB_DET",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T18:00:00Z",
+    "league": "NFL",
+    "home": "Detroit",
+    "away": "Tampa Bay",
+    "note": "QB: Jared Goff vs Baker Mayfield",
+    "pick": "Tampa Bay +5.5",
+    "key": "sp:A:5.5",
+    "p": 0.7469,
+    "odds": 1.885,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_11_LV_DEN",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T21:25:00Z",
+    "league": "NFL",
+    "home": "Denver",
+    "away": "Las Vegas",
+    "note": "QB: Bo Nix vs Fernando Mendoza",
+    "pick": "Denver -10",
+    "key": "sp:H:-10",
+    "p": 0.7309,
+    "odds": 1.877,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_11_JAX_NYG",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T18:00:00Z",
+    "league": "NFL",
+    "home": "NY Giants",
+    "away": "Jacksonville",
+    "note": "QB: J.J. McCarthy vs Trevor Lawrence",
+    "pick": "Gana Jacksonville",
+    "key": "ml:A",
+    "p": 0.7024,
+    "odds": 1.376,
     "status": "pendiente",
     "score": null
    }
