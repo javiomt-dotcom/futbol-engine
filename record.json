@@ -6648,7 +6648,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -6670,7 +6673,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -6692,7 +6698,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.047,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -6742,7 +6751,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.824,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -6794,6 +6806,81 @@
     "key": "ml:A",
     "p": 0.7022,
     "odds": 1.391,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente",
+  "odds": 5.205,
+  "value": true,
+  "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-21",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T13:30:00Z",
+    "league": "Eredivisie",
+    "home": "Ajax",
+    "away": "Den Haag",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8672,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_mid",
+  "made": "2026-11-21",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T14:00:00Z",
+    "league": "Serie A",
+    "home": "Sassuolo",
+    "away": "Genoa",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7484,
+    "odds": 1.301,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T17:30:00Z",
+    "league": "Grecia",
+    "home": "PAOK",
+    "away": "Kifisia",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7479,
+    "odds": 1.124,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T11:30:00Z",
+    "league": "Serie A",
+    "home": "Juventus",
+    "away": "Venezia",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7478,
+    "odds": null,
     "status": "pendiente",
     "score": null
    }
