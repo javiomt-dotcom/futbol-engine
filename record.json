@@ -6520,6 +6520,103 @@
     "score": null
    }
   ],
+  "status": "pendiente",
+  "odds": 5.085,
+  "value": true,
+  "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-21",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-21",
+    "kickoff": "2026-11-21T17:45:00Z",
+    "league": "Eredivisie",
+    "home": "Feyenoord",
+    "away": "Excelsior",
+    "pick": "Feyenoord o empate",
+    "key": "1X",
+    "p": 0.8856,
+    "odds": 1.019,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-21",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-21",
+    "kickoff": "2026-11-21T20:00:00Z",
+    "league": "LaLiga",
+    "home": "Real Madrid",
+    "away": "Celta",
+    "pick": "Real Madrid o empate",
+    "key": "1X",
+    "p": 0.8843,
+    "odds": 1.008,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_mid",
+  "made": "2026-11-21",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-21",
+    "kickoff": "2026-11-21T17:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Castellon",
+    "away": "Eldense",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7498,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T14:00:00Z",
+    "league": "Serie A",
+    "home": "Sassuolo",
+    "away": "Genoa",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7484,
+    "odds": 1.301,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-21",
+    "kickoff": "2026-11-21T19:45:00Z",
+    "league": "Ligue 1",
+    "home": "Lens",
+    "away": "Toulouse",
+    "pick": "Lens o empate",
+    "key": "1X",
+    "p": 0.748,
+    "odds": 1.247,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
   "status": "pendiente"
  }
 ]
