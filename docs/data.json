@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T15:00:52Z",
+ "generated_at": "2026-11-21T18:42:55Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -402,7 +402,7 @@
      "pick": "Gana Chicago",
      "key": "ml:H",
      "p": 0.8716,
-     "odds": 1.167
+     "odds": 1.169
     },
     {
      "sport": "futbol",
@@ -452,7 +452,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.8664,
-     "odds": 1.061
+     "odds": 1.065
     },
     {
      "sport": "futbol",
@@ -805,7 +805,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.8313,
-     "odds": 1.06
+     "odds": 1.068
     },
     {
      "sport": "champions",
@@ -1857,20 +1857,6 @@
      "odds": 1.134
     },
     {
-     "sport": "nfl",
-     "id": "2026_11_TB_DET",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:00:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "Tampa Bay",
-     "note": "QB: Jared Goff vs Baker Mayfield",
-     "pick": "Tampa Bay +5.5",
-     "key": "sp:A:5.5",
-     "p": 0.747,
-     "odds": 1.885
-    },
-    {
      "sport": "futbol",
      "date": "2026-11-22",
      "kickoff": "2026-11-22T17:30:00Z",
@@ -2111,6 +2097,20 @@
      "odds": 1.267
     },
     {
+     "sport": "nfl",
+     "id": "2026_11_TB_DET",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "Tampa Bay",
+     "note": "QB: Jared Goff vs Baker Mayfield",
+     "pick": "Tampa Bay +4.5",
+     "key": "sp:A:4.5",
+     "p": 0.7226,
+     "odds": 1.917
+    },
+    {
      "sport": "futbol",
      "date": "2026-11-21",
      "kickoff": "2026-11-21T15:00:00Z",
@@ -2206,7 +2206,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7022,
-     "odds": 1.395
+     "odds": 1.391
     },
     {
      "sport": "futbol",
@@ -2304,7 +2304,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6856,
-     "odds": 1.265
+     "odds": 1.276
     },
     {
      "sport": "nfl",
@@ -2346,7 +2346,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6401,
-     "odds": 1.559
+     "odds": 1.637
     },
     {
      "sport": "nfl",
@@ -2374,7 +2374,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6266,
-     "odds": 1.336
+     "odds": 1.33
     },
     {
      "sport": "nfl",
@@ -2430,7 +2430,7 @@
      "pick": "Gana Denver",
      "key": "ml:A",
      "p": 0.5782,
-     "odds": 1.775
+     "odds": 1.752
     },
     {
      "sport": "nfl",
@@ -2567,20 +2567,6 @@
      "key": "X2",
      "p": 0.7472,
      "odds": 1.134
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_TB_DET",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:00:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "Tampa Bay",
-     "note": "QB: Jared Goff vs Baker Mayfield",
-     "pick": "Tampa Bay +5.5",
-     "key": "sp:A:5.5",
-     "p": 0.747,
-     "odds": 1.885
     },
     {
      "sport": "futbol",
@@ -3488,6 +3474,20 @@
      "odds": 1.16
     },
     {
+     "sport": "nfl",
+     "id": "2026_11_TB_DET",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "Tampa Bay",
+     "note": "QB: Jared Goff vs Baker Mayfield",
+     "pick": "Tampa Bay +4.5",
+     "key": "sp:A:4.5",
+     "p": 0.7226,
+     "odds": 1.917
+    },
+    {
      "sport": "futbol",
      "date": "2026-11-22",
      "kickoff": "2026-11-22T12:30:00Z",
@@ -3778,7 +3778,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7022,
-     "odds": 1.395
+     "odds": 1.391
     },
     {
      "sport": "futbol",
@@ -3960,7 +3960,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6856,
-     "odds": 1.265
+     "odds": 1.276
     },
     {
      "sport": "futbol",
@@ -4357,7 +4357,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6401,
-     "odds": 1.559
+     "odds": 1.637
     },
     {
      "sport": "futbol",
@@ -4481,7 +4481,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6266,
-     "odds": 1.336
+     "odds": 1.33
     },
     {
      "sport": "nfl",
@@ -4598,20 +4598,6 @@
      "key": "sp:H:-11.5",
      "p": 0.6083,
      "odds": 1.935
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_ARI_KC",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:00:00Z",
-     "league": "NFL",
-     "home": "Kansas City",
-     "away": "Arizona",
-     "note": "QB: Patrick Mahomes vs Gardner Minshew",
-     "pick": "Arizona +16.5",
-     "key": "sp:A:16.5",
-     "p": 0.6075,
-     "odds": 1.877
     },
     {
      "sport": "futbol",
@@ -4751,6 +4737,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_11_ARI_KC",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Kansas City",
+     "away": "Arizona",
+     "note": "QB: Patrick Mahomes vs Gardner Minshew",
+     "pick": "Arizona +15.5",
+     "key": "sp:A:15.5",
+     "p": 0.5785,
+     "odds": 1.926
+    },
+    {
+     "sport": "nfl",
      "id": "2026_12_DEN_PIT",
      "date": "2026-11-27",
      "kickoff": "2026-11-27T20:00:00Z",
@@ -4761,7 +4761,7 @@
      "pick": "Gana Denver",
      "key": "ml:A",
      "p": 0.5782,
-     "odds": 1.775
+     "odds": 1.752
     },
     {
      "sport": "futbol",
@@ -9245,7 +9245,7 @@
      "pick": "Gana Chicago",
      "key": "ml:H",
      "p": 0.8716,
-     "odds": 1.167
+     "odds": 1.169
     },
     {
      "sport": "nfl",
@@ -9259,7 +9259,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.8664,
-     "odds": 1.061
+     "odds": 1.065
     },
     {
      "sport": "nfl",
@@ -9273,7 +9273,7 @@
      "pick": "Gana Kansas City",
      "key": "ml:H",
      "p": 0.8313,
-     "odds": 1.06
+     "odds": 1.068
     },
     {
      "sport": "nfl",
@@ -9284,10 +9284,10 @@
      "home": "Detroit",
      "away": "Tampa Bay",
      "note": "QB: Jared Goff vs Baker Mayfield",
-     "pick": "Tampa Bay +5.5",
-     "key": "sp:A:5.5",
-     "p": 0.747,
-     "odds": 1.885
+     "pick": "Tampa Bay +4.5",
+     "key": "sp:A:4.5",
+     "p": 0.7226,
+     "odds": 1.917
     },
     {
      "sport": "nfl",
@@ -9301,7 +9301,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7022,
-     "odds": 1.395
+     "odds": 1.391
     },
     {
      "sport": "nfl",
@@ -9315,7 +9315,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6856,
-     "odds": 1.265
+     "odds": 1.276
     },
     {
      "sport": "nfl",
@@ -9357,7 +9357,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6401,
-     "odds": 1.559
+     "odds": 1.637
     },
     {
      "sport": "nfl",
@@ -9385,7 +9385,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6266,
-     "odds": 1.336
+     "odds": 1.33
     },
     {
      "sport": "nfl",
@@ -9441,7 +9441,7 @@
      "pick": "Gana Denver",
      "key": "ml:A",
      "p": 0.5782,
-     "odds": 1.775
+     "odds": 1.752
     },
     {
      "sport": "nfl",
@@ -9468,10 +9468,10 @@
      "home": "Detroit",
      "away": "Tampa Bay",
      "note": "QB: Jared Goff vs Baker Mayfield",
-     "pick": "Tampa Bay +5.5",
-     "key": "sp:A:5.5",
-     "p": 0.747,
-     "odds": 1.885
+     "pick": "Tampa Bay +4.5",
+     "key": "sp:A:4.5",
+     "p": 0.7226,
+     "odds": 1.917
     },
     {
      "sport": "nfl",
@@ -9499,7 +9499,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:A",
      "p": 0.7022,
-     "odds": 1.395
+     "odds": 1.391
     },
     {
      "sport": "nfl",
@@ -9513,7 +9513,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6856,
-     "odds": 1.265
+     "odds": 1.276
     },
     {
      "sport": "nfl",
@@ -9555,7 +9555,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6401,
-     "odds": 1.559
+     "odds": 1.637
     },
     {
      "sport": "nfl",
@@ -9583,7 +9583,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6266,
-     "odds": 1.336
+     "odds": 1.33
     },
     {
      "sport": "nfl",
@@ -9629,20 +9629,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_11_ARI_KC",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:00:00Z",
-     "league": "NFL",
-     "home": "Kansas City",
-     "away": "Arizona",
-     "note": "QB: Patrick Mahomes vs Gardner Minshew",
-     "pick": "Arizona +16.5",
-     "key": "sp:A:16.5",
-     "p": 0.6075,
-     "odds": 1.877
-    },
-    {
-     "sport": "nfl",
      "id": "2026_12_CHI_DET",
      "date": "2026-11-26",
      "kickoff": "2026-11-26T18:00:00Z",
@@ -9657,6 +9643,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_11_ARI_KC",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Kansas City",
+     "away": "Arizona",
+     "note": "QB: Patrick Mahomes vs Gardner Minshew",
+     "pick": "Arizona +15.5",
+     "key": "sp:A:15.5",
+     "p": 0.5785,
+     "odds": 1.926
+    },
+    {
+     "sport": "nfl",
      "id": "2026_12_DEN_PIT",
      "date": "2026-11-27",
      "kickoff": "2026-11-27T20:00:00Z",
@@ -9667,7 +9667,7 @@
      "pick": "Gana Denver",
      "key": "ml:A",
      "p": 0.5782,
-     "odds": 1.775
+     "odds": 1.752
     },
     {
      "sport": "nfl",
@@ -16255,7 +16255,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.019,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -16277,7 +16280,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.008,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -16327,6 +16333,181 @@
      "score": null
     }
    ],
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
+  },
+  {
+   "sport": "futbol",
+   "type": "single",
+   "made": "2026-11-21",
+   "legs": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T13:00:00Z",
+     "league": "LaLiga",
+     "home": "Barcelona",
+     "away": "Villarreal",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.884,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "futbol",
+   "type": "single",
+   "made": "2026-11-21",
+   "legs": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T17:00:00Z",
+     "league": "Turquía",
+     "home": "Buyuksehyr",
+     "away": "Corum",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.872,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "futbol",
+   "type": "single",
+   "made": "2026-11-21",
+   "legs": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T14:00:00Z",
+     "league": "Ligue 1",
+     "home": "Paris FC",
+     "away": "Angers",
+     "pick": "Paris FC o empate",
+     "key": "1X",
+     "p": 0.869,
+     "odds": 1.047,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "futbol",
+   "type": "parlay_mid",
+   "made": "2026-11-21",
+   "legs": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T14:00:00Z",
+     "league": "Serie A",
+     "home": "Sassuolo",
+     "away": "Genoa",
+     "pick": "No hay empate",
+     "key": "12",
+     "p": 0.7484,
+     "odds": 1.301,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-21",
+     "kickoff": "2026-11-21T19:45:00Z",
+     "league": "Ligue 1",
+     "home": "Lens",
+     "away": "Toulouse",
+     "pick": "Lens o empate",
+     "key": "1X",
+     "p": 0.748,
+     "odds": 1.247,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T17:30:00Z",
+     "league": "Grecia",
+     "home": "PAOK",
+     "away": "Kifisia",
+     "pick": "No hay empate",
+     "key": "12",
+     "p": 0.7479,
+     "odds": 1.124,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "nfl",
+   "type": "parlay_mid",
+   "made": "2026-11-21",
+   "legs": [
+    {
+     "sport": "nfl",
+     "id": "2026_11_TB_DET",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "Tampa Bay",
+     "note": "QB: Jared Goff vs Baker Mayfield",
+     "pick": "Tampa Bay +4.5",
+     "key": "sp:A:4.5",
+     "p": 0.7226,
+     "odds": 1.917,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_LV_DEN",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T21:25:00Z",
+     "league": "NFL",
+     "home": "Denver",
+     "away": "Las Vegas",
+     "note": "QB: Bo Nix vs Fernando Mendoza",
+     "pick": "Denver -10.5",
+     "key": "sp:H:-10.5",
+     "p": 0.7182,
+     "odds": 1.952,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_JAX_NYG",
+     "date": "2026-11-22",
+     "kickoff": "2026-11-22T18:00:00Z",
+     "league": "NFL",
+     "home": "NY Giants",
+     "away": "Jacksonville",
+     "note": "QB: J.J. McCarthy vs Trevor Lawrence",
+     "pick": "Gana Jacksonville",
+     "key": "ml:A",
+     "p": 0.7022,
+     "odds": 1.391,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
    "status": "pendiente"
   }
  ],
@@ -16335,7 +16516,7 @@
    "singles": {
     "ganado": 67,
     "perdido": 12,
-    "pendiente": 37,
+    "pendiente": 40,
     "bets": 50,
     "profit": 4.7,
     "value_bets": 11,
@@ -16344,7 +16525,7 @@
    "parlays": {
     "ganado": 24,
     "perdido": 24,
-    "pendiente": 18,
+    "pendiente": 20,
     "bets": 25,
     "profit": 5.04,
     "value_bets": 22,
@@ -16355,7 +16536,7 @@
    "singles": {
     "ganado": 47,
     "perdido": 7,
-    "pendiente": 13,
+    "pendiente": 16,
     "bets": 25,
     "profit": 0.65,
     "value_bets": 0,
@@ -16364,7 +16545,7 @@
    "parlays": {
     "ganado": 12,
     "perdido": 7,
-    "pendiente": 5,
+    "pendiente": 6,
     "bets": 0,
     "profit": 0,
     "value_bets": 0,
@@ -16404,7 +16585,7 @@
    "parlays": {
     "ganado": 9,
     "perdido": 11,
-    "pendiente": 7,
+    "pendiente": 8,
     "bets": 20,
     "profit": 5.31,
     "value_bets": 18,

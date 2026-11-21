@@ -6545,7 +6545,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.019,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -6567,7 +6570,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.008,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -6613,6 +6619,181 @@
     "key": "1X",
     "p": 0.748,
     "odds": 1.247,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-21",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T13:00:00Z",
+    "league": "LaLiga",
+    "home": "Barcelona",
+    "away": "Villarreal",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.884,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-21",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-23",
+    "kickoff": "2026-11-23T17:00:00Z",
+    "league": "Turquía",
+    "home": "Buyuksehyr",
+    "away": "Corum",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.872,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-21",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T14:00:00Z",
+    "league": "Ligue 1",
+    "home": "Paris FC",
+    "away": "Angers",
+    "pick": "Paris FC o empate",
+    "key": "1X",
+    "p": 0.869,
+    "odds": 1.047,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_mid",
+  "made": "2026-11-21",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T14:00:00Z",
+    "league": "Serie A",
+    "home": "Sassuolo",
+    "away": "Genoa",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7484,
+    "odds": 1.301,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-21",
+    "kickoff": "2026-11-21T19:45:00Z",
+    "league": "Ligue 1",
+    "home": "Lens",
+    "away": "Toulouse",
+    "pick": "Lens o empate",
+    "key": "1X",
+    "p": 0.748,
+    "odds": 1.247,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T17:30:00Z",
+    "league": "Grecia",
+    "home": "PAOK",
+    "away": "Kifisia",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7479,
+    "odds": 1.124,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-21",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_11_TB_DET",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T18:00:00Z",
+    "league": "NFL",
+    "home": "Detroit",
+    "away": "Tampa Bay",
+    "note": "QB: Jared Goff vs Baker Mayfield",
+    "pick": "Tampa Bay +4.5",
+    "key": "sp:A:4.5",
+    "p": 0.7226,
+    "odds": 1.917,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_11_LV_DEN",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T21:25:00Z",
+    "league": "NFL",
+    "home": "Denver",
+    "away": "Las Vegas",
+    "note": "QB: Bo Nix vs Fernando Mendoza",
+    "pick": "Denver -10.5",
+    "key": "sp:H:-10.5",
+    "p": 0.7182,
+    "odds": 1.952,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_11_JAX_NYG",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T18:00:00Z",
+    "league": "NFL",
+    "home": "NY Giants",
+    "away": "Jacksonville",
+    "note": "QB: J.J. McCarthy vs Trevor Lawrence",
+    "pick": "Gana Jacksonville",
+    "key": "ml:A",
+    "p": 0.7022,
+    "odds": 1.391,
     "status": "pendiente",
     "score": null
    }
