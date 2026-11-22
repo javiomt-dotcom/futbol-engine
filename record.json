@@ -6835,7 +6835,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -6880,6 +6883,504 @@
     "pick": "Más de 1.5 goles",
     "key": "o1.5",
     "p": 0.7478,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-22",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T17:00:00Z",
+    "league": "Serie A",
+    "home": "Milan",
+    "away": "Frosinone",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8628,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-22",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T19:45:00Z",
+    "league": "Ligue 1",
+    "home": "Marseille",
+    "away": "Le Mans",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8621,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-22",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-23",
+    "kickoff": "2026-11-23T19:45:00Z",
+    "league": "Serie A",
+    "home": "Monza",
+    "away": "Fiorentina",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8492,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-22",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T15:45:00Z",
+    "league": "Eredivisie",
+    "home": "Go Ahead Eagles",
+    "away": "For Sittard",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8472,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_top",
+  "made": "2026-11-22",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T17:00:00Z",
+    "league": "Grecia",
+    "home": "Olympiakos",
+    "away": "Iraklis",
+    "pick": "Olympiakos o empate",
+    "key": "1X",
+    "p": 0.9226,
+    "odds": 0.983,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T15:30:00Z",
+    "league": "Grecia",
+    "home": "Panathinaikos",
+    "away": "OFI Crete",
+    "pick": "Panathinaikos o empate",
+    "key": "1X",
+    "p": 0.9136,
+    "odds": 0.998,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T16:00:00Z",
+    "league": "Turquía",
+    "home": "Trabzonspor",
+    "away": "Eyupspor",
+    "pick": "Trabzonspor o empate",
+    "key": "1X",
+    "p": 0.9061,
+    "odds": 0.993,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_mid",
+  "made": "2026-11-22",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T17:30:00Z",
+    "league": "Grecia",
+    "home": "PAOK",
+    "away": "Kifisia",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7479,
+    "odds": 1.124,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T17:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Girona",
+    "away": "Eibar",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7469,
+    "odds": 1.225,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-23",
+    "kickoff": "2026-11-23T20:00:00Z",
+    "league": "Premier League",
+    "home": "Brentford",
+    "away": "Everton",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7439,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-22",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_TEN_JAX",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Jacksonville",
+    "away": "Tennessee",
+    "note": "QB: Trevor Lawrence vs Cam Ward",
+    "pick": "Gana Jacksonville",
+    "key": "ml:H",
+    "p": 0.8935,
+    "odds": 1.093,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-22",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_NE_LAC",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T21:05:00Z",
+    "league": "NFL",
+    "home": "LA Chargers",
+    "away": "New England",
+    "note": "QB: Justin Herbert vs Drake Maye",
+    "pick": "New England +3.5",
+    "key": "sp:A:3.5",
+    "p": 0.8536,
+    "odds": 1.909,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-22",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_LV_CLE",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-30T01:20:00Z",
+    "league": "NFL",
+    "home": "Cleveland",
+    "away": "Las Vegas",
+    "note": "QB: Deshaun Watson vs Fernando Mendoza",
+    "pick": "Gana Cleveland",
+    "key": "ml:H",
+    "p": 0.8139,
+    "odds": 1.518,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-22",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_BAL_HOU",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Houston",
+    "away": "Baltimore",
+    "note": "QB: C.J. Stroud vs Tyler Huntley",
+    "pick": "Gana Houston",
+    "key": "ml:H",
+    "p": 0.7453,
+    "odds": 1.373,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-22",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_SEA_SF",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T21:25:00Z",
+    "league": "NFL",
+    "home": "San Francisco",
+    "away": "Seattle",
+    "note": "QB: Brock Purdy vs Sam Darnold",
+    "pick": "Seattle +1.5",
+    "key": "sp:A:1.5",
+    "p": 0.7391,
+    "odds": 1.943,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-22",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_NO_CIN",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Cincinnati",
+    "away": "New Orleans",
+    "note": "QB: Joe Burrow vs Tyler Shough",
+    "pick": "Gana Cincinnati",
+    "key": "ml:H",
+    "p": 0.7266,
+    "odds": 1.185,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_top",
+  "made": "2026-11-22",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_11_LV_DEN",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T21:25:00Z",
+    "league": "NFL",
+    "home": "Denver",
+    "away": "Las Vegas",
+    "note": "QB: Bo Nix vs Fernando Mendoza",
+    "pick": "Gana Denver",
+    "key": "ml:H",
+    "p": 0.9133,
+    "odds": 1.156,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_TEN_JAX",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Jacksonville",
+    "away": "Tennessee",
+    "note": "QB: Trevor Lawrence vs Cam Ward",
+    "pick": "Gana Jacksonville",
+    "key": "ml:H",
+    "p": 0.8935,
+    "odds": 1.093,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_11_NO_CHI",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T18:00:00Z",
+    "league": "NFL",
+    "home": "Chicago",
+    "away": "New Orleans",
+    "note": "QB: Caleb Williams vs Tyler Shough",
+    "pick": "Gana Chicago",
+    "key": "ml:H",
+    "p": 0.8715,
+    "odds": 1.159,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-22",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_BAL_HOU",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Houston",
+    "away": "Baltimore",
+    "note": "QB: C.J. Stroud vs Tyler Huntley",
+    "pick": "Gana Houston",
+    "key": "ml:H",
+    "p": 0.7453,
+    "odds": 1.373,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_SEA_SF",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T21:25:00Z",
+    "league": "NFL",
+    "home": "San Francisco",
+    "away": "Seattle",
+    "note": "QB: Brock Purdy vs Sam Darnold",
+    "pick": "Seattle +1.5",
+    "key": "sp:A:1.5",
+    "p": 0.7391,
+    "odds": 1.943,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_NO_CIN",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Cincinnati",
+    "away": "New Orleans",
+    "note": "QB: Joe Burrow vs Tyler Shough",
+    "pick": "Gana Cincinnati",
+    "key": "ml:H",
+    "p": 0.7266,
+    "odds": 1.185,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "todas",
+  "type": "parlay_mid",
+  "made": "2026-11-22",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T17:30:00Z",
+    "league": "Grecia",
+    "home": "PAOK",
+    "away": "Kifisia",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7479,
+    "odds": 1.124,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-22",
+    "kickoff": "2026-11-22T17:30:00Z",
+    "league": "LaLiga 2",
+    "home": "Girona",
+    "away": "Eibar",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7469,
+    "odds": 1.225,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "champions",
+    "id": "401915291",
+    "date": "2026-11-25",
+    "kickoff": "2026-11-25T20:00:00Z",
+    "league": "Champions League",
+    "home": "Atlético Madrid",
+    "away": "Viking FK",
+    "pick": "Ambos anotan",
+    "key": "btts",
+    "p": 0.7455,
     "odds": null,
     "status": "pendiente",
     "score": null
