@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T18:53:39Z",
+ "generated_at": "2026-11-23T23:24:29Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -135,7 +135,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:H",
      "p": 0.897,
-     "odds": 1.083
+     "odds": 1.086
     },
     {
      "sport": "champions",
@@ -390,7 +390,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:H",
      "p": 0.7173,
-     "odds": 1.167
+     "odds": 1.192
     },
     {
      "sport": "nfl",
@@ -418,7 +418,7 @@
      "pick": "Gana Houston",
      "key": "ml:H",
      "p": 0.7126,
-     "odds": 1.328
+     "odds": 1.325
     },
     {
      "sport": "nfl",
@@ -432,7 +432,21 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6553,
-     "odds": 1.224
+     "odds": 1.205
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_WAS_ARI",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "league": "NFL",
+     "home": "Arizona",
+     "away": "Washington",
+     "note": "QB: Gardner Minshew vs Jayden Daniels",
+     "pick": "Más de 40.5 puntos",
+     "key": "ou:o:40.5",
+     "p": 0.6535,
+     "odds": 1.847
     },
     {
      "sport": "nfl",
@@ -446,7 +460,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6533,
-     "odds": 1.68
+     "odds": 1.714
     },
     {
      "sport": "nfl",
@@ -478,31 +492,17 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_12_WAS_ARI",
+     "id": "2026_12_ATL_MIN",
      "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:25:00Z",
+     "kickoff": "2026-11-29T18:00:00Z",
      "league": "NFL",
-     "home": "Arizona",
-     "away": "Washington",
-     "note": "QB: Gardner Minshew vs Jayden Daniels",
-     "pick": "Gana Washington",
-     "key": "ml:A",
-     "p": 0.6267,
-     "odds": 1.293
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_DEN_PIT",
-     "date": "2026-11-27",
-     "kickoff": "2026-11-27T20:00:00Z",
-     "league": "NFL",
-     "home": "Pittsburgh",
-     "away": "Denver",
-     "note": "QB: Aaron Rodgers vs Bo Nix",
-     "pick": "Más de 37.5 puntos",
-     "key": "ou:o:37.5",
-     "p": 0.624,
-     "odds": 1.87
+     "home": "Minnesota",
+     "away": "Atlanta",
+     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
+     "pick": "Atlanta +7",
+     "key": "sp:A:7",
+     "p": 0.6322,
+     "odds": 1.833
     },
     {
      "sport": "nfl",
@@ -520,20 +520,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_12_ATL_MIN",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T18:00:00Z",
-     "league": "NFL",
-     "home": "Minnesota",
-     "away": "Atlanta",
-     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
-     "pick": "Atlanta +6.5",
-     "key": "sp:A:6.5",
-     "p": 0.6181,
-     "odds": 1.971
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_CIN_WAS",
      "date": "2026-11-23",
      "kickoff": "2026-11-24T01:15:00Z",
@@ -544,7 +530,21 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6092,
-     "odds": 1.332
+     "odds": 1.342
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_DEN_PIT",
+     "date": "2026-11-27",
+     "kickoff": "2026-11-27T20:00:00Z",
+     "league": "NFL",
+     "home": "Pittsburgh",
+     "away": "Denver",
+     "note": "QB: Aaron Rodgers vs Bo Nix",
+     "pick": "Más de 38.5 puntos",
+     "key": "ou:o:38.5",
+     "p": 0.5963,
+     "odds": 1.962
     },
     {
      "sport": "nfl",
@@ -572,7 +572,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.5937,
-     "odds": 1.671
+     "odds": 1.662
     }
    ],
    "mid": [
@@ -751,7 +751,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:H",
      "p": 0.7173,
-     "odds": 1.167
+     "odds": 1.192
     },
     {
      "sport": "nfl",
@@ -779,7 +779,7 @@
      "pick": "Gana Houston",
      "key": "ml:H",
      "p": 0.7126,
-     "odds": 1.328
+     "odds": 1.325
     },
     {
      "sport": "champions",
@@ -884,7 +884,21 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6553,
-     "odds": 1.224
+     "odds": 1.205
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_WAS_ARI",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "league": "NFL",
+     "home": "Arizona",
+     "away": "Washington",
+     "note": "QB: Gardner Minshew vs Jayden Daniels",
+     "pick": "Más de 40.5 puntos",
+     "key": "ou:o:40.5",
+     "p": 0.6535,
+     "odds": 1.847
     },
     {
      "sport": "nfl",
@@ -898,7 +912,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6533,
-     "odds": 1.68
+     "odds": 1.714
     },
     {
      "sport": "champions",
@@ -969,31 +983,17 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_12_WAS_ARI",
+     "id": "2026_12_ATL_MIN",
      "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:25:00Z",
+     "kickoff": "2026-11-29T18:00:00Z",
      "league": "NFL",
-     "home": "Arizona",
-     "away": "Washington",
-     "note": "QB: Gardner Minshew vs Jayden Daniels",
-     "pick": "Gana Washington",
-     "key": "ml:A",
-     "p": 0.6267,
-     "odds": 1.293
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_DEN_PIT",
-     "date": "2026-11-27",
-     "kickoff": "2026-11-27T20:00:00Z",
-     "league": "NFL",
-     "home": "Pittsburgh",
-     "away": "Denver",
-     "note": "QB: Aaron Rodgers vs Bo Nix",
-     "pick": "Más de 37.5 puntos",
-     "key": "ou:o:37.5",
-     "p": 0.624,
-     "odds": 1.87
+     "home": "Minnesota",
+     "away": "Atlanta",
+     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
+     "pick": "Atlanta +7",
+     "key": "sp:A:7",
+     "p": 0.6322,
+     "odds": 1.833
     },
     {
      "sport": "nfl",
@@ -1037,20 +1037,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_12_ATL_MIN",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T18:00:00Z",
-     "league": "NFL",
-     "home": "Minnesota",
-     "away": "Atlanta",
-     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
-     "pick": "Atlanta +6.5",
-     "key": "sp:A:6.5",
-     "p": 0.6181,
-     "odds": 1.971
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_CIN_WAS",
      "date": "2026-11-23",
      "kickoff": "2026-11-24T01:15:00Z",
@@ -1061,7 +1047,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6092,
-     "odds": 1.332
+     "odds": 1.342
     },
     {
      "sport": "champions",
@@ -1075,6 +1061,20 @@
      "key": "btts",
      "p": 0.6048,
      "odds": null
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_DEN_PIT",
+     "date": "2026-11-27",
+     "kickoff": "2026-11-27T20:00:00Z",
+     "league": "NFL",
+     "home": "Pittsburgh",
+     "away": "Denver",
+     "note": "QB: Aaron Rodgers vs Bo Nix",
+     "pick": "Más de 38.5 puntos",
+     "key": "ou:o:38.5",
+     "p": 0.5963,
+     "odds": 1.962
     },
     {
      "sport": "champions",
@@ -1115,7 +1115,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.5937,
-     "odds": 1.671
+     "odds": 1.662
     },
     {
      "sport": "nfl",
@@ -1815,7 +1815,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:H",
      "p": 0.897,
-     "odds": 1.083
+     "odds": 1.086
     },
     {
      "sport": "nfl",
@@ -1857,7 +1857,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:H",
      "p": 0.7173,
-     "odds": 1.167
+     "odds": 1.192
     },
     {
      "sport": "nfl",
@@ -1885,7 +1885,7 @@
      "pick": "Gana Houston",
      "key": "ml:H",
      "p": 0.7126,
-     "odds": 1.328
+     "odds": 1.325
     },
     {
      "sport": "nfl",
@@ -1899,7 +1899,21 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6553,
-     "odds": 1.224
+     "odds": 1.205
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_WAS_ARI",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "league": "NFL",
+     "home": "Arizona",
+     "away": "Washington",
+     "note": "QB: Gardner Minshew vs Jayden Daniels",
+     "pick": "Más de 40.5 puntos",
+     "key": "ou:o:40.5",
+     "p": 0.6535,
+     "odds": 1.847
     },
     {
      "sport": "nfl",
@@ -1913,7 +1927,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6533,
-     "odds": 1.68
+     "odds": 1.714
     },
     {
      "sport": "nfl",
@@ -1945,31 +1959,17 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_12_WAS_ARI",
+     "id": "2026_12_ATL_MIN",
      "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:25:00Z",
+     "kickoff": "2026-11-29T18:00:00Z",
      "league": "NFL",
-     "home": "Arizona",
-     "away": "Washington",
-     "note": "QB: Gardner Minshew vs Jayden Daniels",
-     "pick": "Gana Washington",
-     "key": "ml:A",
-     "p": 0.6267,
-     "odds": 1.293
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_DEN_PIT",
-     "date": "2026-11-27",
-     "kickoff": "2026-11-27T20:00:00Z",
-     "league": "NFL",
-     "home": "Pittsburgh",
-     "away": "Denver",
-     "note": "QB: Aaron Rodgers vs Bo Nix",
-     "pick": "Más de 37.5 puntos",
-     "key": "ou:o:37.5",
-     "p": 0.624,
-     "odds": 1.87
+     "home": "Minnesota",
+     "away": "Atlanta",
+     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
+     "pick": "Atlanta +7",
+     "key": "sp:A:7",
+     "p": 0.6322,
+     "odds": 1.833
     },
     {
      "sport": "nfl",
@@ -1987,20 +1987,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_12_ATL_MIN",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T18:00:00Z",
-     "league": "NFL",
-     "home": "Minnesota",
-     "away": "Atlanta",
-     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
-     "pick": "Atlanta +6.5",
-     "key": "sp:A:6.5",
-     "p": 0.6181,
-     "odds": 1.971
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_CIN_WAS",
      "date": "2026-11-23",
      "kickoff": "2026-11-24T01:15:00Z",
@@ -2011,7 +1997,21 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6092,
-     "odds": 1.332
+     "odds": 1.342
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_DEN_PIT",
+     "date": "2026-11-27",
+     "kickoff": "2026-11-27T20:00:00Z",
+     "league": "NFL",
+     "home": "Pittsburgh",
+     "away": "Denver",
+     "note": "QB: Aaron Rodgers vs Bo Nix",
+     "pick": "Más de 38.5 puntos",
+     "key": "ou:o:38.5",
+     "p": 0.5963,
+     "odds": 1.962
     },
     {
      "sport": "nfl",
@@ -2039,7 +2039,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.5937,
-     "odds": 1.671
+     "odds": 1.662
     }
    ],
    "mid": [
@@ -2069,7 +2069,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:H",
      "p": 0.7173,
-     "odds": 1.167
+     "odds": 1.192
     },
     {
      "sport": "nfl",
@@ -2097,7 +2097,7 @@
      "pick": "Gana Houston",
      "key": "ml:H",
      "p": 0.7126,
-     "odds": 1.328
+     "odds": 1.325
     },
     {
      "sport": "nfl",
@@ -2125,7 +2125,21 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6553,
-     "odds": 1.224
+     "odds": 1.205
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_WAS_ARI",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "league": "NFL",
+     "home": "Arizona",
+     "away": "Washington",
+     "note": "QB: Gardner Minshew vs Jayden Daniels",
+     "pick": "Más de 40.5 puntos",
+     "key": "ou:o:40.5",
+     "p": 0.6535,
+     "odds": 1.847
     },
     {
      "sport": "nfl",
@@ -2139,7 +2153,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6533,
-     "odds": 1.68
+     "odds": 1.714
     },
     {
      "sport": "nfl",
@@ -2171,31 +2185,17 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_12_WAS_ARI",
+     "id": "2026_12_ATL_MIN",
      "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:25:00Z",
+     "kickoff": "2026-11-29T18:00:00Z",
      "league": "NFL",
-     "home": "Arizona",
-     "away": "Washington",
-     "note": "QB: Gardner Minshew vs Jayden Daniels",
-     "pick": "Gana Washington",
-     "key": "ml:A",
-     "p": 0.6267,
-     "odds": 1.293
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_DEN_PIT",
-     "date": "2026-11-27",
-     "kickoff": "2026-11-27T20:00:00Z",
-     "league": "NFL",
-     "home": "Pittsburgh",
-     "away": "Denver",
-     "note": "QB: Aaron Rodgers vs Bo Nix",
-     "pick": "Más de 37.5 puntos",
-     "key": "ou:o:37.5",
-     "p": 0.624,
-     "odds": 1.87
+     "home": "Minnesota",
+     "away": "Atlanta",
+     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
+     "pick": "Atlanta +7",
+     "key": "sp:A:7",
+     "p": 0.6322,
+     "odds": 1.833
     },
     {
      "sport": "nfl",
@@ -2213,20 +2213,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_12_ATL_MIN",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T18:00:00Z",
-     "league": "NFL",
-     "home": "Minnesota",
-     "away": "Atlanta",
-     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
-     "pick": "Atlanta +6.5",
-     "key": "sp:A:6.5",
-     "p": 0.6181,
-     "odds": 1.971
-    },
-    {
-     "sport": "nfl",
      "id": "2026_11_CIN_WAS",
      "date": "2026-11-23",
      "kickoff": "2026-11-24T01:15:00Z",
@@ -2237,7 +2223,21 @@
      "pick": "Gana Cincinnati",
      "key": "ml:A",
      "p": 0.6092,
-     "odds": 1.332
+     "odds": 1.342
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_DEN_PIT",
+     "date": "2026-11-27",
+     "kickoff": "2026-11-27T20:00:00Z",
+     "league": "NFL",
+     "home": "Pittsburgh",
+     "away": "Denver",
+     "note": "QB: Aaron Rodgers vs Bo Nix",
+     "pick": "Más de 38.5 puntos",
+     "key": "ou:o:38.5",
+     "p": 0.5963,
+     "odds": 1.962
     },
     {
      "sport": "nfl",
@@ -2265,7 +2265,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.5937,
-     "odds": 1.671
+     "odds": 1.662
     },
     {
      "sport": "nfl",
@@ -10560,7 +10560,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -10584,7 +10587,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.645,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -10608,7 +10614,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.943,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -10664,7 +10673,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 2.928,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -10720,7 +10732,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 4.452,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "todas",
@@ -10771,7 +10786,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   }
  ],
  "record_summary": {
