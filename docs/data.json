@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-22T23:13:38Z",
+ "generated_at": "2026-11-23T18:53:39Z",
  "legs": 3,
  "sports": {
   "todas": {
    "name": "Recomendaciones",
-   "matches": 90,
+   "matches": 43,
    "top": [
     {
      "sport": "champions",
@@ -16,7 +16,7 @@
      "away": "AEK Athens",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.9687,
+     "p": 0.9686,
      "odds": null
     },
     {
@@ -33,18 +33,6 @@
      "odds": null
     },
     {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T11:15:00Z",
-     "league": "Eredivisie",
-     "home": "Twente",
-     "away": "Willem II",
-     "pick": "Twente o empate",
-     "key": "1X",
-     "p": 0.9531,
-     "odds": 0.981
-    },
-    {
      "sport": "champions",
      "id": "401915380",
      "date": "2026-11-24",
@@ -54,7 +42,7 @@
      "away": "LASK Linz",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.9411,
+     "p": 0.941,
      "odds": null
     },
     {
@@ -97,18 +85,6 @@
      "odds": null
     },
     {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:00:00Z",
-     "league": "Grecia",
-     "home": "Olympiakos",
-     "away": "Iraklis",
-     "pick": "Olympiakos o empate",
-     "key": "1X",
-     "p": 0.9226,
-     "odds": 0.983
-    },
-    {
      "sport": "champions",
      "id": "401915379",
      "date": "2026-11-24",
@@ -120,32 +96,6 @@
      "key": "o1.5",
      "p": 0.914,
      "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:30:00Z",
-     "league": "Grecia",
-     "home": "Panathinaikos",
-     "away": "OFI Crete",
-     "pick": "Panathinaikos o empate",
-     "key": "1X",
-     "p": 0.9136,
-     "odds": 0.998
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_LV_DEN",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T21:25:00Z",
-     "league": "NFL",
-     "home": "Denver",
-     "away": "Las Vegas",
-     "note": "QB: Bo Nix vs Fernando Mendoza",
-     "pick": "Gana Denver",
-     "key": "ml:H",
-     "p": 0.9133,
-     "odds": 1.154
     },
     {
      "sport": "champions",
@@ -161,30 +111,6 @@
      "odds": null
     },
     {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:00:00Z",
-     "league": "Turquía",
-     "home": "Trabzonspor",
-     "away": "Eyupspor",
-     "pick": "Trabzonspor o empate",
-     "key": "1X",
-     "p": 0.9061,
-     "odds": 0.993
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:00:00Z",
-     "league": "Bélgica",
-     "home": "Kortrijk",
-     "away": "St. Gilloise",
-     "pick": "St. Gilloise o empate",
-     "key": "X2",
-     "p": 0.9055,
-     "odds": 1.064
-    },
-    {
      "sport": "champions",
      "id": "401915299",
      "date": "2026-11-24",
@@ -198,18 +124,6 @@
      "odds": null
     },
     {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:15:00Z",
-     "league": "LaLiga",
-     "home": "Santander",
-     "away": "Sociedad",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.9011,
-     "odds": null
-    },
-    {
      "sport": "nfl",
      "id": "2026_12_TEN_JAX",
      "date": "2026-11-29",
@@ -220,20 +134,8 @@
      "note": "QB: Trevor Lawrence vs Cam Ward",
      "pick": "Gana Jacksonville",
      "key": "ml:H",
-     "p": 0.8935,
-     "odds": 1.087
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
-     "league": "LaLiga",
-     "home": "Barcelona",
-     "away": "Villarreal",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.884,
-     "odds": null
+     "p": 0.897,
+     "odds": 1.083
     },
     {
      "sport": "champions",
@@ -257,106 +159,8 @@
      "away": "Corum",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.8719,
+     "p": 0.8694,
      "odds": null
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_NE_LAC",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:05:00Z",
-     "league": "NFL",
-     "home": "LA Chargers",
-     "away": "New England",
-     "note": "QB: Justin Herbert vs Drake Maye",
-     "pick": "New England +4.5",
-     "key": "sp:A:4.5",
-     "p": 0.8701,
-     "odds": 1.833
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Ligue 1",
-     "home": "Paris FC",
-     "away": "Angers",
-     "pick": "Paris FC o empate",
-     "key": "1X",
-     "p": 0.8689,
-     "odds": 1.047
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:30:00Z",
-     "league": "Eredivisie",
-     "home": "Ajax",
-     "away": "Den Haag",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8672,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:30:00Z",
-     "league": "Bundesliga",
-     "home": "Augsburg",
-     "away": "Mainz",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8669,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:00:00Z",
-     "league": "Serie A",
-     "home": "Milan",
-     "away": "Frosinone",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8628,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T19:45:00Z",
-     "league": "Ligue 1",
-     "home": "Marseille",
-     "away": "Le Mans",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8621,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bundesliga 2",
-     "home": "Karlsruhe",
-     "away": "Osnabruck",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8565,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T11:30:00Z",
-     "league": "Serie A",
-     "home": "Juventus",
-     "away": "Venezia",
-     "pick": "Juventus o empate",
-     "key": "1X",
-     "p": 0.8559,
-     "odds": 1.06
     },
     {
      "sport": "champions",
@@ -380,43 +184,7 @@
      "away": "Fiorentina",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.8492,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:45:00Z",
-     "league": "Eredivisie",
-     "home": "Go Ahead Eagles",
-     "away": "For Sittard",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8472,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "Grecia",
-     "home": "PAOK",
-     "away": "Kifisia",
-     "pick": "PAOK o empate",
-     "key": "1X",
-     "p": 0.845,
-     "odds": 1.042
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:30:00Z",
-     "league": "Premier League",
-     "home": "Liverpool",
-     "away": "Man United",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8399,
+     "p": 0.8461,
      "odds": null
     },
     {
@@ -430,18 +198,6 @@
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
      "p": 0.8389,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:30:00Z",
-     "league": "Eredivisie",
-     "home": "Sparta Rotterdam",
-     "away": "AZ Alkmaar",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.838,
      "odds": null
     },
     {
@@ -471,42 +227,6 @@
      "odds": null
     },
     {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T19:45:00Z",
-     "league": "Serie A",
-     "home": "Atalanta",
-     "away": "Inter",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.831,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
-     "league": "LaLiga 2",
-     "home": "Cordoba",
-     "away": "Oviedo",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8307,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bundesliga 2",
-     "home": "Cottbus",
-     "away": "Hertha",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8291,
-     "odds": null
-    },
-    {
      "sport": "champions",
      "id": "401915300",
      "date": "2026-11-24",
@@ -521,14 +241,53 @@
     },
     {
      "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:30:00Z",
-     "league": "Bundesliga",
-     "home": "Werder Bremen",
-     "away": "Hamburg",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T19:30:00Z",
+     "league": "LaLiga 2",
+     "home": "Ceuta",
+     "away": "Almeria",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.8235,
+     "p": 0.8126,
+     "odds": null
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_NE_LAC",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:05:00Z",
+     "league": "NFL",
+     "home": "LA Chargers",
+     "away": "New England",
+     "note": "QB: Justin Herbert vs Drake Maye",
+     "pick": "New England +1.5",
+     "key": "sp:A:1.5",
+     "p": 0.8068,
+     "odds": 1.862
+    },
+    {
+     "sport": "champions",
+     "id": "401915297",
+     "date": "2026-11-24",
+     "kickoff": "2026-11-24T20:00:00Z",
+     "league": "Champions League",
+     "home": "Slovan Bratislava",
+     "away": "Real Betis",
+     "pick": "Real Betis o empate",
+     "key": "X2",
+     "p": 0.8036,
+     "odds": null
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T20:00:00Z",
+     "league": "LaLiga",
+     "home": "Levante",
+     "away": "Elche",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.7862,
      "odds": null
     },
     {
@@ -542,129 +301,8 @@
      "note": "QB: Deshaun Watson vs Fernando Mendoza",
      "pick": "Gana Cleveland",
      "key": "ml:H",
-     "p": 0.8139,
-     "odds": 1.435
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "LaLiga 2",
-     "home": "Celta B",
-     "away": "Valladolid",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8114,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-23",
-     "kickoff": "2026-11-23T19:30:00Z",
-     "league": "LaLiga 2",
-     "home": "Ceuta",
-     "away": "Almeria",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8105,
-     "odds": null
-    },
-    {
-     "sport": "champions",
-     "id": "401915297",
-     "date": "2026-11-24",
-     "kickoff": "2026-11-24T20:00:00Z",
-     "league": "Champions League",
-     "home": "Slovan Bratislava",
-     "away": "Real Betis",
-     "pick": "Real Betis o empate",
-     "key": "X2",
-     "p": 0.8037,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "LaLiga",
-     "home": "Osasuna",
-     "away": "Malaga",
-     "pick": "Osasuna o empate",
-     "key": "1X",
-     "p": 0.7931,
-     "odds": 1.192
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:15:00Z",
-     "league": "Ligue 1",
-     "home": "Lorient",
-     "away": "Rennes",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7905,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-23",
-     "kickoff": "2026-11-23T20:00:00Z",
-     "league": "LaLiga",
-     "home": "Levante",
-     "away": "Elche",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7887,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bundesliga 2",
-     "home": "Kaiserslautern",
-     "away": "Dresden",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7835,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T20:00:00Z",
-     "league": "LaLiga",
-     "home": "Getafe",
-     "away": "Ath Madrid",
-     "pick": "Ath Madrid o empate",
-     "key": "X2",
-     "p": 0.7796,
-     "odds": 1.111
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bélgica",
-     "home": "Beveren",
-     "away": "Gent",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7766,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "Bélgica",
-     "home": "Anderlecht",
-     "away": "Oud-Heverlee Leuven",
-     "pick": "Anderlecht o empate",
-     "key": "1X",
-     "p": 0.773,
-     "odds": 1.091
+     "p": 0.7738,
+     "odds": 1.452
     },
     {
      "sport": "champions",
@@ -680,18 +318,6 @@
      "odds": null
     },
     {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Premier League",
-     "home": "Hull",
-     "away": "Brighton",
-     "pick": "Brighton o empate",
-     "key": "X2",
-     "p": 0.7662,
-     "odds": 1.108
-    },
-    {
      "sport": "champions",
      "id": "401915375",
      "date": "2026-11-25",
@@ -705,116 +331,6 @@
      "odds": null
     },
     {
-     "sport": "nfl",
-     "id": "2026_12_SEA_SF",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:25:00Z",
-     "league": "NFL",
-     "home": "San Francisco",
-     "away": "Seattle",
-     "note": "QB: Brock Purdy vs Sam Darnold",
-     "pick": "Seattle +2.5",
-     "key": "sp:A:2.5",
-     "p": 0.7628,
-     "odds": 1.87
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Serie A",
-     "home": "Bologna",
-     "away": "Udinese",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7595,
-     "odds": 1.254
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Grecia",
-     "home": "Levadeiakos",
-     "away": "Atromitos",
-     "pick": "Levadeiakos o empate",
-     "key": "1X",
-     "p": 0.7575,
-     "odds": 1.342
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
-     "league": "Turquía",
-     "home": "Kasimpasa",
-     "away": "Alanyaspor",
-     "pick": "Kasimpasa o empate",
-     "key": "1X",
-     "p": 0.7551,
-     "odds": 1.241
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:00:00Z",
-     "league": "Championship",
-     "home": "Burnley",
-     "away": "Blackburn",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7534,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T20:00:00Z",
-     "league": "LaLiga 2",
-     "home": "Burgos",
-     "away": "Albacete",
-     "pick": "Burgos o empate",
-     "key": "1X",
-     "p": 0.7502,
-     "odds": 1.241
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Serie A",
-     "home": "Sassuolo",
-     "away": "Genoa",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7484,
-     "odds": 1.301
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
-     "league": "Turquía",
-     "home": "Konyaspor",
-     "away": "Besiktas",
-     "pick": "Besiktas o empate",
-     "key": "X2",
-     "p": 0.7471,
-     "odds": 1.134
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "LaLiga 2",
-     "home": "Girona",
-     "away": "Eibar",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7469,
-     "odds": 1.225
-    },
-    {
      "sport": "futbol",
      "date": "2026-11-23",
      "kickoff": "2026-11-23T20:00:00Z",
@@ -823,20 +339,8 @@
      "away": "Everton",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.7439,
+     "p": 0.7422,
      "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:15:00Z",
-     "league": "LaLiga 2",
-     "home": "Sp Gijon",
-     "away": "Las Palmas",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7413,
-     "odds": 1.262
     },
     {
      "sport": "futbol",
@@ -845,34 +349,22 @@
      "league": "Ligue 2",
      "home": "Nantes",
      "away": "Grenoble",
-     "pick": "Nantes o empate",
-     "key": "1X",
-     "p": 0.7384,
-     "odds": 1.064
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:00:00Z",
-     "league": "Grecia",
-     "home": "Panetolikos",
-     "away": "Volos NFC",
-     "pick": "Panetolikos o empate",
-     "key": "1X",
-     "p": 0.7348,
-     "odds": 1.333
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:15:00Z",
-     "league": "Bélgica",
-     "home": "Lommel SK",
-     "away": "Standard",
      "pick": "No hay empate",
      "key": "12",
-     "p": 0.7297,
-     "odds": 1.237
+     "p": 0.7382,
+     "odds": 1.174
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T19:45:00Z",
+     "league": "Ligue 2",
+     "home": "Sochaux",
+     "away": "Dunkerque",
+     "pick": "No hay empate",
+     "key": "12",
+     "p": 0.7312,
+     "odds": 1.267
     },
     {
      "sport": "futbol",
@@ -883,31 +375,7 @@
      "away": "Aris",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.7291,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Serie B",
-     "home": "Avellino",
-     "away": "Mantova",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7284,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T10:30:00Z",
-     "league": "Turquía",
-     "home": "Erzurumspor",
-     "away": "Goztep",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7279,
+     "p": 0.7309,
      "odds": null
     },
     {
@@ -921,20 +389,22 @@
      "note": "QB: Joe Burrow vs Tyler Shough",
      "pick": "Gana Cincinnati",
      "key": "ml:H",
-     "p": 0.7266,
-     "odds": 1.169
+     "p": 0.7173,
+     "odds": 1.167
     },
     {
-     "sport": "futbol",
-     "date": "2026-11-23",
-     "kickoff": "2026-11-23T19:45:00Z",
-     "league": "Ligue 2",
-     "home": "Sochaux",
-     "away": "Dunkerque",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7246,
-     "odds": 1.267
+     "sport": "nfl",
+     "id": "2026_12_SEA_SF",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "league": "NFL",
+     "home": "San Francisco",
+     "away": "Seattle",
+     "note": "QB: Brock Purdy vs Sam Darnold",
+     "pick": "Seattle +3",
+     "key": "sp:A:3",
+     "p": 0.7144,
+     "odds": 1.99
     },
     {
      "sport": "nfl",
@@ -947,104 +417,8 @@
      "note": "QB: C.J. Stroud vs Jacoby Brissett",
      "pick": "Gana Houston",
      "key": "ml:H",
-     "p": 0.7241,
-     "odds": 1.323
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_JAX_NYG",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T21:25:00Z",
-     "league": "NFL",
-     "home": "NY Giants",
-     "away": "Jacksonville",
-     "note": "QB: J.J. McCarthy vs Trevor Lawrence",
-     "pick": "Gana Jacksonville",
-     "key": "ml:A",
-     "p": 0.702,
-     "odds": 1.383
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:15:00Z",
-     "league": "Serie B",
-     "home": "Arezzo",
-     "away": "Padova",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.6929,
-     "odds": 1.283
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_NYG_IND",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T18:00:00Z",
-     "league": "NFL",
-     "home": "Indianapolis",
-     "away": "NY Giants",
-     "note": "QB: Anthony Richardson vs J.J. McCarthy",
-     "pick": "Indianapolis +7",
-     "key": "sp:H:7",
-     "p": 0.6774,
-     "odds": 1.909
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_WAS_ARI",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:25:00Z",
-     "league": "NFL",
-     "home": "Arizona",
-     "away": "Washington",
-     "note": "QB: Gardner Minshew vs Jayden Daniels",
-     "pick": "Más de 40.5 puntos",
-     "key": "ou:o:40.5",
-     "p": 0.6691,
-     "odds": 1.909
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_MIN_SF",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-23T01:20:00Z",
-     "league": "NFL",
-     "home": "San Francisco",
-     "away": "Minnesota",
-     "note": "QB: Brock Purdy vs Kirk Cousins",
-     "pick": "Minnesota +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.6579,
-     "odds": 1.935
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_GB_LA",
-     "date": "2026-11-25",
-     "kickoff": "2026-11-26T01:00:00Z",
-     "league": "NFL",
-     "home": "LA Rams",
-     "away": "Green Bay",
-     "note": "QB: Matthew Stafford vs Jordan Love",
-     "pick": "Gana LA Rams",
-     "key": "ml:H",
-     "p": 0.6401,
-     "odds": 1.625
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_CIN_WAS",
-     "date": "2026-11-23",
-     "kickoff": "2026-11-24T01:15:00Z",
-     "league": "NFL",
-     "home": "Washington",
-     "away": "Cincinnati",
-     "note": "QB: Jayden Daniels vs Joe Burrow",
-     "pick": "Gana Cincinnati",
-     "key": "ml:A",
-     "p": 0.6264,
-     "odds": 1.338
+     "p": 0.7126,
+     "odds": 1.328
     },
     {
      "sport": "nfl",
@@ -1057,50 +431,36 @@
      "note": "QB: Dak Prescott vs Joe Milton III",
      "pick": "Gana Dallas",
      "key": "ml:H",
-     "p": 0.6256,
-     "odds": 1.239
+     "p": 0.6553,
+     "odds": 1.224
     },
     {
      "sport": "nfl",
-     "id": "2026_12_ATL_MIN",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T18:00:00Z",
+     "id": "2026_12_GB_LA",
+     "date": "2026-11-25",
+     "kickoff": "2026-11-26T01:00:00Z",
      "league": "NFL",
-     "home": "Minnesota",
-     "away": "Atlanta",
-     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
-     "pick": "Gana Minnesota",
+     "home": "LA Rams",
+     "away": "Green Bay",
+     "note": "QB: Matthew Stafford vs Jordan Love",
+     "pick": "Gana LA Rams",
      "key": "ml:H",
-     "p": 0.6221,
-     "odds": 1.303
+     "p": 0.6533,
+     "odds": 1.68
     },
     {
      "sport": "nfl",
-     "id": "2026_12_KC_BUF",
-     "date": "2026-11-26",
-     "kickoff": "2026-11-27T01:20:00Z",
+     "id": "2026_12_CAR_TB",
+     "date": "2026-11-30",
+     "kickoff": "2026-12-01T01:15:00Z",
      "league": "NFL",
-     "home": "Buffalo",
-     "away": "Kansas City",
-     "note": "QB: Josh Allen vs Patrick Mahomes",
-     "pick": "Gana Buffalo",
+     "home": "Tampa Bay",
+     "away": "Carolina",
+     "note": "QB: Baker Mayfield vs Bryce Young",
+     "pick": "Gana Tampa Bay",
      "key": "ml:H",
-     "p": 0.613,
-     "odds": 1.654
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_NYJ_MIA",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T18:00:00Z",
-     "league": "NFL",
-     "home": "Miami",
-     "away": "NY Jets",
-     "note": "QB: Kyle McCord vs Geno Smith",
-     "pick": "Miami +3.5",
-     "key": "sp:H:3.5",
-     "p": 0.6076,
-     "odds": 1.952
+     "p": 0.6425,
+     "odds": 1.645
     },
     {
      "sport": "nfl",
@@ -1113,8 +473,22 @@
      "note": "QB: Jared Goff vs Caleb Williams",
      "pick": "Detroit +2.5",
      "key": "sp:H:2.5",
-     "p": 0.5888,
-     "odds": 1.909
+     "p": 0.6323,
+     "odds": 1.943
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_WAS_ARI",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "league": "NFL",
+     "home": "Arizona",
+     "away": "Washington",
+     "note": "QB: Gardner Minshew vs Jayden Daniels",
+     "pick": "Gana Washington",
+     "key": "ml:A",
+     "p": 0.6267,
+     "odds": 1.293
     },
     {
      "sport": "nfl",
@@ -1125,86 +499,106 @@
      "home": "Pittsburgh",
      "away": "Denver",
      "note": "QB: Aaron Rodgers vs Bo Nix",
-     "pick": "Gana Denver",
-     "key": "ml:A",
-     "p": 0.5781,
-     "odds": 1.685
+     "pick": "Más de 37.5 puntos",
+     "key": "ou:o:37.5",
+     "p": 0.624,
+     "odds": 1.87
     },
     {
      "sport": "nfl",
-     "id": "2026_11_NYJ_LAC",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T21:05:00Z",
+     "id": "2026_12_NYG_IND",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T18:00:00Z",
      "league": "NFL",
-     "home": "LA Chargers",
+     "home": "Indianapolis",
+     "away": "NY Giants",
+     "note": "QB: Anthony Richardson vs J.J. McCarthy",
+     "pick": "Indianapolis +6.5",
+     "key": "sp:H:6.5",
+     "p": 0.6233,
+     "odds": 1.962
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_ATL_MIN",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "league": "NFL",
+     "home": "Minnesota",
+     "away": "Atlanta",
+     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
+     "pick": "Atlanta +6.5",
+     "key": "sp:A:6.5",
+     "p": 0.6181,
+     "odds": 1.971
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_CIN_WAS",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-24T01:15:00Z",
+     "league": "NFL",
+     "home": "Washington",
+     "away": "Cincinnati",
+     "note": "QB: Jayden Daniels vs Joe Burrow",
+     "pick": "Gana Cincinnati",
+     "key": "ml:A",
+     "p": 0.6092,
+     "odds": 1.332
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_NYJ_MIA",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "league": "NFL",
+     "home": "Miami",
      "away": "NY Jets",
-     "note": "QB: Justin Herbert vs Geno Smith",
-     "pick": "Gana LA Chargers",
+     "note": "QB: Kyle McCord vs Geno Smith",
+     "pick": "Miami +3.5",
+     "key": "sp:H:3.5",
+     "p": 0.5945,
+     "odds": 1.935
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_KC_BUF",
+     "date": "2026-11-26",
+     "kickoff": "2026-11-27T01:20:00Z",
+     "league": "NFL",
+     "home": "Buffalo",
+     "away": "Kansas City",
+     "note": "QB: Josh Allen vs Patrick Mahomes",
+     "pick": "Gana Buffalo",
      "key": "ml:H",
-     "p": 0.5592,
-     "odds": 1.552
+     "p": 0.5937,
+     "odds": 1.671
     }
    ],
    "mid": [
     {
      "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Serie A",
-     "home": "Sassuolo",
-     "away": "Genoa",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T20:00:00Z",
+     "league": "LaLiga",
+     "home": "Levante",
+     "away": "Elche",
      "pick": "No hay empate",
      "key": "12",
-     "p": 0.7484,
-     "odds": 1.301
+     "p": 0.7461,
+     "odds": 1.271
     },
     {
      "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "Grecia",
-     "home": "PAOK",
-     "away": "Kifisia",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7479,
-     "odds": 1.124
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T11:30:00Z",
-     "league": "Serie A",
-     "home": "Juventus",
-     "away": "Venezia",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7478,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T17:00:00Z",
      "league": "Turquía",
-     "home": "Konyaspor",
-     "away": "Besiktas",
-     "pick": "Besiktas o empate",
-     "key": "X2",
-     "p": 0.7471,
-     "odds": 1.134
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "LaLiga 2",
-     "home": "Girona",
-     "away": "Eibar",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7469,
-     "odds": 1.225
+     "home": "Buyuksehyr",
+     "away": "Corum",
+     "pick": "Buyuksehyr o empate",
+     "key": "1X",
+     "p": 0.7457,
+     "odds": 1.232
     },
     {
      "sport": "champions",
@@ -1222,26 +616,14 @@
     {
      "sport": "futbol",
      "date": "2026-11-23",
-     "kickoff": "2026-11-23T20:00:00Z",
-     "league": "Premier League",
-     "home": "Brentford",
-     "away": "Everton",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7439,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:00:00Z",
-     "league": "Turquía",
-     "home": "Trabzonspor",
-     "away": "Eyupspor",
-     "pick": "Gana Trabzonspor",
-     "key": "1",
-     "p": 0.7431,
-     "odds": 1.14
+     "kickoff": "2026-11-23T19:30:00Z",
+     "league": "LaLiga 2",
+     "home": "Ceuta",
+     "away": "Almeria",
+     "pick": "Almeria o empate",
+     "key": "X2",
+     "p": 0.7447,
+     "odds": 1.256
     },
     {
      "sport": "champions",
@@ -1272,38 +654,14 @@
     {
      "sport": "futbol",
      "date": "2026-11-23",
-     "kickoff": "2026-11-23T19:30:00Z",
-     "league": "LaLiga 2",
-     "home": "Ceuta",
-     "away": "Almeria",
-     "pick": "Almeria o empate",
-     "key": "X2",
-     "p": 0.7419,
-     "odds": 1.256
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-23",
      "kickoff": "2026-11-23T20:00:00Z",
-     "league": "LaLiga",
-     "home": "Levante",
-     "away": "Elche",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7416,
-     "odds": 1.271
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:15:00Z",
-     "league": "LaLiga 2",
-     "home": "Sp Gijon",
-     "away": "Las Palmas",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7413,
-     "odds": 1.262
+     "league": "Premier League",
+     "home": "Brentford",
+     "away": "Everton",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.7422,
+     "odds": null
     },
     {
      "sport": "champions",
@@ -1319,40 +677,18 @@
      "odds": null
     },
     {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:15:00Z",
-     "league": "Ligue 1",
-     "home": "Lorient",
-     "away": "Rennes",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7405,
-     "odds": 1.292
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Serie A",
-     "home": "Bologna",
-     "away": "Udinese",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.74,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Premier League",
-     "home": "Hull",
-     "away": "Brighton",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7395,
-     "odds": null
+     "sport": "nfl",
+     "id": "2026_12_NE_LAC",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:05:00Z",
+     "league": "NFL",
+     "home": "LA Chargers",
+     "away": "New England",
+     "note": "QB: Justin Herbert vs Drake Maye",
+     "pick": "Más de 35.5 puntos",
+     "key": "ou:o:35.5",
+     "p": 0.7393,
+     "odds": 1.917
     },
     {
      "sport": "futbol",
@@ -1361,70 +697,10 @@
      "league": "Ligue 2",
      "home": "Nantes",
      "away": "Grenoble",
-     "pick": "Nantes o empate",
-     "key": "1X",
-     "p": 0.7384,
-     "odds": 1.064
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:15:00Z",
-     "league": "LaLiga",
-     "home": "Santander",
-     "away": "Sociedad",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.7383,
-     "odds": 1.32
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:00:00Z",
-     "league": "Championship",
-     "home": "Burnley",
-     "away": "Blackburn",
      "pick": "No hay empate",
      "key": "12",
-     "p": 0.7374,
-     "odds": 1.251
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:00:00Z",
-     "league": "Bélgica",
-     "home": "Kortrijk",
-     "away": "St. Gilloise",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7365,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "Bélgica",
-     "home": "Anderlecht",
-     "away": "Oud-Heverlee Leuven",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7364,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:00:00Z",
-     "league": "Grecia",
-     "home": "Panetolikos",
-     "away": "Volos NFC",
-     "pick": "Panetolikos o empate",
-     "key": "1X",
-     "p": 0.7348,
-     "odds": 1.333
+     "p": 0.7382,
+     "odds": 1.174
     },
     {
      "sport": "champions",
@@ -1436,20 +712,20 @@
      "away": "Fenerbahce",
      "pick": "Shakhtar Donetsk o empate",
      "key": "1X",
-     "p": 0.7316,
+     "p": 0.7317,
      "odds": null
     },
     {
      "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:15:00Z",
-     "league": "Bélgica",
-     "home": "Lommel SK",
-     "away": "Standard",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T19:45:00Z",
+     "league": "Ligue 2",
+     "home": "Sochaux",
+     "away": "Dunkerque",
      "pick": "No hay empate",
      "key": "12",
-     "p": 0.7297,
-     "odds": 1.237
+     "p": 0.7312,
+     "odds": 1.267
     },
     {
      "sport": "futbol",
@@ -1460,44 +736,8 @@
      "away": "Aris",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.7291,
+     "p": 0.7309,
      "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Serie B",
-     "home": "Avellino",
-     "away": "Mantova",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7284,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T10:30:00Z",
-     "league": "Turquía",
-     "home": "Erzurumspor",
-     "away": "Goztep",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7279,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T20:00:00Z",
-     "league": "LaLiga 2",
-     "home": "Burgos",
-     "away": "Albacete",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7277,
-     "odds": 1.271
     },
     {
      "sport": "nfl",
@@ -1510,32 +750,22 @@
      "note": "QB: Joe Burrow vs Tyler Shough",
      "pick": "Gana Cincinnati",
      "key": "ml:H",
-     "p": 0.7266,
-     "odds": 1.169
+     "p": 0.7173,
+     "odds": 1.167
     },
     {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:00:00Z",
-     "league": "Grecia",
-     "home": "Olympiakos",
-     "away": "Iraklis",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7253,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-23",
-     "kickoff": "2026-11-23T19:45:00Z",
-     "league": "Ligue 2",
-     "home": "Sochaux",
-     "away": "Dunkerque",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7246,
-     "odds": 1.267
+     "sport": "nfl",
+     "id": "2026_12_SEA_SF",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "league": "NFL",
+     "home": "San Francisco",
+     "away": "Seattle",
+     "note": "QB: Brock Purdy vs Sam Darnold",
+     "pick": "Seattle +3",
+     "key": "sp:A:3",
+     "p": 0.7144,
+     "odds": 1.99
     },
     {
      "sport": "nfl",
@@ -1548,44 +778,8 @@
      "note": "QB: C.J. Stroud vs Jacoby Brissett",
      "pick": "Gana Houston",
      "key": "ml:H",
-     "p": 0.7241,
-     "odds": 1.323
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
-     "league": "Turquía",
-     "home": "Kasimpasa",
-     "away": "Alanyaspor",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7239,
-     "odds": 1.257
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bundesliga 2",
-     "home": "Kaiserslautern",
-     "away": "Dresden",
-     "pick": "Kaiserslautern o empate",
-     "key": "1X",
-     "p": 0.7208,
-     "odds": 1.327
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:30:00Z",
-     "league": "Premier League",
-     "home": "Liverpool",
-     "away": "Man United",
-     "pick": "Liverpool o empate",
-     "key": "1X",
-     "p": 0.7202,
-     "odds": 1.225
+     "p": 0.7126,
+     "odds": 1.328
     },
     {
      "sport": "champions",
@@ -1601,170 +795,6 @@
      "odds": null
     },
     {
-     "sport": "nfl",
-     "id": "2026_12_LV_CLE",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-30T01:20:00Z",
-     "league": "NFL",
-     "home": "Cleveland",
-     "away": "Las Vegas",
-     "note": "QB: Deshaun Watson vs Fernando Mendoza",
-     "pick": "Cleveland -4.5",
-     "key": "sp:H:-4.5",
-     "p": 0.711,
-     "odds": 1.87
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Grecia",
-     "home": "Levadeiakos",
-     "away": "Atromitos",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7101,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:30:00Z",
-     "league": "Grecia",
-     "home": "Panathinaikos",
-     "away": "OFI Crete",
-     "pick": "Gana Panathinaikos",
-     "key": "1",
-     "p": 0.71,
-     "odds": 1.19
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
-     "league": "LaLiga",
-     "home": "Barcelona",
-     "away": "Villarreal",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.7069,
-     "odds": 1.17
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T20:00:00Z",
-     "league": "LaLiga",
-     "home": "Getafe",
-     "away": "Ath Madrid",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7021,
-     "odds": 1.232
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_JAX_NYG",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T21:25:00Z",
-     "league": "NFL",
-     "home": "NY Giants",
-     "away": "Jacksonville",
-     "note": "QB: J.J. McCarthy vs Trevor Lawrence",
-     "pick": "Gana Jacksonville",
-     "key": "ml:A",
-     "p": 0.702,
-     "odds": 1.383
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_SEA_SF",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:25:00Z",
-     "league": "NFL",
-     "home": "San Francisco",
-     "away": "Seattle",
-     "note": "QB: Brock Purdy vs Sam Darnold",
-     "pick": "Gana Seattle",
-     "key": "ml:A",
-     "p": 0.7014,
-     "odds": 2.12
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:30:00Z",
-     "league": "Bundesliga",
-     "home": "Augsburg",
-     "away": "Mainz",
-     "pick": "Augsburg o empate",
-     "key": "1X",
-     "p": 0.6962,
-     "odds": 1.554
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bélgica",
-     "home": "Beveren",
-     "away": "Gent",
-     "pick": "Gent o empate",
-     "key": "X2",
-     "p": 0.6951,
-     "odds": 1.254
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:15:00Z",
-     "league": "Serie B",
-     "home": "Arezzo",
-     "away": "Padova",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.6929,
-     "odds": 1.283
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_LV_DEN",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T21:25:00Z",
-     "league": "NFL",
-     "home": "Denver",
-     "away": "Las Vegas",
-     "note": "QB: Bo Nix vs Fernando Mendoza",
-     "pick": "Denver -11.5",
-     "key": "sp:H:-11.5",
-     "p": 0.6923,
-     "odds": 1.943
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:45:00Z",
-     "league": "Eredivisie",
-     "home": "Go Ahead Eagles",
-     "away": "For Sittard",
-     "pick": "Go Ahead Eagles o empate",
-     "key": "1X",
-     "p": 0.6895,
-     "odds": 1.168
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-23",
-     "kickoff": "2026-11-23T17:00:00Z",
-     "league": "Turquía",
-     "home": "Buyuksehyr",
-     "away": "Corum",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.6852,
-     "odds": 1.55
-    },
-    {
      "sport": "champions",
      "id": "401915293",
      "date": "2026-11-25",
@@ -1775,106 +805,6 @@
      "pick": "Slavia Prague o empate",
      "key": "1X",
      "p": 0.6819,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:00:00Z",
-     "league": "Serie A",
-     "home": "Milan",
-     "away": "Frosinone",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.6817,
-     "odds": 1.34
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_NYG_IND",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T18:00:00Z",
-     "league": "NFL",
-     "home": "Indianapolis",
-     "away": "NY Giants",
-     "note": "QB: Anthony Richardson vs J.J. McCarthy",
-     "pick": "Indianapolis +7",
-     "key": "sp:H:7",
-     "p": 0.6774,
-     "odds": 1.909
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:30:00Z",
-     "league": "Eredivisie",
-     "home": "Ajax",
-     "away": "Den Haag",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.6733,
-     "odds": 1.26
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
-     "league": "LaLiga 2",
-     "home": "Cordoba",
-     "away": "Oviedo",
-     "pick": "Cordoba o empate",
-     "key": "1X",
-     "p": 0.67,
-     "odds": 1.239
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bundesliga 2",
-     "home": "Karlsruhe",
-     "away": "Osnabruck",
-     "pick": "Ambos anotan",
-     "key": "btts",
-     "p": 0.6698,
-     "odds": null
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_WAS_ARI",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:25:00Z",
-     "league": "NFL",
-     "home": "Arizona",
-     "away": "Washington",
-     "note": "QB: Gardner Minshew vs Jayden Daniels",
-     "pick": "Más de 40.5 puntos",
-     "key": "ou:o:40.5",
-     "p": 0.6691,
-     "odds": 1.909
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T19:45:00Z",
-     "league": "Ligue 1",
-     "home": "Marseille",
-     "away": "Le Mans",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.6685,
-     "odds": 1.49
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-23",
-     "kickoff": "2026-11-23T19:45:00Z",
-     "league": "Serie A",
-     "home": "Monza",
-     "away": "Fiorentina",
-     "pick": "Ambos anotan",
-     "key": "btts",
-     "p": 0.663,
      "odds": null
     },
     {
@@ -1904,16 +834,18 @@
      "odds": null
     },
     {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bundesliga 2",
-     "home": "Cottbus",
-     "away": "Hertha",
-     "pick": "Hertha o empate",
-     "key": "X2",
-     "p": 0.6609,
-     "odds": 1.155
+     "sport": "nfl",
+     "id": "2026_12_LV_CLE",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-30T01:20:00Z",
+     "league": "NFL",
+     "home": "Cleveland",
+     "away": "Las Vegas",
+     "note": "QB: Deshaun Watson vs Fernando Mendoza",
+     "pick": "Cleveland -4.5",
+     "key": "sp:H:-4.5",
+     "p": 0.661,
+     "odds": 1.952
     },
     {
      "sport": "champions",
@@ -1929,30 +861,44 @@
      "odds": null
     },
     {
-     "sport": "nfl",
-     "id": "2026_11_MIN_SF",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-23T01:20:00Z",
-     "league": "NFL",
-     "home": "San Francisco",
-     "away": "Minnesota",
-     "note": "QB: Brock Purdy vs Kirk Cousins",
-     "pick": "Minnesota +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.6579,
-     "odds": 1.935
+     "sport": "futbol",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T19:45:00Z",
+     "league": "Serie A",
+     "home": "Monza",
+     "away": "Fiorentina",
+     "pick": "Ambos anotan",
+     "key": "btts",
+     "p": 0.6591,
+     "odds": null
     },
     {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Ligue 1",
-     "home": "Paris FC",
-     "away": "Angers",
-     "pick": "Gana Paris FC",
-     "key": "1",
-     "p": 0.6515,
-     "odds": 1.31
+     "sport": "nfl",
+     "id": "2026_12_PHI_DAL",
+     "date": "2026-11-26",
+     "kickoff": "2026-11-26T21:30:00Z",
+     "league": "NFL",
+     "home": "Dallas",
+     "away": "Filadelfia",
+     "note": "QB: Dak Prescott vs Joe Milton III",
+     "pick": "Gana Dallas",
+     "key": "ml:H",
+     "p": 0.6553,
+     "odds": 1.224
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_GB_LA",
+     "date": "2026-11-25",
+     "kickoff": "2026-11-26T01:00:00Z",
+     "league": "NFL",
+     "home": "LA Rams",
+     "away": "Green Bay",
+     "note": "QB: Matthew Stafford vs Jordan Love",
+     "pick": "Gana LA Rams",
+     "key": "ml:H",
+     "p": 0.6533,
+     "odds": 1.68
     },
     {
      "sport": "champions",
@@ -1981,16 +927,18 @@
      "odds": null
     },
     {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "LaLiga 2",
-     "home": "Celta B",
-     "away": "Valladolid",
-     "pick": "Celta B o empate",
-     "key": "1X",
-     "p": 0.6474,
-     "odds": 1.691
+     "sport": "nfl",
+     "id": "2026_12_CAR_TB",
+     "date": "2026-11-30",
+     "kickoff": "2026-12-01T01:15:00Z",
+     "league": "NFL",
+     "home": "Tampa Bay",
+     "away": "Carolina",
+     "note": "QB: Baker Mayfield vs Bryce Young",
+     "pick": "Gana Tampa Bay",
+     "key": "ml:H",
+     "p": 0.6425,
+     "odds": 1.645
     },
     {
      "sport": "champions",
@@ -2007,83 +955,59 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_12_GB_LA",
-     "date": "2026-11-25",
-     "kickoff": "2026-11-26T01:00:00Z",
-     "league": "NFL",
-     "home": "LA Rams",
-     "away": "Green Bay",
-     "note": "QB: Matthew Stafford vs Jordan Love",
-     "pick": "Gana LA Rams",
-     "key": "ml:H",
-     "p": 0.6401,
-     "odds": 1.625
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T19:45:00Z",
-     "league": "Serie A",
-     "home": "Atalanta",
-     "away": "Inter",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.6283,
-     "odds": 1.39
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_CIN_WAS",
-     "date": "2026-11-23",
-     "kickoff": "2026-11-24T01:15:00Z",
-     "league": "NFL",
-     "home": "Washington",
-     "away": "Cincinnati",
-     "note": "QB: Jayden Daniels vs Joe Burrow",
-     "pick": "Gana Cincinnati",
-     "key": "ml:A",
-     "p": 0.6264,
-     "odds": 1.338
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_PHI_DAL",
+     "id": "2026_12_CHI_DET",
      "date": "2026-11-26",
-     "kickoff": "2026-11-26T21:30:00Z",
+     "kickoff": "2026-11-26T18:00:00Z",
      "league": "NFL",
-     "home": "Dallas",
-     "away": "Filadelfia",
-     "note": "QB: Dak Prescott vs Joe Milton III",
-     "pick": "Gana Dallas",
-     "key": "ml:H",
-     "p": 0.6256,
-     "odds": 1.239
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:30:00Z",
-     "league": "Eredivisie",
-     "home": "Sparta Rotterdam",
-     "away": "AZ Alkmaar",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.6221,
-     "odds": 1.42
+     "home": "Detroit",
+     "away": "Chicago",
+     "note": "QB: Jared Goff vs Caleb Williams",
+     "pick": "Detroit +2.5",
+     "key": "sp:H:2.5",
+     "p": 0.6323,
+     "odds": 1.943
     },
     {
      "sport": "nfl",
-     "id": "2026_12_ATL_MIN",
+     "id": "2026_12_WAS_ARI",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "league": "NFL",
+     "home": "Arizona",
+     "away": "Washington",
+     "note": "QB: Gardner Minshew vs Jayden Daniels",
+     "pick": "Gana Washington",
+     "key": "ml:A",
+     "p": 0.6267,
+     "odds": 1.293
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_DEN_PIT",
+     "date": "2026-11-27",
+     "kickoff": "2026-11-27T20:00:00Z",
+     "league": "NFL",
+     "home": "Pittsburgh",
+     "away": "Denver",
+     "note": "QB: Aaron Rodgers vs Bo Nix",
+     "pick": "Más de 37.5 puntos",
+     "key": "ou:o:37.5",
+     "p": 0.624,
+     "odds": 1.87
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_NYG_IND",
      "date": "2026-11-29",
      "kickoff": "2026-11-29T18:00:00Z",
      "league": "NFL",
-     "home": "Minnesota",
-     "away": "Atlanta",
-     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
-     "pick": "Gana Minnesota",
-     "key": "ml:H",
-     "p": 0.6221,
-     "odds": 1.303
+     "home": "Indianapolis",
+     "away": "NY Giants",
+     "note": "QB: Anthony Richardson vs J.J. McCarthy",
+     "pick": "Indianapolis +6.5",
+     "key": "sp:H:6.5",
+     "p": 0.6233,
+     "odds": 1.962
     },
     {
      "sport": "champions",
@@ -2113,57 +1037,31 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_12_NE_LAC",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:05:00Z",
-     "league": "NFL",
-     "home": "LA Chargers",
-     "away": "New England",
-     "note": "QB: Justin Herbert vs Drake Maye",
-     "pick": "Más de 39.5 puntos",
-     "key": "ou:o:39.5",
-     "p": 0.6162,
-     "odds": 2.0
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_KC_BUF",
-     "date": "2026-11-26",
-     "kickoff": "2026-11-27T01:20:00Z",
-     "league": "NFL",
-     "home": "Buffalo",
-     "away": "Kansas City",
-     "note": "QB: Josh Allen vs Patrick Mahomes",
-     "pick": "Gana Buffalo",
-     "key": "ml:H",
-     "p": 0.613,
-     "odds": 1.654
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_NYJ_MIA",
+     "id": "2026_12_ATL_MIN",
      "date": "2026-11-29",
      "kickoff": "2026-11-29T18:00:00Z",
      "league": "NFL",
-     "home": "Miami",
-     "away": "NY Jets",
-     "note": "QB: Kyle McCord vs Geno Smith",
-     "pick": "Miami +3.5",
-     "key": "sp:H:3.5",
-     "p": 0.6076,
-     "odds": 1.952
+     "home": "Minnesota",
+     "away": "Atlanta",
+     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
+     "pick": "Atlanta +6.5",
+     "key": "sp:A:6.5",
+     "p": 0.6181,
+     "odds": 1.971
     },
     {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:30:00Z",
-     "league": "Bundesliga",
-     "home": "Werder Bremen",
-     "away": "Hamburg",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.6053,
-     "odds": 1.51
+     "sport": "nfl",
+     "id": "2026_11_CIN_WAS",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-24T01:15:00Z",
+     "league": "NFL",
+     "home": "Washington",
+     "away": "Cincinnati",
+     "note": "QB: Jayden Daniels vs Joe Burrow",
+     "pick": "Gana Cincinnati",
+     "key": "ml:A",
+     "p": 0.6092,
+     "odds": 1.332
     },
     {
      "sport": "champions",
@@ -2193,6 +1091,34 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_12_NYJ_MIA",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "league": "NFL",
+     "home": "Miami",
+     "away": "NY Jets",
+     "note": "QB: Kyle McCord vs Geno Smith",
+     "pick": "Miami +3.5",
+     "key": "sp:H:3.5",
+     "p": 0.5945,
+     "odds": 1.935
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_KC_BUF",
+     "date": "2026-11-26",
+     "kickoff": "2026-11-27T01:20:00Z",
+     "league": "NFL",
+     "home": "Buffalo",
+     "away": "Kansas City",
+     "note": "QB: Josh Allen vs Patrick Mahomes",
+     "pick": "Gana Buffalo",
+     "key": "ml:H",
+     "p": 0.5937,
+     "odds": 1.671
+    },
+    {
+     "sport": "nfl",
      "id": "2026_12_TEN_JAX",
      "date": "2026-11-29",
      "kickoff": "2026-11-29T18:00:00Z",
@@ -2200,144 +1126,18 @@
      "home": "Jacksonville",
      "away": "Tennessee",
      "note": "QB: Trevor Lawrence vs Cam Ward",
-     "pick": "Jacksonville -13.5",
-     "key": "sp:H:-13.5",
-     "p": 0.5937,
-     "odds": 1.87
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_CHI_DET",
-     "date": "2026-11-26",
-     "kickoff": "2026-11-26T18:00:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "Chicago",
-     "note": "QB: Jared Goff vs Caleb Williams",
-     "pick": "Detroit +2.5",
-     "key": "sp:H:2.5",
-     "p": 0.5888,
-     "odds": 1.909
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_DEN_PIT",
-     "date": "2026-11-27",
-     "kickoff": "2026-11-27T20:00:00Z",
-     "league": "NFL",
-     "home": "Pittsburgh",
-     "away": "Denver",
-     "note": "QB: Aaron Rodgers vs Bo Nix",
-     "pick": "Gana Denver",
-     "key": "ml:A",
-     "p": 0.5781,
-     "odds": 1.685
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_NYJ_LAC",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T21:05:00Z",
-     "league": "NFL",
-     "home": "LA Chargers",
-     "away": "NY Jets",
-     "note": "QB: Justin Herbert vs Geno Smith",
-     "pick": "Gana LA Chargers",
-     "key": "ml:H",
-     "p": 0.5592,
-     "odds": 1.552
+     "pick": "Jacksonville -14.5",
+     "key": "sp:H:-14.5",
+     "p": 0.572,
+     "odds": 1.962
     }
    ],
    "status": null
   },
   "futbol": {
    "name": "Fútbol",
-   "matches": 52,
+   "matches": 8,
    "top": [
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T11:15:00Z",
-     "league": "Eredivisie",
-     "home": "Twente",
-     "away": "Willem II",
-     "pick": "Twente o empate",
-     "key": "1X",
-     "p": 0.9531,
-     "odds": 0.981
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:00:00Z",
-     "league": "Grecia",
-     "home": "Olympiakos",
-     "away": "Iraklis",
-     "pick": "Olympiakos o empate",
-     "key": "1X",
-     "p": 0.9226,
-     "odds": 0.983
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:30:00Z",
-     "league": "Grecia",
-     "home": "Panathinaikos",
-     "away": "OFI Crete",
-     "pick": "Panathinaikos o empate",
-     "key": "1X",
-     "p": 0.9136,
-     "odds": 0.998
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:00:00Z",
-     "league": "Turquía",
-     "home": "Trabzonspor",
-     "away": "Eyupspor",
-     "pick": "Trabzonspor o empate",
-     "key": "1X",
-     "p": 0.9061,
-     "odds": 0.993
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:00:00Z",
-     "league": "Bélgica",
-     "home": "Kortrijk",
-     "away": "St. Gilloise",
-     "pick": "St. Gilloise o empate",
-     "key": "X2",
-     "p": 0.9055,
-     "odds": 1.064
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:15:00Z",
-     "league": "LaLiga",
-     "home": "Santander",
-     "away": "Sociedad",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.9011,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
-     "league": "LaLiga",
-     "home": "Barcelona",
-     "away": "Villarreal",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.884,
-     "odds": null
-    },
     {
      "sport": "futbol",
      "date": "2026-11-23",
@@ -2347,92 +1147,8 @@
      "away": "Corum",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.8719,
+     "p": 0.8694,
      "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Ligue 1",
-     "home": "Paris FC",
-     "away": "Angers",
-     "pick": "Paris FC o empate",
-     "key": "1X",
-     "p": 0.8689,
-     "odds": 1.047
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:30:00Z",
-     "league": "Eredivisie",
-     "home": "Ajax",
-     "away": "Den Haag",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8672,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:30:00Z",
-     "league": "Bundesliga",
-     "home": "Augsburg",
-     "away": "Mainz",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8669,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:00:00Z",
-     "league": "Serie A",
-     "home": "Milan",
-     "away": "Frosinone",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8628,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T19:45:00Z",
-     "league": "Ligue 1",
-     "home": "Marseille",
-     "away": "Le Mans",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8621,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bundesliga 2",
-     "home": "Karlsruhe",
-     "away": "Osnabruck",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8565,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T11:30:00Z",
-     "league": "Serie A",
-     "home": "Juventus",
-     "away": "Venezia",
-     "pick": "Juventus o empate",
-     "key": "1X",
-     "p": 0.8559,
-     "odds": 1.06
     },
     {
      "sport": "futbol",
@@ -2443,115 +1159,7 @@
      "away": "Fiorentina",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.8492,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:45:00Z",
-     "league": "Eredivisie",
-     "home": "Go Ahead Eagles",
-     "away": "For Sittard",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8472,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "Grecia",
-     "home": "PAOK",
-     "away": "Kifisia",
-     "pick": "PAOK o empate",
-     "key": "1X",
-     "p": 0.845,
-     "odds": 1.042
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:30:00Z",
-     "league": "Premier League",
-     "home": "Liverpool",
-     "away": "Man United",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8399,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:30:00Z",
-     "league": "Eredivisie",
-     "home": "Sparta Rotterdam",
-     "away": "AZ Alkmaar",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.838,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T19:45:00Z",
-     "league": "Serie A",
-     "home": "Atalanta",
-     "away": "Inter",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.831,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
-     "league": "LaLiga 2",
-     "home": "Cordoba",
-     "away": "Oviedo",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8307,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bundesliga 2",
-     "home": "Cottbus",
-     "away": "Hertha",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8291,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:30:00Z",
-     "league": "Bundesliga",
-     "home": "Werder Bremen",
-     "away": "Hamburg",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8235,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "LaLiga 2",
-     "home": "Celta B",
-     "away": "Valladolid",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.8114,
+     "p": 0.8461,
      "odds": null
     },
     {
@@ -2563,31 +1171,7 @@
      "away": "Almeria",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.8105,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "LaLiga",
-     "home": "Osasuna",
-     "away": "Malaga",
-     "pick": "Osasuna o empate",
-     "key": "1X",
-     "p": 0.7931,
-     "odds": 1.192
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:15:00Z",
-     "league": "Ligue 1",
-     "home": "Lorient",
-     "away": "Rennes",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7905,
+     "p": 0.8126,
      "odds": null
     },
     {
@@ -2599,164 +1183,8 @@
      "away": "Elche",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.7887,
+     "p": 0.7862,
      "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bundesliga 2",
-     "home": "Kaiserslautern",
-     "away": "Dresden",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7835,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T20:00:00Z",
-     "league": "LaLiga",
-     "home": "Getafe",
-     "away": "Ath Madrid",
-     "pick": "Ath Madrid o empate",
-     "key": "X2",
-     "p": 0.7796,
-     "odds": 1.111
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bélgica",
-     "home": "Beveren",
-     "away": "Gent",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7766,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "Bélgica",
-     "home": "Anderlecht",
-     "away": "Oud-Heverlee Leuven",
-     "pick": "Anderlecht o empate",
-     "key": "1X",
-     "p": 0.773,
-     "odds": 1.091
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Premier League",
-     "home": "Hull",
-     "away": "Brighton",
-     "pick": "Brighton o empate",
-     "key": "X2",
-     "p": 0.7662,
-     "odds": 1.108
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Serie A",
-     "home": "Bologna",
-     "away": "Udinese",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7595,
-     "odds": 1.254
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Grecia",
-     "home": "Levadeiakos",
-     "away": "Atromitos",
-     "pick": "Levadeiakos o empate",
-     "key": "1X",
-     "p": 0.7575,
-     "odds": 1.342
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
-     "league": "Turquía",
-     "home": "Kasimpasa",
-     "away": "Alanyaspor",
-     "pick": "Kasimpasa o empate",
-     "key": "1X",
-     "p": 0.7551,
-     "odds": 1.241
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:00:00Z",
-     "league": "Championship",
-     "home": "Burnley",
-     "away": "Blackburn",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7534,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T20:00:00Z",
-     "league": "LaLiga 2",
-     "home": "Burgos",
-     "away": "Albacete",
-     "pick": "Burgos o empate",
-     "key": "1X",
-     "p": 0.7502,
-     "odds": 1.241
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Serie A",
-     "home": "Sassuolo",
-     "away": "Genoa",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7484,
-     "odds": 1.301
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
-     "league": "Turquía",
-     "home": "Konyaspor",
-     "away": "Besiktas",
-     "pick": "Besiktas o empate",
-     "key": "X2",
-     "p": 0.7471,
-     "odds": 1.134
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "LaLiga 2",
-     "home": "Girona",
-     "away": "Eibar",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7469,
-     "odds": 1.225
     },
     {
      "sport": "futbol",
@@ -2767,20 +1195,8 @@
      "away": "Everton",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.7439,
+     "p": 0.7422,
      "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:15:00Z",
-     "league": "LaLiga 2",
-     "home": "Sp Gijon",
-     "away": "Las Palmas",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7413,
-     "odds": 1.262
     },
     {
      "sport": "futbol",
@@ -2789,70 +1205,10 @@
      "league": "Ligue 2",
      "home": "Nantes",
      "away": "Grenoble",
-     "pick": "Nantes o empate",
-     "key": "1X",
-     "p": 0.7384,
-     "odds": 1.064
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:00:00Z",
-     "league": "Grecia",
-     "home": "Panetolikos",
-     "away": "Volos NFC",
-     "pick": "Panetolikos o empate",
-     "key": "1X",
-     "p": 0.7348,
-     "odds": 1.333
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:15:00Z",
-     "league": "Bélgica",
-     "home": "Lommel SK",
-     "away": "Standard",
      "pick": "No hay empate",
      "key": "12",
-     "p": 0.7297,
-     "odds": 1.237
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-23",
-     "kickoff": "2026-11-23T15:00:00Z",
-     "league": "Grecia",
-     "home": "Asteras Tripolis",
-     "away": "Aris",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7291,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Serie B",
-     "home": "Avellino",
-     "away": "Mantova",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7284,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T10:30:00Z",
-     "league": "Turquía",
-     "home": "Erzurumspor",
-     "away": "Goztep",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7279,
-     "odds": null
+     "p": 0.7382,
+     "odds": 1.174
     },
     {
      "sport": "futbol",
@@ -2863,106 +1219,46 @@
      "away": "Dunkerque",
      "pick": "No hay empate",
      "key": "12",
-     "p": 0.7246,
+     "p": 0.7312,
      "odds": 1.267
     },
     {
      "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:15:00Z",
-     "league": "Serie B",
-     "home": "Arezzo",
-     "away": "Padova",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.6929,
-     "odds": 1.283
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T15:00:00Z",
+     "league": "Grecia",
+     "home": "Asteras Tripolis",
+     "away": "Aris",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.7309,
+     "odds": null
     }
    ],
    "mid": [
     {
      "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Serie A",
-     "home": "Sassuolo",
-     "away": "Genoa",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T20:00:00Z",
+     "league": "LaLiga",
+     "home": "Levante",
+     "away": "Elche",
      "pick": "No hay empate",
      "key": "12",
-     "p": 0.7484,
-     "odds": 1.301
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "Grecia",
-     "home": "PAOK",
-     "away": "Kifisia",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7479,
-     "odds": 1.124
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T11:30:00Z",
-     "league": "Serie A",
-     "home": "Juventus",
-     "away": "Venezia",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7478,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
-     "league": "Turquía",
-     "home": "Konyaspor",
-     "away": "Besiktas",
-     "pick": "Besiktas o empate",
-     "key": "X2",
-     "p": 0.7471,
-     "odds": 1.134
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "LaLiga 2",
-     "home": "Girona",
-     "away": "Eibar",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7469,
-     "odds": 1.225
+     "p": 0.7461,
+     "odds": 1.271
     },
     {
      "sport": "futbol",
      "date": "2026-11-23",
-     "kickoff": "2026-11-23T20:00:00Z",
-     "league": "Premier League",
-     "home": "Brentford",
-     "away": "Everton",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7439,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:00:00Z",
+     "kickoff": "2026-11-23T17:00:00Z",
      "league": "Turquía",
-     "home": "Trabzonspor",
-     "away": "Eyupspor",
-     "pick": "Gana Trabzonspor",
-     "key": "1",
-     "p": 0.7431,
-     "odds": 1.14
+     "home": "Buyuksehyr",
+     "away": "Corum",
+     "pick": "Buyuksehyr o empate",
+     "key": "1X",
+     "p": 0.7457,
+     "odds": 1.232
     },
     {
      "sport": "futbol",
@@ -2973,67 +1269,19 @@
      "away": "Almeria",
      "pick": "Almeria o empate",
      "key": "X2",
-     "p": 0.7419,
+     "p": 0.7447,
      "odds": 1.256
     },
     {
      "sport": "futbol",
      "date": "2026-11-23",
      "kickoff": "2026-11-23T20:00:00Z",
-     "league": "LaLiga",
-     "home": "Levante",
-     "away": "Elche",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7416,
-     "odds": 1.271
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:15:00Z",
-     "league": "LaLiga 2",
-     "home": "Sp Gijon",
-     "away": "Las Palmas",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7413,
-     "odds": 1.262
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:15:00Z",
-     "league": "Ligue 1",
-     "home": "Lorient",
-     "away": "Rennes",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7405,
-     "odds": 1.292
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Serie A",
-     "home": "Bologna",
-     "away": "Udinese",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.74,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
      "league": "Premier League",
-     "home": "Hull",
-     "away": "Brighton",
+     "home": "Brentford",
+     "away": "Everton",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.7395,
+     "p": 0.7422,
      "odds": null
     },
     {
@@ -3043,142 +1291,10 @@
      "league": "Ligue 2",
      "home": "Nantes",
      "away": "Grenoble",
-     "pick": "Nantes o empate",
-     "key": "1X",
-     "p": 0.7384,
-     "odds": 1.064
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:15:00Z",
-     "league": "LaLiga",
-     "home": "Santander",
-     "away": "Sociedad",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.7383,
-     "odds": 1.32
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:00:00Z",
-     "league": "Championship",
-     "home": "Burnley",
-     "away": "Blackburn",
      "pick": "No hay empate",
      "key": "12",
-     "p": 0.7374,
-     "odds": 1.251
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:00:00Z",
-     "league": "Bélgica",
-     "home": "Kortrijk",
-     "away": "St. Gilloise",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7365,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "Bélgica",
-     "home": "Anderlecht",
-     "away": "Oud-Heverlee Leuven",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7364,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:00:00Z",
-     "league": "Grecia",
-     "home": "Panetolikos",
-     "away": "Volos NFC",
-     "pick": "Panetolikos o empate",
-     "key": "1X",
-     "p": 0.7348,
-     "odds": 1.333
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T18:15:00Z",
-     "league": "Bélgica",
-     "home": "Lommel SK",
-     "away": "Standard",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7297,
-     "odds": 1.237
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-23",
-     "kickoff": "2026-11-23T15:00:00Z",
-     "league": "Grecia",
-     "home": "Asteras Tripolis",
-     "away": "Aris",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7291,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Serie B",
-     "home": "Avellino",
-     "away": "Mantova",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7284,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T10:30:00Z",
-     "league": "Turquía",
-     "home": "Erzurumspor",
-     "away": "Goztep",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7279,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T20:00:00Z",
-     "league": "LaLiga 2",
-     "home": "Burgos",
-     "away": "Albacete",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7277,
-     "odds": 1.271
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:00:00Z",
-     "league": "Grecia",
-     "home": "Olympiakos",
-     "away": "Iraklis",
-     "pick": "Más de 1.5 goles",
-     "key": "o1.5",
-     "p": 0.7253,
-     "odds": null
+     "p": 0.7382,
+     "odds": 1.174
     },
     {
      "sport": "futbol",
@@ -3189,212 +1305,20 @@
      "away": "Dunkerque",
      "pick": "No hay empate",
      "key": "12",
-     "p": 0.7246,
+     "p": 0.7312,
      "odds": 1.267
     },
     {
      "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
-     "league": "Turquía",
-     "home": "Kasimpasa",
-     "away": "Alanyaspor",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7239,
-     "odds": 1.257
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bundesliga 2",
-     "home": "Kaiserslautern",
-     "away": "Dresden",
-     "pick": "Kaiserslautern o empate",
-     "key": "1X",
-     "p": 0.7208,
-     "odds": 1.327
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:30:00Z",
-     "league": "Premier League",
-     "home": "Liverpool",
-     "away": "Man United",
-     "pick": "Liverpool o empate",
-     "key": "1X",
-     "p": 0.7202,
-     "odds": 1.225
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T15:00:00Z",
      "league": "Grecia",
-     "home": "Levadeiakos",
-     "away": "Atromitos",
+     "home": "Asteras Tripolis",
+     "away": "Aris",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.7101,
+     "p": 0.7309,
      "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:30:00Z",
-     "league": "Grecia",
-     "home": "Panathinaikos",
-     "away": "OFI Crete",
-     "pick": "Gana Panathinaikos",
-     "key": "1",
-     "p": 0.71,
-     "odds": 1.19
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
-     "league": "LaLiga",
-     "home": "Barcelona",
-     "away": "Villarreal",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.7069,
-     "odds": 1.17
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T20:00:00Z",
-     "league": "LaLiga",
-     "home": "Getafe",
-     "away": "Ath Madrid",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.7021,
-     "odds": 1.232
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:30:00Z",
-     "league": "Bundesliga",
-     "home": "Augsburg",
-     "away": "Mainz",
-     "pick": "Augsburg o empate",
-     "key": "1X",
-     "p": 0.6962,
-     "odds": 1.554
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bélgica",
-     "home": "Beveren",
-     "away": "Gent",
-     "pick": "Gent o empate",
-     "key": "X2",
-     "p": 0.6951,
-     "odds": 1.254
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:15:00Z",
-     "league": "Serie B",
-     "home": "Arezzo",
-     "away": "Padova",
-     "pick": "No hay empate",
-     "key": "12",
-     "p": 0.6929,
-     "odds": 1.283
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T15:45:00Z",
-     "league": "Eredivisie",
-     "home": "Go Ahead Eagles",
-     "away": "For Sittard",
-     "pick": "Go Ahead Eagles o empate",
-     "key": "1X",
-     "p": 0.6895,
-     "odds": 1.168
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-23",
-     "kickoff": "2026-11-23T17:00:00Z",
-     "league": "Turquía",
-     "home": "Buyuksehyr",
-     "away": "Corum",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.6852,
-     "odds": 1.55
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:00:00Z",
-     "league": "Serie A",
-     "home": "Milan",
-     "away": "Frosinone",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.6817,
-     "odds": 1.34
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:30:00Z",
-     "league": "Eredivisie",
-     "home": "Ajax",
-     "away": "Den Haag",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.6733,
-     "odds": 1.26
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:00:00Z",
-     "league": "LaLiga 2",
-     "home": "Cordoba",
-     "away": "Oviedo",
-     "pick": "Cordoba o empate",
-     "key": "1X",
-     "p": 0.67,
-     "odds": 1.239
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bundesliga 2",
-     "home": "Karlsruhe",
-     "away": "Osnabruck",
-     "pick": "Ambos anotan",
-     "key": "btts",
-     "p": 0.6698,
-     "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T19:45:00Z",
-     "league": "Ligue 1",
-     "home": "Marseille",
-     "away": "Le Mans",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.6685,
-     "odds": 1.49
     },
     {
      "sport": "futbol",
@@ -3405,80 +1329,8 @@
      "away": "Fiorentina",
      "pick": "Ambos anotan",
      "key": "btts",
-     "p": 0.663,
+     "p": 0.6591,
      "odds": null
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T12:30:00Z",
-     "league": "Bundesliga 2",
-     "home": "Cottbus",
-     "away": "Hertha",
-     "pick": "Hertha o empate",
-     "key": "X2",
-     "p": 0.6609,
-     "odds": 1.155
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T14:00:00Z",
-     "league": "Ligue 1",
-     "home": "Paris FC",
-     "away": "Angers",
-     "pick": "Gana Paris FC",
-     "key": "1",
-     "p": 0.6515,
-     "odds": 1.31
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T17:30:00Z",
-     "league": "LaLiga 2",
-     "home": "Celta B",
-     "away": "Valladolid",
-     "pick": "Celta B o empate",
-     "key": "1X",
-     "p": 0.6474,
-     "odds": 1.691
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T19:45:00Z",
-     "league": "Serie A",
-     "home": "Atalanta",
-     "away": "Inter",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.6283,
-     "odds": 1.39
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T13:30:00Z",
-     "league": "Eredivisie",
-     "home": "Sparta Rotterdam",
-     "away": "AZ Alkmaar",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.6221,
-     "odds": 1.42
-    },
-    {
-     "sport": "futbol",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T16:30:00Z",
-     "league": "Bundesliga",
-     "home": "Werder Bremen",
-     "away": "Hamburg",
-     "pick": "Más de 2.5 goles",
-     "key": "o2.5",
-     "p": 0.6053,
-     "odds": 1.51
     }
    ],
    "status": null
@@ -3497,7 +1349,7 @@
      "away": "AEK Athens",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.9687,
+     "p": 0.9686,
      "odds": null
     },
     {
@@ -3523,7 +1375,7 @@
      "away": "LASK Linz",
      "pick": "Más de 1.5 goles",
      "key": "o1.5",
-     "p": 0.9411,
+     "p": 0.941,
      "odds": null
     },
     {
@@ -3692,7 +1544,7 @@
      "away": "Real Betis",
      "pick": "Real Betis o empate",
      "key": "X2",
-     "p": 0.8037,
+     "p": 0.8036,
      "odds": null
     },
     {
@@ -3785,7 +1637,7 @@
      "away": "Fenerbahce",
      "pick": "Shakhtar Donetsk o empate",
      "key": "1X",
-     "p": 0.7316,
+     "p": 0.7317,
      "odds": null
     },
     {
@@ -3949,22 +1801,8 @@
   },
   "nfl": {
    "name": "NFL",
-   "matches": 20,
+   "matches": 17,
    "top": [
-    {
-     "sport": "nfl",
-     "id": "2026_11_LV_DEN",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T21:25:00Z",
-     "league": "NFL",
-     "home": "Denver",
-     "away": "Las Vegas",
-     "note": "QB: Bo Nix vs Fernando Mendoza",
-     "pick": "Gana Denver",
-     "key": "ml:H",
-     "p": 0.9133,
-     "odds": 1.154
-    },
     {
      "sport": "nfl",
      "id": "2026_12_TEN_JAX",
@@ -3976,8 +1814,8 @@
      "note": "QB: Trevor Lawrence vs Cam Ward",
      "pick": "Gana Jacksonville",
      "key": "ml:H",
-     "p": 0.8935,
-     "odds": 1.087
+     "p": 0.897,
+     "odds": 1.083
     },
     {
      "sport": "nfl",
@@ -3988,10 +1826,10 @@
      "home": "LA Chargers",
      "away": "New England",
      "note": "QB: Justin Herbert vs Drake Maye",
-     "pick": "New England +4.5",
-     "key": "sp:A:4.5",
-     "p": 0.8701,
-     "odds": 1.833
+     "pick": "New England +1.5",
+     "key": "sp:A:1.5",
+     "p": 0.8068,
+     "odds": 1.862
     },
     {
      "sport": "nfl",
@@ -4004,22 +1842,8 @@
      "note": "QB: Deshaun Watson vs Fernando Mendoza",
      "pick": "Gana Cleveland",
      "key": "ml:H",
-     "p": 0.8139,
-     "odds": 1.435
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_SEA_SF",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:25:00Z",
-     "league": "NFL",
-     "home": "San Francisco",
-     "away": "Seattle",
-     "note": "QB: Brock Purdy vs Sam Darnold",
-     "pick": "Seattle +2.5",
-     "key": "sp:A:2.5",
-     "p": 0.7628,
-     "odds": 1.87
+     "p": 0.7738,
+     "odds": 1.452
     },
     {
      "sport": "nfl",
@@ -4032,8 +1856,22 @@
      "note": "QB: Joe Burrow vs Tyler Shough",
      "pick": "Gana Cincinnati",
      "key": "ml:H",
-     "p": 0.7266,
-     "odds": 1.169
+     "p": 0.7173,
+     "odds": 1.167
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_SEA_SF",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "league": "NFL",
+     "home": "San Francisco",
+     "away": "Seattle",
+     "note": "QB: Brock Purdy vs Sam Darnold",
+     "pick": "Seattle +3",
+     "key": "sp:A:3",
+     "p": 0.7144,
+     "odds": 1.99
     },
     {
      "sport": "nfl",
@@ -4046,92 +1884,8 @@
      "note": "QB: C.J. Stroud vs Jacoby Brissett",
      "pick": "Gana Houston",
      "key": "ml:H",
-     "p": 0.7241,
-     "odds": 1.323
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_JAX_NYG",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T21:25:00Z",
-     "league": "NFL",
-     "home": "NY Giants",
-     "away": "Jacksonville",
-     "note": "QB: J.J. McCarthy vs Trevor Lawrence",
-     "pick": "Gana Jacksonville",
-     "key": "ml:A",
-     "p": 0.702,
-     "odds": 1.383
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_NYG_IND",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T18:00:00Z",
-     "league": "NFL",
-     "home": "Indianapolis",
-     "away": "NY Giants",
-     "note": "QB: Anthony Richardson vs J.J. McCarthy",
-     "pick": "Indianapolis +7",
-     "key": "sp:H:7",
-     "p": 0.6774,
-     "odds": 1.909
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_WAS_ARI",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:25:00Z",
-     "league": "NFL",
-     "home": "Arizona",
-     "away": "Washington",
-     "note": "QB: Gardner Minshew vs Jayden Daniels",
-     "pick": "Más de 40.5 puntos",
-     "key": "ou:o:40.5",
-     "p": 0.6691,
-     "odds": 1.909
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_MIN_SF",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-23T01:20:00Z",
-     "league": "NFL",
-     "home": "San Francisco",
-     "away": "Minnesota",
-     "note": "QB: Brock Purdy vs Kirk Cousins",
-     "pick": "Minnesota +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.6579,
-     "odds": 1.935
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_GB_LA",
-     "date": "2026-11-25",
-     "kickoff": "2026-11-26T01:00:00Z",
-     "league": "NFL",
-     "home": "LA Rams",
-     "away": "Green Bay",
-     "note": "QB: Matthew Stafford vs Jordan Love",
-     "pick": "Gana LA Rams",
-     "key": "ml:H",
-     "p": 0.6401,
-     "odds": 1.625
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_CIN_WAS",
-     "date": "2026-11-23",
-     "kickoff": "2026-11-24T01:15:00Z",
-     "league": "NFL",
-     "home": "Washington",
-     "away": "Cincinnati",
-     "note": "QB: Jayden Daniels vs Joe Burrow",
-     "pick": "Gana Cincinnati",
-     "key": "ml:A",
-     "p": 0.6264,
-     "odds": 1.338
+     "p": 0.7126,
+     "odds": 1.328
     },
     {
      "sport": "nfl",
@@ -4144,50 +1898,36 @@
      "note": "QB: Dak Prescott vs Joe Milton III",
      "pick": "Gana Dallas",
      "key": "ml:H",
-     "p": 0.6256,
-     "odds": 1.239
+     "p": 0.6553,
+     "odds": 1.224
     },
     {
      "sport": "nfl",
-     "id": "2026_12_ATL_MIN",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T18:00:00Z",
+     "id": "2026_12_GB_LA",
+     "date": "2026-11-25",
+     "kickoff": "2026-11-26T01:00:00Z",
      "league": "NFL",
-     "home": "Minnesota",
-     "away": "Atlanta",
-     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
-     "pick": "Gana Minnesota",
+     "home": "LA Rams",
+     "away": "Green Bay",
+     "note": "QB: Matthew Stafford vs Jordan Love",
+     "pick": "Gana LA Rams",
      "key": "ml:H",
-     "p": 0.6221,
-     "odds": 1.303
+     "p": 0.6533,
+     "odds": 1.68
     },
     {
      "sport": "nfl",
-     "id": "2026_12_KC_BUF",
-     "date": "2026-11-26",
-     "kickoff": "2026-11-27T01:20:00Z",
+     "id": "2026_12_CAR_TB",
+     "date": "2026-11-30",
+     "kickoff": "2026-12-01T01:15:00Z",
      "league": "NFL",
-     "home": "Buffalo",
-     "away": "Kansas City",
-     "note": "QB: Josh Allen vs Patrick Mahomes",
-     "pick": "Gana Buffalo",
+     "home": "Tampa Bay",
+     "away": "Carolina",
+     "note": "QB: Baker Mayfield vs Bryce Young",
+     "pick": "Gana Tampa Bay",
      "key": "ml:H",
-     "p": 0.613,
-     "odds": 1.654
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_NYJ_MIA",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T18:00:00Z",
-     "league": "NFL",
-     "home": "Miami",
-     "away": "NY Jets",
-     "note": "QB: Kyle McCord vs Geno Smith",
-     "pick": "Miami +3.5",
-     "key": "sp:H:3.5",
-     "p": 0.6076,
-     "odds": 1.952
+     "p": 0.6425,
+     "odds": 1.645
     },
     {
      "sport": "nfl",
@@ -4200,8 +1940,22 @@
      "note": "QB: Jared Goff vs Caleb Williams",
      "pick": "Detroit +2.5",
      "key": "sp:H:2.5",
-     "p": 0.5888,
-     "odds": 1.909
+     "p": 0.6323,
+     "odds": 1.943
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_WAS_ARI",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "league": "NFL",
+     "home": "Arizona",
+     "away": "Washington",
+     "note": "QB: Gardner Minshew vs Jayden Daniels",
+     "pick": "Gana Washington",
+     "key": "ml:A",
+     "p": 0.6267,
+     "odds": 1.293
     },
     {
      "sport": "nfl",
@@ -4212,27 +1966,97 @@
      "home": "Pittsburgh",
      "away": "Denver",
      "note": "QB: Aaron Rodgers vs Bo Nix",
-     "pick": "Gana Denver",
-     "key": "ml:A",
-     "p": 0.5781,
-     "odds": 1.685
+     "pick": "Más de 37.5 puntos",
+     "key": "ou:o:37.5",
+     "p": 0.624,
+     "odds": 1.87
     },
     {
      "sport": "nfl",
-     "id": "2026_11_NYJ_LAC",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T21:05:00Z",
+     "id": "2026_12_NYG_IND",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T18:00:00Z",
      "league": "NFL",
-     "home": "LA Chargers",
+     "home": "Indianapolis",
+     "away": "NY Giants",
+     "note": "QB: Anthony Richardson vs J.J. McCarthy",
+     "pick": "Indianapolis +6.5",
+     "key": "sp:H:6.5",
+     "p": 0.6233,
+     "odds": 1.962
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_ATL_MIN",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "league": "NFL",
+     "home": "Minnesota",
+     "away": "Atlanta",
+     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
+     "pick": "Atlanta +6.5",
+     "key": "sp:A:6.5",
+     "p": 0.6181,
+     "odds": 1.971
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_CIN_WAS",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-24T01:15:00Z",
+     "league": "NFL",
+     "home": "Washington",
+     "away": "Cincinnati",
+     "note": "QB: Jayden Daniels vs Joe Burrow",
+     "pick": "Gana Cincinnati",
+     "key": "ml:A",
+     "p": 0.6092,
+     "odds": 1.332
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_NYJ_MIA",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "league": "NFL",
+     "home": "Miami",
      "away": "NY Jets",
-     "note": "QB: Justin Herbert vs Geno Smith",
-     "pick": "Gana LA Chargers",
+     "note": "QB: Kyle McCord vs Geno Smith",
+     "pick": "Miami +3.5",
+     "key": "sp:H:3.5",
+     "p": 0.5945,
+     "odds": 1.935
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_KC_BUF",
+     "date": "2026-11-26",
+     "kickoff": "2026-11-27T01:20:00Z",
+     "league": "NFL",
+     "home": "Buffalo",
+     "away": "Kansas City",
+     "note": "QB: Josh Allen vs Patrick Mahomes",
+     "pick": "Gana Buffalo",
      "key": "ml:H",
-     "p": 0.5592,
-     "odds": 1.552
+     "p": 0.5937,
+     "odds": 1.671
     }
    ],
    "mid": [
+    {
+     "sport": "nfl",
+     "id": "2026_12_NE_LAC",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:05:00Z",
+     "league": "NFL",
+     "home": "LA Chargers",
+     "away": "New England",
+     "note": "QB: Justin Herbert vs Drake Maye",
+     "pick": "Más de 35.5 puntos",
+     "key": "ou:o:35.5",
+     "p": 0.7393,
+     "odds": 1.917
+    },
     {
      "sport": "nfl",
      "id": "2026_12_NO_CIN",
@@ -4244,8 +2068,22 @@
      "note": "QB: Joe Burrow vs Tyler Shough",
      "pick": "Gana Cincinnati",
      "key": "ml:H",
-     "p": 0.7266,
-     "odds": 1.169
+     "p": 0.7173,
+     "odds": 1.167
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_SEA_SF",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "league": "NFL",
+     "home": "San Francisco",
+     "away": "Seattle",
+     "note": "QB: Brock Purdy vs Sam Darnold",
+     "pick": "Seattle +3",
+     "key": "sp:A:3",
+     "p": 0.7144,
+     "odds": 1.99
     },
     {
      "sport": "nfl",
@@ -4258,8 +2096,8 @@
      "note": "QB: C.J. Stroud vs Jacoby Brissett",
      "pick": "Gana Houston",
      "key": "ml:H",
-     "p": 0.7241,
-     "odds": 1.323
+     "p": 0.7126,
+     "odds": 1.328
     },
     {
      "sport": "nfl",
@@ -4272,120 +2110,8 @@
      "note": "QB: Deshaun Watson vs Fernando Mendoza",
      "pick": "Cleveland -4.5",
      "key": "sp:H:-4.5",
-     "p": 0.711,
-     "odds": 1.87
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_JAX_NYG",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T21:25:00Z",
-     "league": "NFL",
-     "home": "NY Giants",
-     "away": "Jacksonville",
-     "note": "QB: J.J. McCarthy vs Trevor Lawrence",
-     "pick": "Gana Jacksonville",
-     "key": "ml:A",
-     "p": 0.702,
-     "odds": 1.383
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_SEA_SF",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:25:00Z",
-     "league": "NFL",
-     "home": "San Francisco",
-     "away": "Seattle",
-     "note": "QB: Brock Purdy vs Sam Darnold",
-     "pick": "Gana Seattle",
-     "key": "ml:A",
-     "p": 0.7014,
-     "odds": 2.12
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_LV_DEN",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T21:25:00Z",
-     "league": "NFL",
-     "home": "Denver",
-     "away": "Las Vegas",
-     "note": "QB: Bo Nix vs Fernando Mendoza",
-     "pick": "Denver -11.5",
-     "key": "sp:H:-11.5",
-     "p": 0.6923,
-     "odds": 1.943
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_NYG_IND",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T18:00:00Z",
-     "league": "NFL",
-     "home": "Indianapolis",
-     "away": "NY Giants",
-     "note": "QB: Anthony Richardson vs J.J. McCarthy",
-     "pick": "Indianapolis +7",
-     "key": "sp:H:7",
-     "p": 0.6774,
-     "odds": 1.909
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_WAS_ARI",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:25:00Z",
-     "league": "NFL",
-     "home": "Arizona",
-     "away": "Washington",
-     "note": "QB: Gardner Minshew vs Jayden Daniels",
-     "pick": "Más de 40.5 puntos",
-     "key": "ou:o:40.5",
-     "p": 0.6691,
-     "odds": 1.909
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_MIN_SF",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-23T01:20:00Z",
-     "league": "NFL",
-     "home": "San Francisco",
-     "away": "Minnesota",
-     "note": "QB: Brock Purdy vs Kirk Cousins",
-     "pick": "Minnesota +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.6579,
-     "odds": 1.935
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_GB_LA",
-     "date": "2026-11-25",
-     "kickoff": "2026-11-26T01:00:00Z",
-     "league": "NFL",
-     "home": "LA Rams",
-     "away": "Green Bay",
-     "note": "QB: Matthew Stafford vs Jordan Love",
-     "pick": "Gana LA Rams",
-     "key": "ml:H",
-     "p": 0.6401,
-     "odds": 1.625
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_11_CIN_WAS",
-     "date": "2026-11-23",
-     "kickoff": "2026-11-24T01:15:00Z",
-     "league": "NFL",
-     "home": "Washington",
-     "away": "Cincinnati",
-     "note": "QB: Jayden Daniels vs Joe Burrow",
-     "pick": "Gana Cincinnati",
-     "key": "ml:A",
-     "p": 0.6264,
-     "odds": 1.338
+     "p": 0.661,
+     "odds": 1.952
     },
     {
      "sport": "nfl",
@@ -4398,78 +2124,36 @@
      "note": "QB: Dak Prescott vs Joe Milton III",
      "pick": "Gana Dallas",
      "key": "ml:H",
-     "p": 0.6256,
-     "odds": 1.239
+     "p": 0.6553,
+     "odds": 1.224
     },
     {
      "sport": "nfl",
-     "id": "2026_12_ATL_MIN",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T18:00:00Z",
+     "id": "2026_12_GB_LA",
+     "date": "2026-11-25",
+     "kickoff": "2026-11-26T01:00:00Z",
      "league": "NFL",
-     "home": "Minnesota",
-     "away": "Atlanta",
-     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
-     "pick": "Gana Minnesota",
+     "home": "LA Rams",
+     "away": "Green Bay",
+     "note": "QB: Matthew Stafford vs Jordan Love",
+     "pick": "Gana LA Rams",
      "key": "ml:H",
-     "p": 0.6221,
-     "odds": 1.303
+     "p": 0.6533,
+     "odds": 1.68
     },
     {
      "sport": "nfl",
-     "id": "2026_12_NE_LAC",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:05:00Z",
+     "id": "2026_12_CAR_TB",
+     "date": "2026-11-30",
+     "kickoff": "2026-12-01T01:15:00Z",
      "league": "NFL",
-     "home": "LA Chargers",
-     "away": "New England",
-     "note": "QB: Justin Herbert vs Drake Maye",
-     "pick": "Más de 39.5 puntos",
-     "key": "ou:o:39.5",
-     "p": 0.6162,
-     "odds": 2.0
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_KC_BUF",
-     "date": "2026-11-26",
-     "kickoff": "2026-11-27T01:20:00Z",
-     "league": "NFL",
-     "home": "Buffalo",
-     "away": "Kansas City",
-     "note": "QB: Josh Allen vs Patrick Mahomes",
-     "pick": "Gana Buffalo",
+     "home": "Tampa Bay",
+     "away": "Carolina",
+     "note": "QB: Baker Mayfield vs Bryce Young",
+     "pick": "Gana Tampa Bay",
      "key": "ml:H",
-     "p": 0.613,
-     "odds": 1.654
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_NYJ_MIA",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T18:00:00Z",
-     "league": "NFL",
-     "home": "Miami",
-     "away": "NY Jets",
-     "note": "QB: Kyle McCord vs Geno Smith",
-     "pick": "Miami +3.5",
-     "key": "sp:H:3.5",
-     "p": 0.6076,
-     "odds": 1.952
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_TEN_JAX",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T18:00:00Z",
-     "league": "NFL",
-     "home": "Jacksonville",
-     "away": "Tennessee",
-     "note": "QB: Trevor Lawrence vs Cam Ward",
-     "pick": "Jacksonville -13.5",
-     "key": "sp:H:-13.5",
-     "p": 0.5937,
-     "odds": 1.87
+     "p": 0.6425,
+     "odds": 1.645
     },
     {
      "sport": "nfl",
@@ -4482,8 +2166,22 @@
      "note": "QB: Jared Goff vs Caleb Williams",
      "pick": "Detroit +2.5",
      "key": "sp:H:2.5",
-     "p": 0.5888,
-     "odds": 1.909
+     "p": 0.6323,
+     "odds": 1.943
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_WAS_ARI",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "league": "NFL",
+     "home": "Arizona",
+     "away": "Washington",
+     "note": "QB: Gardner Minshew vs Jayden Daniels",
+     "pick": "Gana Washington",
+     "key": "ml:A",
+     "p": 0.6267,
+     "odds": 1.293
     },
     {
      "sport": "nfl",
@@ -4494,24 +2192,94 @@
      "home": "Pittsburgh",
      "away": "Denver",
      "note": "QB: Aaron Rodgers vs Bo Nix",
-     "pick": "Gana Denver",
-     "key": "ml:A",
-     "p": 0.5781,
-     "odds": 1.685
+     "pick": "Más de 37.5 puntos",
+     "key": "ou:o:37.5",
+     "p": 0.624,
+     "odds": 1.87
     },
     {
      "sport": "nfl",
-     "id": "2026_11_NYJ_LAC",
-     "date": "2026-11-22",
-     "kickoff": "2026-11-22T21:05:00Z",
+     "id": "2026_12_NYG_IND",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T18:00:00Z",
      "league": "NFL",
-     "home": "LA Chargers",
+     "home": "Indianapolis",
+     "away": "NY Giants",
+     "note": "QB: Anthony Richardson vs J.J. McCarthy",
+     "pick": "Indianapolis +6.5",
+     "key": "sp:H:6.5",
+     "p": 0.6233,
+     "odds": 1.962
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_ATL_MIN",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "league": "NFL",
+     "home": "Minnesota",
+     "away": "Atlanta",
+     "note": "QB: Kirk Cousins vs Michael Penix Jr.",
+     "pick": "Atlanta +6.5",
+     "key": "sp:A:6.5",
+     "p": 0.6181,
+     "odds": 1.971
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_11_CIN_WAS",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-24T01:15:00Z",
+     "league": "NFL",
+     "home": "Washington",
+     "away": "Cincinnati",
+     "note": "QB: Jayden Daniels vs Joe Burrow",
+     "pick": "Gana Cincinnati",
+     "key": "ml:A",
+     "p": 0.6092,
+     "odds": 1.332
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_NYJ_MIA",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "league": "NFL",
+     "home": "Miami",
      "away": "NY Jets",
-     "note": "QB: Justin Herbert vs Geno Smith",
-     "pick": "Gana LA Chargers",
+     "note": "QB: Kyle McCord vs Geno Smith",
+     "pick": "Miami +3.5",
+     "key": "sp:H:3.5",
+     "p": 0.5945,
+     "odds": 1.935
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_KC_BUF",
+     "date": "2026-11-26",
+     "kickoff": "2026-11-27T01:20:00Z",
+     "league": "NFL",
+     "home": "Buffalo",
+     "away": "Kansas City",
+     "note": "QB: Josh Allen vs Patrick Mahomes",
+     "pick": "Gana Buffalo",
      "key": "ml:H",
-     "p": 0.5592,
-     "odds": 1.552
+     "p": 0.5937,
+     "odds": 1.671
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_TEN_JAX",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "league": "NFL",
+     "home": "Jacksonville",
+     "away": "Tennessee",
+     "note": "QB: Trevor Lawrence vs Cam Ward",
+     "pick": "Jacksonville -14.5",
+     "key": "sp:H:-14.5",
+     "p": 0.572,
+     "odds": 1.962
     }
    ],
    "status": null
@@ -4521,7 +2289,7 @@
    "matches": 0,
    "top": [],
    "mid": [],
-   "status": "Temporada en pausa. Vuelve el 25/03/2027."
+   "status": "Temporada en pausa. Vuelve el 24/03/2027."
   }
  },
  "record": [
@@ -8732,14 +6500,14 @@
      "key": "ml:H",
      "p": 0.929,
      "odds": 1.22,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.22,
    "value": true,
-   "pnl": null
+   "pnl": 0.22
   },
   {
    "sport": "nfl",
@@ -8867,8 +6635,8 @@
      "key": "ml:H",
      "p": 0.929,
      "odds": 1.22,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     },
     {
      "sport": "nfl",
@@ -8903,10 +6671,10 @@
      "score": "13-21"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.99,
    "value": true,
-   "pnl": null
+   "pnl": 0.99
   },
   {
    "sport": "nfl",
@@ -9185,14 +6953,14 @@
      "key": "ml:A",
      "p": 0.6691,
      "odds": 1.36,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "23-18"
     }
    ],
-   "status": "pendiente",
+   "status": "perdido",
    "odds": 1.36,
    "value": false,
-   "pnl": null
+   "pnl": -1.0
   },
   {
    "sport": "nfl",
@@ -9212,8 +6980,8 @@
      "key": "ml:H",
      "p": 0.929,
      "odds": 1.174,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     },
     {
      "sport": "nfl",
@@ -9248,10 +7016,10 @@
      "score": "26-9"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.48,
    "value": true,
-   "pnl": null
+   "pnl": 0.48
   },
   {
    "sport": "nfl",
@@ -9330,8 +7098,8 @@
      "key": "ml:H",
      "p": 0.929,
      "odds": 1.174,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     },
     {
      "sport": "nfl",
@@ -9414,8 +7182,8 @@
      "key": "sp:H:-10",
      "p": 0.7373,
      "odds": 1.909,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     },
     {
      "sport": "nfl",
@@ -9430,8 +7198,8 @@
      "key": "ml:A",
      "p": 0.7048,
      "odds": 1.36,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "23-18"
     },
     {
      "sport": "nfl",
@@ -9819,14 +7587,14 @@
      "key": "sp:A:3",
      "p": 0.6479,
      "odds": 1.926,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "35-10"
     }
    ],
-   "status": "pendiente",
+   "status": "perdido",
    "odds": 1.926,
    "value": true,
-   "pnl": null
+   "pnl": -1.0
   },
   {
    "sport": "nfl",
@@ -9846,8 +7614,8 @@
      "key": "sp:H:-10",
      "p": 0.7372,
      "odds": 1.909,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     },
     {
      "sport": "nfl",
@@ -9862,8 +7630,8 @@
      "key": "ml:A",
      "p": 0.7046,
      "odds": 1.36,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "23-18"
     },
     {
      "sport": "nfl",
@@ -9882,10 +7650,10 @@
      "score": "19-16"
     }
    ],
-   "status": "pendiente",
+   "status": "perdido",
    "odds": 4.855,
    "value": true,
-   "pnl": null
+   "pnl": -1.0
   },
   {
    "sport": "todas",
@@ -9935,8 +7703,8 @@
      "key": "sp:H:-10",
      "p": 0.7372,
      "odds": 1.909,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     }
    ],
    "status": "pendiente",
@@ -9962,8 +7730,8 @@
      "key": "sp:H:-10",
      "p": 0.7322,
      "odds": 1.893,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     },
     {
      "sport": "nfl",
@@ -9978,8 +7746,8 @@
      "key": "ml:A",
      "p": 0.7059,
      "odds": 1.377,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "23-18"
     },
     {
      "sport": "nfl",
@@ -10264,8 +8032,8 @@
      "key": "sp:H:-10",
      "p": 0.7315,
      "odds": 1.893,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     },
     {
      "sport": "nfl",
@@ -10296,14 +8064,14 @@
      "key": "ml:A",
      "p": 0.7055,
      "odds": 1.373,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "23-18"
     }
    ],
-   "status": "pendiente",
+   "status": "perdido",
    "odds": 4.962,
    "value": true,
-   "pnl": null
+   "pnl": -1.0
   },
   {
    "sport": "futbol",
@@ -10321,14 +8089,14 @@
      "key": "1X",
      "p": 0.9533,
      "odds": 0.981,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-1"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 0.981,
    "value": false,
-   "pnl": null
+   "pnl": -0.019
   },
   {
    "sport": "futbol",
@@ -10346,14 +8114,14 @@
      "key": "1X",
      "p": 0.9451,
      "odds": 0.986,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-1"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 0.986,
    "value": false,
-   "pnl": null
+   "pnl": -0.014
   },
   {
    "sport": "futbol",
@@ -10371,14 +8139,14 @@
      "key": "1X",
      "p": 0.9227,
      "odds": 0.983,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "6-2"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 0.983,
    "value": false,
-   "pnl": null
+   "pnl": -0.017
   },
   {
    "sport": "futbol",
@@ -10396,14 +8164,14 @@
      "key": "1X",
      "p": 0.9137,
      "odds": 0.998,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 0.998,
    "value": false,
-   "pnl": null
+   "pnl": -0.002
   },
   {
    "sport": "futbol",
@@ -10421,14 +8189,14 @@
      "key": "1X",
      "p": 0.9062,
      "odds": 0.993,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 0.993,
    "value": false,
-   "pnl": null
+   "pnl": -0.007
   },
   {
    "sport": "futbol",
@@ -10446,14 +8214,14 @@
      "key": "X2",
      "p": 0.9057,
      "odds": 1.064,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "0-1"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.064,
    "value": false,
-   "pnl": null
+   "pnl": 0.064
   },
   {
    "sport": "futbol",
@@ -10471,11 +8239,11 @@
      "key": "o1.5",
      "p": 0.9042,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-3"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -10496,11 +8264,11 @@
      "key": "o1.5",
      "p": 0.9012,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "3-2"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -10521,14 +8289,14 @@
      "key": "1X",
      "p": 0.9012,
      "odds": 1.023,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-1"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.023,
    "value": false,
-   "pnl": null
+   "pnl": 0.023
   },
   {
    "sport": "futbol",
@@ -10546,11 +8314,11 @@
      "key": "o1.5",
      "p": 0.9,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-4"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -10571,8 +8339,8 @@
      "key": "1X",
      "p": 0.9533,
      "odds": 0.981,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-1"
     },
     {
      "sport": "futbol",
@@ -10585,8 +8353,8 @@
      "key": "1X",
      "p": 0.9451,
      "odds": 0.986,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-1"
     },
     {
      "sport": "futbol",
@@ -10599,14 +8367,14 @@
      "key": "1X",
      "p": 0.9227,
      "odds": 0.983,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "6-2"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 0.951,
    "value": false,
-   "pnl": null
+   "pnl": -0.049
   },
   {
    "sport": "futbol",
@@ -10624,8 +8392,8 @@
      "key": "o1.5",
      "p": 0.7498,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-0"
     },
     {
      "sport": "futbol",
@@ -10638,8 +8406,8 @@
      "key": "1X",
      "p": 0.7496,
      "odds": 1.259,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "4-2"
     },
     {
      "sport": "futbol",
@@ -10652,11 +8420,11 @@
      "key": "12",
      "p": 0.7485,
      "odds": 1.224,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -10695,8 +8463,8 @@
      "key": "sp:H:-10.5",
      "p": 0.7184,
      "odds": 1.952,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     },
     {
      "sport": "nfl",
@@ -10711,14 +8479,14 @@
      "key": "ml:A",
      "p": 0.7024,
      "odds": 1.392,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "23-18"
     }
    ],
-   "status": "pendiente",
+   "status": "perdido",
    "odds": 5.187,
    "value": true,
-   "pnl": null
+   "pnl": -1.0
   },
   {
    "sport": "todas",
@@ -10766,8 +8534,8 @@
      "key": "1X",
      "p": 0.9533,
      "odds": 0.981,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-1"
     }
    ],
    "status": "pendiente",
@@ -10791,11 +8559,11 @@
      "key": "o1.5",
      "p": 0.8954,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-1"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -10816,8 +8584,8 @@
      "key": "1X",
      "p": 0.9533,
      "odds": 0.981,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-1"
     },
     {
      "sport": "futbol",
@@ -10830,8 +8598,8 @@
      "key": "1X",
      "p": 0.9227,
      "odds": 0.983,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "6-2"
     },
     {
      "sport": "futbol",
@@ -10844,14 +8612,14 @@
      "key": "1X",
      "p": 0.9137,
      "odds": 0.998,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 0.962,
    "value": false,
-   "pnl": null
+   "pnl": -0.038
   },
   {
    "sport": "futbol",
@@ -10869,8 +8637,8 @@
      "key": "o1.5",
      "p": 0.7498,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-0"
     },
     {
      "sport": "futbol",
@@ -10883,8 +8651,8 @@
      "key": "12",
      "p": 0.7484,
      "odds": 1.301,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "0-2"
     },
     {
      "sport": "futbol",
@@ -10897,11 +8665,11 @@
      "key": "o1.5",
      "p": 0.7484,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-1"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -10967,8 +8735,8 @@
      "key": "sp:H:-10",
      "p": 0.7309,
      "odds": 1.877,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     },
     {
      "sport": "nfl",
@@ -10983,8 +8751,8 @@
      "key": "ml:A",
      "p": 0.7024,
      "odds": 1.376,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "23-18"
     }
    ],
    "status": "perdido",
@@ -11026,8 +8794,8 @@
      "key": "sp:H:-10.5",
      "p": 0.7184,
      "odds": 1.952,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     },
     {
      "sport": "nfl",
@@ -11042,8 +8810,8 @@
      "key": "ml:A",
      "p": 0.7024,
      "odds": 1.382,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "23-18"
     }
    ],
    "status": "perdido",
@@ -11067,14 +8835,14 @@
      "key": "1X",
      "p": 0.8856,
      "odds": 1.019,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "2-3"
     }
    ],
-   "status": "pendiente",
+   "status": "perdido",
    "odds": 1.019,
    "value": false,
-   "pnl": null
+   "pnl": -1.0
   },
   {
    "sport": "futbol",
@@ -11092,14 +8860,14 @@
      "key": "1X",
      "p": 0.8843,
      "odds": 1.008,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-1"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.008,
    "value": false,
-   "pnl": null
+   "pnl": 0.008
   },
   {
    "sport": "futbol",
@@ -11117,8 +8885,8 @@
      "key": "o1.5",
      "p": 0.7498,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-0"
     },
     {
      "sport": "futbol",
@@ -11131,8 +8899,8 @@
      "key": "12",
      "p": 0.7484,
      "odds": 1.301,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "0-2"
     },
     {
      "sport": "futbol",
@@ -11145,11 +8913,11 @@
      "key": "1X",
      "p": 0.748,
      "odds": 1.247,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-1"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -11170,11 +8938,11 @@
      "key": "o1.5",
      "p": 0.884,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "3-2"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -11220,14 +8988,14 @@
      "key": "1X",
      "p": 0.869,
      "odds": 1.047,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "4-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.047,
    "value": false,
-   "pnl": null
+   "pnl": 0.047
   },
   {
    "sport": "futbol",
@@ -11245,8 +9013,8 @@
      "key": "12",
      "p": 0.7484,
      "odds": 1.301,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "0-2"
     },
     {
      "sport": "futbol",
@@ -11259,8 +9027,8 @@
      "key": "1X",
      "p": 0.748,
      "odds": 1.247,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-1"
     },
     {
      "sport": "futbol",
@@ -11273,14 +9041,14 @@
      "key": "12",
      "p": 0.7479,
      "odds": 1.124,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "4-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.824,
    "value": false,
-   "pnl": null
+   "pnl": 0.824
   },
   {
    "sport": "nfl",
@@ -11316,8 +9084,8 @@
      "key": "sp:H:-10.5",
      "p": 0.7182,
      "odds": 1.952,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     },
     {
      "sport": "nfl",
@@ -11332,8 +9100,8 @@
      "key": "ml:A",
      "p": 0.7022,
      "odds": 1.391,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "23-18"
     }
    ],
    "status": "perdido",
@@ -11357,11 +9125,11 @@
      "key": "o1.5",
      "p": 0.8672,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "3-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -11382,8 +9150,8 @@
      "key": "12",
      "p": 0.7484,
      "odds": 1.301,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "0-2"
     },
     {
      "sport": "futbol",
@@ -11396,8 +9164,8 @@
      "key": "12",
      "p": 0.7479,
      "odds": 1.124,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "4-0"
     },
     {
      "sport": "futbol",
@@ -11410,11 +9178,11 @@
      "key": "o1.5",
      "p": 0.7478,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "4-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -11435,11 +9203,11 @@
      "key": "o1.5",
      "p": 0.8628,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "5-1"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -11460,11 +9228,11 @@
      "key": "o1.5",
      "p": 0.8621,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-3"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -11510,11 +9278,11 @@
      "key": "o1.5",
      "p": 0.8472,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "perdido",
+     "score": "0-1"
     }
    ],
-   "status": "pendiente",
+   "status": "perdido",
    "odds": null,
    "value": null,
    "pnl": null
@@ -11535,8 +9303,8 @@
      "key": "1X",
      "p": 0.9226,
      "odds": 0.983,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "6-2"
     },
     {
      "sport": "futbol",
@@ -11549,8 +9317,8 @@
      "key": "1X",
      "p": 0.9136,
      "odds": 0.998,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-0"
     },
     {
      "sport": "futbol",
@@ -11563,14 +9331,14 @@
      "key": "1X",
      "p": 0.9061,
      "odds": 0.993,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 0.974,
    "value": false,
-   "pnl": null
+   "pnl": -0.026
   },
   {
    "sport": "futbol",
@@ -11588,8 +9356,8 @@
      "key": "12",
      "p": 0.7479,
      "odds": 1.124,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "4-0"
     },
     {
      "sport": "futbol",
@@ -11602,8 +9370,8 @@
      "key": "12",
      "p": 0.7469,
      "odds": 1.225,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-1"
     },
     {
      "sport": "futbol",
@@ -11805,8 +9573,8 @@
      "key": "ml:H",
      "p": 0.9133,
      "odds": 1.156,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     },
     {
      "sport": "nfl",
@@ -11921,8 +9689,8 @@
      "key": "12",
      "p": 0.7479,
      "odds": 1.124,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "4-0"
     },
     {
      "sport": "futbol",
@@ -11935,8 +9703,8 @@
      "key": "12",
      "p": 0.7469,
      "odds": 1.225,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-1"
     },
     {
      "sport": "champions",
@@ -11975,11 +9743,11 @@
      "key": "o1.5",
      "p": 0.831,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "4-4"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": null,
    "value": null,
    "pnl": null
@@ -12050,14 +9818,14 @@
      "key": "X2",
      "p": 0.7796,
      "odds": 1.111,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "0-3"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.111,
    "value": false,
-   "pnl": null
+   "pnl": 0.111
   },
   {
    "sport": "futbol",
@@ -12075,14 +9843,14 @@
      "key": "1X",
      "p": 0.7502,
      "odds": 1.241,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "1-0"
     }
    ],
-   "status": "pendiente",
+   "status": "ganado",
    "odds": 1.241,
    "value": false,
-   "pnl": null
+   "pnl": 0.241
   },
   {
    "sport": "futbol",
@@ -12164,8 +9932,8 @@
      "key": "o1.5",
      "p": 0.8621,
      "odds": null,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "2-3"
     },
     {
      "sport": "futbol",
@@ -12258,8 +10026,8 @@
      "key": "ml:H",
      "p": 0.9133,
      "odds": 1.168,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     },
     {
      "sport": "nfl",
@@ -12349,8 +10117,8 @@
      "key": "sp:H:-10.5",
      "p": 0.7181,
      "odds": 1.901,
-     "status": "pendiente",
-     "score": null
+     "status": "ganado",
+     "score": "38-24"
     }
    ],
    "status": "pendiente",
@@ -12434,7 +10202,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -12456,7 +10227,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.267,
+   "value": false,
+   "pnl": null
   },
   {
    "sport": "futbol",
@@ -12506,7 +10280,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -12530,7 +10307,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.909,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -12554,7 +10334,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.909,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -12610,7 +10393,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 2.859,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "nfl",
@@ -12666,7 +10452,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 2.892,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "todas",
@@ -12718,46 +10507,310 @@
      "score": null
     }
    ],
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
+  },
+  {
+   "sport": "futbol",
+   "type": "parlay_top",
+   "made": "2026-11-23",
+   "legs": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T19:45:00Z",
+     "league": "Serie A",
+     "home": "Monza",
+     "away": "Fiorentina",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.8461,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T19:30:00Z",
+     "league": "LaLiga 2",
+     "home": "Ceuta",
+     "away": "Almeria",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.8126,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T20:00:00Z",
+     "league": "LaLiga",
+     "home": "Levante",
+     "away": "Elche",
+     "pick": "Más de 1.5 goles",
+     "key": "o1.5",
+     "p": 0.7862,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "nfl",
+   "type": "single",
+   "made": "2026-11-23",
+   "legs": [
+    {
+     "sport": "nfl",
+     "id": "2026_12_CAR_TB",
+     "date": "2026-11-30",
+     "kickoff": "2026-12-01T01:15:00Z",
+     "league": "NFL",
+     "home": "Tampa Bay",
+     "away": "Carolina",
+     "note": "QB: Baker Mayfield vs Bryce Young",
+     "pick": "Gana Tampa Bay",
+     "key": "ml:H",
+     "p": 0.6425,
+     "odds": 1.645,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "nfl",
+   "type": "single",
+   "made": "2026-11-23",
+   "legs": [
+    {
+     "sport": "nfl",
+     "id": "2026_12_CHI_DET",
+     "date": "2026-11-26",
+     "kickoff": "2026-11-26T18:00:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "Chicago",
+     "note": "QB: Jared Goff vs Caleb Williams",
+     "pick": "Detroit +2.5",
+     "key": "sp:H:2.5",
+     "p": 0.6323,
+     "odds": 1.943,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "nfl",
+   "type": "parlay_top",
+   "made": "2026-11-23",
+   "legs": [
+    {
+     "sport": "nfl",
+     "id": "2026_12_TEN_JAX",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "league": "NFL",
+     "home": "Jacksonville",
+     "away": "Tennessee",
+     "note": "QB: Trevor Lawrence vs Cam Ward",
+     "pick": "Gana Jacksonville",
+     "key": "ml:H",
+     "p": 0.897,
+     "odds": 1.083,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_NE_LAC",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:05:00Z",
+     "league": "NFL",
+     "home": "LA Chargers",
+     "away": "New England",
+     "note": "QB: Justin Herbert vs Drake Maye",
+     "pick": "New England +1.5",
+     "key": "sp:A:1.5",
+     "p": 0.8068,
+     "odds": 1.862,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_LV_CLE",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-30T01:20:00Z",
+     "league": "NFL",
+     "home": "Cleveland",
+     "away": "Las Vegas",
+     "note": "QB: Deshaun Watson vs Fernando Mendoza",
+     "pick": "Gana Cleveland",
+     "key": "ml:H",
+     "p": 0.7738,
+     "odds": 1.452,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "nfl",
+   "type": "parlay_mid",
+   "made": "2026-11-23",
+   "legs": [
+    {
+     "sport": "nfl",
+     "id": "2026_12_NE_LAC",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:05:00Z",
+     "league": "NFL",
+     "home": "LA Chargers",
+     "away": "New England",
+     "note": "QB: Justin Herbert vs Drake Maye",
+     "pick": "Más de 35.5 puntos",
+     "key": "ou:o:35.5",
+     "p": 0.7393,
+     "odds": 1.917,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_NO_CIN",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T18:00:00Z",
+     "league": "NFL",
+     "home": "Cincinnati",
+     "away": "New Orleans",
+     "note": "QB: Joe Burrow vs Tyler Shough",
+     "pick": "Gana Cincinnati",
+     "key": "ml:H",
+     "p": 0.7173,
+     "odds": 1.167,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_SEA_SF",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "league": "NFL",
+     "home": "San Francisco",
+     "away": "Seattle",
+     "note": "QB: Brock Purdy vs Sam Darnold",
+     "pick": "Seattle +3",
+     "key": "sp:A:3",
+     "p": 0.7144,
+     "odds": 1.99,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
+   "status": "pendiente"
+  },
+  {
+   "sport": "todas",
+   "type": "parlay_mid",
+   "made": "2026-11-23",
+   "legs": [
+    {
+     "sport": "futbol",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T20:00:00Z",
+     "league": "LaLiga",
+     "home": "Levante",
+     "away": "Elche",
+     "pick": "No hay empate",
+     "key": "12",
+     "p": 0.7461,
+     "odds": 1.271,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "champions",
+     "id": "401915291",
+     "date": "2026-11-25",
+     "kickoff": "2026-11-25T20:00:00Z",
+     "league": "Champions League",
+     "home": "Atlético Madrid",
+     "away": "Viking FK",
+     "pick": "Ambos anotan",
+     "key": "btts",
+     "p": 0.7455,
+     "odds": null,
+     "status": "pendiente",
+     "score": null
+    },
+    {
+     "sport": "futbol",
+     "date": "2026-11-23",
+     "kickoff": "2026-11-23T19:30:00Z",
+     "league": "LaLiga 2",
+     "home": "Ceuta",
+     "away": "Almeria",
+     "pick": "Almeria o empate",
+     "key": "X2",
+     "p": 0.7447,
+     "odds": 1.256,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
    "status": "pendiente"
   }
  ],
  "record_summary": {
   "todas": {
    "singles": {
-    "ganado": 72,
-    "perdido": 13,
-    "pendiente": 56,
-    "bets": 56,
-    "profit": 5.17,
-    "value_bets": 14,
-    "value_profit": 1.25
+    "ganado": 93,
+    "perdido": 17,
+    "pendiente": 33,
+    "bets": 71,
+    "profit": 2.83,
+    "value_bets": 16,
+    "value_profit": 0.47
    },
    "parlays": {
-    "ganado": 24,
-    "perdido": 27,
-    "pendiente": 32,
-    "bets": 28,
-    "profit": 2.04,
-    "value_bets": 25,
-    "value_profit": -0.14
+    "ganado": 34,
+    "perdido": 30,
+    "pendiente": 23,
+    "bets": 37,
+    "profit": 1.22,
+    "value_bets": 30,
+    "value_profit": -1.67
    }
   },
   "futbol": {
    "singles": {
-    "ganado": 47,
-    "perdido": 7,
-    "pendiente": 30,
-    "bets": 25,
-    "profit": 0.65,
+    "ganado": 67,
+    "perdido": 9,
+    "pendiente": 8,
+    "bets": 37,
+    "profit": 0.08,
     "value_bets": 0,
     "value_profit": 0
    },
    "parlays": {
-    "ganado": 12,
+    "ganado": 20,
     "perdido": 7,
-    "pendiente": 12,
-    "bets": 0,
-    "profit": 0,
+    "pendiente": 5,
+    "bets": 4,
+    "profit": 0.71,
     "value_bets": 0,
     "value_profit": 0
    }
@@ -12784,22 +10837,22 @@
   },
   "nfl": {
    "singles": {
-    "ganado": 25,
-    "perdido": 6,
-    "pendiente": 13,
-    "bets": 31,
-    "profit": 4.53,
-    "value_bets": 14,
-    "value_profit": 1.25
+    "ganado": 26,
+    "perdido": 8,
+    "pendiente": 12,
+    "bets": 34,
+    "profit": 2.75,
+    "value_bets": 16,
+    "value_profit": 0.47
    },
    "parlays": {
-    "ganado": 9,
-    "perdido": 14,
-    "pendiente": 11,
-    "bets": 23,
-    "profit": 2.31,
-    "value_bets": 21,
-    "value_profit": 0.93
+    "ganado": 11,
+    "perdido": 17,
+    "pendiente": 8,
+    "bets": 28,
+    "profit": 0.78,
+    "value_bets": 26,
+    "value_profit": -0.6
    }
   },
   "mlb": {

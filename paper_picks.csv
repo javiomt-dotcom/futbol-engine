@@ -28,32 +28,32 @@ date,league,home,away,market,pick,odds,p,ev,stake,status,pnl
 2026-11-07,SP1,Valencia,Real Madrid,ou,Menos de 2.5,2.77,0.5066,0.4033,0.01,perdido,-1.000
 2026-11-08,SP1,Villarreal,Getafe,ou,Menos de 2.5,1.99,0.5981,0.1902,0.01,ganado,0.990
 2026-11-08,SP1,Ath Madrid,Barcelona,ou,Menos de 2.5,3.33,0.3376,0.1241,0.01,perdido,-1.000
-2026-11-21,D1,Elversberg,Freiburg,ou,Más de 2.5,1.54,0.7208,0.11,0.01,pendiente,
-2026-11-21,D1,Leverkusen,Paderborn,ou,Menos de 2.5,3.16,0.4697,0.4843,0.01,pendiente,
-2026-11-21,D1,M'gladbach,Dortmund,ou,Menos de 2.5,2.63,0.4447,0.1695,0.01,pendiente,
-2026-11-21,D1,Union Berlin,RB Leipzig,ou,Menos de 2.5,2.76,0.3748,0.0343,0.0049,pendiente,
-2026-11-21,D1,Schalke 04,Stuttgart,ou,Menos de 2.5,2.63,0.631,0.6596,0.01,pendiente,
-2026-11-22,D1,Werder Bremen,Hamburg,ou,Menos de 2.5,2.46,0.4484,0.103,0.01,pendiente,
-2026-11-21,E0,Man City,Fulham,ou,Menos de 2.5,2.6,0.4777,0.242,0.01,pendiente,
-2026-11-21,E0,Newcastle,Arsenal,ou,Menos de 2.5,2.08,0.5405,0.1243,0.01,pendiente,
-2026-11-22,E0,Hull,Brighton,ou,Menos de 2.5,2.19,0.5769,0.2635,0.01,pendiente,
+2026-11-21,D1,Elversberg,Freiburg,ou,Más de 2.5,1.54,0.7208,0.11,0.01,perdido,-1.000
+2026-11-21,D1,Leverkusen,Paderborn,ou,Menos de 2.5,3.16,0.4697,0.4843,0.01,perdido,-1.000
+2026-11-21,D1,M'gladbach,Dortmund,ou,Menos de 2.5,2.63,0.4447,0.1695,0.01,ganado,1.630
+2026-11-21,D1,Union Berlin,RB Leipzig,ou,Menos de 2.5,2.76,0.3748,0.0343,0.0049,perdido,-1.000
+2026-11-21,D1,Schalke 04,Stuttgart,ou,Menos de 2.5,2.63,0.631,0.6596,0.01,ganado,1.630
+2026-11-22,D1,Werder Bremen,Hamburg,ou,Menos de 2.5,2.46,0.4484,0.103,0.01,perdido,-1.000
+2026-11-21,E0,Man City,Fulham,ou,Menos de 2.5,2.6,0.4777,0.242,0.01,ganado,1.600
+2026-11-21,E0,Newcastle,Arsenal,ou,Menos de 2.5,2.08,0.5405,0.1243,0.01,perdido,-1.000
+2026-11-22,E0,Hull,Brighton,ou,Menos de 2.5,2.19,0.5769,0.2635,0.01,ganado,1.190
 2026-11-23,E0,Brentford,Everton,ou,Menos de 2.5,2.05,0.5375,0.1018,0.01,pendiente,
-2026-11-20,F1,Troyes,Le Havre,ou,Menos de 2.5,1.88,0.6123,0.1511,0.01,pendiente,
-2026-11-21,F1,Nice,Paris SG,ou,Menos de 2.5,2.93,0.4314,0.264,0.01,pendiente,
-2026-11-21,F1,Lille,Lyon,ou,Menos de 2.5,1.75,0.6277,0.0985,0.01,pendiente,
-2026-11-21,F1,Strasbourg,Brest,ou,Más de 2.5,1.62,0.6863,0.1118,0.01,pendiente,
-2026-11-22,F1,Paris FC,Angers,ou,Menos de 2.5,2.28,0.5057,0.153,0.01,pendiente,
-2026-11-22,F1,Lorient,Rennes,ou,Más de 2.5,1.82,0.5824,0.0599,0.01,pendiente,
-2026-11-22,F1,Marseille,Le Mans,ou,Más de 2.5,1.49,0.7091,0.0565,0.01,pendiente,
-2026-11-21,I1,Como,Cagliari,ou,Menos de 2.5,2.45,0.5748,0.4082,0.01,pendiente,
-2026-11-21,I1,Lazio,Lecce,ou,Menos de 2.5,2.35,0.5215,0.2256,0.01,pendiente,
-2026-11-21,I1,Parma,Roma,ou,Menos de 2.5,2.47,0.528,0.3041,0.01,pendiente,
-2026-11-21,I1,Napoli,Torino,ou,Menos de 2.5,2.15,0.4839,0.0405,0.0088,pendiente,
-2026-11-22,I1,Juventus,Venezia,ou,Menos de 2.5,2.26,0.5587,0.2627,0.01,pendiente,
-2026-11-22,I1,Milan,Frosinone,1x2,Visita,5.21,0.2133,0.1112,0.0066,pendiente,
-2026-11-22,I1,Milan,Frosinone,ou,Menos de 2.5,3.11,0.3334,0.037,0.0044,pendiente,
+2026-11-20,F1,Troyes,Le Havre,ou,Menos de 2.5,1.88,0.6123,0.1511,0.01,perdido,-1.000
+2026-11-21,F1,Nice,Paris SG,ou,Menos de 2.5,2.93,0.4314,0.264,0.01,perdido,-1.000
+2026-11-21,F1,Lille,Lyon,ou,Menos de 2.5,1.75,0.6277,0.0985,0.01,ganado,0.750
+2026-11-21,F1,Strasbourg,Brest,ou,Más de 2.5,1.62,0.6863,0.1118,0.01,perdido,-1.000
+2026-11-22,F1,Paris FC,Angers,ou,Menos de 2.5,2.28,0.5057,0.153,0.01,perdido,-1.000
+2026-11-22,F1,Lorient,Rennes,ou,Más de 2.5,1.82,0.5824,0.0599,0.01,perdido,-1.000
+2026-11-22,F1,Marseille,Le Mans,ou,Más de 2.5,1.49,0.7091,0.0565,0.01,ganado,0.490
+2026-11-21,I1,Como,Cagliari,ou,Menos de 2.5,2.45,0.5748,0.4082,0.01,ganado,1.450
+2026-11-21,I1,Lazio,Lecce,ou,Menos de 2.5,2.35,0.5215,0.2256,0.01,perdido,-1.000
+2026-11-21,I1,Parma,Roma,ou,Menos de 2.5,2.47,0.528,0.3041,0.01,perdido,-1.000
+2026-11-21,I1,Napoli,Torino,ou,Menos de 2.5,2.15,0.4839,0.0405,0.0088,ganado,1.150
+2026-11-22,I1,Juventus,Venezia,ou,Menos de 2.5,2.26,0.5587,0.2627,0.01,perdido,-1.000
+2026-11-22,I1,Milan,Frosinone,1x2,Visita,5.21,0.2133,0.1112,0.0066,perdido,-1.000
+2026-11-22,I1,Milan,Frosinone,ou,Menos de 2.5,3.11,0.3334,0.037,0.0044,perdido,-1.000
 2026-11-23,I1,Monza,Fiorentina,ou,Más de 2.5,1.57,0.6844,0.0746,0.01,pendiente,
-2026-11-20,SP1,Ath Bilbao,Espanol,ou,Menos de 2.5,2.11,0.6052,0.2769,0.01,pendiente,
-2026-11-21,SP1,Real Madrid,Celta,ou,Menos de 2.5,3.07,0.4761,0.4615,0.01,pendiente,
-2026-11-22,SP1,Santander,Sociedad,ou,Más de 2.5,1.32,0.7922,0.0457,0.01,pendiente,
-2026-11-22,SP1,Getafe,Ath Madrid,ou,Menos de 2.5,1.77,0.6735,0.1921,0.01,pendiente,
+2026-11-20,SP1,Ath Bilbao,Espanol,ou,Menos de 2.5,2.11,0.6052,0.2769,0.01,ganado,1.110
+2026-11-21,SP1,Real Madrid,Celta,ou,Menos de 2.5,3.07,0.4761,0.4615,0.01,perdido,-1.000
+2026-11-22,SP1,Santander,Sociedad,ou,Más de 2.5,1.32,0.7922,0.0457,0.01,ganado,0.320
+2026-11-22,SP1,Getafe,Ath Madrid,ou,Menos de 2.5,1.77,0.6735,0.1921,0.01,perdido,-1.000
