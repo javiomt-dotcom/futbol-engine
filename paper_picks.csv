@@ -37,7 +37,7 @@ date,league,home,away,market,pick,odds,p,ev,stake,status,pnl
 2026-11-21,E0,Man City,Fulham,ou,Menos de 2.5,2.6,0.4777,0.242,0.01,ganado,1.600
 2026-11-21,E0,Newcastle,Arsenal,ou,Menos de 2.5,2.08,0.5405,0.1243,0.01,perdido,-1.000
 2026-11-22,E0,Hull,Brighton,ou,Menos de 2.5,2.19,0.5769,0.2635,0.01,ganado,1.190
-2026-11-23,E0,Brentford,Everton,ou,Menos de 2.5,2.05,0.5375,0.1018,0.01,pendiente,
+2026-11-23,E0,Brentford,Everton,ou,Menos de 2.5,2.05,0.5375,0.1018,0.01,perdido,-1.000
 2026-11-20,F1,Troyes,Le Havre,ou,Menos de 2.5,1.88,0.6123,0.1511,0.01,perdido,-1.000
 2026-11-21,F1,Nice,Paris SG,ou,Menos de 2.5,2.93,0.4314,0.264,0.01,perdido,-1.000
 2026-11-21,F1,Lille,Lyon,ou,Menos de 2.5,1.75,0.6277,0.0985,0.01,ganado,0.750
@@ -52,7 +52,7 @@ date,league,home,away,market,pick,odds,p,ev,stake,status,pnl
 2026-11-22,I1,Juventus,Venezia,ou,Menos de 2.5,2.26,0.5587,0.2627,0.01,perdido,-1.000
 2026-11-22,I1,Milan,Frosinone,1x2,Visita,5.21,0.2133,0.1112,0.0066,perdido,-1.000
 2026-11-22,I1,Milan,Frosinone,ou,Menos de 2.5,3.11,0.3334,0.037,0.0044,perdido,-1.000
-2026-11-23,I1,Monza,Fiorentina,ou,Más de 2.5,1.57,0.6844,0.0746,0.01,pendiente,
+2026-11-23,I1,Monza,Fiorentina,ou,Más de 2.5,1.57,0.6844,0.0746,0.01,ganado,0.570
 2026-11-20,SP1,Ath Bilbao,Espanol,ou,Menos de 2.5,2.11,0.6052,0.2769,0.01,ganado,1.110
 2026-11-21,SP1,Real Madrid,Celta,ou,Menos de 2.5,3.07,0.4761,0.4615,0.01,perdido,-1.000
 2026-11-22,SP1,Santander,Sociedad,ou,Más de 2.5,1.32,0.7922,0.0457,0.01,ganado,0.320
