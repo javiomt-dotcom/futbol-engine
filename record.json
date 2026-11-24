@@ -8496,5 +8496,457 @@
   "odds": null,
   "value": null,
   "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-24",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-25",
+    "kickoff": "2026-11-25T19:00:00Z",
+    "league": "National League",
+    "home": "Boreham Wood",
+    "away": "Aldershot",
+    "pick": "Boreham Wood o empate",
+    "key": "1X",
+    "p": 0.8743,
+    "odds": 1.0,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-24",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Escocia",
+    "home": "Rangers",
+    "away": "Aberdeen",
+    "pick": "Rangers o empate",
+    "key": "1X",
+    "p": 0.8725,
+    "odds": 1.022,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-24",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T19:45:00Z",
+    "league": "League One",
+    "home": "Bromley",
+    "away": "Wycombe",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8634,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-24",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T19:45:00Z",
+    "league": "National League",
+    "home": "Carlisle",
+    "away": "Tamworth",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8629,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-24",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T19:45:00Z",
+    "league": "Championship",
+    "home": "Cardiff",
+    "away": "Preston",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8411,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-24",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T19:45:00Z",
+    "league": "National League",
+    "home": "Forest Green",
+    "away": "Southend",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8387,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-24",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T19:45:00Z",
+    "league": "National League",
+    "home": "Woking",
+    "away": "Worthing",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8342,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-24",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T19:45:00Z",
+    "league": "National League",
+    "home": "Fylde",
+    "away": "Halifax",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8198,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-24",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Championship",
+    "home": "Wolves",
+    "away": "Derby",
+    "pick": "Wolves o empate",
+    "key": "1X",
+    "p": 0.8151,
+    "odds": 1.044,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-24",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T19:45:00Z",
+    "league": "League One",
+    "home": "Blackpool",
+    "away": "Leicester",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8127,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_top",
+  "made": "2026-11-24",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-25",
+    "kickoff": "2026-11-25T19:00:00Z",
+    "league": "National League",
+    "home": "Boreham Wood",
+    "away": "Aldershot",
+    "pick": "Boreham Wood o empate",
+    "key": "1X",
+    "p": 0.8743,
+    "odds": 1.0,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Escocia",
+    "home": "Rangers",
+    "away": "Aberdeen",
+    "pick": "Rangers o empate",
+    "key": "1X",
+    "p": 0.8725,
+    "odds": 1.022,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T19:45:00Z",
+    "league": "League One",
+    "home": "Bromley",
+    "away": "Wycombe",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8634,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_mid",
+  "made": "2026-11-24",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T19:00:00Z",
+    "league": "Serie B",
+    "home": "Palermo",
+    "away": "Sudtirol",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7499,
+    "odds": 1.171,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T19:00:00Z",
+    "league": "Serie B",
+    "home": "Benevento",
+    "away": "Empoli",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7489,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-25",
+    "kickoff": "2026-11-25T19:00:00Z",
+    "league": "Serie B",
+    "home": "Mantova",
+    "away": "Arezzo",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7471,
+    "odds": 1.216,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "single",
+  "made": "2026-11-24",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915376",
+    "date": "2026-11-25",
+    "kickoff": "2026-11-25T20:00:00Z",
+    "league": "Champions League",
+    "home": "Internazionale",
+    "away": "VfB Stuttgart",
+    "pick": "Internazionale o empate",
+    "key": "1X",
+    "p": 0.8516,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "champions",
+  "type": "parlay_top",
+  "made": "2026-11-24",
+  "legs": [
+   {
+    "sport": "champions",
+    "id": "401915296",
+    "date": "2026-11-24",
+    "kickoff": "2026-11-24T20:00:00Z",
+    "league": "Champions League",
+    "home": "Como",
+    "away": "AEK Athens",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9686,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "champions",
+    "id": "401915291",
+    "date": "2026-11-25",
+    "kickoff": "2026-11-25T20:00:00Z",
+    "league": "Champions League",
+    "home": "Atlético Madrid",
+    "away": "Viking FK",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9547,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "champions",
+    "id": "401915378",
+    "date": "2026-11-25",
+    "kickoff": "2026-11-25T17:45:00Z",
+    "league": "Champions League",
+    "home": "Sabah FK",
+    "away": "Barcelona",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9352,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-24",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_NE_LAC",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T21:05:00Z",
+    "league": "NFL",
+    "home": "LA Chargers",
+    "away": "New England",
+    "note": "QB: Justin Herbert vs Drake Maye",
+    "pick": "Más de 35.5 puntos",
+    "key": "ou:o:35.5",
+    "p": 0.7394,
+    "odds": 1.917,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_SEA_SF",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T21:25:00Z",
+    "league": "NFL",
+    "home": "San Francisco",
+    "away": "Seattle",
+    "note": "QB: Brock Purdy vs Sam Darnold",
+    "pick": "Seattle +3",
+    "key": "sp:A:3",
+    "p": 0.7155,
+    "odds": 2.0,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_BAL_HOU",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Houston",
+    "away": "Baltimore",
+    "note": "QB: C.J. Stroud vs Jacoby Brissett",
+    "pick": "Gana Houston",
+    "key": "ml:H",
+    "p": 0.7144,
+    "odds": 1.329,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
  }
 ]
