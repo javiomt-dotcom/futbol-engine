@@ -5520,11 +5520,11 @@
     "key": "o1.5",
     "p": 0.9353,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-4"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -8926,8 +8926,8 @@
     "key": "o1.5",
     "p": 0.9352,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-4"
    }
   ],
   "status": "perdido",
@@ -9342,11 +9342,11 @@
     "key": "o1.5",
     "p": 0.8389,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "0-1"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": null,
   "value": null,
   "pnl": null
@@ -9461,8 +9461,8 @@
     "key": "o1.5",
     "p": 0.9352,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "1-4"
    },
    {
     "sport": "champions",
@@ -9672,6 +9672,173 @@
     "key": "ou:o:36.5",
     "p": 0.6605,
     "odds": 1.877,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente",
+  "odds": 1.877,
+  "value": true,
+  "pnl": null
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-25",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_NE_LAC",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T21:05:00Z",
+    "league": "NFL",
+    "home": "LA Chargers",
+    "away": "New England",
+    "note": "QB: Justin Herbert vs Drake Maye",
+    "pick": "Más de 35.5 puntos",
+    "key": "ou:o:35.5",
+    "p": 0.7395,
+    "odds": 1.917,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_BAL_HOU",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Houston",
+    "away": "Baltimore",
+    "note": "QB: C.J. Stroud vs Jacoby Brissett",
+    "pick": "Gana Houston",
+    "key": "ml:H",
+    "p": 0.7145,
+    "odds": 1.311,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_NO_CIN",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Cincinnati",
+    "away": "New Orleans",
+    "note": "QB: Joe Burrow vs Tyler Shough",
+    "pick": "Gana Cincinnati",
+    "key": "ml:H",
+    "p": 0.7065,
+    "odds": 1.184,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "todas",
+  "type": "parlay_top",
+  "made": "2026-11-25",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_TEN_JAX",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Jacksonville",
+    "away": "Tennessee",
+    "note": "QB: Trevor Lawrence vs Cam Ward",
+    "pick": "Gana Jacksonville",
+    "key": "ml:H",
+    "p": 0.897,
+    "odds": 1.089,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_NE_LAC",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T21:05:00Z",
+    "league": "NFL",
+    "home": "LA Chargers",
+    "away": "New England",
+    "note": "QB: Justin Herbert vs Drake Maye",
+    "pick": "New England +1.5",
+    "key": "sp:A:1.5",
+    "p": 0.8073,
+    "odds": 1.781,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-26",
+    "kickoff": "2026-11-26T20:00:00Z",
+    "league": "League One",
+    "home": "Doncaster",
+    "away": "Huddersfield",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.778,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "todas",
+  "type": "parlay_mid",
+  "made": "2026-11-25",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-26",
+    "kickoff": "2026-11-26T20:00:00Z",
+    "league": "League One",
+    "home": "Doncaster",
+    "away": "Huddersfield",
+    "pick": "Huddersfield o empate",
+    "key": "X2",
+    "p": 0.7462,
+    "odds": 1.204,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_NE_LAC",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T21:05:00Z",
+    "league": "NFL",
+    "home": "LA Chargers",
+    "away": "New England",
+    "note": "QB: Justin Herbert vs Drake Maye",
+    "pick": "Más de 35.5 puntos",
+    "key": "ou:o:35.5",
+    "p": 0.7395,
+    "odds": 1.917,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_BAL_HOU",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Houston",
+    "away": "Baltimore",
+    "note": "QB: C.J. Stroud vs Jacoby Brissett",
+    "pick": "Gana Houston",
+    "key": "ml:H",
+    "p": 0.7145,
+    "odds": 1.311,
     "status": "pendiente",
     "score": null
    }
