@@ -9649,6 +9649,33 @@
     "score": null
    }
   ],
+  "status": "pendiente",
+  "odds": 4.621,
+  "value": true,
+  "pnl": null
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-25",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_DEN_PIT",
+    "date": "2026-11-27",
+    "kickoff": "2026-11-27T20:00:00Z",
+    "league": "NFL",
+    "home": "Pittsburgh",
+    "away": "Denver",
+    "note": "QB: Mason Rudolph vs Bo Nix",
+    "pick": "Más de 36.5 puntos",
+    "key": "ou:o:36.5",
+    "p": 0.6605,
+    "odds": 1.877,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
   "status": "pendiente"
  }
 ]

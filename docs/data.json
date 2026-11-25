@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T01:54:40Z",
+ "generated_at": "2026-11-25T17:43:43Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -57,7 +57,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:H",
      "p": 0.897,
-     "odds": 1.078
+     "odds": 1.089
     },
     {
      "sport": "champions",
@@ -222,7 +222,7 @@
      "pick": "Gana Cleveland",
      "key": "ml:H",
      "p": 0.774,
-     "odds": 1.457
+     "odds": 1.442
     },
     {
      "sport": "futbol",
@@ -274,20 +274,6 @@
      "odds": null
     },
     {
-     "sport": "nfl",
-     "id": "2026_12_SEA_SF",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:25:00Z",
-     "league": "NFL",
-     "home": "San Francisco",
-     "away": "Seattle",
-     "note": "QB: Brock Purdy vs Sam Darnold",
-     "pick": "Seattle +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.7282,
-     "odds": 1.847
-    },
-    {
      "sport": "futbol",
      "date": "2026-11-25",
      "kickoff": "2026-11-25T20:00:00Z",
@@ -313,6 +299,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_12_SEA_SF",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "league": "NFL",
+     "home": "San Francisco",
+     "away": "Seattle",
+     "note": "QB: Brock Purdy vs Sam Darnold",
+     "pick": "Seattle +3",
+     "key": "sp:A:3",
+     "p": 0.7156,
+     "odds": 1.99
+    },
+    {
+     "sport": "nfl",
      "id": "2026_12_BAL_HOU",
      "date": "2026-11-29",
      "kickoff": "2026-11-29T18:00:00Z",
@@ -323,7 +323,7 @@
      "pick": "Gana Houston",
      "key": "ml:H",
      "p": 0.7145,
-     "odds": 1.305
+     "odds": 1.311
     },
     {
      "sport": "nfl",
@@ -337,7 +337,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:H",
      "p": 0.7065,
-     "odds": 1.164
+     "odds": 1.161
     },
     {
      "sport": "futbol",
@@ -353,6 +353,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_12_DEN_PIT",
+     "date": "2026-11-27",
+     "kickoff": "2026-11-27T20:00:00Z",
+     "league": "NFL",
+     "home": "Pittsburgh",
+     "away": "Denver",
+     "note": "QB: Mason Rudolph vs Bo Nix",
+     "pick": "Más de 36.5 puntos",
+     "key": "ou:o:36.5",
+     "p": 0.6605,
+     "odds": 1.877
+    },
+    {
+     "sport": "nfl",
      "id": "2026_12_GB_LA",
      "date": "2026-11-25",
      "kickoff": "2026-11-26T01:00:00Z",
@@ -363,7 +377,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6547,
-     "odds": 1.752
+     "odds": 1.73
     },
     {
      "sport": "nfl",
@@ -377,7 +391,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6546,
-     "odds": 1.213
+     "odds": 1.216
     },
     {
      "sport": "nfl",
@@ -405,7 +419,7 @@
      "pick": "Gana Washington",
      "key": "ml:A",
      "p": 0.6355,
-     "odds": 1.287
+     "odds": 1.307
     },
     {
      "sport": "nfl",
@@ -423,34 +437,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_12_CHI_DET",
-     "date": "2026-11-26",
-     "kickoff": "2026-11-26T18:00:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "Chicago",
-     "note": "QB: Jared Goff vs Caleb Williams",
-     "pick": "Detroit +2.5",
-     "key": "sp:H:2.5",
-     "p": 0.6329,
-     "odds": 1.901
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_DEN_PIT",
-     "date": "2026-11-27",
-     "kickoff": "2026-11-27T20:00:00Z",
-     "league": "NFL",
-     "home": "Pittsburgh",
-     "away": "Denver",
-     "note": "QB: Aaron Rodgers vs Bo Nix",
-     "pick": "Más de 37.5 puntos",
-     "key": "ou:o:37.5",
-     "p": 0.6275,
-     "odds": 1.87
-    },
-    {
-     "sport": "nfl",
      "id": "2026_12_NYG_IND",
      "date": "2026-11-29",
      "kickoff": "2026-11-29T18:00:00Z",
@@ -461,7 +447,21 @@
      "pick": "Indianapolis +6.5",
      "key": "sp:H:6.5",
      "p": 0.6244,
-     "odds": 1.926
+     "odds": 1.99
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_CHI_DET",
+     "date": "2026-11-26",
+     "kickoff": "2026-11-26T18:00:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "Chicago",
+     "note": "QB: Jared Goff vs Caleb Williams",
+     "pick": "Detroit +1.5",
+     "key": "sp:H:1.5",
+     "p": 0.6044,
+     "odds": 1.917
     },
     {
      "sport": "nfl",
@@ -475,7 +475,7 @@
      "pick": "Miami +3.5",
      "key": "sp:H:3.5",
      "p": 0.5944,
-     "odds": 1.971
+     "odds": 1.962
     },
     {
      "sport": "nfl",
@@ -489,7 +489,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.5936,
-     "odds": 1.671
+     "odds": 1.676
     }
    ],
    "mid": [
@@ -595,20 +595,6 @@
      "odds": null
     },
     {
-     "sport": "nfl",
-     "id": "2026_12_SEA_SF",
-     "date": "2026-11-29",
-     "kickoff": "2026-11-29T21:25:00Z",
-     "league": "NFL",
-     "home": "San Francisco",
-     "away": "Seattle",
-     "note": "QB: Brock Purdy vs Sam Darnold",
-     "pick": "Seattle +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.7282,
-     "odds": 1.847
-    },
-    {
      "sport": "futbol",
      "date": "2026-11-25",
      "kickoff": "2026-11-25T19:45:00Z",
@@ -683,6 +669,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_12_SEA_SF",
+     "date": "2026-11-29",
+     "kickoff": "2026-11-29T21:25:00Z",
+     "league": "NFL",
+     "home": "San Francisco",
+     "away": "Seattle",
+     "note": "QB: Brock Purdy vs Sam Darnold",
+     "pick": "Seattle +3",
+     "key": "sp:A:3",
+     "p": 0.7156,
+     "odds": 1.99
+    },
+    {
+     "sport": "nfl",
      "id": "2026_12_BAL_HOU",
      "date": "2026-11-29",
      "kickoff": "2026-11-29T18:00:00Z",
@@ -693,7 +693,7 @@
      "pick": "Gana Houston",
      "key": "ml:H",
      "p": 0.7145,
-     "odds": 1.305
+     "odds": 1.311
     },
     {
      "sport": "nfl",
@@ -707,7 +707,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:H",
      "p": 0.7065,
-     "odds": 1.164
+     "odds": 1.161
     },
     {
      "sport": "futbol",
@@ -786,6 +786,20 @@
      "odds": 1.952
     },
     {
+     "sport": "nfl",
+     "id": "2026_12_DEN_PIT",
+     "date": "2026-11-27",
+     "kickoff": "2026-11-27T20:00:00Z",
+     "league": "NFL",
+     "home": "Pittsburgh",
+     "away": "Denver",
+     "note": "QB: Mason Rudolph vs Bo Nix",
+     "pick": "Más de 36.5 puntos",
+     "key": "ou:o:36.5",
+     "p": 0.6605,
+     "odds": 1.877
+    },
+    {
      "sport": "champions",
      "id": "401915373",
      "date": "2026-11-25",
@@ -810,7 +824,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6547,
-     "odds": 1.752
+     "odds": 1.73
     },
     {
      "sport": "nfl",
@@ -824,7 +838,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6546,
-     "odds": 1.213
+     "odds": 1.216
     },
     {
      "sport": "champions",
@@ -878,7 +892,7 @@
      "pick": "Gana Washington",
      "key": "ml:A",
      "p": 0.6355,
-     "odds": 1.287
+     "odds": 1.307
     },
     {
      "sport": "nfl",
@@ -896,34 +910,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_12_CHI_DET",
-     "date": "2026-11-26",
-     "kickoff": "2026-11-26T18:00:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "Chicago",
-     "note": "QB: Jared Goff vs Caleb Williams",
-     "pick": "Detroit +2.5",
-     "key": "sp:H:2.5",
-     "p": 0.6329,
-     "odds": 1.901
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_DEN_PIT",
-     "date": "2026-11-27",
-     "kickoff": "2026-11-27T20:00:00Z",
-     "league": "NFL",
-     "home": "Pittsburgh",
-     "away": "Denver",
-     "note": "QB: Aaron Rodgers vs Bo Nix",
-     "pick": "Más de 37.5 puntos",
-     "key": "ou:o:37.5",
-     "p": 0.6275,
-     "odds": 1.87
-    },
-    {
-     "sport": "nfl",
      "id": "2026_12_NYG_IND",
      "date": "2026-11-29",
      "kickoff": "2026-11-29T18:00:00Z",
@@ -934,7 +920,21 @@
      "pick": "Indianapolis +6.5",
      "key": "sp:H:6.5",
      "p": 0.6244,
-     "odds": 1.926
+     "odds": 1.99
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_CHI_DET",
+     "date": "2026-11-26",
+     "kickoff": "2026-11-26T18:00:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "Chicago",
+     "note": "QB: Jared Goff vs Caleb Williams",
+     "pick": "Detroit +1.5",
+     "key": "sp:H:1.5",
+     "p": 0.6044,
+     "odds": 1.917
     },
     {
      "sport": "nfl",
@@ -948,7 +948,7 @@
      "pick": "Miami +3.5",
      "key": "sp:H:3.5",
      "p": 0.5944,
-     "odds": 1.971
+     "odds": 1.962
     },
     {
      "sport": "nfl",
@@ -962,7 +962,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.5936,
-     "odds": 1.671
+     "odds": 1.676
     },
     {
      "sport": "nfl",
@@ -1537,7 +1537,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:H",
      "p": 0.897,
-     "odds": 1.078
+     "odds": 1.089
     },
     {
      "sport": "nfl",
@@ -1565,7 +1565,7 @@
      "pick": "Gana Cleveland",
      "key": "ml:H",
      "p": 0.774,
-     "odds": 1.457
+     "odds": 1.442
     },
     {
      "sport": "nfl",
@@ -1576,10 +1576,10 @@
      "home": "San Francisco",
      "away": "Seattle",
      "note": "QB: Brock Purdy vs Sam Darnold",
-     "pick": "Seattle +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.7282,
-     "odds": 1.847
+     "pick": "Seattle +3",
+     "key": "sp:A:3",
+     "p": 0.7156,
+     "odds": 1.99
     },
     {
      "sport": "nfl",
@@ -1593,7 +1593,7 @@
      "pick": "Gana Houston",
      "key": "ml:H",
      "p": 0.7145,
-     "odds": 1.305
+     "odds": 1.311
     },
     {
      "sport": "nfl",
@@ -1607,7 +1607,21 @@
      "pick": "Gana Cincinnati",
      "key": "ml:H",
      "p": 0.7065,
-     "odds": 1.164
+     "odds": 1.161
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_DEN_PIT",
+     "date": "2026-11-27",
+     "kickoff": "2026-11-27T20:00:00Z",
+     "league": "NFL",
+     "home": "Pittsburgh",
+     "away": "Denver",
+     "note": "QB: Mason Rudolph vs Bo Nix",
+     "pick": "Más de 36.5 puntos",
+     "key": "ou:o:36.5",
+     "p": 0.6605,
+     "odds": 1.877
     },
     {
      "sport": "nfl",
@@ -1621,7 +1635,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6547,
-     "odds": 1.752
+     "odds": 1.73
     },
     {
      "sport": "nfl",
@@ -1635,7 +1649,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6546,
-     "odds": 1.213
+     "odds": 1.216
     },
     {
      "sport": "nfl",
@@ -1663,7 +1677,7 @@
      "pick": "Gana Washington",
      "key": "ml:A",
      "p": 0.6355,
-     "odds": 1.287
+     "odds": 1.307
     },
     {
      "sport": "nfl",
@@ -1681,34 +1695,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_12_CHI_DET",
-     "date": "2026-11-26",
-     "kickoff": "2026-11-26T18:00:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "Chicago",
-     "note": "QB: Jared Goff vs Caleb Williams",
-     "pick": "Detroit +2.5",
-     "key": "sp:H:2.5",
-     "p": 0.6329,
-     "odds": 1.901
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_DEN_PIT",
-     "date": "2026-11-27",
-     "kickoff": "2026-11-27T20:00:00Z",
-     "league": "NFL",
-     "home": "Pittsburgh",
-     "away": "Denver",
-     "note": "QB: Aaron Rodgers vs Bo Nix",
-     "pick": "Más de 37.5 puntos",
-     "key": "ou:o:37.5",
-     "p": 0.6275,
-     "odds": 1.87
-    },
-    {
-     "sport": "nfl",
      "id": "2026_12_NYG_IND",
      "date": "2026-11-29",
      "kickoff": "2026-11-29T18:00:00Z",
@@ -1719,7 +1705,21 @@
      "pick": "Indianapolis +6.5",
      "key": "sp:H:6.5",
      "p": 0.6244,
-     "odds": 1.926
+     "odds": 1.99
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_CHI_DET",
+     "date": "2026-11-26",
+     "kickoff": "2026-11-26T18:00:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "Chicago",
+     "note": "QB: Jared Goff vs Caleb Williams",
+     "pick": "Detroit +1.5",
+     "key": "sp:H:1.5",
+     "p": 0.6044,
+     "odds": 1.917
     },
     {
      "sport": "nfl",
@@ -1733,7 +1733,7 @@
      "pick": "Miami +3.5",
      "key": "sp:H:3.5",
      "p": 0.5944,
-     "odds": 1.971
+     "odds": 1.962
     },
     {
      "sport": "nfl",
@@ -1747,7 +1747,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.5936,
-     "odds": 1.671
+     "odds": 1.676
     }
    ],
    "mid": [
@@ -1774,10 +1774,10 @@
      "home": "San Francisco",
      "away": "Seattle",
      "note": "QB: Brock Purdy vs Sam Darnold",
-     "pick": "Seattle +3.5",
-     "key": "sp:A:3.5",
-     "p": 0.7282,
-     "odds": 1.847
+     "pick": "Seattle +3",
+     "key": "sp:A:3",
+     "p": 0.7156,
+     "odds": 1.99
     },
     {
      "sport": "nfl",
@@ -1791,7 +1791,7 @@
      "pick": "Gana Houston",
      "key": "ml:H",
      "p": 0.7145,
-     "odds": 1.305
+     "odds": 1.311
     },
     {
      "sport": "nfl",
@@ -1805,7 +1805,7 @@
      "pick": "Gana Cincinnati",
      "key": "ml:H",
      "p": 0.7065,
-     "odds": 1.164
+     "odds": 1.161
     },
     {
      "sport": "nfl",
@@ -1823,6 +1823,20 @@
     },
     {
      "sport": "nfl",
+     "id": "2026_12_DEN_PIT",
+     "date": "2026-11-27",
+     "kickoff": "2026-11-27T20:00:00Z",
+     "league": "NFL",
+     "home": "Pittsburgh",
+     "away": "Denver",
+     "note": "QB: Mason Rudolph vs Bo Nix",
+     "pick": "Más de 36.5 puntos",
+     "key": "ou:o:36.5",
+     "p": 0.6605,
+     "odds": 1.877
+    },
+    {
+     "sport": "nfl",
      "id": "2026_12_GB_LA",
      "date": "2026-11-25",
      "kickoff": "2026-11-26T01:00:00Z",
@@ -1833,7 +1847,7 @@
      "pick": "Gana LA Rams",
      "key": "ml:H",
      "p": 0.6547,
-     "odds": 1.752
+     "odds": 1.73
     },
     {
      "sport": "nfl",
@@ -1847,7 +1861,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6546,
-     "odds": 1.213
+     "odds": 1.216
     },
     {
      "sport": "nfl",
@@ -1875,7 +1889,7 @@
      "pick": "Gana Washington",
      "key": "ml:A",
      "p": 0.6355,
-     "odds": 1.287
+     "odds": 1.307
     },
     {
      "sport": "nfl",
@@ -1893,34 +1907,6 @@
     },
     {
      "sport": "nfl",
-     "id": "2026_12_CHI_DET",
-     "date": "2026-11-26",
-     "kickoff": "2026-11-26T18:00:00Z",
-     "league": "NFL",
-     "home": "Detroit",
-     "away": "Chicago",
-     "note": "QB: Jared Goff vs Caleb Williams",
-     "pick": "Detroit +2.5",
-     "key": "sp:H:2.5",
-     "p": 0.6329,
-     "odds": 1.901
-    },
-    {
-     "sport": "nfl",
-     "id": "2026_12_DEN_PIT",
-     "date": "2026-11-27",
-     "kickoff": "2026-11-27T20:00:00Z",
-     "league": "NFL",
-     "home": "Pittsburgh",
-     "away": "Denver",
-     "note": "QB: Aaron Rodgers vs Bo Nix",
-     "pick": "Más de 37.5 puntos",
-     "key": "ou:o:37.5",
-     "p": 0.6275,
-     "odds": 1.87
-    },
-    {
-     "sport": "nfl",
      "id": "2026_12_NYG_IND",
      "date": "2026-11-29",
      "kickoff": "2026-11-29T18:00:00Z",
@@ -1931,7 +1917,21 @@
      "pick": "Indianapolis +6.5",
      "key": "sp:H:6.5",
      "p": 0.6244,
-     "odds": 1.926
+     "odds": 1.99
+    },
+    {
+     "sport": "nfl",
+     "id": "2026_12_CHI_DET",
+     "date": "2026-11-26",
+     "kickoff": "2026-11-26T18:00:00Z",
+     "league": "NFL",
+     "home": "Detroit",
+     "away": "Chicago",
+     "note": "QB: Jared Goff vs Caleb Williams",
+     "pick": "Detroit +1.5",
+     "key": "sp:H:1.5",
+     "p": 0.6044,
+     "odds": 1.917
     },
     {
      "sport": "nfl",
@@ -1945,7 +1945,7 @@
      "pick": "Miami +3.5",
      "key": "sp:H:3.5",
      "p": 0.5944,
-     "odds": 1.971
+     "odds": 1.962
     },
     {
      "sport": "nfl",
@@ -1959,7 +1959,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.5936,
-     "odds": 1.671
+     "odds": 1.676
     },
     {
      "sport": "nfl",
@@ -11637,6 +11637,33 @@
      "score": null
     }
    ],
+   "status": "pendiente",
+   "odds": 4.621,
+   "value": true,
+   "pnl": null
+  },
+  {
+   "sport": "nfl",
+   "type": "single",
+   "made": "2026-11-25",
+   "legs": [
+    {
+     "sport": "nfl",
+     "id": "2026_12_DEN_PIT",
+     "date": "2026-11-27",
+     "kickoff": "2026-11-27T20:00:00Z",
+     "league": "NFL",
+     "home": "Pittsburgh",
+     "away": "Denver",
+     "note": "QB: Mason Rudolph vs Bo Nix",
+     "pick": "Más de 36.5 puntos",
+     "key": "ou:o:36.5",
+     "p": 0.6605,
+     "odds": 1.877,
+     "status": "pendiente",
+     "score": null
+    }
+   ],
    "status": "pendiente"
   }
  ],
@@ -11645,7 +11672,7 @@
    "singles": {
     "ganado": 105,
     "perdido": 22,
-    "pendiente": 40,
+    "pendiente": 41,
     "bets": 73,
     "profit": 3.16,
     "value_bets": 16,
@@ -11705,7 +11732,7 @@
    "singles": {
     "ganado": 26,
     "perdido": 8,
-    "pendiente": 12,
+    "pendiente": 13,
     "bets": 34,
     "profit": 2.75,
     "value_bets": 16,
