@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T17:27:45Z",
+ "generated_at": "2026-11-26T20:56:54Z",
  "legs": 3,
  "sports": {
   "todas": {
@@ -18,7 +18,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:H",
      "p": 0.8974,
-     "odds": 1.085
+     "odds": 1.079
     },
     {
      "sport": "futbol",
@@ -58,7 +58,7 @@
      "pick": "Gana New England",
      "key": "ml:A",
      "p": 0.7727,
-     "odds": 1.855
+     "odds": 1.73
     },
     {
      "sport": "nfl",
@@ -86,7 +86,7 @@
      "pick": "Seattle +3",
      "key": "sp:A:3",
      "p": 0.7146,
-     "odds": 1.862
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -128,7 +128,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6553,
-     "odds": 1.216
+     "odds": 1.214
     },
     {
      "sport": "nfl",
@@ -170,7 +170,7 @@
      "pick": "Gana Washington",
      "key": "ml:A",
      "p": 0.6327,
-     "odds": 1.285
+     "odds": 1.284
     },
     {
      "sport": "nfl",
@@ -226,7 +226,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.5952,
-     "odds": 1.645
+     "odds": 1.649
     },
     {
      "sport": "nfl",
@@ -296,7 +296,7 @@
      "pick": "Seattle +3",
      "key": "sp:A:3",
      "p": 0.7146,
-     "odds": 1.862
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -352,7 +352,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6553,
-     "odds": 1.216
+     "odds": 1.214
     },
     {
      "sport": "nfl",
@@ -394,7 +394,7 @@
      "pick": "Gana Washington",
      "key": "ml:A",
      "p": 0.6327,
-     "odds": 1.285
+     "odds": 1.284
     },
     {
      "sport": "nfl",
@@ -450,7 +450,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.5952,
-     "odds": 1.645
+     "odds": 1.649
     },
     {
      "sport": "nfl",
@@ -539,7 +539,7 @@
      "pick": "Gana Jacksonville",
      "key": "ml:H",
      "p": 0.8974,
-     "odds": 1.085
+     "odds": 1.079
     },
     {
      "sport": "nfl",
@@ -567,7 +567,7 @@
      "pick": "Gana New England",
      "key": "ml:A",
      "p": 0.7727,
-     "odds": 1.855
+     "odds": 1.73
     },
     {
      "sport": "nfl",
@@ -595,7 +595,7 @@
      "pick": "Seattle +3",
      "key": "sp:A:3",
      "p": 0.7146,
-     "odds": 1.862
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -637,7 +637,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6553,
-     "odds": 1.216
+     "odds": 1.214
     },
     {
      "sport": "nfl",
@@ -679,7 +679,7 @@
      "pick": "Gana Washington",
      "key": "ml:A",
      "p": 0.6327,
-     "odds": 1.285
+     "odds": 1.284
     },
     {
      "sport": "nfl",
@@ -735,7 +735,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.5952,
-     "odds": 1.645
+     "odds": 1.649
     },
     {
      "sport": "nfl",
@@ -793,7 +793,7 @@
      "pick": "Seattle +3",
      "key": "sp:A:3",
      "p": 0.7146,
-     "odds": 1.862
+     "odds": 1.87
     },
     {
      "sport": "nfl",
@@ -849,7 +849,7 @@
      "pick": "Gana Dallas",
      "key": "ml:H",
      "p": 0.6553,
-     "odds": 1.216
+     "odds": 1.214
     },
     {
      "sport": "nfl",
@@ -891,7 +891,7 @@
      "pick": "Gana Washington",
      "key": "ml:A",
      "p": 0.6327,
-     "odds": 1.285
+     "odds": 1.284
     },
     {
      "sport": "nfl",
@@ -947,7 +947,7 @@
      "pick": "Gana Buffalo",
      "key": "ml:H",
      "p": 0.5952,
-     "odds": 1.645
+     "odds": 1.649
     },
     {
      "sport": "nfl",
@@ -10982,7 +10982,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": 1.84,
+   "value": true,
+   "pnl": null
   },
   {
    "sport": "todas",
@@ -11036,7 +11039,10 @@
      "score": null
     }
    ],
-   "status": "pendiente"
+   "status": "pendiente",
+   "odds": null,
+   "value": null,
+   "pnl": null
   }
  ],
  "record_summary": {

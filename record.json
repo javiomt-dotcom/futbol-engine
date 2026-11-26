@@ -9992,7 +9992,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.84,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "todas",
@@ -10046,6 +10049,9 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  }
 ]
