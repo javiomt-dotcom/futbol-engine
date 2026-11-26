@@ -5494,11 +5494,11 @@
     "key": "o1.5",
     "p": 0.9548,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-0"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -5546,11 +5546,11 @@
     "key": "1X",
     "p": 0.9245,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-2"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -5572,11 +5572,11 @@
     "key": "o1.5",
     "p": 0.8792,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "0-3"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -5613,8 +5613,8 @@
     "key": "o1.5",
     "p": 0.9548,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-0"
    },
    {
     "sport": "champions",
@@ -5654,8 +5654,8 @@
     "key": "btts",
     "p": 0.7455,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "2-0"
    },
    {
     "sport": "champions",
@@ -6226,8 +6226,8 @@
     "key": "o1.5",
     "p": 0.9548,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-0"
    },
    {
     "sport": "futbol",
@@ -7424,11 +7424,11 @@
     "key": "btts",
     "p": 0.7455,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "2-0"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": null,
   "value": null,
   "pnl": null
@@ -7849,8 +7849,8 @@
     "key": "btts",
     "p": 0.7455,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "2-0"
    },
    {
     "sport": "nfl",
@@ -7883,7 +7883,7 @@
     "score": "4-0"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": null,
   "value": null,
   "pnl": null
@@ -8180,8 +8180,8 @@
     "key": "btts",
     "p": 0.7455,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "2-0"
    },
    {
     "sport": "futbol",
@@ -8213,7 +8213,7 @@
     "score": "5-1"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": null,
   "value": null,
   "pnl": null
@@ -8474,8 +8474,8 @@
     "key": "btts",
     "p": 0.7455,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "2-0"
    },
    {
     "sport": "futbol",
@@ -8870,11 +8870,11 @@
     "key": "1X",
     "p": 0.8516,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-0"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -8911,8 +8911,8 @@
     "key": "o1.5",
     "p": 0.9547,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-0"
    },
    {
     "sport": "champions",
@@ -9368,11 +9368,11 @@
     "key": "o1.5",
     "p": 0.8377,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-1"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -9394,11 +9394,11 @@
     "key": "o1.5",
     "p": 0.7719,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-2"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -9420,11 +9420,11 @@
     "key": "12",
     "p": 0.7634,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "0-1"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -9446,8 +9446,8 @@
     "key": "o1.5",
     "p": 0.9547,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-0"
    },
    {
     "sport": "champions",
@@ -9476,11 +9476,11 @@
     "key": "1X",
     "p": 0.9244,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-2"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": null,
   "value": null,
   "pnl": null
@@ -9502,8 +9502,8 @@
     "key": "btts",
     "p": 0.7456,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "2-0"
    },
    {
     "sport": "champions",
@@ -9517,8 +9517,8 @@
     "key": "o2.5",
     "p": 0.7411,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "2-2"
    },
    {
     "sport": "champions",
@@ -9532,11 +9532,11 @@
     "key": "1X",
     "p": 0.7317,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "0-1"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": null,
   "value": null,
   "pnl": null
@@ -9586,11 +9586,11 @@
     "key": "btts",
     "p": 0.7456,
     "odds": null,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "2-0"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": null,
   "value": null,
   "pnl": null
@@ -9735,7 +9735,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 2.976,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "todas",
@@ -9789,7 +9792,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "todas",
@@ -9839,6 +9845,119 @@
     "key": "ml:H",
     "p": 0.7145,
     "odds": 1.311,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente",
+  "odds": 3.026,
+  "value": true,
+  "pnl": null
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_top",
+  "made": "2026-11-26",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_TEN_JAX",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Jacksonville",
+    "away": "Tennessee",
+    "note": "QB: Trevor Lawrence vs Cam Ward",
+    "pick": "Gana Jacksonville",
+    "key": "ml:H",
+    "p": 0.8967,
+    "odds": 1.085,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_NE_LAC",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T21:05:00Z",
+    "league": "NFL",
+    "home": "LA Chargers",
+    "away": "New England",
+    "note": "QB: Justin Herbert vs Drake Maye",
+    "pick": "Gana New England",
+    "key": "ml:A",
+    "p": 0.7752,
+    "odds": 1.87,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_LV_CLE",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-30T01:20:00Z",
+    "league": "NFL",
+    "home": "Cleveland",
+    "away": "Las Vegas",
+    "note": "QB: Deshaun Watson vs Fernando Mendoza",
+    "pick": "Gana Cleveland",
+    "key": "ml:H",
+    "p": 0.7751,
+    "odds": 1.41,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "todas",
+  "type": "parlay_top",
+  "made": "2026-11-26",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_TEN_JAX",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Jacksonville",
+    "away": "Tennessee",
+    "note": "QB: Trevor Lawrence vs Cam Ward",
+    "pick": "Gana Jacksonville",
+    "key": "ml:H",
+    "p": 0.8967,
+    "odds": 1.085,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-26",
+    "kickoff": "2026-11-26T20:00:00Z",
+    "league": "League One",
+    "home": "Doncaster",
+    "away": "Huddersfield",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.778,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_NE_LAC",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T21:05:00Z",
+    "league": "NFL",
+    "home": "LA Chargers",
+    "away": "New England",
+    "note": "QB: Justin Herbert vs Drake Maye",
+    "pick": "Gana New England",
+    "key": "ml:A",
+    "p": 0.7752,
+    "odds": 1.87,
     "status": "pendiente",
     "score": null
    }
