@@ -10074,7 +10074,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 0.969,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -10096,7 +10099,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -10118,7 +10124,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -10140,7 +10149,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -10162,7 +10174,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.01,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -10184,7 +10199,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -10206,7 +10224,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -10228,7 +10249,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -10250,7 +10274,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -10272,7 +10299,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -10322,7 +10352,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -10372,7 +10405,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.726,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -10396,7 +10432,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 1.885,
+  "value": true,
+  "pnl": null
  },
  {
   "sport": "nfl",
@@ -10448,6 +10487,75 @@
     "key": "sp:A:-2.5",
     "p": 0.7151,
     "odds": 1.926,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente",
+  "odds": 4.652,
+  "value": true,
+  "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T12:30:00Z",
+    "league": "Bundesliga 2",
+    "home": "Magdeburg",
+    "away": "Cottbus",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8849,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-28",
+    "kickoff": "2026-11-28T20:00:00Z",
+    "league": "LaLiga",
+    "home": "Real Madrid",
+    "away": "Alaves",
+    "pick": "Real Madrid o empate",
+    "key": "1X",
+    "p": 0.8802,
+    "odds": 0.998,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T16:30:00Z",
+    "league": "Bundesliga",
+    "home": "Hoffenheim",
+    "away": "Augsburg",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8777,
+    "odds": null,
     "status": "pendiente",
     "score": null
    }
