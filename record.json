@@ -5711,14 +5711,14 @@
     "key": "sp:A:8.5",
     "p": 0.7244,
     "odds": 1.909,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "38-39"
    }
   ],
-  "status": "pendiente",
+  "status": "ganado",
   "odds": 1.909,
   "value": true,
-  "pnl": null
+  "pnl": 0.909
  },
  {
   "sport": "nfl",
@@ -5754,8 +5754,8 @@
     "key": "sp:A:8.5",
     "p": 0.7244,
     "odds": 1.909,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "38-39"
    },
    {
     "sport": "nfl",
@@ -6153,8 +6153,8 @@
     "key": "sp:A:8.5",
     "p": 0.7214,
     "odds": 1.909,
-    "status": "pendiente",
-    "score": null
+    "status": "ganado",
+    "score": "38-39"
    },
    {
     "sport": "nfl",
@@ -10053,5 +10053,405 @@
   "odds": null,
   "value": null,
   "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-28",
+    "kickoff": "2026-11-28T15:00:00Z",
+    "league": "National League",
+    "home": "Boreham Wood",
+    "away": "Gateshead",
+    "pick": "Boreham Wood o empate",
+    "key": "1X",
+    "p": 0.9256,
+    "odds": 0.969,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-28",
+    "kickoff": "2026-11-28T17:45:00Z",
+    "league": "Eredivisie",
+    "home": "PSV Eindhoven",
+    "away": "Go Ahead Eagles",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9251,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-28",
+    "kickoff": "2026-11-28T20:00:00Z",
+    "league": "Eredivisie",
+    "home": "Cambuur",
+    "away": "Sparta Rotterdam",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9116,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-28",
+    "kickoff": "2026-11-28T14:30:00Z",
+    "league": "Bundesliga",
+    "home": "Hamburg",
+    "away": "Bayern Munich",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9047,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T16:00:00Z",
+    "league": "Turquía",
+    "home": "Fenerbahce",
+    "away": "Erzurumspor",
+    "pick": "Fenerbahce o empate",
+    "key": "1X",
+    "p": 0.8939,
+    "odds": 1.01,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-28",
+    "kickoff": "2026-11-28T17:30:00Z",
+    "league": "Bundesliga",
+    "home": "Stuttgart",
+    "away": "Ein Frankfurt",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8932,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T17:00:00Z",
+    "league": "Serie A",
+    "home": "Roma",
+    "away": "Monza",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8924,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-27",
+    "kickoff": "2026-11-27T19:00:00Z",
+    "league": "Eredivisie",
+    "home": "Groningen",
+    "away": "Willem II",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8919,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-27",
+    "kickoff": "2026-11-27T20:00:00Z",
+    "league": "LaLiga",
+    "home": "Levante",
+    "away": "Santander",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.8898,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "single",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-27",
+    "kickoff": "2026-11-27T17:30:00Z",
+    "league": "Bundesliga 2",
+    "home": "Heidenheim",
+    "away": "Nurnberg",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.885,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_top",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-28",
+    "kickoff": "2026-11-28T15:00:00Z",
+    "league": "National League",
+    "home": "Boreham Wood",
+    "away": "Gateshead",
+    "pick": "Boreham Wood o empate",
+    "key": "1X",
+    "p": 0.9256,
+    "odds": 0.969,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-28",
+    "kickoff": "2026-11-28T17:45:00Z",
+    "league": "Eredivisie",
+    "home": "PSV Eindhoven",
+    "away": "Go Ahead Eagles",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9251,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-28",
+    "kickoff": "2026-11-28T20:00:00Z",
+    "league": "Eredivisie",
+    "home": "Cambuur",
+    "away": "Sparta Rotterdam",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.9116,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_mid",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-28",
+    "kickoff": "2026-11-28T20:00:00Z",
+    "league": "LaLiga 2",
+    "home": "Valladolid",
+    "away": "Sociedad B",
+    "pick": "Valladolid o empate",
+    "key": "1X",
+    "p": 0.7496,
+    "odds": 1.183,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "Portugal",
+    "home": "Gil Vicente",
+    "away": "Estoril",
+    "pick": "Gil Vicente o empate",
+    "key": "1X",
+    "p": 0.7491,
+    "odds": 1.194,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-28",
+    "kickoff": "2026-11-28T12:30:00Z",
+    "league": "Championship",
+    "home": "Preston",
+    "away": "Norwich",
+    "pick": "No hay empate",
+    "key": "12",
+    "p": 0.7485,
+    "odds": 1.222,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "single",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_NYJ_MIA",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Miami",
+    "away": "NY Jets",
+    "note": "QB: Kyle McCord vs Geno Smith",
+    "pick": "Miami +5.5",
+    "key": "sp:H:5.5",
+    "p": 0.6537,
+    "odds": 1.885,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-27",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_BAL_HOU",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Houston",
+    "away": "Baltimore",
+    "note": "QB: C.J. Stroud vs Jacoby Brissett",
+    "pick": "Gana Houston",
+    "key": "ml:H",
+    "p": 0.7175,
+    "odds": 1.302,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_SEA_SF",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T21:25:00Z",
+    "league": "NFL",
+    "home": "San Francisco",
+    "away": "Seattle",
+    "note": "QB: Brock Purdy vs Sam Darnold",
+    "pick": "Seattle +3",
+    "key": "sp:A:3",
+    "p": 0.7174,
+    "odds": 1.855,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_NE_LAC",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T21:05:00Z",
+    "league": "NFL",
+    "home": "LA Chargers",
+    "away": "New England",
+    "note": "QB: Justin Herbert vs Drake Maye",
+    "pick": "New England -2.5",
+    "key": "sp:A:-2.5",
+    "p": 0.7151,
+    "odds": 1.926,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
  }
 ]
