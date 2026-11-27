@@ -8316,14 +8316,14 @@
     "key": "sp:H:2.5",
     "p": 0.6323,
     "odds": 1.943,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "35-39"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 1.943,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "nfl",
