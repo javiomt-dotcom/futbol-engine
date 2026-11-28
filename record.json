@@ -9672,14 +9672,14 @@
     "key": "ou:o:36.5",
     "p": 0.6605,
     "odds": 1.877,
-    "status": "pendiente",
-    "score": null
+    "status": "perdido",
+    "score": "27-5"
    }
   ],
-  "status": "pendiente",
+  "status": "perdido",
   "odds": 1.877,
   "value": true,
-  "pnl": null
+  "pnl": -1.0
  },
  {
   "sport": "nfl",
@@ -10516,7 +10516,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -10538,7 +10541,10 @@
     "score": null
    }
   ],
-  "status": "pendiente"
+  "status": "pendiente",
+  "odds": 0.998,
+  "value": false,
+  "pnl": null
  },
  {
   "sport": "futbol",
@@ -10556,6 +10562,115 @@
     "key": "o1.5",
     "p": 0.8777,
     "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente",
+  "odds": null,
+  "value": null,
+  "pnl": null
+ },
+ {
+  "sport": "futbol",
+  "type": "parlay_mid",
+  "made": "2026-11-28",
+  "legs": [
+   {
+    "sport": "futbol",
+    "date": "2026-11-28",
+    "kickoff": "2026-11-28T20:00:00Z",
+    "league": "LaLiga 2",
+    "home": "Valladolid",
+    "away": "Sociedad B",
+    "pick": "Valladolid o empate",
+    "key": "1X",
+    "p": 0.7495,
+    "odds": 1.183,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "Portugal",
+    "home": "Gil Vicente",
+    "away": "Estoril",
+    "pick": "Gil Vicente o empate",
+    "key": "1X",
+    "p": 0.749,
+    "odds": 1.194,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "futbol",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T19:00:00Z",
+    "league": "Grecia",
+    "home": "AEK",
+    "away": "PAOK",
+    "pick": "Más de 1.5 goles",
+    "key": "o1.5",
+    "p": 0.7484,
+    "odds": null,
+    "status": "pendiente",
+    "score": null
+   }
+  ],
+  "status": "pendiente"
+ },
+ {
+  "sport": "nfl",
+  "type": "parlay_mid",
+  "made": "2026-11-28",
+  "legs": [
+   {
+    "sport": "nfl",
+    "id": "2026_12_NE_LAC",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T21:05:00Z",
+    "league": "NFL",
+    "home": "LA Chargers",
+    "away": "New England",
+    "note": "QB: DJ Uiagalelei vs Drake Maye",
+    "pick": "Más de 34.5 puntos",
+    "key": "ou:o:34.5",
+    "p": 0.7242,
+    "odds": 1.862,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_BAL_HOU",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Houston",
+    "away": "Baltimore",
+    "note": "QB: C.J. Stroud vs Jacoby Brissett",
+    "pick": "Gana Houston",
+    "key": "ml:H",
+    "p": 0.7197,
+    "odds": 1.301,
+    "status": "pendiente",
+    "score": null
+   },
+   {
+    "sport": "nfl",
+    "id": "2026_12_NO_CIN",
+    "date": "2026-11-29",
+    "kickoff": "2026-11-29T18:00:00Z",
+    "league": "NFL",
+    "home": "Cincinnati",
+    "away": "New Orleans",
+    "note": "QB: Joe Burrow vs Tyler Shough",
+    "pick": "Gana Cincinnati",
+    "key": "ml:H",
+    "p": 0.7134,
+    "odds": 1.175,
     "status": "pendiente",
     "score": null
    }
